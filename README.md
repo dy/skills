@@ -26,7 +26,7 @@ All doctrine belongs to its authors — Art Lebedev Studio and Bureau Gorbunov. 
 
 ## contemplate
 
-Evidence-grounded product contemplation — runs [Questions That See](https://github.com/dy/contemplation) against a repo, product, or idea and returns crucial findings: essence, value proposition, quality state, kill list, unreleased potential, and the one question you're dodging.
+Evidence-grounded product contemplation — runs [Questions That See](https://github.com/dy/contemplation) against a repo, product, or idea and returns crucial findings: essence, value proposition with the minimal change that makes it obvious, proven strengths to reinforce, the canonical shape the product converges to, kill list (ego-audit first), unreleased potential, and the one question you're dodging.
 
 The split that makes it work: **[evidence]** questions are answered from the artifact itself (file:line citations or UNKNOWN — and a load-bearing UNKNOWN is itself a finding); **[ask]** questions — motive, fear, taste, price — are never fake-answered, only sharpened and returned to you. The agent does the audit; you keep the meditation. Stages: explore · project · execute · revise · blindspots · wonder · meta · feedback. Every session ends in one next move, shippable today — insight without an act is refused.
 

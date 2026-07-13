@@ -13,10 +13,12 @@ a verdict; a stage without its artifact is unfinished.
 > *"Whatever you do — do that as an offering to Me."* — Krishna (BG 9.27)
 > *"Art in myself, not myself in art."* — Stanislavski
 
-Wholly the author's. The agent contributes only **ego-signal observations** from the
-artifact (boasting copy vs delivered reality, vanity metrics, cleverness that performs,
-features built for the demo not the user) — stated as artifact-vs-claim tensions, never as
-verdicts on motive.
+Wholly the author's. The agent contributes only **ego-audit observations** from the
+artifact — elements that serve the author's image rather than the user's task: boasting
+copy vs delivered reality, vanity metrics, features built for the demo not the user,
+cleverness that performs, premature abstraction, decorative complexity. Stated as
+artifact-vs-claim tensions, never as verdicts on motive. These feed the kill list:
+subtracting ego from the artifact is how it converges to canonical shape.
 
 - What's the real motive — service or show? Would I do this if no one ever knew?
 - What am I proving? What insecurity is this compensating for?
@@ -82,11 +84,14 @@ UNKNOWN essence is always finding № 1.
 - What would make it feel inevitable, not optional — canonical, referenced for years?
 - One metric — what number defines victory? How does an early signal differ from noise?
 
-**Pure form and minimum**
-- Before compromise — what's the Platonic ideal? The limit as versions → ∞?
+**Pure form and minimum — the canonical shape**
+- Before compromise — what's the Platonic ideal? The limit as versions → ∞? What's the attractor this spirals toward?
 - What's the theoretical minimum — one function, one screen, one sentence: what survives?
 - What's the seed that contains the whole tree?
 - What contradiction must this hold without resolving?
+- What already matches the canonical shape — and must be protected from "improvement"?
+- What drifts from it — and is the drift serving the user, or the author's image?
+- What's the smallest step from the current form toward the canonical one?
 
 **Single-player value**
 - What does one user get, alone, before anyone else joins? What makes the first user stay?
@@ -161,6 +166,13 @@ UNKNOWN essence is always finding № 1.
 
 Priority: **Truth > Users > Developers > Agents > Ecosystem** (if a dedicated readiness
 skill is installed, delegate the pillar audit to it and fold its verdict in).
+
+**The value inventory** — name it before touching anything
+- What is genuinely strong here — proven by use, dependents, tests, evident craft? Cite the proof.
+- What do users actually reach for, return to, quietly rely on? What would they miss first if it vanished?
+- What here is already canonical — would survive every future rewrite unchanged?
+- What deserves reinforcement — where does doubling down beat anything new?
+- What's the compounding move for each proven strength — the smallest push that multiplies it?
 
 **Truth** — why does this exist?
 - What exact pain does this heal — one sentence? Is it honest — claims only what it delivers?
@@ -318,6 +330,13 @@ hypotheses about the author's psychology are marked as hypotheses and returned a
 - Problem — where exactly does it hurt?
 - Implication — what gets worse unsolved? What does inaction cost daily?
 - Payoff — what becomes possible once solved? Say it in THEIR words, not the author's.
+
+**The minimal-change proposition** — value that already exists, unstated
+- Which existing capability, surfaced or renamed or documented, IS the value proposition?
+- What one-line README/headline change makes the existing value obvious to a stranger?
+- What rename or repositioning turns "a library of X" into "the answer to Y"?
+- What single removed obstacle (install step, unclear claim, missing example) unlocks the value already built?
+- What does the one proven consumer/use prove that the positioning doesn't yet say?
 
 **Spread**
 - What makes a user tell one friend — the "you gotta see this" moment?

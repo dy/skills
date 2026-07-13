@@ -2,11 +2,13 @@
 name: contemplate
 description: >
   Run "Questions That See" against a product, repo, or idea to extract crucial findings:
-  the real value proposition, quality state, unseen limits, unreleased possibilities, and
-  the one question the author is dodging. An evidence-grounded product contemplation —
-  audit, blindspot hunt, hidden-gold search, weekly review. Use when the user wants to
-  assess product value/potential, find what they're not seeing, decide what to build or
-  cut, run a deep product review, or invokes contemplate by name. Stages:
+  the real value proposition and the minimal change that makes it obvious, proven
+  strengths to reinforce, the canonical shape the product converges to, quality state,
+  unseen limits, unreleased possibilities, and the one question the author is dodging.
+  An evidence-grounded product contemplation — value maximization, audit, blindspot hunt,
+  hidden-gold search, weekly review. Use when the user wants to assess or maximize product
+  value/potential, find what they're not seeing, decide what to build or cut, run a deep
+  product review, or invokes contemplate by name. Stages:
   explore | project | execute | revise | blindspots | wonder | meta | feedback.
 ---
 
@@ -15,6 +17,13 @@ description: >
 You run a contemplation session over an artifact (repo, product, draft, idea). The question
 corpus is in `references/questions.md`, organized by stage. Your job is NOT to answer all
 questions — it is to produce **findings**: what's true, what's hidden, what's next.
+
+The center of gravity is the product's **value**: name it, reinforce it, and find the
+minimal change that multiplies it. Critique that isn't anchored in named value is ego —
+the session's, not the product's. The end state every session steers toward is the
+artifact's **canonical shape**: the timeless form it converges to as versions → ∞, reached
+not by adding, but by subtracting everything that serves the author's image instead of the
+user's task.
 
 ## The split that makes this work
 
@@ -49,25 +58,40 @@ This split is the whole point: the agent does the audit; the human keeps the med
    Run it if runnable (install, example, tests). No evidence — no session; a contemplation
    over an unread artifact is exactly the self-deception this skill exists to kill.
 
-3. **Select 10–20 highest-yield questions** for the stage from `references/questions.md`.
+3. **Name the value first.** Before any critique: what is genuinely strong here — proven
+   by use, dependents, tests, or evident craft? What do users actually reach for? You
+   cannot maximize what you haven't named, and findings built on an unnamed value drift
+   into fault-hunting. This inventory anchors everything after it.
+
+4. **Select 10–20 highest-yield questions** for the stage from `references/questions.md`.
    Sharpen each against THIS artifact with the moves in `references/sharpen.md` — zoom to
    the exact file, flip to the failure case, ground to a number. A question that stays
    generic produces a generic answer; that is a defect of your run, not of the corpus.
 
-4. **Answer [evidence] questions** with citations or UNKNOWN. While reading, also collect
-   **ego-signals** as observations for the final section: boasting copy vs delivered
-   reality, vanity metrics, features that exist to look impressive, complexity that
-   performs cleverness. Do not psychoanalyze — just hold artifact against claim.
+5. **Answer [evidence] questions** with citations or UNKNOWN. While reading, run the
+   **ego audit** of the artifact: which elements exist for the author's image rather than
+   the user's task — boasting copy vs delivered reality, vanity metrics, features built to
+   look impressive, cleverness that performs, premature abstraction, decorative
+   complexity. Do not psychoanalyze — hold artifact against claim. These elements are the
+   prime kill-list candidates: subtracting ego is how the artifact converges to canonical
+   shape.
 
-5. **Fan out lenses for depth** (explore and blindspots stages, or when the user asks for
+6. **Hunt the minimal-change value unlock.** The most valuable finding class: the smallest
+   change — a rename, a README line, one surfaced feature, one removed obstacle — that
+   turns existing capability into an obvious value proposition. Prefer these over
+   build-more recommendations at every rank.
+
+7. **Fan out lenses for depth** (explore and blindspots stages, or when the user asks for
    a deep/thorough run): spawn independent subagents, each blind to the others —
    *practitioner, academic, skeptic, economist, historian*, plus *the enemy with 5
    seconds*. Each returns its 3 strongest observations with evidence. Independence is the
    value: these lenses see what the invested author structurally cannot. For quick runs,
    apply the lenses yourself in brief.
 
-6. **Converge.** Findings, not answered questions. Merge duplicates, kill weak ones, rank
-   by how much they change what the author should do next.
+8. **Converge.** Findings, not answered questions. Merge duplicates, kill weak ones, rank
+   by how much they change what the author should do next. Convergence itself must exclude
+   ego: no padding for thoroughness's sake, no findings that perform insight — every item
+   earns its place by changing the next move.
 
 ## Output
 
@@ -78,23 +102,31 @@ the user asks for it.
 1. **Essence** — the artifact's irreducible core in one sentence (its taste-of-water).
    If you cannot extract it from the artifact alone, say so — that is finding № 1.
 2. **Value proposition** — SPIN (situation → problem → implication → payoff), in the
-   *user's* words, each element grounded in evidence or marked UNKNOWN.
-3. **Quality state** — one blunt paragraph: what state is this really in.
-4. **Key findings** — 5–9, ranked. Each: **finding → evidence (file:line / quote /
-   number) → implication → move**. One line each element, no padding.
-5. **Kill list** — deletions that improve the whole (features, files, claims, deps).
-6. **Unreleased potential** — 2–3 hidden-gold items with the *smallest unlock* for each
+   *user's* words, each element grounded in evidence or marked UNKNOWN — ending with the
+   **minimal change that would make this proposition obvious** (rename, one README line,
+   one surfaced feature).
+3. **Reinforce** — 2–4 proven strengths, each with evidence and the move that *compounds*
+   it. Doubling down on what works outranks fixing what doesn't; this section is why.
+4. **Key findings** — 5–9, ranked; open with one blunt sentence on the real quality state.
+   Each: **finding → evidence (file:line / quote / number) → implication → move**. One
+   line each element, no padding.
+5. **Canonical shape** — what this converges to as versions → ∞: the timeless form. What
+   already matches it (protect that), what drifts from it (usually the ego elements), and
+   the smallest step toward it.
+6. **Kill list** — deletions that improve the whole; ego-audit items first — they are
+   what stands between the current artifact and its canonical shape.
+7. **Unreleased potential** — 2–3 hidden-gold items with the *smallest unlock* for each
    (the minimal angle shift that opens a new value layer).
-7. **Вопросы тебе / Yours to answer** — 3–5 sharpened [ask] questions, one per axis,
+8. **Вопросы тебе / Yours to answer** — 3–5 sharpened [ask] questions, one per axis,
    each pointed at something specific you found. No answers, no advice attached.
-8. **Next move** — exactly one, shippable today, with the deadline question attached
+9. **Next move** — exactly one, shippable today, with the deadline question attached
    («if launch were tomorrow morning, what survives?»).
 
 ## The act rule
 
 A session that produces insight without an act feeds the trap the corpus itself names:
 «Am I contemplating because I'm seeking truth — or because building is scary?» Never end
-without section 8. If the honest next move is "delete the project" or "ship as-is today",
+without section 9. If the honest next move is "delete the project" or "ship as-is today",
 say that. Refuse to be a pleasant substitute for building.
 
 ## Voice
