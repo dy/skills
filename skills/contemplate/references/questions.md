@@ -102,9 +102,17 @@ UNKNOWN essence is always finding № 1.
 - What's bone vs flesh? What strength becomes weakness if taken too far?
 
 **Soul**
-- What's the moat — what can't be copied? What makes it alive, not just useful? `[hybrid]`
+- What makes it alive, not just useful? What story wants to be told — what myth does this embody?
 - Where is the beauty hiding? What's the punchline — what makes a stranger say "whoa"?
 - What's the thing only we can see? `[ask]`
+
+**Moat & uniqueness**
+- The onliness statement: «the only ___ that ___» — can the sentence be completed honestly? If not, that's the finding.
+- What can't be copied — and *why*: taste, accumulated corpus, trust, integrations, data, network, history? Name the moat class.
+- What would a well-funded copycat replicate in a weekend? What could they never replicate? Reinforce the second, stop polishing the first.
+- What deepens with time without extra effort — what's accumulating here that can't be bought at launch?
+- Blue ocean — where is competition irrelevant? What game is this playing that others don't know exists?
+- Is the moat in the artifact or only in its author? Can it survive its creator — or is the bus factor the anti-moat?
 
 **Spine**
 - Happy path — what do 90% of users actually do? What pulls everything into orbit?
@@ -173,6 +181,8 @@ skill is installed, delegate the pillar audit to it and fold its verdict in).
 - What here is already canonical — would survive every future rewrite unchanged?
 - What deserves reinforcement — where does doubling down beat anything new?
 - What's the compounding move for each proven strength — the smallest push that multiplies it?
+- Is quality itself the differentiator — does craft show in the first contact, before any claim is read?
+- What's the quality floor — the worst thing a user can hit (error message, edge case, empty state, failed install)? Is even that good? *The floor, not the peak, is what users retell.*
 
 **Truth** — why does this exist?
 - What exact pain does this heal — one sentence? Is it honest — claims only what it delivers?
@@ -330,6 +340,13 @@ hypotheses about the author's psychology are marked as hypotheses and returned a
 - Problem — where exactly does it hurt?
 - Implication — what gets worse unsolved? What does inaction cost daily?
 - Payoff — what becomes possible once solved? Say it in THEIR words, not the author's.
+
+**Proposition strength test** — stress it before stating it
+- Against the user's best current alternative — including "do nothing" and "cobble it myself" — why this, in *their* words?
+- What can this claim that no alternative can honestly claim? Would the claim survive a competitor asserting the opposite?
+- Is the core claim provable in the first 5 minutes of use — does the artifact demonstrate it before asking for trust? *Prove with nectar: show the working thing, never argue what delight can prove.*
+- Run «so what?» three times on the headline claim — does the chain bottom out in the user's pain, or in air?
+- If the price doubled, who would still buy? If it vanished tomorrow, who would fight to get it back?
 
 **The minimal-change proposition** — value that already exists, unstated
 - Which existing capability, surfaced or renamed or documented, IS the value proposition?

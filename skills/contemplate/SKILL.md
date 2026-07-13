@@ -102,11 +102,15 @@ the user asks for it.
 1. **Essence** — the artifact's irreducible core in one sentence (its taste-of-water).
    If you cannot extract it from the artifact alone, say so — that is finding № 1.
 2. **Value proposition** — SPIN (situation → problem → implication → payoff), in the
-   *user's* words, each element grounded in evidence or marked UNKNOWN — ending with the
-   **minimal change that would make this proposition obvious** (rename, one README line,
-   one surfaced feature).
-3. **Reinforce** — 2–4 proven strengths, each with evidence and the move that *compounds*
-   it. Doubling down on what works outranks fixing what doesn't; this section is why.
+   *user's* words, each element grounded in evidence or marked UNKNOWN. Stress-test it
+   (why-this vs the best alternative; the claim no alternative can honestly make; provable
+   in the first 5 minutes?) and state the **onliness statement** («the only ___ that ___»)
+   if it can be completed honestly. End with the **minimal change that would make the
+   proposition obvious** (rename, one README line, one surfaced feature).
+3. **Reinforce** — 2–4 proven strengths, each with evidence, the **moat class it feeds**
+   (taste, corpus, trust, data, network, integrations — or none), and the move that
+   *compounds* it. Doubling down on what works outranks fixing what doesn't; what a
+   copycat could replicate in a weekend gets no further polish.
 4. **Key findings** — 5–9, ranked; open with one blunt sentence on the real quality state.
    Each: **finding → evidence (file:line / quote / number) → implication → move**. One
    line each element, no padding.
