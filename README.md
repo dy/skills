@@ -4,6 +4,7 @@ Agent skills by [@dy](https://github.com/dy). Work with any agent supported by t
 
 ```sh
 npx skills add dy/skills --skill artbureau
+npx skills add dy/skills --skill contemplate
 npx skills add dy/skills --skill marketing
 ```
 
@@ -22,6 +23,12 @@ Distilled from the complete published doctrine, ~3000 pages read in full:
 Reviews land as вердикт → дефекты (each with its fix) → что работает → переделка. Severity order: meaning > honesty > structure > convention > spacing > typography > polish.
 
 All doctrine belongs to its authors — Art Lebedev Studio and Bureau Gorbunov. This skill is a transformative distillation with citations; read the originals, they are excellent.
+
+## contemplate
+
+Evidence-grounded product contemplation — runs [Questions That See](https://github.com/dy/contemplation) against a repo, product, or idea and returns crucial findings: essence, value proposition, quality state, kill list, unreleased potential, and the one question you're dodging.
+
+The split that makes it work: **[evidence]** questions are answered from the artifact itself (file:line citations or UNKNOWN — and a load-bearing UNKNOWN is itself a finding); **[ask]** questions — motive, fear, taste, price — are never fake-answered, only sharpened and returned to you. The agent does the audit; you keep the meditation. Stages: explore · project · execute · revise · blindspots · wonder · meta · feedback. Every session ends in one next move, shippable today — insight without an act is refused.
 
 ## marketing
 
