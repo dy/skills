@@ -1,15 +1,15 @@
 # Photo & Illustration — Kolpakov (photography) + Chikin (icons/graphics), bureau.ru
 
-Compiled from 235 «Совет» columns at bureau.ru/soviet/. Use as a pass/fail checklist when reviewing a
-photograph, an icon/pictogram, or their use in a layout. Where a canonical Russian formulation is quoted,
+Compiled from 235 "Advice" columns at bureau.ru/soviet/. Use as a pass/fail checklist when reviewing a
+photograph, an icon/pictogram, or their use in a layout. Where a canonical formulation is quoted,
 treat it as a diagnostic test, not a taste opinion — run those first. Citations are `(bureau.ru/soviet/YYYYMMDD)`.
 
 ---
 
-## 1. Композиция
+## 1. Composition
 
 **Nine attention devices** — ranked roughly by everyday strength, always combinable:
-> «Контраст тональностей — сильнейшее средство выделения и привлечения внимания к объекту» — tonal contrast (light-on-dark or dark-on-light) is the single strongest device, and the *only* one available once color is gone (B&W). (20210904)
+> "Tonal contrast is the strongest device for isolating and drawing attention to a subject" — tonal contrast (light-on-dark or dark-on-light) is the single strongest device, and the *only* one available once color is gone (B&W). (20210904)
 
 1. **Tonal contrast** — strongest; sole lever in B&W.
 2. **Color contrast** — any object sharply differing in color from neighbors/background pulls attention on any ground; can also visually *link* objects into a series, or accidentally create a false emphasis. (20210918)
@@ -22,17 +22,17 @@ treat it as a diagnostic test, not a taste opinion — run those first. Citation
 9. **Isolation from surroundings** — the brain automatically groups nearby objects; a subject set apart from a group automatically reads as the main one. Works for "one vs. many" but can misfire into an unintended sub-story. (20220219)
 
 **A human figure hijacks attention almost regardless of what else is emphasized.** Check every frame for an incidental person or animal competing with the intended subject — remove or reframe. Where a person IS the subject, match the focal point to shot scale: wide → silhouette reads; medium → face reads; close-up → eyes read.
-> «Для нашего восприятия человек — самая сильная смысловая единица» — a person is the strongest unit of meaning an image can contain. (20220319, 20210904 pt.10)
+> "For our perception, a person is the strongest unit of meaning there is" — a person is the strongest unit of meaning an image can contain. (20220319, 20210904 pt.10)
 
 **A photo does not need one main subject.** Geometric composition/pattern (the photo itself becomes the object) or hyper-detailing — uniformly dense information across the whole frame, "interesting to look at for a long time" (ref. Andreas Gursky) — sustain engagement without a focal point. Judge these by rhythm/density, not "where's the subject." (20230722)
 
 **Small compositional defects to hunt for — treat as errors unless clearly intentional:**
-- *Touching* (касания): accidental contour-touching between unrelated objects flattens spatial depth.
+- *Touching*: accidental contour-touching between unrelated objects flattens spatial depth.
   - Ambiguous *near*-touching is worse than a clean touch or a clean gap.
   - Frame-edge touching creates "an uncomfortable cramped feeling" — a defect by default too.
   - Fix: change angle, step back ("let air appear around the objects"), or recrop.
   - Exception: fine when objects genuinely share one focal plane (patterns, chains). (20240203)
-- *Mergers and insertions* (совпадения и втыкания): unrelated objects visually fusing into one shape from the camera's exact vantage point — "creates optical illusions, adds unwanted meanings, unplanned comic effects" (a bicycle fused with a fence, a "two-headed" giraffe).
+- *Mergers and insertions*: unrelated objects visually fusing into one shape from the camera's exact vantage point — "creates optical illusions, adds unwanted meanings, unplanned comic effects" (a bicycle fused with a fence, a "two-headed" giraffe).
   - Most dangerous around the head — viewers fixate on faces first, so a pole "growing" out of a head is worst-case.
   - Fix by moving the camera before shooting.
   - Legitimate only as a deliberate device (ref. Rodney Smith). (20240217)
@@ -46,24 +46,24 @@ Four reasons it fails:
 Strict for controlled genres (studio, advertising), loosens for reportage/documentary. (20230304)
 
 **A tilted horizon is a binary, not a spectrum.** Diagnostic: if the tilt is subtle enough to look accidental, reject it. Only acceptable when obvious and clearly motivated — Dutch angle (disorientation/tension), reinforcing a diagonal already in the frame, deliberate dynamism.
-> «Если хотите завалить горизонт, заваливайте его намеренно, явно и уместно.» (20220402)
+> "If you're going to tilt the horizon, tilt it deliberately, obviously, and appropriately." (20220402)
 
 **Orientation is a compositional decision, not a habit.** Vertical → emphasizes height/scale, isolates one subject (portrait, architecture). Horizontal → emphasizes relationships between objects, conveys space/air/depth (landscape, interior, groups). Square → balanced on both axes, hence "the least effective/expressive of the three" — don't default to it; let subject proportions and placement context decide. (20231111)
 
-**Rule of thirds is a training-wheel, not a law.** One tool among many for balancing a frame, not a panacea; grids are cheat-sheets. Forcing a single object onto a thirds intersection point ("точка силы") often *hurts* — a lone subject (product ad) is frequently more logical centered. Work order: goal/story/emotion of the shot first, *then* reach for tools (grid, light, focus, color, contrast) — never the reverse. Judge the composition by whether it works, never by grid conformance. (20231028)
+**Rule of thirds is a training-wheel, not a law.** One tool among many for balancing a frame, not a panacea; grids are cheat-sheets. Forcing a single object onto a thirds intersection point (the "power point") often *hurts* — a lone subject (product ad) is frequently more logical centered. Work order: goal/story/emotion of the shot first, *then* reach for tools (grid, light, focus, color, contrast) — never the reverse. Judge the composition by whether it works, never by grid conformance. (20231028)
 
 **Golden-ratio spirals are mostly retrofit rationalization.** The spiral/grid can be stretched or cropped onto almost any photo, "finding" a pattern about half the time whether or not it's meaningful. Famous photos are strong because of a caught moment, not grid alignment — never cite grid conformance as evidence of quality.
-> «Эту сетку можно натянуть на любую фотку и в половине случаев отыскать там закономерность и смысл.» (20210626)
+> "This grid can be stretched over any photo, and about half the time you'll find some pattern and meaning in it." (20210626)
 
 ---
 
-## 2. Свет
+## 2. Light
 
 **Read light off two independent axes: role and direction.**
 Four roles:
-- **Key / рисующий** — sets the main light pattern.
-- **Fill / заполняющий** — 2–3× weaker than key, lifts shadows without adding its own pattern.
-- **Modeling/rim / моделирующий-контровой** — edge light tracing the silhouette, separates subject from background.
+- **Key** — sets the main light pattern.
+- **Fill** — 2–3× weaker than key, lifts shadows without adding its own pattern.
+- **Modeling/rim** — edge light tracing the silhouette, separates subject from background.
 - **Background light** — lights the backdrop independent of the subject.
 
 Four directions, on a 45°-step dial:
@@ -71,23 +71,23 @@ Four directions, on a 45°-step dial:
 - **Front-diagonal (~45°)** — the most versatile default; lights three-quarters of the subject with a flattering shadow.
 - **Side** — dramatic/contrasty, riskier for flattering portraiture.
 - **Rim/contre-jour** — outlines the edge, separates subject from ground.
-> «Лобовой свет делает объект плоским и невыразительным.» (20230610)
+> "Frontal light makes a subject flat and unexpressive." (20230610)
 
 **Diagnose hardness from the shadow, not the setup.**
 - Hard light: high contrast, abrupt shadow edge, sharp dark cast shadow.
 - Soft light: low contrast, gradual halftone transition, blurred lighter cast shadow.
 - Three independent hardness levers, all relative to subject size: smaller source = harder; a diffuser effectively enlarges the source = softer; greater distance = harder, closer = softer (except point sources).
-> «Чем меньше источник света по отношению к объекту — тем жёстче свет.» (20230527)
+> "The smaller the light source relative to the subject, the harder the light." (20230527)
 
 **Illuminance follows the inverse-square law — quantitative, checkable.** Double the source-to-subject distance → illuminance drops to a *quarter* (not a half). Practical rule: to halve illuminance, increase distance ~1.5×. Diagnosable flaw: in any group/product shot lit from one side, the nearer subject will always read brighter than the farther one — a physics-based defect, fixed by adding a second source on the opposite side.
-> «Если увеличить расстояние между объектом и источником света в два раза, то освещённость объекта уменьшится в четыре раза.» (20230513)
+> "If you double the distance between the subject and the light source, the subject's illuminance drops to a quarter." (20230513)
 
 **Three light qualities: direct, diffused, reflected.** Direct = bright, contrasty, hard shadows.
-> «Рассеиватель, как ситце, просеивает прямой свет, делает его мягче, равномернее и слабее.»
+> "A diffuser, like cotton cloth, sifts direct light, making it softer, more even, and weaker."
 Reflected depends on the surface: mirror-like → hard bright reflection; light matte → soft reflection. Real-world lighting is almost always a combination of all three. (20230429)
 
 **Classify every source: natural / continuous artificial / pulsed (flash).** Natural: free, unpredictable, hard to control (geography/time/season). Continuous: weaker (forces higher ISO/wider aperture/slower shutter) but most predictable — you see the shadow pattern before shooting. Pulsed/flash: much brighter, comfortable settings, harder to predict without experience. Mixing rule:
-> «Импульсный свет при съёмке подавляет любой постоянный» — pulsed always overpowers continuous in a mixed exposure; pick one dominant source, don't blend casually. (20230415)
+> "Pulsed light during a shoot overpowers any continuous light" — pulsed always overpowers continuous in a mixed exposure; pick one dominant source, don't blend casually. (20230415)
 
 **DIY / low-budget lighting is always possible — "light is everywhere."** Any household lamp, flashlight, candle, or monitor works.
 - Prefer diffused/reflected over direct: diffuse a hard source through tracing paper or a white cellophane bag; bounce fill off white cardboard.
@@ -103,10 +103,10 @@ Reflected depends on the surface: mirror-like → hard bright reflection; light 
 
 ---
 
-## 3. Цвет и обработка
+## 3. Color and processing
 
 **Color-cast diagnostic test: does a known-white surface still read as white?** Cast originates in the light source's color temperature (K), not the camera. A warm cast is desirable atmosphere for a sunset landscape, a defect for a product shot meant to show a subject "as it is." Fix: correct white balance until white is white; deliberate toning (cool the shadows slightly, warm the highlights slightly) is a separate, legitimate stylistic move — don't confuse it with cast-correction.
-> «Автоматический баланс белого на фотоаппарате не справился с желтизной — и белый цвет на снимке перестал быть белым.» (20201017)
+> "The camera's auto white balance couldn't handle the yellow cast — and white in the photo stopped being white." (20201017)
 
 **Practical de-yellowing workflow** (sequential):
 1. White Balance tool.
@@ -125,7 +125,7 @@ Portrait-toning default: shadows slightly cool, highlights slightly warm (matche
 **B&W conversion isn't just desaturation — check the luminance mapping.** Simplified rule: yellow and cyan move toward white, everything else toward black; more precisely, tones above mid-luminance lighten, below darken. Avoid spectral pure green in any palette meant to convert cleanly — it sits at a luminance extreme that reads as "toxic." (20220212)
 
 **AI-generated imagery — concrete red flags for a layout review, not a vibe.**
-> «Сгенерированные объекты и люди ощущаются стоковыми и, потому, не вызывают доверия.»
+> "Generated objects and people feel like stock imagery, and therefore inspire no trust."
 - AI cannot generate a *specific* referent (a specific couple's wedding, a specific restaurant's specific dishes) — any AI image standing in for a specific real subject is a category error.
 - Generation is inherently uncontrollable/unpredictable, unlike real photography where angle/light/composition are directly steerable.
 - Real photographs carry default documentary value (they record something that happened) — ask "does this slot need to document something real?" as the litmus test for whether generation belongs there at all.
@@ -134,24 +134,24 @@ Six reasons photographers aren't replaced: specificity, empathy/tangibility, pro
 
 ---
 
-## 4. Съёмка людей / продукта / интерьера / репортаж
+## 4. Shooting people / product / interior / reportage
 
-### Люди
+### People
 - Never force "person + landmark" into one frame at equal weight — they compete and neither reads. Shoot separately by default; if place-context is needed, use it as a hint (an isolated detail of the landmark, or the landmark thrown out of focus for atmosphere), not co-equal content.
-  > «Не несут никакого смысла, кроме хвастовства.» (20230902)
+  > "They carry no meaning beyond bragging." (20230902)
 - A repeatable in-house shoot (salon, staff photos) needs its output decided first — catalog/lookbook wants strict uniformity (fixed spot, matching background, matching post); social wants variety and naturalness. Shoot handheld, not tripod — tripod adds monotony. Mixed artificial sources must share one color temperature or the shot is ruined. In all cases, simplicity and speed of the shoot beat gear sophistication. (20230819)
 
-### Продукт / предметка
+### Product / object photography
 Plain object-on-void is a failure mode, not a default — three named fixes:
-- **Add life** (добавить жизни) — place the object in context matching its real use, add meaning-appropriate props, or show hands interacting with it. (20231209)
-- **Another angle** (другой угол), three executions:
+- **Add life** — place the object in context matching its real use, add meaning-appropriate props, or show hands interacting with it. (20231209)
+- **Another angle**, three executions:
   - A genuinely uncommon camera/object vantage point — not a minor tilt.
   - Isolate one telling detail or material texture to stand for the whole.
   - Pull back to show repetition as a loose pattern. (20231223)
-- **Hooligan** (похулиганить) — deliberate disorder: objects dumped mid-delivery instead of arranged, branded items somewhere unexpected — implies narrative, spontaneity, energy. Generalizes to portrait, automotive, reportage, architecture. (20240120)
+- **Hooligan** — deliberate disorder: objects dumped mid-delivery instead of arranged, branded items somewhere unexpected — implies narrative, spontaneity, energy. Generalizes to portrait, automotive, reportage, architecture. (20240120)
 
 **Full-frame sharpness on close subjects is an optics problem, not just an aperture problem** — closing the aperture alone hits a limit and adds diffraction-softening/noise.
-> «Сколько диафрагму не закрывай, оптику сложно перехитрить.»
+> "However far you stop down the aperture, it's hard to outsmart the optics."
 Non-aperture fixes:
 - Steepen the angle toward top-down (reduces near/far depth difference).
 - Shorter focal length for more DoF — trade-off: distorts perspective up close.
@@ -170,7 +170,7 @@ Non-aperture fixes:
 
 **Polarizing filter** cuts reflected light only off non-metallic surfaces (water, glass, lacquer) and only on flat/matte planes — on a rounded object, reflections hit at many angles simultaneously and can't all be filtered at once. Compensate the light loss in camera settings; match filter diameter to lens. (20201003)
 
-### Интерьер / автомобиль
+### Interior / vehicle
 - Vehicle interior checklist:
   - Top angle from the door frame.
   - At steering-wheel height.
@@ -184,7 +184,7 @@ Non-aperture fixes:
 - Architecture phone-editing default: **straighten verticals first**, before any light/color/toning pass. (20210724)
 - Systematic catalog shooting: shoot "by angle across all objects" (all objects in angle A, then all in angle B), not one object at a time — fixes the process, gives predictable results without extra labor; shoot defects/autographs/unique details separately, beyond the standard angle set. (20200627)
 
-### Репортаж и технические поправки жанра
+### Reportage and genre-specific technical corrections
 - Composition rules loosen for reportage vs. studio (joint-crop, touching) — genre changes the strictness bar; don't apply studio-grade nitpicking to documentary work.
 - "Hooligan" register generalizes into reportage as a legitimate energy/spontaneity device.
 - Safe handheld shutter speed: shutter must be shorter than 1/focal-length (50mm lens → faster than 1/50s) or expect camera-shake blur — a fast diagnostic when a reportage frame reads soft. (20210515)
@@ -192,17 +192,17 @@ Non-aperture fixes:
 
 ---
 
-## 5. Отбор и редактура серии
+## 5. Selecting and editing a series
 
-**Select through three sequential sieves ("метод трёх просевов"), not one holistic pass:**
+**Select through three sequential sieves (the "three-sieve method"), not one holistic pass:**
 1. **Fast defect pass** — speed, not deliberation. Cut duplicates, out-of-focus, blinks, blown highlights/clipped exposure, accidental objects in frame.
 2. **Longlist pass** — slow down. Judge composition, angle, crop, pose, expression, reflections.
 3. **Shortlist pass** — judge against the project's actual purpose/use-case, not "prettiest." Apply a hard numeric cap to force the final count.
-> «Нужно вдумчиво пройтись по лонглисту и решить, какие снимки лучшие [для задачи].»
+> "You need to thoughtfully go through the longlist and decide which shots are best [for the task]."
 Pre-visualization (references/sketches before the shoot) reduces later culling load — selection quality starts before the shutter, not at the edit. (20240413)
 
 **Fight series monotony by alternating scale and angle deliberately — use it as a checklist.**
-> «Смена планов создаёт разнообразие, задаёт динамику и ритм повествования.»
+> "Changing shot scale creates variety, sets the dynamics and rhythm of the narrative."
 Shot scales, borrowed from film:
 1. Extreme wide/establishing — place/context.
 2. General — whole object/hero.
@@ -221,10 +221,10 @@ Sequence with clear "jumps" between scales, not randomly — the scale-change it
 
 ---
 
-## 6. Фото в вёрстке и заказ съёмки
+## 6. Photo in layout and commissioning a shoot
 
 **Briefing a photographer — a design-reviewer's checklist for any creative brief:**
-> «Поставив задачу фотографу чётко и ясно, вы сможете избежать многих недоразумений.»
+> "By briefing the photographer clearly and precisely, you can avoid many misunderstandings."
 - State the goal and exact publication context.
 - Vet style fit against the photographer's actual portfolio — don't assume.
 - Give concrete location/time/participants/reference compositions.
@@ -246,16 +246,14 @@ Sequence with clear "jumps" between scales, not randomly — the scale-change it
 
 ---
 
-## 7. Иконки и графика (Chikin)
+## 7. Icons and graphics (Chikin)
 
-### Пятно / силуэт первично
-**The blob test** — «пятно», the overall shape formed by ink presence/absence, must read correctly before color or detail enter.
-> «Иконка с хорошим пятном читается даже если её лишить цвета и деталей.»
-Diagnostic: strip color and fine detail — if the icon loses recognizability, the blob composition is broken; fix that, don't lean on color/detail as a crutch. (20260228)
+### Blob / silhouette comes first
+**The blob test** — the "blob," the overall shape formed by ink presence/absence, must read correctly before color or detail enter.
+> "An icon with a good blob reads correctly even if stripped of color and detail." (20260228)
 
 **Perception order is inverted from design order.** Designers build image → blob → color; viewers perceive color → blob → image/meaning.
-> «Зритель воспринимает иконку ровно в обратном порядке… сначала цвет, потом общее графическое пятно и только потом… сам образ.»
-Weight color decisions early since it's what registers first; a captured brand color lets you vary an icon's subject/composition almost without losing recognizability, and speeds visual search on a crowded screen. (20260207)
+> "The viewer perceives an icon in exactly the reverse order… first color, then the overall graphic blob, and only then… the image itself." (20260207)
 
 **Eye sees color, then blob, then silhouette.** Thin outline icons without color/blob-mass are recognized slower, especially in peripheral vision (max-sharpness zone ≈1°, about one icon's size) — a reason not to default to ultra-thin outlines in UI. Even Apple retreated from iOS 7's hairline outlines. (20230909)
 
@@ -263,9 +261,9 @@ Weight color decisions early since it's what registers first; a captured brand c
 
 **Style by legibility context, not aesthetic preference:** silhouettes ("blobs") read best at distance/extreme scale-down; line icons are popular but merge into unreadable mush at distance/extreme reduction; pixel icons use minimum-pixel as a creative constraint. Choose by viewing size/distance/function. (20191019)
 
-### Пиксельная сетка
+### Pixel grid
 - **Compensate line thickness when scaling.** Shrinking a shape without thinning its stroke leaves less white than the stroke is thick.
-  > «Ленивый графдизайнер уменьшит коробку и пойдёт дальше, хороший иконист скомпенсирует толщину линии.»
+  > "A lazy graphic designer shrinks the box and moves on; a good icon-maker compensates for the line thickness."
 - **Diagonal-vs-orthogonal thickness illusion:** a 1px diagonal reads ~0.7px — thinner than a 1px vertical/horizontal at the same nominal width; rounded corners look uneven as a result. Chikin's fix: draw verticals/horizontals at 2px, diagonals at 3px — the mismatch nearly disappears. (20231230)
 - **Readable pixel-diagonal rule:** a stair-step sequence already at ~33.6° (pattern 2-1-2-1) reads as unconvincing/"wrinkled" — keep pixel-line stairsteps simple and regular. (20260131)
 - **Even canvas, odd inner grid:** for icons with a centered cross-element (a plus in a circle) on an even working area, use an odd inner size (a 15×15 circle inside a 16×16 grid) so the center lands without blur; leave 1–2px edge buffer for overshoot elements. (20210814)
@@ -275,7 +273,7 @@ Weight color decisions early since it's what registers first; a captured brand c
 - **Overlap buzz/aliasing** at two objects' shared edge: fix by recoloring the background object solid black at the seam, leaving only two clean color transitions instead of a dithered edge. (20220716)
 - **Hand-drawn-feeling vector circle:** use two guide lines instead of four, with handles at ~2/3 diameter — the diagonal "cheeks" of the circle bulge slightly and the line reads as hand-made while staying taut. (20230603)
 
-### Консистентность набора (11-пунктовый чек-лист)
+### Consistency of a set (11-point checklist)
 All 11 factors that must agree across an icon set:
 1. Style (fill/outline/etc.)
 2. Minimum line/dot thickness
@@ -306,7 +304,7 @@ When most factors agree, even a differing style stops feeling like a clash. (201
 - Icon-pack sameness is an acceptable exception when: icons aren't narrative by nature and are simple (social, menu), a hover hint exists (fails on touch), and repeated use trains recognition regardless of individual distinctiveness. (20221022)
 - Don't separate icon groups with a formal vertical divider — learn to separate them graphically instead; a monochrome sub-group against colored main icons reads as "special function" without a divider. (20230422)
 
-### Цвет в иконках
+### Color in icons
 - Same color = objects feel connected; same full color *scheme* connects harder. Recoloring outlines to brand colors/brand-gradient unifies a set more than shared style alone; the simpler the palette, the louder each single icon "shouts" its origin — apply color-harmony tools (Itten's wheel, hue-shifted gradients) deliberately. (20200829)
 - Spectral colors are unequal in lightness: yellow near white, red near black, blue the darkest hue.
   - Standard sign-contrast rule follows from this: white text/graphic on red/blue/green; black on yellow.
@@ -314,10 +312,10 @@ When most factors agree, even a differing style stops feeling like a clash. (201
   - Never set yellow text on white — zero contrast. (20200523, 20200509)
 - Heraldry/B&W collapse check: red, blue, green, violet all collapse to black; yellow collapses to white when de-saturating a coat of arms — verify the color hierarchy survives this collapse before finalizing. (20221008)
 - **Dark-theme parity is mandatory, not optional.**
-  > «Делай обе версии, или рынок тебя не примет.»
+  > "Make both versions, or the market won't accept you."
   Not every icon adapts equally well to a dark background — check each one, not just the set as a whole. Inversion can change the *number of legible details* an icon reads as (fill vs. outline flips which cutouts are visible) — audit detail count specifically after inversion. (20231021, 20211023)
 
-### Читаемость на расстоянии / в мелком размере
+### Legibility at distance / at small size
 - Legibility-distance rule of thumb (angular resolution): a gap between lines needs to subtend more than ~1 arcminute — approx. 1.5mm at 5m (15mm at 50m). Author's own caveat: rough math, ignores stroke thickness — use as an estimate. (20200606)
 - Enlarging/rounding a shape (bigger circles for a wave symbol) trades fine detail for legible-radius, extending legibility range by "tens of meters." (20260103)
 - When you physically cannot enlarge a small icon (densely packed road signs), a direct crop into the object — showing only half — raises contrast and angular size and still reads, because the icon is already stripped of low-information detail. (20200425)
@@ -326,7 +324,7 @@ When most factors agree, even a differing style stops feeling like a clash. (201
 - Don't blur/soften edges on a small icon for "readability" — on a 10px-wide icon, blurring the outer pixels smears ~20% of the icon's total area. Sacrifice proportional accuracy, even physically-incorrect lighting, for small-size legibility. (20240921)
 - Not every protruding detail needs trimming — the real test is whether a fragment reads as part of the object's volume; size alone doesn't disqualify it if it clears the minimum regulated stroke/gap. (20190727)
 
-### Метафора и пиктограммный смысл
+### Metaphor and pictogram meaning
 - 5-step algorithm: recall how it usually looks → search it → look at competitors → mindmap + system matrix → show a friend. (20190420)
 - Mindmap: ten associations to the target word, then ten more to each (aim ~70–80 words); repeated words across independent runs signal a strong image. Associations aren't meant to already be drawable — this works the neural-association layer, not the image layer. In group work, keep only associations multiple participants converge on independently. (20190601)
 - System matrix: treat the target as part of a system, map super/subsystems across past/present/future — surfaces far more candidate images than the object alone; costly (hours), use selectively. (20190615)
@@ -336,7 +334,7 @@ When most factors agree, even a differing style stops feeling like a clash. (201
 - Show the icon in its real usage context to non-designers (child/parent/friends/colleagues) before shipping — icons carry low information density ("hard to iconify even two words"); divergent interpretations expose metaphor flaws solo review misses. (20190629)
 - Icon and caption often carry equally little standalone semantic weight — don't over-invest in making either self-explanatory alone; predictable fixed position (spatial memory) beats micro-legibility of either. (20250322)
 - **Icon readability scales with usage frequency, not drawing quality.**
-  > «Расшифровываемость иконки прямо пропорциональна частоте её использования.»
+  > "An icon's decipherability is directly proportional to how often it's used."
   Unfamiliarity, not bad execution, is often the real cause of first-exposure confusion. Design for consistency with the viewer's existing sign-vocabulary, not standalone self-explanation from zero. (20251025)
 - Icons need not carry full symbolic/heraldic fidelity — a menorah icon needs only 5 rays, not the sacred 7, to read correctly. (20251220)
 - A symbol can outlive its literal referent (a handset silhouette will keep reading as "call" for decades after handset phones vanish) — legibility of a sign and survival of its referent are decoupled. Pictogram language evolves like natural language: borrowing, assimilation, reduction (fork+spoon+knife → fork+knife). (20250614)
@@ -349,7 +347,7 @@ When most factors agree, even a differing style stops feeling like a clash. (201
 - Localize the referenced *object*, not just the label — Western icon supersets encode Silicon-Valley/NYC visual experience (delivery = a box truck in the US, a passenger van in Russia); check whether the depicted object matches the target audience's real-world referent. (20260307)
 - Icon design ≠ logo design despite shared principles (legibility, clear idea, metaphor) — minimal practical overlap; don't treat the disciplines as interchangeable. (20190713)
 
-### Приёмы для конкретных состояний/материалов
+### Techniques for specific states/materials
 - Directional consistency carries more weight than exact silhouette — turning every flame-tongue to lean one direction reads as "fire" reliably, even without the canonical flame outline. (20240615)
 - Falling vs. flying: direction of fall is read from the figure's rear/lower body — if the lower body doesn't point the fall direction, center-of-gravity cues read as "controlled flight" instead. (20231118)
 - Gaze/attention direction: offsetting the head slightly off the body's symmetry axis is enough to read as a look/attention direction, even in a fully geometric figure. (20250809)
@@ -362,7 +360,7 @@ When most factors agree, even a differing style stops feeling like a clash. (201
 - Reuse the recognizable currency-note pattern (narrow white strip on one side, medium-density fill via numerals/ornament/rules, not flat color) rather than inventing a new layout per currency. (20250823)
 - Linguistic operations transfer to icon concepting — treat an icon problem as noun→adjective transposition or affixation to find a fresh visual angle. (20250628)
 
-### Процесс и ремесло
+### Process and craft
 - Icon-competition judging criteria, reusable as a review checklist: line quality (wobbly curves = instant low score), stylistic wholeness, hitting the correct image/anatomy, "iconness" (icon or illustration?), execution neatness — work from the primary source/description, not from other people's existing renderings of it. (20200215)
 - Test an icon at its worst-case spec before shipping: single-color print, minimum ~150px height — not just its designed size. (20200208)
 - **Tense vector curves** — "taut like a string, not a boiled noodle": anchor points sit at the curve's extremes; control handles must not cross into the object body on outer roundings or exceed it on inner roundings; a handle never extends past a neighboring handle's intersection line. (20210327)

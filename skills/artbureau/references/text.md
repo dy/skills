@@ -1,698 +1,698 @@
-# Инфостиль: свод доктрины Ильяхова/бюро Горбунова (652 совета bureau.ru)
+# Info-style: the doctrine of Ilyahov / Bureau Gorbunov (652 pieces of advice from bureau.ru)
 
-Дедуплицированный референс для ревью любого текста. Термины — канонические (жаргон бюро), с англ. глоссом при первом употреблении. Формат примеров: было ⟶ стало.
+A deduplicated reference for reviewing any text. Terms are canonical (Bureau jargon); the Russian original is given in parentheses at the term's first definition. Example format: before ⟶ after.
 
-**Глоссарий ключевых терминов:** инфостиль (info-style, plain-language editorial method) · полезное действие (useful action — the reader-side payoff a text must deliver) · мир читателя / мир автора (reader's world vs author's world) · стоп-слово (stop-word — a flagged word, not an automatic cut) · штамп (cliché) · канцелярит (bureaucratese, per Nora Gal) · заумь (needless jargon/obscurity) · оценка vs факт (subjective claim vs verifiable fact) · истинный субъект действия (the true agent of an action, for fixing passive/impersonal sentences) · бисерный стиль (bead-stringing — piling up near-synonym clauses) · парцелляция (parcelling — breaking one sentence into fragments with periods) · вынести за скобки (factor out a repeated preposition/word across a list) · травление лески (playing out the line — giving facts and letting the reader decide, opposite of hard-sell) · фальшь (falseness — a mismatch between a text's stated and real intent) · редполитика (editorial policy doc, an author's job description) · Главред (a stop-word checker tool; a hint, not a judge).
-
----
-
-## 1. Философия
-
-**Инфостиль — один инструмент редактора, не единый стандарт.** Работает там, где нужна ясность и однозначность (сайты, отчёты, презентации, техтексты, рациональная реклама); не годится для художественной прозы, гипноза, нежности, эмоционального призыва, а также где клиент сознательно выбрал другую интонацию. Не заменяет профессионализм, психологию рекламы, журналистику, вкус — это база, «примерно как грамотность», а не потолок квалификации.
-
-**Критерий: коротко, ясно, убедительно.** Плотность информации при сохранении ясности — вот что делает текст содержательным и интересным, а не объём.
-
-**Полезное действие (useful action) — центральное понятие.** Ответ на вопрос «Почему читатель сам захочет это прочитать?», отдельно от цели автора и задачи текста. Формулируется в мире читателя, а не в мире автора/продукта.
-Метод «зачем?» (цепочка от инструмента к пользе): удар молотком → забить гвоздь → повесить картину → радость для глаз.
-Перед текстом фиксируйте три вещи: аудитория (кто читает, что уже знает, какие у неё проблемы), цель (что изменится в мире читателя благодаря тексту), задача (о чём рассказать и о чём — нет). Без этого нельзя ни писать, ни обсуждать качество текста.
-
-**«Мир читателя» vs «мир автора» — переводите любой аргумент.**
-Мир автора: «Слишком много штампов!» ⟶ Мир клиента: «Это делает вас старомодными, читатели не поймут — вот где это случилось».
-Мир автора: «наша компания…», «нам нужны деньги» ⟶ Мир клиента: «чтобы сервис оставался бесплатным».
-«Ваши преимущества никого не волнуют» — абстрактное описание достоинств можно подставить к любой компании; побеждайте примером, не рассказом о себе.
-Условия доставки/сроки формулируйте вокруг того, что получит клиент («сегодня до 20:00, если заказать до 16:00»), а не вокруг удобства компании («с 9:00 до 16:00»).
-
-**Три условия честного текста:** 1) читатель — равный, а не объект манипуляции («относитесь к читателю как к другу или члену семьи»); 2) пишите спокойно, без восклицательных знаков и эмоционального давления — эмоция возникает сама, когда автор касается эмоциональной темы; 3) искренне помогайте, а не продавайте — раскрывайте ограничения продукта («травить леску»).
-Фальшь: «Йоу! Поясняю за катку. Есть такая тема…» ⟶ Честно: «Приходите играть в новую многопользовательскую игру о киборгах и будущем».
-
-**Фальшь возникает от неуверенности автора.** «Всё, в чём вы не уверены, вылезет в тексте в виде фальши» — собирайте факты, говорите с пользователями. Скрытые мотивы (проплаченная статья, нативка) — озвучивайте честно в начале, не маскируйте. «Не пытайтесь никого перехитрить. Сам факт того, что вы пытаетесь кого-то перехитрить, уже создаёт фальшь».
-
-**Игра (юмор, характер) допустима при пяти условиях:** не мешает полезному действию; идёт от души, нарочита и ярка, без самоцензуры; цель — только развлечь, без скрытой повестки; маскировка рекламы под развлечение — гарантированная фальшь; уровень игры в рамках ожиданий аудитории. Юмор не спасает текст без пользы под шуткой («слом шаблона не работает, если под шуткой нет пользы»).
-
-**«Я» не запрещено — дозируйте по вопросу «читатель пришёл ради меня или ради моей темы?»** Личное повествование терпит больше «я»; инструктивный текст фокусируется на предмете. «Я» ценно при противопоставлении себя другим, избыточно, когда автор уже опознан контекстом (напр., в разделе «обо мне»). Проверка — чтение вслух.
-
-**Не выдумывайте авторитеты и данные.** Никогда не ссылайтесь на абстрактных «учёных», «врачей», «исследования» — дурной тон. Проверяйте факты, указывайте источник; если данных нет — честно признайте пробел («К сожалению, мы не знаем, сколько в среднем служат наши джинсы…» + личный опыт) вместо фальшивого «Согласно последним исследованиям…». «За текстом всегда должна стоять правда — даже если правда в том, что вы чего-то не знаете».
-
-**Инструмент проверки («Главред») — не судья, а подсказка.** Считает совпадения со словарём стоп-слов механически, не различая термин и оценку («быстрые кредиты» vs «быстрые углеводы»). Редактор сам решает, применим ли флаг к контексту; «если бы „Главред“ сам улучшал текст, редактор был бы не нужен». Оценка балла — не оценка качества текста, а проверка по словарю, как проверка орфографии.
-
-**Доктрина не статична.** Стоп-слова меняются вместе с языком — полного и окончательного списка не существует; изучайте категории (стабильны годами), а не зубрите слова. Корни метода: правило Странка (1920) — каждое слово должно нести смысл; метод Норы Галь (1972) — убирать канцелярит, заменять отглагольные существительные глаголами.
-
-**Клиент отвергает инфостиль — не спорьте о стиле, копайте под возражение.** Не произносите слово «стиль» вслед за клиентом; выясняйте вопросами («Какой текст вам нравится?», «Что в нём вам нравится?», «Какие слова создают такое впечатление?»), фиксируйте факты и цели письменно, получайте согласие по каждому пункту.
-Контрпродуктивно: «Но вы же не основаны в 1841 году!» ⟶ Продуктивно: «Давайте я напишу без лишних формальных оборотов, строго по делу, чтобы читать было легко».
-
-**Не всем клиентам нужен ясный инфостиль.** Разговорный/«византийский» стиль иногда осознанный выбор заказчика — решайте, быть партнёром или «печатной машинкой с голосовым управлением». Не переубеждайте морализаторством — показывайте на практике, что можно сделать лучше, и уважайте выбор клиента, который рискует своими деньгами.
-
-**Инфостиль применяют «вредные» сферы — и это нормально.** Метод открыт для всех; развивать инструмент для единомышленников важнее, чем контролировать заимствования: «надо не мешать врагам, а усиливать друзей».
-
-**Инфостиль — база, не потолок.** За пределами чистого текста редактору стоит развивать: визуальное повествование, интерактивные форматы, драматургию, информационную гигиену, поведенческую экономику, алгоритмическое распространение. Проверка любого текста инфостилем — необходимое, но не достаточное условие хорошего результата.
-
-**Читатель «всегда в порядке».** Позиция морального превосходства автора считывается во всей интонации текста, не только в заголовке — не учите людей жизни, где их не просили («Брендам стоит перестать учить людей жизни там, где люди об этом не просили. А где просили — учите сколько угодно»). Смягчать нужно не формулировку («5 ошибок»), а позицию и тему: «5 ошибок, которые совершают все россияне в постели» ⟶ «5 ошибок, которые совершают американцы в постели» (снимает адресную обвинительность).
-
-**Бизнес-аудитория — не сверхчеловеки.** «Все люди нормальные и обычные. С ними нужно говорить на обычном, нормальном языке» — термины уместны там, где они точнее бытового слова (кассовый разрыв, дебиторка), но не нужно искусственно усложнять; гипотезы о том, что аудитория «слишком умна для простоты», проверяйте на реальных читателях, а не в спорах.
-
-**Объясняя сложное неподготовленному читателю — берите знакомые аудитории понятия и через них вводите новое.** Отталкивайтесь от того, что читатель уже знает, и объясняйте, чем новое отличается.
-«ЦРМ» ⟶ «база клиентов, но не в таблице, а в электронной картотеке с фотографией, телефонами и адресами, историей звонков и встреч, отчётом о продажах».
-«Если сомневаетесь, что именно знают ваши читатели, лучше исходить из худшего: что они не знают ничего» — и объяснять от простого к сложному пошагово. Для сложного оборудования — не значит, что нельзя написать понятно: сначала гигиена текста, затем главное преимущество для опытного пользователя, затем объяснение термина для неопытного («Реле работает как автоматический рубильник: замыкает цепь при достаточном напряжении и размыкает при превышении»).
-
-**Технически подкованной аудитории — меньше объяснений, но не меньше точности.** Четыре слоя работы для «умных» читателей: тема (сужать до конкретики — «Кейс банка: 20 новых представительств в Сибири за 2 месяца»), глубина (экспертность не в терминах, а в знании темы — нужны примеры, ошибки, скриншоты), язык (точная терминология вместо неточных слов вроде «доход» вместо конкретного финансового термина), проверка аудитории (форумы, а не предположение «если я это знаю, то и другие тоже»).
-
-**Когда нужна и точность, и понятность одновременно — не жертвуйте одним ради другого, слоите текст.** Сначала простое объяснение для неподготовленного, затем полный технический слой для специалиста под ним же: «Ко мне обращаются для решения проблем, которые возникают в процессе лучевой и химиотерапии» — далее полный технический перечень услуг.
-
-**Не убеждайте — показывайте, чтобы читатель убедился сам.** «Если вы хотите изменить мнение человека, нужно не убеждать его, а создавать условия, в которых человек убедится сам». Замените декларацию сценарием: «Убедить читателя через рациональные аргументы про экономию: скорость, надёжность, шифрование» ⟶ «Показывать ситуацию. Вот сколько стоит документооборот. Вот конкретные действия бухгалтеров. Вот деньги, которые уходят». Один и тот же факт читается героизмом или осуждением в зависимости от контекста вокруг него — стройте контекст, а не давите аргументом.
-
-**Источники тем — реальные вопросы читателей, не абстрактный «интересный контент».** Популярные вопросы от менеджеров по продажам, форумы и соцсети (что вызывает ажиотаж), опрос аудитории, наблюдение за поведением читателей. Большинству людей интересны базовые темы, даже если автору хочется писать о сложном.
-
-**Изучайте читателей, а не выдумывайте их.** Два подхода: описать портрет аудитории и писать для него, или изучить реальную аудиторию (опрос, статистика вовлечённости, комментарии, вопросы). «Прежде чем открывать рот — хотя бы в пол-уха послушать, будет ли это кому-то интересно».
-
-**SEO-требования не должны определять текст для людей.** «Мы пишем для людей, а не для поисковиков» — рекомендации по ключевым словам применяйте, только если они не портят читаемость; неестественные вставки («триста включений ключевых слов») игнорируйте. Ключевые слова для машин — отдельным честно промаркированным блоком, не внутри текста для читателя: «А вот что бы мы хотели сказать поисковикам: офисный переезд Москва…».
+**Glossary of key terms:** info-style (инфостиль) — plain-language editorial method · useful action (полезное действие) — the reader-side payoff a text must deliver · reader's world vs. author's world (мир читателя / мир автора) · stop-word (стоп-слово) — a flagged word, not an automatic cut · cliché (штамп) · bureaucratese (канцелярит, per Nora Gal) · needless jargon/obscurity (заумь) · subjective claim vs. verifiable fact (оценка vs факт) · true agent of the action (истинный субъект действия) — for fixing passive/impersonal sentences · bead-stringing (бисерный стиль) — piling up near-synonym clauses · parcelling (парцелляция) — breaking one sentence into fragments with periods · factor out (вынести за скобки) — factor out a repeated preposition/word across a list · playing out the line (травление лески) — giving facts and letting the reader decide, the opposite of hard-sell · falseness (фальшь) — a mismatch between a text's stated and real intent · editorial policy (редполитика) — an author's job description · Glavred (Главред) — a stop-word checker tool; a hint, not a judge.
 
 ---
 
-## 2. Слово
+## 1. Philosophy
 
-### 2.1 Стоп-слова: природа и категории
+**Info-style is one editorial tool, not a universal standard.** It works where clarity and precision are needed (websites, reports, presentations, technical texts, rational advertising); it doesn't suit literary prose, hypnotic copy, tenderness, emotional appeals, or cases where the client has deliberately chosen a different tone. It doesn't replace professionalism, the psychology of advertising, journalism, or taste — it's a baseline, "roughly like literacy," not a ceiling on skill.
 
-**Стоп-слово — сигнал остановиться, не команда на автоматическое удаление.** Встретив стоп-слово, решайте: несёт оно полезную информацию здесь или нет. Прилагательные — часть устойчивого термина («знатный род», «ударная дрель») не трогать; украшающее слово («принципиально новый», «идеально ровный») — требует конкретики или удаления. Вопрос-тест: «что именно это значит?»
+**The criterion: short, clear, convincing.** Information density combined with preserved clarity — not length — is what makes a text substantive and interesting.
 
-**15 стабильных категорий** (полного списка слов нет и быть не может — язык меняется, словарь устареет за полгода): междометия; местоимения; вводные конструкции; обобщения («большинство», «многие»); усилители (очень, вполне, весьма, максимально, крайне); оценочные прилагательные; газетные/корпоративные/бытовые штампы; временны́е паразиты; фразы с отглагольными существительными; модальность (можно, нужно, должен); лишнее сослагательное наклонение; страдательный залог; очевидные сущности; неопределённые модификаторы; заумь.
+**Useful action is the central concept.** The answer to "Why would the reader want to read this on their own?", kept separate from the author's goal and the text's assignment. It's formulated in the reader's world, not the author's/product's world.
+The "why?" method (a chain from tool to benefit): swing a hammer → drive a nail → hang a picture → a pleasing sight.
+Before writing, fix three things: audience (who's reading, what they already know, what problems they have), goal (what changes in the reader's world because of the text), assignment (what to cover, and what not to). Without this, you can neither write nor discuss a text's quality.
 
-**В устной речи стоп-слова нужны, в письменной — нет.** Письменный текст занимает место, устный — время; то, что в речи держит мысль («во-первых», «скажем», «итак»), на письме заменяется структурой — заголовками, списками, двоеточием.
+**"Reader's world" vs. "author's world" — translate every argument.**
+Author's world: "Too many clichés!" ⟶ Client's world: "This makes you look old-fashioned — readers won't get it, and here's exactly where it happens."
+Author's world: "our company...", "we need the money" ⟶ Client's world: "so the service can stay free."
+"Nobody cares about your advantages" — an abstract list of virtues could apply to any company; win with an example, not a story about yourself.
+Phrase delivery windows/deadlines around what the customer gets ("today by 8pm, if you order before 4pm"), not around the company's convenience ("9am to 4pm").
 
-### 2.2 Оценки vs факты
+**Three conditions of an honest text:** 1) the reader is an equal, not an object of manipulation ("treat the reader like a friend or family member"); 2) write calmly, without exclamation points or emotional pressure — emotion arises on its own when the author touches an emotional subject; 3) genuinely help rather than sell — disclose the product's limitations ("play out the line").
+Falseness: "Yo! Lemme break it down for you. So there's this thing..." ⟶ Honest: "Come play our new multiplayer game about cyborgs and the future."
 
-**Качественные прилагательные передают субъективную оценку, а не объективную информацию** — читатель фильтрует их как шум. Замена: факты, цифры, демонстрация, примеры.
-«Гарантируем безупречное качество сборки» ⟶ «Если найдёте дефект, заменим без вопросов и доставим за свой счёт».
-«Продаём бюджетные подержанные иномарки безупречного качества» ⟶ «Продаём трёхлетние иномарки до 500 000 рублей».
-«Новый насыщенный аромат кофе» ⟶ «Она в полтора раза крепче и действует за 30 секунд».
-Исключение: прилагательные, описывающие объективные характеристики или входящие в состав термина (чёрный салон, твёрдая порода), — не трогать.
+**Falseness comes from the author's uncertainty.** "Everything you're unsure of will surface in the text as falseness" — gather facts, talk to users. Hidden motives (a paid article, native advertising) — state them honestly up front, don't disguise them. "Don't try to outsmart anyone. The very fact that you're trying to outsmart someone already creates falseness."
 
-**Усилители (очень, вполне, весьма, максимально, крайне) усиливают чужой смысл вместо того, чтобы нести свой.** Заменять фактом, понятным читателю, и проверять, значим ли этот факт именно для читателя.
-«С новым интерфейсом оформить заказ очень легко!» ⟶ «Заказывайте пиццу одной кнопкой».
-«Вполне успешно осуществляем перевозки» ⟶ «Каждый день отправляем из Москвы от десяти до пятидесяти грузовиков; опоздали 12 раз за 15 лет».
+**Play (humor, character) is admissible under five conditions:** it doesn't get in the way of the useful action; it comes from the heart, is deliberate and vivid, without self-censorship; the sole goal is to entertain, with no hidden agenda; disguising an ad as entertainment is guaranteed falseness; the level of play stays within the audience's expectations. Humor doesn't rescue a text that has no substance under the joke ("breaking the pattern doesn't work if there's no payoff under the joke").
 
-**Оценки не убеждают сами по себе — нужны факты, из которых читатель сам сделает вывод.**
-«Надёжный механизм шифрования» ⟶ «Диск зашифрован 256-битным механизмом. Даже при краже данные невозможно считать без пароля».
-Метод: сначала сформулировать нужный вывод, затем подобрать подтверждающие факты; чем технически подкованнее аудитория, тем меньше нужно объяснений.
+**"I" isn't forbidden — dose it by the question "did the reader come for me, or for my topic?"** Personal narrative tolerates more "I"; instructional text stays focused on the subject matter. "I" earns its place when contrasting yourself with others, and turns redundant once the author is already identified by context (e.g., in an "about me" section). The test: read it aloud.
 
-**«Большинство» — стоп-слово, замени числом.**
-«Большинство домов подлежит сносу» ⟶ «Семь из десяти домов подлежат сносу».
-«Два специалиста»/«несколько» — тоже абстракция: заменяйте графиком («Работает с 10:00 до 22:30 каждый день»), скоростью ответа («Отвечает на письма за два часа»), именами.
+**Don't invent authorities or data.** Never cite abstract "scientists," "doctors," or "studies" — it's bad form. Check facts, cite the source; if there's no data, honestly admit the gap ("Unfortunately, we don't know the average lifespan of our jeans..." plus personal experience) instead of a fake "According to recent studies..." "There must always be truth standing behind a text — even if the truth is that you don't know something."
 
-**Большие числа переводите в жизненный опыт читателя.**
-«220 метров» ⟶ «Колесо будет высотой с семидесятиэтажный небоскрёб».
-«100 000 м²» ⟶ «14 футбольных полей».
-Проценты часто манипулятивны («4600%») — кратные сравнения нейтральнее («в 46 раз»); ещё лучше — привязать к чувственному опыту: «каждый второй школьник», «превысить скорость на 5 км/ч».
-Устаревшую статистику не скрывайте — честно называйте дату и источник данных, при возможности показывайте тренд за несколько лет без собственной оценки.
+**The checking tool (Glavred) is a hint, not a judge.** It counts matches against a stop-word dictionary mechanically, without telling a term apart from a value judgment ("fast cash loans" vs. "fast-digesting carbs"). The editor decides whether the flag applies in context; "if Glavred could improve a text by itself, there'd be no need for an editor." The score isn't a quality rating — it's a dictionary check, like a spell-checker.
 
-### 2.3 Штампы, канцелярит, заумь
+**The doctrine isn't static.** Stop-words change along with the language — a complete, final list doesn't exist and can't exist; study the categories (stable for years), don't memorize words. Roots of the method: Strunk's rule (1920) — every word must carry meaning; Nora Gal's method (1972) — strip out bureaucratese, replace verbal nouns with verbs.
 
-**Штампы неинформативны** — узнаваемая пустая формулировка, которую читатель пропускает мимо сознания. Найти, удалить, восстановить утраченный смысл конкретикой. Легитимны только как стилизация под пафосную журналистику.
-«сочетают в себе пользу и вкус» ⟶ «вкусные и полезные»
-«всего-навсего пять минут» ⟶ «пять минут»
-«расширили географию продаж» ⟶ «начали продавать в Санкт-Петербурге, Екатеринбурге и Оренбурге»
-«легко и просто» ⟶ «просто»
+**When a client rejects info-style, don't argue about style — dig into the objection.** Don't echo the word "style" back at the client; find out with questions ("What kind of text do you like?", "What do you like about it?", "Which words create that impression?"), record facts and goals in writing, get sign-off on every point.
+Counterproductive: "But you weren't founded in 1841!" ⟶ Productive: "Let me write it without the unnecessary formal turns of phrase, strictly to the point, so it's easy to read."
 
-**Корпоративные штампы читатель воспринимает как шум.** Заменять абстрактную похвалу конкретным доказательством; признание ограничений убедительнее универсального обещания, которое даёт каждый.
-«Наш дружный коллектив профессионалов» ⟶ «Медсёстры и дежурные врачи круглосуточно окажут первую помощь»
-«Предлагаем полный спектр услуг в области веб-дизайна» ⟶ «Создаём сайты и интернет-магазины»
-«Делаем сайты качественно, надёжно и в срок» ⟶ «Мы не умеем соблюдать сроки… из-за этого наши проекты стоят на треть дороже» (честное признание сильнее пустого обещания).
+**Not every client needs plain info-style.** A conversational or "byzantine" style is sometimes the client's deliberate choice — decide whether to be a partner or a "voice-activated typewriter." Don't try to win them over with moralizing — show in practice that something can be done better, and respect the choice of a client who's risking their own money.
 
-**Заумь — отдельная категория стоп-слов**: излишне сложный язык, маскирующий простую мысль. Не уверены в значении слова — используйте то, которое понимаете сами.
-«Кадровый ресурс департамента продемонстрировал стопроцентное снижение эффективности» ⟶ «Сотрудники бросили работу»
-«Просьба минимизировать нерелевантные коммуникации в рамках данного трека» ⟶ «Давайте в этом чате говорить только по делу»
-Исключение — научные/специальные тексты, где термины нужны. Правило: «не уверен — не пиши».
+**"Harmful" industries use info-style too — and that's fine.** The method is open to everyone; developing the tool for like-minded people matters more than policing who borrows it: "the point is not to hinder your enemies, but to strengthen your friends."
 
-**Канцелярский язык госучреждений** пишется из страха перед судом («неточная формулировка задачи — повод для разбирательства») — не переделывать напрямую, а помочь структурой (анкета: задачи, полезное действие, аудитория), сохраняя рекламные/публичные материалы на понятном языке.
+**Info-style is a baseline, not a ceiling.** Beyond clean text, an editor should develop: visual storytelling, interactive formats, dramaturgy, information hygiene, behavioral economics, algorithmic distribution. Checking a text against info-style is a necessary but not sufficient condition for a good result.
 
-### 2.4 Местоимения, модальность, отглагольные конструкции
+**The reader is "always okay."** An author's air of moral superiority reads through the whole tone of a text, not just the headline — don't lecture people on life where nobody asked you to ("Brands should stop lecturing people on life where they didn't ask for it. Where they did ask — lecture all you want."). What needs softening isn't the phrasing ("5 mistakes") but the stance and the topic: "5 mistakes every American makes in bed" ⟶ "5 mistakes every Australian makes in bed" (shifts the target away from the reader's own group, removing the pointed accusation).
 
-**Притяжательные местоимения («наша компания», «твоя ошибка») обычно удаляются без потери смысла.**
-«Наша компания производит металлопрокат» ⟶ «„Металлстройплюс“ производит металлопрокат» / «Производим и доставляем металлопрокат».
-Оправданы только при явном противопоставлении своего и чужого: «Ты не замечаешь своих ошибок, зато отлично видишь их у других».
-Не удаляйте местоимения механически — ищите, на какой странице/боли читателя они завязаны; «хороший текст — не тот, из которого вы удалили стоп-слова, а тот, в котором вы ответили на страхи и боли читателя».
+**A business audience isn't superhuman.** "All people are normal and ordinary. You need to talk to them in ordinary, normal language" — terms belong where they're more precise than an everyday word (cash-flow gap, accounts receivable), but there's no need to artificially complicate things; test the hypothesis that an audience is "too smart for plain language" on real readers, not in arguments.
 
-**Модальные глаголы («можно», «нужно», «должен») создают иллюзию готовой мысли без конкретики.**
-«Вы можете переключиться между аккаунтами» ⟶ «В новой версии пользователи переключаются между аккаунтами».
-«Студенты должны получить билеты» ⟶ «Студенты получают билеты».
-Если модальность важна по смыслу — не удалять, а пояснить причину: «Магазин должен получить лицензию» ⟶ «171-ФЗ заставляет магазины получать лицензию».
+**Explaining something complex to an unprepared reader — take concepts the audience already knows and use them to introduce the new one.** Start from what the reader already knows, and explain how the new thing differs.
+"CRM" ⟶ "a customer database, but not a spreadsheet — an electronic card file with photos, phone numbers and addresses, a history of calls and meetings, a sales report."
+"If you're not sure exactly what your readers know, assume the worst: that they know nothing" — and explain step by step from simple to complex. Complex equipment doesn't mean you can't write clearly: first clean up the text, then state the main benefit for the experienced user, then explain the term for the novice ("A relay works like an automatic circuit breaker: it closes the circuit at sufficient voltage and opens it if voltage is exceeded").
 
-**Деепричастия и деепричастные обороты усложняют синтаксис — избегайте, даже когда показывают последовательность.**
-«Выпив и смачно крякнув, он вытер усы рукавом и взялся за топор» ⟶ «Он выпил, смачно крякнул, вытер усы рукавом и взялся за топор».
-«Запустив этот продукт, мы выйдем на новый уровень» ⟶ «С этим проектом мы выйдем на новый уровень».
+**For a technically savvy audience — fewer explanations, but no less precision.** Four layers of work for "smart" readers: topic (narrow it to specifics — "Bank case study: 20 new branches across Siberia in 2 months"), depth (expertise isn't in the terminology but in knowing the subject — you need examples, mistakes, screenshots), language (precise terminology instead of vague words like "income" where a specific financial term applies), audience testing (forums, not the assumption "if I know this, so does everyone else").
 
-**Отглагольные существительные и конструкции с «быть» — заменять активными глаголами.**
-«Реализация периферических компьютерных систем» ⟶ конкретное действие.
-«Развитие клиентского сервиса было нашей основной задачей» ⟶ «Мы должны были развивать клиентский сервис». Главный принцип: важна не конкретная лексика («было»/не «было»), а глагол действия вместо связки.
+**When you need both precision and clarity at once, don't sacrifice one for the other — layer the text.** First a simple explanation for the unprepared reader, then the full technical layer for the specialist right beneath it: "People come to me to solve problems that arise during radiation and chemotherapy" — followed by the complete technical list of services.
 
-**«Который» и причастные обороты — упрощать, если это повышает читаемость, но не всегда убирать.**
-«Вещи, которые были оставлены без присмотра, будут уничтожены» ⟶ «Оставленные без присмотра вещи будут уничтожены».
-Причастный оборот в заголовке — проблема структуры, а не пунктуации: «Фильмы, выходящие на этой неделе» ⟶ «Новые фильмы в прокате».
-Правило: «если предложение читается без проблем, нет необходимости доводить его до совершенства».
+**Don't persuade — show, so the reader convinces themselves.** "If you want to change someone's mind, you shouldn't persuade them — you should create conditions in which they convince themselves." Replace a declaration with a scenario: "Convince the reader with rational arguments about savings: speed, reliability, encryption" ⟶ "Show the situation. Here's what the paperwork costs. Here's exactly what the accountants do. Here's the money leaking out." The same fact can read as heroism or condemnation depending on the context around it — build the context, don't lean on the argument.
 
-### 2.5 Прочее на уровне слова
+**Sources for topics are readers' real questions, not abstract "interesting content."** Common questions from sales reps, forums and social media (whatever's causing a stir), audience surveys, observing reader behavior. Most people are interested in basic topics, even when the author would rather write about something complex.
 
-- **Очевидные сущности** — удалять слова, описывающие контекст, уже понятный из ситуации («Объявление», «Уважаемые арендаторы», «Обращаем ваше внимание»). «Выход осуществляется через данную дверь» ⟶ «Выход». Заменяйте визуалом (стрелка) там, где можно.
-- **«И/или», косая черта в значении «или»** — недопустимы, пишите союзами: «Выдача и замена» / «Выдача или замена». «Гарантия на все товары и/или услуги» ⟶ «Гарантия на пылесосы — 1 год, на ремонт — полгода».
-- **Частица «не»** не запрещена — прекрасно воспринимается читателем, но он сначала мысленно представляет действие, потом убирает его. Если не хотите, чтобы читатель представлял нежелательное поведение — опишите желательное: «Не входить» ⟶ «Этот вход закрыт. Входите со стороны ул. Кравченко».
-- **Начинать предложение с цифры** — не запрещено, но нежелательно грамматически (падежные искажения: «5 блюд сегодня нет в наличии»); решайте по смысловому акценту («Пяти блюд нет в наличии» или «Сегодня мы не подаём 5 блюд»).
-- **Повтор ключевого слова оправдан в техническом тексте, вреден в художественном.** Центральные понятия должны называться одним словом (однозначность важнее стиля); от повторов спасает не поиск синонимов, а группировка и вынесение в перечни. «Вы хотите, чтобы было красиво; или чтобы нас поняли?»
+**Study your readers, don't invent them.** Two approaches: sketch an audience persona and write for it, or study the real audience (surveys, engagement statistics, comments, questions). "Before you open your mouth, at least listen with half an ear for whether this will interest anyone."
 
-### 2.6 Конкретизация и объяснение
-
-**Неточности конкретизировать числом или адресатом.**
-«более 20 лет» ⟶ точная цифра; «недорого» ⟶ «недорого для кого именно».
-Сложные преимущества — расшифровывать сценарием: «полноцикловое производство» ⟶ «проектируем, куём, собираем и красим на одном предприятии под контролем художника и технолога».
-
-**Факты и цифры сами по себе не создают доверия — нужно объяснить, почему они важны читателю.**
-Голое «матрица 23,4 мегапикселей» ⟶ «большой кадр и высокое разрешение, подойдёт для печати на А3 и А2». Ориентир — техническая журналистика, «человеческим языком объясняющая, что означают все эти цифры».
-
-**Фичи ПО переводите с языка разработчика на язык проблемы клиента.** Разработчики видят продукт через модули, клиент думает только о своих проблемах.
-«появилась новая возможность создавать» ⟶ «теперь умеет создавать»; «связанные карточки» ⟶ «помогает объединить маршруты в один» (экономия); «проверка телефонов» ⟶ «менеджер не потеряет клиента» (риск-менеджмент). Расплывчатые формулировки уточнять: «по определённому признаку» ⟶ «из одной компании, отрасли или района».
-
-**Качественные прилагательные в описании еды/чувственного опыта создают ощущение дешевизны, а не вкуса** — заменяйте фактами и сценариями.
-«Ощутите непревзойдённый вкус свежайшей сочной вырезки под изысканным соусом» ⟶ «Диетическая вырезка из бычков зернового откорма. Выдержана 45 дней… Подаётся под грибным соусом, с молодым картофелем».
-
-**Штампованные ценовые сравнения изнашиваются — ищите альтернативу, которая заставляет задуматься, а не скользить по клише.** «По цене чашки кофе» — три альтернативы: сравнить цену с содержанием («Всё это — за 300 рублей в месяц»); обратиться к пользе без цены; сравнить с более дорогой альтернативой («в 10 раз дешевле, чем любой курс на эту тему»).
-
-**Скидка минус — тавтология.** «Скидка уже означает минус» — не дублировать знаком: «скидку 50%», не «−50%» (кроме случаев, когда минус полностью заменяет слово «скидка» — формально верно, но «не по-русски», годится разве что для витрины).
+**SEO requirements shouldn't dictate a text written for humans.** "We write for people, not for search engines" — apply keyword recommendations only when they don't hurt readability; ignore unnatural insertions ("three hundred keyword mentions"). Keywords for machines go in a separate, honestly labeled block, not inside the text meant for readers: "And here's what we'd like to say to the search engines: office relocation Chicago..."
 
 ---
 
-## 3. Синтаксис
+## 2. Word
 
-**Сильное предложение = сильное подлежащее (существительное-субъект) + сильное сказуемое (глагол действия).** «Когда в предложении встречается существительное-субъект и глагол действия, появляется энергия».
-«Мероприятия запланированы на конец квартала» ⟶ «В конце сентября к нам приедут «Сплин» и Земфира»
-«Мы — один из крупнейших поставщиков цветных металлов в России» ⟶ «Поставляем 65% цветных металлов в России»
-Слабые конструкции: подлежащее-объект («Мероприятия запланированы»), подлежащее-глагол («Скрываться — не решение»), сказуемое без действия («Москва расположилась»). Приём не универсален — сознательно чередуйте полные, короткие, длинные и пассивные конструкции ради ритма.
+### 2.1 Stop-words: nature and categories
 
-**Найдите истинного субъекта действия** — приём против безличного повествования: понять, кто на самом деле совершает действие, и сделать его подлежащим.
-«На нём установлен 5,5-литровый двигатель. Салон обшит кожей» ⟶ «Конструкторы устанавливали мощный двигатель объёмом 5,5 литров. Кремлёвские портные обшивали салон кожей».
-«Чем эффективнее инвестируются средства, тем большей суммой вы будете обладать» ⟶ «Чем эффективнее родители инвестируют в зрелом возрасте, тем меньше они зависят от детей».
-Оговорка: истинный субъект нужен, только если добавляет информацию; если незначим — убрать вовсе и перейти на плотные номинативные конструкции («„Чайка“ — люксовый шестиместный фаэтон с кожаным салоном»). «Когда подлежащее исчезает, сказуемое становится слабым, „слова сами себя стесняются“».
+**A stop-word is a signal to stop, not a command to delete automatically.** When you hit a stop-word, decide: does it carry useful information here or not? An adjective that's part of a fixed term ("distinguished lineage," "hammer drill") — leave it alone; a decorative adjective ("fundamentally new," "perfectly level") demands specifics or deletion. The test question: "what exactly does this mean?"
 
-**Страдательный залог не запрещён абсолютно — различайте действие и состояние.** Для предложений о действии с ясным деятелем — активный залог (пассив прячет, кто действует). Для предложений о *состоянии* объекта — пассив легитимен: важнее само состояние, чем причина.
-Лишний пассив: «Отчёт был доделан и сдан» ⟶ «Мы доделали отчёт и сдали его»; «Самолёт подготовлен к вылету» ⟶ «Самолёт готов к вылету».
-Уместный пассив (состояние): «Дом сдан» (или ещё проще — «Дом готов»); «Платёж отклонён» ⟶ «Платёж не прошёл».
-Правило: никогда механически не вычищайте страдательный залог — если удаление создаёт неестественную/громоздкую фразу, верните пассив. «Никогда не выключайте вкус и здравый смысл».
+**15 stable categories** (a complete word list doesn't exist and can't exist — language changes, a dictionary would be stale within six months): interjections; pronouns; introductory constructions; generalizations ("most," "many"); intensifiers (very, quite, extremely, maximally, highly); evaluative adjectives; newspaper/corporate/everyday clichés; time-filler words; phrases built on verbal nouns; modality (can, need to, must); needless subjunctive mood; passive voice; self-evident entities; vague modifiers; needless jargon/obscurity.
 
-**Однородные члены — не запрещены, зависят от задачи.** Три законных случая: 1) термины-синонимы — сливать в одно сильное слово; 2) каждый термин требует пояснения — раскрывать отдельными предложениями/абзацами, чтобы слова «зажглись»; 3) цель — эффект изобилия — сознательно перегружать перечислением.
-«Бисерный стиль» (нанизывание синонимов, вредно): «С помощью творчества и музыки вы можете наполниться силой, энергией и вдохновением» ⟶ «Музыка наполняет вас силой и помогает выражать сокровенное».
-Оптимальное число: универсального нет, но один — максимально убедителен, два — противопоставление («умна и красива»), три — впечатление целостности («умна, добра и красива»), четыре и больше — разрушают завершённость, но дают динамику/охват.
-Оставляй только важное, когда однородные члены близки по смыслу: «Дизайнер создаёт, точит, уточняет и полирует шрифт» ⟶ «Дизайнер создаёт шрифт». Различай содержание и форму: однородное содержание (синонимы-действия) — сокращай до одного; однородную форму (разные действия, один предмет) — сохраняй целиком.
-Вложенные однородные («у нас или у партнёров или по почте») — упрощать до одного уровня, делить на два предложения, либо заменять структурой/перечнем.
-Если однородных членов больше четырёх — делать их похожими по синтаксической структуре.
-Приём «вынести за скобки»: не повторять предлог перед каждым однородным членом: «Нужна информация о проблемах и об известных ошибках» ⟶ «Нужна информация о проблемах и известных ошибках».
+**Stop-words are needed in speech, not in writing.** Written text takes up space, speech takes up time; what holds a thought together in speech ("first of all," "let's say," "so") gets replaced in writing by structure — headers, lists, a colon.
 
-**Парцелляция (искусственное дробление предложения точками) — ошибка, а не приём ритма.** Делить можно только там, где одна законченная мысль кончается и начинается другая; иначе читателю приходится удерживать в памяти весь фрагмент.
-«Мы доставим посылку. За три дня. С гарантией.» ⟶ «Мы доставим посылку за три дня, с гарантией».
-«Мы хотели создать школу кунфу. Которой не будет равной по обе стороны океана.» ⟶ «Мы хотели создать школу кунфу, которой не будет равной по обе стороны океана».
-Начинать предложение со «чтобы» грамматически допустимо, кроме случаев, когда «читатель не в контексте» — но произвольное дробление вокруг него всё равно ошибка.
+### 2.2 Value judgments vs. facts
 
-**Универсальной структуры предложения не существует.** Порядок слов — инструмент, а не формальное правило; структура подчиняется функции текста: художественный текст может начинаться с обстоятельства, инструкция — с формулировки проблемы («Чтобы открыть дверцу машинки во время стирки, нажмите кнопку», не «Нажмите кнопку и подождите две минуты, чтобы открыть дверцу»), новость — сразу отвечать на вопрос читателя.
+**Qualitative adjectives convey a subjective judgment, not objective information** — the reader filters them out as noise. The replacement: facts, numbers, demonstration, examples.
+"We guarantee impeccable build quality" ⟶ "If you find a defect, we'll replace it without question and ship it at our own expense."
+"We sell budget used imports of impeccable quality" ⟶ "We sell three-year-old imports for under $5,000."
+"A new, rich coffee aroma" ⟶ "It's one and a half times stronger and kicks in within 30 seconds."
+Exception: adjectives describing objective characteristics or built into a fixed term (black leather interior, hardwood) — leave alone.
 
-**Вложенные придаточные и перегруженные конструкции — разбивать на простые.**
-«Объект описывает действия, содержащие методы. Методы предоставляют доступ…» вместо одной громоздкой конструкции с вложенными оборотами.
-Английский синтаксис при переводе — переделывать под естественность русского: разбивать плотно упакованные идеи на несколько предложений, «неторопливо объяснять всё новое».
-Вводные конструкции — сдвигать в конец предложения: «мне приходится писать представления тех или иных проектов и инициатив в виде, среди прочего, электронных писем» ⟶ «мне приходится писать представления проектов и инициатив в виде электронных писем».
+**Intensifiers (very, quite, extremely, maximally, highly) amplify someone else's meaning instead of carrying their own.** Replace with a fact the reader understands, and check whether that fact actually matters to the reader.
+"With the new interface, placing an order is very easy!" ⟶ "Order pizza with one tap."
+"We handle shipping quite successfully" ⟶ "Every day we send out ten to fifty trucks from Chicago; we've been late 12 times in 15 years."
 
-**Пунктуация подчиняется простоте: «если сомневаетесь в пунктуации — упростите предложение».** Точка лучше сложноподчинённых конструкций: «Первого мая Иннокентий вышел на работу, чтобы доделать отчёт… а его руководитель жарил шашлык на яхте» ⟶ «Первого мая Иннокентий доделывал отчёт. Его руководитель жарил шашлык на яхте». Скобки — убирать или выносить в отдельное предложение.
+**Value judgments don't persuade on their own — you need facts the reader can draw a conclusion from.**
+"A reliable encryption mechanism" ⟶ "The drive is encrypted with 256-bit encryption. Even if it's stolen, the data can't be read without the password."
+Method: first formulate the conclusion you want, then find the facts that support it; the more technically savvy the audience, the fewer explanations you need.
 
-**Начинать предложение с союза («но», «и», «однако») — можно внутри абзаца, избегать в начале нового абзаца** (абзац сигнализирует новую мысль). Частые союзы — симптом путаной структуры, лечится структурой (блоки, таблицы), а не запретом слова.
+**"Most" is a stop-word — replace it with a number.**
+"Most of the houses are slated for demolition" ⟶ "Seven out of ten houses are slated for demolition."
+"A couple of specialists" / "several" is also an abstraction: replace it with a schedule ("Open from 10am to 10:30pm every day"), a response time ("Replies to emails within two hours"), or names.
 
-**Синтаксис по функции интерфейсного элемента.** Ссылка называет объект (навигация — назывное); кнопка выражает команду/смену статуса (глагол уместен). «Зарегистрироваться» как ссылка ⟶ «Регистрация»: глагольная форма создаёт ощущение команды там, где должна быть просто навигация.
+**Translate big numbers into the reader's lived experience.**
+"720 feet" ⟶ "The wheel will stand as tall as a seventy-story skyscraper."
+"1.1 million square feet" ⟶ "14 football fields."
+Percentages are often manipulative ("4,600%") — multiples read more neutrally ("46 times more"); better still, tie it to sensory experience: "every second schoolkid," "3 mph over the limit."
+Don't hide stale statistics — honestly state the date and source of the data, and where possible, show the multi-year trend without adding your own spin.
 
-**Проверка удобства чтения — вслух, не шёпотом.** Приём «Расскажи другу»: наговорить разговорным языком, затем отредактировать, убрав лишние разговорные элементы. Убирайте предложения, не работающие на тему; выравнивайте списки под параллельную структуру; вытаскивайте подлежащее и сказуемое «из-под завалов» придаточных; чередуйте длину предложений ради ритма.
+### 2.3 Clichés, bureaucratese, needless jargon
 
-**Типографская обработка (висячие предлоги и т.п.)** должна идти автоматически, без ручного участия дизайнера/верстальщика — внедряйте типографскую утилиту в CMS/скрипты. Неформатированный текст «выглядит дёшево».
+**Clichés carry no information** — a recognizable, empty phrase the reader's mind skips right over. Find it, delete it, restore the lost meaning with specifics. Legitimate only as a deliberate stylization of pompous journalism.
+"combines both benefit and flavor" ⟶ "tasty and healthy"
+"a mere five minutes" ⟶ "five minutes"
+"expanded our sales footprint" ⟶ "started selling in Chicago, Denver, and Austin"
+"quick and easy" ⟶ "easy"
 
-**Перегруженный заголовок с цепочкой косвенных падежей — переформулировать через факт или прямую речь, а не терпеть канцелярскую цепочку.**
-«Треть россиян уверены, что Путин отстаивает интересы олигархов» (цепочка родительных/дательных падежей утяжеляет) ⟶ «„Путин за олигархов“ — так считает каждый третий россиянин».
+**The reader hears corporate clichés as noise.** Replace abstract praise with concrete proof; admitting a limitation is more convincing than a universal promise anyone could make.
+"Our friendly team of professionals" ⟶ "Nurses and on-call doctors provide first aid around the clock"
+"We offer a full range of web design services" ⟶ "We build websites and online stores"
+"We deliver websites with quality, reliability, and on schedule" ⟶ "We're not great at hitting deadlines... which is why our projects cost a third more" (an honest admission lands harder than an empty promise).
 
-**Сложная пунктуация чаще всего — следствие сложного синтаксиса, а не незнания правил.** Упрощайте конструкцию раньше, чем разбираетесь в расстановке запятых.
-«Если верить тому, чему нас обучали в школе, мы должны были знать, что придаточные предложения… должны отделяться запятыми» ⟶ «Придаточные предложения отделяются запятыми — этому нас учили в школе».
+**Needless jargon/obscurity is its own stop-word category**: needlessly complex language masking a simple thought. If you're not sure what a word means, use one you actually understand.
+"Departmental human capital resources demonstrated a hundred-percent efficiency decline" ⟶ "The staff walked off the job"
+"Please minimize non-relevant communications within this track" ⟶ "Let's keep this chat on-topic"
+Exception: scientific/specialized texts, where terms are necessary. Rule: "not sure — don't write it."
 
----
+**The bureaucratese of government agencies** is written out of fear of lawsuits ("an imprecise task description is grounds for litigation") — don't rewrite it head-on; help with structure instead (a questionnaire: tasks, useful action, audience), while keeping public-facing/promotional materials in plain language.
 
-## 4. Абзац и структура
+### 2.4 Pronouns, modality, verbal-noun constructions
 
-**Абзац vs список.** Абзац читается последовательно от начала до конца, передаёт иерархию мысли, требует вдумчивого чтения. Список — набор равноценных, независимых пунктов, допускает несистемное сканирование. «Если у вас в тексте всё однородное и одинаковое — это плохо»: текст превращается в голый набор фактов, не в текст. Смешивайте абзацы и списки; не ставьте на один экран несколько списков подряд.
+**Possessive pronouns ("our company," "your mistake") are usually deletable without any loss of meaning.**
+"Our company manufactures steel products" ⟶ "Steelcraft Inc. manufactures steel products" / "We manufacture and deliver steel products."
+Justified only in an explicit contrast between one's own and someone else's: "You don't notice your own mistakes, yet you see everyone else's perfectly well."
+Don't delete pronouns mechanically — look for which page/pain point of the reader's they're tied to; "a good text isn't one you've stripped of stop-words, it's one that answers the reader's fears and pains."
 
-**Длинные абзацы — признак неорганизованной мысли.** Оптимум: 3–4 предложения, поддерживающих одну главную мысль; начинайте абзац с главной мысли — читатель пропускает разделы, не цепляющие с первой строки. Ориентир длины строки — 50–75 знаков.
+**Modal verbs ("can," "need to," "must") create the illusion of a finished thought without any specifics.**
+"You can switch between accounts" ⟶ "In the new version, users switch between accounts."
+"Students must receive their tickets" ⟶ "Students receive their tickets."
+If the modality actually matters, don't delete it — explain the reason instead: "The store must obtain a license" ⟶ "State law requires stores to obtain a license."
 
-**Структура абзаца из трёх частей: тезис → развитие → заключение.** Тезис (по нему решают, читать ли дальше) → развитие (доказательства, детали) → заключение (вывод). «Абзац — это законченная доказанная мысль». Не растягивать короткую мысль искусственно; если абзац больше 8 строк в вёрстке — дробить; если отступает от темы — выбрасывать.
+**Gerunds and participial phrases complicate syntax — avoid them, even when they show a sequence.**
+"Having drunk and grunted with satisfaction, he wiped his mustache on his sleeve and picked up the axe" ⟶ "He drank, grunted with satisfaction, wiped his mustache on his sleeve, and picked up the axe."
+"Having launched this product, we will reach a new level" ⟶ "This project will take us to a new level."
 
-**Модуль статьи — самодостаточный раздел.** Читатель должен понять тему модуля, не заглядывая в другие разделы. Структура модуля: введение → основная часть → заключение. «В модуле будет только о том, что заявлено в подзаголовке» — не насаждайте общую структуру статьи на модуль, устроенный по-другому.
+**Verbal nouns and "to be" constructions — replace with active verbs.**
+"Implementation of peripheral computer systems" ⟶ a concrete action.
+"Development of client service was our primary task" ⟶ "We had to develop client service." The main principle: what matters isn't the specific wording ("was"/not "was") but an action verb in place of a linking one.
 
-**Алгоритм написания текста (7 шагов):**
-1. Сформулировать полезное действие: «Почему читатель сам захочет это прочитать?»
-2. Собрать материал из надёжных источников, не выдумывать примеры.
-3. Придумать заголовок и план прежде, чем писать (тезисный план).
-4. Подобрать иллюстрации к каждому разделу.
-5. Раскрыть каждый тезис по формуле «тезис + пример + антипример».
-6. Добавить вступление/заключение — только если читатель незнаком с темой.
-7. Редактировать безжалостно — сократить и довести до плотности.
-Три типичные ошибки автора: пишет для себя, а не для читателя; думает в процессе письма вместо предварительного планирования; подменяет конкретные примеры абстракциями («люди мыслят образами, а не абстракциями»).
+**"That/which" and participial clauses — simplify when it improves readability, but don't strip them out on principle.**
+"Items that were left unattended will be destroyed" ⟶ "Unattended items will be destroyed."
+A participial phrase in a headline is a structural problem, not a punctuation one: "Movies opening this week" ⟶ "New movies in theaters."
+The rule: "if a sentence reads fine, there's no need to polish it to perfection."
 
-**У вступления пять законных функций** (иначе это балласт): 1) настроить тон и ожидания; 2) договориться о терминах («понятийный аппарат»); 3) очертить рамки и ограничения содержания; 4) дать контекст/личную историю, не подходящую основному тексту; 5) «накрутка» объёма — признаётся проблемой, не приёмом. Дополнительно: привлечь внимание (кикер), создать мотивацию (обещание пользы), погрузить в проблему (конкретный чувственный опыт, не абстракции), «опустить оборону» на спорную тему (начать с того, с чем читатель согласится).
-Вступление нужно, только если читатель не знаком с темой — чем менее он в теме, тем длиннее введение; знакомой аудитории вступление не требуется.
+### 2.5 Other word-level rules
 
-**Крючок важнее вежливого разгона.** Лучше «с места в карьер» — зацепить фактом или историей сразу; хвалебные отзывы — на обложку/промо, не в начало; полезные комментарии — внутрь текста или в конец.
+- **Self-evident entities** — delete words describing context already obvious from the situation ("Notice," "Dear tenants," "Please be advised"). "Exit is via this door" ⟶ "Exit." Replace with a visual (an arrow) wherever you can.
+- **"And/or," a slash meaning "or"** — not allowed; use conjunctions instead: "Issuance and replacement" / "Issuance or replacement." "Warranty on all goods and/or services" ⟶ "One-year warranty on vacuum cleaners, six months on repairs."
+- **The word "not"/"don't"** isn't forbidden — readers process it just fine, but they first picture the action mentally, then remove it. If you don't want the reader picturing undesirable behavior, describe the desired one instead: "Do not enter" ⟶ "This entrance is closed. Enter from Elm Street."
+- **Starting a sentence with a numeral** — not forbidden, but most style guides call for spelling it out or restructuring the sentence; decide based on where the emphasis needs to fall: "Five dishes are sold out today" or "Today, 5 dishes are sold out."
+- **Repeating a key word is justified in technical writing, harmful in literary writing.** Central concepts should be called by one consistent word (precision beats style); what saves you from repetition isn't hunting for synonyms but grouping and factoring items into lists. "Do you want it to sound pretty, or do you want to be understood?"
 
-**Заключение обязано самостоятельно выполнять полезное действие текста** — не должно требовать чтения всего текста, чтобы быть полезным. Форма зависит от задачи: учите действию — дайте пошаговую инструкцию; сравниваете варианты — дайте взвешенный вывод. Для аналитики — выводы + практические хитрости; для инструкций — чёткий алгоритм действий + список того, чего делать не следует. Проверка: если читатель увидит только заключение, оно должно самостоятельно выполнять полезное действие всей статьи.
+### 2.6 Specifics and explanation
 
-**Диагностика «текста слишком много / нечитаем»** — идти по уровням снизу вверх: 1) базовый — аудитория/цель/задача; 2) слово/предложение — лишние слова, штампы, порядок слов; 3) абзац — структура; 4) целое — интересен ли текст, верна ли тональность, нужен ли он вообще. Если текст скучен по содержанию — форма (сокращение) его не спасёт: «интерес не в форме, а в содержании». «Когда писателю говорят, что текст слишком длинный, писатель слышит: текст недостаточно интересный. Интересный текст не бывает слишком длинным».
+**Make vague claims specific with a number or a named audience.**
+"Over 20 years" ⟶ an exact figure; "affordable" ⟶ "affordable for whom, exactly."
+Spell out complex advantages as a scenario: "full-cycle production" ⟶ "we design, forge, assemble, and paint at a single facility, under the supervision of an artist and an engineer."
 
-**Сокращать — не значит вычищать слова.** Удаление лишних слов не спасает скучный текст; чтобы сделать текст интереснее, нужно рассказать то, чего читатель не знал. Длинный текст не проблема, если он полезен и интересен.
+**Facts and numbers don't build trust by themselves — you need to explain why they matter to the reader.**
+A bare "23.4-megapixel sensor" ⟶ "a large frame and high resolution, good for printing at poster size." The benchmark is technical journalism, "explaining in human terms what all these numbers mean."
 
-**Сторителлинг — не панацея, три правила истории:** 1) цель — работает на полезное действие статьи, не сама по себе; 2) фокус — детали помогают цели, не отвлекают (погода, внешность — лишнее); 3) конфликт — история без проблемы и решения бесполезна («охотник шёл по лесу и ничего не произошло»).
+**Translate software features from developer-speak into the customer's problem.** Developers see the product as modules; the customer only thinks about their own problems.
+"a new capability to create has been added" ⟶ "now it can create"; "linked cards" ⟶ "helps you merge routes into one" (savings); "phone verification" ⟶ "the manager won't lose the client" (risk management). Clarify vague phrasing: "by a certain trait" ⟶ "from the same company, industry, or region."
 
-**Структура текста подчиняется функции.** Новости — перевёрнутая пирамида: главное → детали события → вневременная информация → предыстория; заголовок сообщает главное, обязательны дата и источник, в конце — полезное действие для читателя.
-Универсальная трёхчастная структура текста о компании: 1) кто мы/что делаем/чем полезны (не путать «что делаете» с «чем полезны»: «Разрабатываем системы шифрования» vs «чтобы защитить данные от хакеров»); 2) ответы на вопросы читателя (вопрос → доказательство → тонкость → вывод, по аудитории: покупатели/сотрудники/инвесторы); 3) что дальше — контакты, следующий шаг, разделение аудитории по CTA.
+**Qualitative adjectives describing food or sensory experience read as cheap, not appetizing** — replace with facts and scenarios.
+"Savor the unparalleled taste of the freshest, juiciest tenderloin under an exquisite sauce" ⟶ "Grass-fed beef tenderloin. Aged 45 days... Served with a mushroom sauce and new potatoes."
 
-**Пирамида Минто — не обязаловка**, а «спасательный круг» для запутанных мыслей; не раздувать текст ради структуры. Простую мысль — в одну строку, историю — рассказывать линейно. «Сокращайте. Выбрасывайте текст предложениями, абзацами, страницами».
+**Stock price comparisons wear out — look for an alternative that makes the reader think, instead of sliding past on a cliché.** "For the price of a cup of coffee" has three alternatives: compare the price to what you get for it ("All of this for $9 a month"); appeal to the benefit without mentioning price at all; compare to a pricier alternative ("10 times cheaper than any course on this subject").
 
-**Естественный порядок чтения страницы — не слева направо, а от важного к менее важному.** Читатель сначала определяет важное, затем решает, интересно ли, потом читает слева направо; иллюстрации создают визуальную иерархию.
-
-**Полнота — не проблема, если текст хорошо написан.** Длина не враг: люди читают длинные тексты, если они полезны и интересны. Решение при жалобе «слишком длинно» — не резать, а добавить понятные примеры и аналогии, привязывающие теорию к жизненным ситуациям читателя.
-
-**В технической документации подлежащим ставьте параметр, а не абстрактное «наличие».** Единообразный синтаксис наводит порядок в объяснении.
-«При наличии аргументов в render-in-id() фотографии будут выводиться…» ⟶ «Аргумент render-in-id() говорит программе, на фоне какого элемента выводить фотографию». Всегда добавляйте пример использования сразу после объяснения параметра.
-
-**Структурированный текст выходит длиннее исходного — это не противоречит совету писать короче.** Не «нанизывать» подробности в одно предложение — раскладывать события в хронологическом порядке короткими фразами; работает лучше даже при большем объёме. Исключение касается только текста для людей — в законах и технических документах нанизывание конструкций оправдано другими нормами жанра.
-
-**Длинный профессиональный текст без потери содержания:** длиннее двух экранов — добавить в начало перечень выводов без подробностей; длиннее 7 абзацев — ввести единообразные подзаголовки (Ситуация, Проблема, Предложение, Бюджет, Сроки).
-
-**Текст-иллюстрация — не только картинка.** Иллюстрация — «любой элемент, который раскрывает или дополняет исходный тезис»: пример, диалог, таблица «Было — стало», гипотетическая ситуация — хороши для абстрактных тем, которые не раскрываются одним объяснением «на пальцах». Критерий выбора формата — раскрывает ли элемент тезис; картинка без связи с идеей — просто картинка, не иллюстрация.
-
-**Врезки и цитаты не раздражают заинтересованного читателя и не спасают незаинтересованного.** «Если людям интересна статья, врезки им не мешают. Если людям неинтересна статья, врезки им не помогают» — это дань моде, не обязательный инструмент; на мобильных чаще стоит отключать.
-
-**Статья и глава книги требуют разной плотности подзаголовков.** Статья борется за внимание — нужны яркие заголовки и частое дробление на подразделы, каждый раз с нуля напоминающие термины. Книга «намного спокойнее» — делить на подразделы «слишком мелко» не нужно, она опирается на ранее введённые понятия. Статья: «Перепроверьте бухгалтера: 5 неочевидных ошибок в учёте»; глава книги: «Типичные ошибки учёта».
-
-**Объём под дедлайн флексится через содержание, не через качество.** Режьте большую тему на цикл фокусных статей вместо одной огромной — «отрезать от огромной темы маленький кусочек, хорошо его проработать и выпустить отдельно». Качество, грамотность и полезное действие не флексятся никогда.
-
-**Публикуемая по частям серия — каждая часть самоценна.** «Читателю наплевать, что перед ним: часть цикла, отдельная статья, кусок другой статьи или что-то ещё» — не подавайте часть как «обещание продолжения»; ищите острую самостоятельную тему для каждого выпуска, не очевидный вопрос («Чем чревата игра в поддельных казино»), а конкретный полезный («Как обманывают игроков в поддельных казино»).
-
-**Двусмысленность снимайте контекстом, а не пунктуацией.** «Выкупаем прижизненные издания Фёдора Достоевского» неоднозначно само по себе, но с заголовком «Скупка антикварных книг» перед ним — нет. «Контекста достаточно» — дополнительные пояснения избыточны, если контекст уже снял разночтение.
+**"Discount" plus a minus sign is a tautology.** "A discount already means a reduction" — don't double up on the symbol: write "50% off," not "−50%" (except where the minus sign fully replaces the word "discount" — technically correct, but reads unnaturally, fit only for a storefront display).
 
 ---
 
-## 5. Заголовки и подзаголовки
+## 3. Syntax
 
-**«Нет в заголовке — нет в статье».** Заголовок растёт из материала, а не придумывается отдельно; должен точно и полно описывать содержание. Секрет привлечения внимания — не формула, а «полезная статья + честный заголовок» вместе: ни одна техника не работает без реальной ценности текста.
-«Полиэтиленовые грёзы» (криптично) ⟶ «Радиоэлектроника и пайка для начинающих» (описательно).
-Для навигационных/поисковых заголовков формулируйте как вопрос, который задаст читатель, — не жертвуйте ясностью ради игры слов.
+**A strong sentence = a strong subject (a noun that acts) + a strong predicate (an action verb).** "When a sentence has an acting noun-subject and an action verb, energy appears."
+"Events are scheduled for the end of the quarter" ⟶ "In late September, the Foo Fighters and Fiona Apple are playing our venue"
+"We are one of the largest suppliers of nonferrous metals in the country" ⟶ "We supply 65% of the nation's nonferrous metals"
+Weak constructions: an object dressed up as subject ("Events are scheduled"), a subject-as-verb ("Hiding is not a solution"), a predicate with no real action ("Chicago is situated"). The technique isn't universal — deliberately mix full, short, long, and passive constructions for rhythm.
 
-**Информативность и достоверность заголовка обязательны одновременно.** Кликбейт роняет доверие к изданию в целом; люди интереснее абстракций.
-«Бухгалтеры в шоке от вашей самостоятельности» (жёлто) ⟶ «Как перейти с упрощёнки на общую систему налогообложения» (по делу).
-Для профессиональных отраслевых изданий «жёлтые» заголовки прямо вредны — репутация строится на доверии, а не на кликабельности.
+**Find the true agent of the action** — a technique against impersonal narration: figure out who's actually performing the action, and make them the subject.
+"It's fitted with a 5.5-liter engine. The cabin is upholstered in leather" ⟶ "Engineers fitted it with a powerful 5.5-liter engine. Presidential tailors upholstered the cabin in leather."
+"The more effectively funds are invested, the greater the sum you will hold" ⟶ "The more effectively parents invest at a mature age, the less they depend on their children."
+Caveat: the true agent only belongs in the sentence if it adds information; if it's insignificant, drop it entirely and switch to dense noun-based constructions ("The 'Phantom' is a luxury six-seat coupe with a leather interior"). "Once the subject disappears, the predicate goes weak — the words become embarrassed of themselves."
 
-**Два типа заголовков:** назывные («О курсе доллара» — отвечают «о чём тут сказано») и транзитивные («Доллар отскочил на 0,3 копейки» — отвечают «что тут сказано»); новости используют транзитивные, аналитика — чаще назывные. Одноранговые подзаголовки должны быть согласованы по типу и вместе образовывать связную историю — если не образуют, проблема в структуре статьи, а не в заголовках. Избегайте вялых слов «вступление, заключение, итог, вывод».
+**The passive voice isn't banned outright — distinguish an action from a state.** For sentences about an action with a clear agent, use the active voice (the passive hides who's acting). For sentences about the *state* of an object, the passive is legitimate — the state itself matters more than the cause.
+Needless passive: "The report was finished and submitted" ⟶ "We finished the report and submitted it"; "The plane has been prepared for departure" ⟶ "The plane is ready for departure."
+Appropriate passive (a state): "The building has been handed over" (or even simpler — "The building is ready"); "The payment was declined" ⟶ "The payment didn't go through."
+Rule: never strip out the passive voice mechanically — if removing it produces an unnatural or clunky phrase, put the passive back. "Never switch off your taste and common sense."
 
-**Причастный оборот в заголовке — проблема структуры, а не пунктуации.** «Фильмы, выходящие на этой неделе» ⟶ «Новые фильмы в прокате» / «Премьеры этой недели». Двоеточие в конце заголовка не нужно, если контекст страницы и так ясен.
+**Coordinated/parallel items aren't forbidden — it depends on the job.** Three legitimate cases: 1) synonym-terms — merge them into one strong word; 2) each term needs its own explanation — unpack them in separate sentences/paragraphs so the words "light up"; 3) the goal is an effect of abundance — deliberately overload the list.
+"Bead-stringing" (piling up synonyms, harmful): "With the help of creativity and music, you can fill yourself with strength, energy, and inspiration" ⟶ "Music fills you with strength and helps you express what's inside."
+There's no universal ideal count: one word is maximally persuasive; two create a contrast ("smart and beautiful"); three create an impression of completeness ("smart, kind, and beautiful"); four or more break that sense of completeness but deliver dynamism/scope.
+Keep only what matters when the parallel items are close in meaning: "The designer creates, hones, refines, and polishes the typeface" ⟶ "The designer creates the typeface." Distinguish content from form: parallel content (synonym-actions) — cut to one; parallel form (different actions, one object) — keep in full.
+Nested parallel structures ("from us, or from our partners, or by mail") — flatten to a single level, split into two sentences, or replace with a structured list.
+If there are more than four parallel items, make them look alike syntactically.
+The "factor out" move: don't repeat a preposition before every item in a list: "We need information about the problems and about the known bugs" ⟶ "We need information about the problems and known bugs."
 
-**Не всем частям текста нужен подзаголовок.** После лида всегда идёт минимум один абзац вступления — оно никогда не озаглавливается; заключение может быть отделено визуально, но без заголовка; статья вправе вообще обойтись без деления на разделы. Нельзя лишь одно — начинать текст без вступления, сразу с первого содержательного раздела.
+**Parcelling (artificially fragmenting a sentence with periods) is a mistake, not a rhythm device.** You may only split where one complete thought ends and another begins; otherwise the reader has to hold the whole fragment in memory.
+"We'll deliver your package. Within three days. Guaranteed." ⟶ "We'll deliver your package within three days, guaranteed."
+"We wanted to build a kung fu school. One with no equal on either side of the ocean." ⟶ "We wanted to build a kung fu school with no equal on either side of the ocean."
+Starting a sentence with "so that" is grammatically fine, except when "the reader lacks the context" — but arbitrary fragmentation around it is still an error regardless.
 
-**Заголовок должен попадать в то, во что читатель уже верит**, если вы хотите достучаться до аудитории внутри её информационного пузыря — не спорьте с читателем напрямую, дайте ему самому дойти до вывода. Три критерия полезного действия работают одновременно: прагматика (польза), социальное (статус), эмоции. Публикуйтесь там, где уже сидит целевая аудитория.
+**There's no universal sentence structure.** Word order is a tool, not a formal rule; structure follows the text's function — literary prose can open with a scene-setting clause, an instruction should open with the problem statement ("To open the washer door mid-cycle, press the button," not "Press the button and wait two minutes to open the washer door"), a news story should answer the reader's question immediately.
 
-**B2B-заголовки должны отвечать на нужды, не просто информировать.**
-«Модуль отчетности» ⟶ «Как сформировать квартальный отчет» / «Веду две фирмы на одном компьютере. Как не перепутать базы?»
+**Nested subordinate clauses and overloaded constructions — break them into simple sentences.**
+"The object describes actions containing methods. Methods provide access..." instead of one bulky construction with nested clauses.
+When translating, don't carry over source-language syntax as-is — rebuild it for the target language's natural rhythm: split densely packed ideas into several sentences, "unhurriedly explain everything that's new."
+Introductory phrases — push them toward the end of the sentence: "I have to write up presentations of various projects and initiatives in the form of, among other things, emails" ⟶ "I have to write up project and initiative presentations in the form of emails."
 
-**Заголовок, непонятный вне контекста, работает только если экстремально провокационен** («Его пример другим наука» ⟶ «Чему поучиться у шведских родителей»); обычно выбирайте понятность вместо загадочности.
+**Punctuation follows simplicity: "if you're unsure about the punctuation, simplify the sentence."** A period beats a complex subordinate construction: "On May Day, Kenneth went in to finish the report... while his manager grilled out on his yacht" ⟶ "On May Day, Kenneth was finishing the report. His manager was grilling out on his yacht." Parentheses — remove them or move the content into its own sentence.
 
-**Пять приёмов сокращения заголовков при лимите длины:** сокращать местоимения; использовать короткие слова, убирать усилители; сокращать предлоги/союзы; убирать смысловую избыточность («Пять жизненных ситуаций, когда…» ⟶ «Пять ситуаций, когда…»); объединять рубрику и заголовок синтаксически. Задача заголовка — привлечь читателя, а не перечислить все детали.
+**Starting a sentence with a conjunction ("but," "and," "however") is fine mid-paragraph, avoid it at the start of a new paragraph** (a paragraph signals a new thought). Frequent conjunctions are a symptom of tangled structure, cured by structure (blocks, tables), not by banning the word.
 
-**Риторический вопрос в лиде — проблема не в приёме, а в пустом содержании.** «У вас ещё нет велосипеда?» ⟶ «Если неправильно выбрать велосипед, можно заработать грыжу, переломы, растяжения и даже бесплодие». Начинайте с полезной мысли, не с украшательства пустоты.
+**Syntax should match the interface element's function.** A link names an object (navigation calls for a noun phrase); a button expresses a command or a status change (a verb belongs there). "Sign up" as a link ⟶ "Registration": a verb form creates the feeling of a command where plain navigation should be.
 
-**Игровые/креативные заголовки и подзаголовки уместны при пяти условиях одновременно:** аудитория ждёт развлечения; автор уверен в своём вкусе («читатель выкупит иронию»); нет конкуренции за клик; метрики открываемости не критичны; аудитория уже лояльна изданию. Без всех пяти — предпочитайте точность игре слов.
+**Test readability aloud, not under your breath.** The "tell a friend" technique: narrate it in conversational language, then edit out the excess conversational filler. Cut sentences that don't serve the topic; align lists into parallel structure; dig the subject and predicate out from under a pile of subordinate clauses; vary sentence length for rhythm.
 
-**Заголовок для мотивированного читателя, решающего важный вопрос, не нуждается в «зубастости» — нужна точность.** «Идеальная машина для Химок» лучше «Выбираем семейную машину», когда читатель уже пришёл за конкретным решением, а не за завлечением.
+**Typographic cleanup (dangling prepositions and the like)** should happen automatically, without manual designer/typesetter involvement — build the typographic utility into the CMS/scripts. Unformatted text "looks cheap."
+
+**An overloaded headline with a chain of indirect-case nouns — rephrase it as a fact or a direct quote, rather than tolerating the bureaucratic chain.**
+"A third of citizens are convinced that the president defends the interests of oligarchs" (a chain of genitive/dative constructions weighs it down) ⟶ "'The president is for the oligarchs' — so believes one in three citizens."
+
+**Complicated punctuation is usually a symptom of complicated syntax, not ignorance of the rules.** Simplify the construction before you worry about comma placement.
+"If we're to believe what we were taught in school, we were supposed to know that subordinate clauses... must be set off by commas" ⟶ "Subordinate clauses are set off by commas — that's what we were taught in school."
 
 ---
 
-## 6. Жанры
+## 4. Paragraph and structure
 
-### 6.1 Текст о себе
+**Paragraph vs. list.** A paragraph reads sequentially from start to finish, carries a hierarchy of thought, and demands attentive reading. A list is a set of equally-weighted, independent items that allows unsystematic scanning. "If everything in your text is uniform and identical — that's bad": the text turns into a bare pile of facts instead of a text. Mix paragraphs and lists; don't stack several lists back to back on one screen.
 
-**Людям неинтересны вы — им интересно решение собственных задач.** Метод: определить аудиторию → выписать её потребности → написать, как вы их решаете, а не перечислять регалии.
-Не «20 лет опыта, дипломы» ⟶ а «Я риелтор: помогаю людям покупать квартиры… Ко мне обращаются, чтобы подобрать жильё в бюджете, провести переговоры с продавцами».
+**Long paragraphs are a sign of disorganized thought.** Optimum: 3-4 sentences supporting one main idea; open the paragraph with the main idea — readers skip sections that don't hook them from the first line. Target line length: 50-75 characters.
 
-**Объём самопрезентации зависит от аудитории, не от индустриального стандарта.** Для эксклюзивной практики (клиенты по рекомендации) — минимум текста о себе, «как на визитке»; для среднего сегмента — образование, релевантный опыт, контакты; для полноценных продаж — закрыть все возражения (что делаете, какой результат, требования к клиенту, риски и гарантии, цена, примеры успеха). Приёмы массового копирайтинга в премиальных/экспертных нишах «выглядят нелепо».
+**Three-part paragraph structure: thesis → development → conclusion.** Thesis (decides whether to keep reading) → development (evidence, detail) → conclusion (takeaway). "A paragraph is a complete, proven thought." Don't stretch a short thought artificially; if a paragraph runs past 8 lines in layout, split it; if it drifts off-topic, cut it.
 
-**Писательский блок в тексте о себе = недостаток информации, а не творческий кризис.** Не «выкаблучивайтесь» — встаньте на место читателя; самопрезентации редко нужна оригинальность, ей нужна ясность и честность. Блок лечится накоплением знаний о материале, не поиском стиля.
+**A module within an article is a self-sufficient section.** The reader should grasp the module's topic without checking other sections. Module structure: introduction → body → conclusion. "A module contains only what its subhead promises" — don't impose the article's overall structure on a module that's organized differently.
 
-**Пусть работа говорит сама за себя.**
-«Я дизайнер продуктов, сайтов и приложений… Делаю проекты в срок, потому что знаю секрет» ⟶ «Проектирую сайты, приложения, транспортные схемы… Запускаю проекты в срок».
-Глагол в начале предложения — не недостаток, делает текст энергичным и убирает манипулятивные реверансы.
+**The writing algorithm (7 steps):**
+1. Formulate the useful action: "Why would the reader want to read this on their own?"
+2. Gather material from reliable sources; don't make up examples.
+3. Work out a headline and an outline before writing (a thesis-level outline).
+4. Choose illustrations for each section.
+5. Develop each thesis with the formula "thesis + example + counter-example."
+6. Add an intro/conclusion only if the reader is unfamiliar with the topic.
+7. Edit ruthlessly — cut it down to density.
+Three typical author mistakes: writing for yourself instead of the reader; thinking as you write instead of planning ahead of time; substituting abstractions for concrete examples ("people think in images, not abstractions").
 
-**Структура для полноценной самопрезентации:** имя/специальность/полезное действие → направление работы → сценарии обращения с доказательствами → ответ на скрытый вопрос клиента → антисценарии (когда не поможете) → миссия (опционально) → контакты.
+**An introduction has five legitimate functions** (otherwise it's dead weight): 1) set the tone and expectations; 2) agree on terminology (the "conceptual apparatus"); 3) outline the scope and limits of the content; 4) give context/a personal story that doesn't fit the main text; 5) padding for length — this is acknowledged as a problem, not a technique. Additionally: grab attention (a kicker), build motivation (a promise of benefit), immerse the reader in the problem (concrete sensory experience, not abstraction), "lower the reader's guard" on a contentious topic (open with something the reader already agrees with).
+An introduction is needed only if the reader doesn't know the topic — the less familiar they are, the longer the intro should be; a familiar audience needs no introduction at all.
 
-**«Я» уместно при идентификации живого человека за брендом** («На связи такой-то, руководитель…»), но если читатель ждёт официальный ответ организации — «вам было начислено…», не «я начислил вам».
+**A hook beats a polite windup.** Better to dive straight in — hook the reader with a fact or a story immediately; save glowing testimonials for the cover/promo material, not the opening; useful comments belong inside the text or at the end.
 
-### 6.2 Рассылки
+**A conclusion must independently deliver the text's useful action** — it shouldn't require reading the whole piece to be useful. Its form depends on the task: teaching an action calls for a step-by-step instruction; comparing options calls for a weighed verdict. For analysis — takeaways plus practical tips; for instructions — a clear action algorithm plus a list of what not to do. The test: if a reader saw only the conclusion, it should independently deliver the useful action of the entire piece.
 
-**Рассылка требует осознанной подписки и выполнения обещания.** Люди подписываются, чётко понимая, что их ждёт; тысяча лояльных подписчиков лучше десяти тысяч нечитающих; рассылка — часть системного маркетинга, не отдельный трюк.
+**Diagnosing "this text is too long / unreadable"** — work bottom-up through the levels: 1) foundation — audience/goal/assignment; 2) word/sentence — excess words, clichés, word order; 3) paragraph — structure; 4) the whole — is the text interesting, is the tone right, is it needed at all. If a text is boring in substance, form (trimming) won't save it: "interest isn't in the form, it's in the content." "When a writer is told the text is too long, what the writer hears is: the text isn't interesting enough. An interesting text is never too long."
 
-**Тема письма — кратко и конкретно.** Отвечает на «О чём здесь говорится?» или «Что внутри?».
-«Сотрудничество» ⟶ «Совместный проект с журналом «Форбс»»; «Отчёт» ⟶ «Отчёт за сентябрь»; «Вопрос» ⟶ «Вопрос про пунктуацию».
-Имя получателя в теме — не нужно, даже при доказанном росте открываемости: выдаёт отчаяние («вы не помощник, не советчик, а коммивояжёр в старом засаленном костюме»). Решает не персонализация темы, а польза содержания.
+**Cutting doesn't mean scrubbing out words.** Deleting excess words doesn't rescue a boring text; to make a text more interesting, you have to tell the reader something they didn't know. A long text isn't a problem if it's useful and interesting.
 
-**Служебные/системные письма — без приветствия и без ложной персонализации.** «База данных aurora создана 24 февраля 2013 года. Адрес и порт: …» — сразу к сути. Дайджесты — простое «Привет!» без подставного имени, если данных для персонализации нет.
+**Storytelling isn't a cure-all — three rules for a story:** 1) purpose — it serves the article's useful action, not itself; 2) focus — details serve the goal, they don't distract (weather, appearance — cut them); 3) conflict — a story without a problem and a resolution is useless ("a hunter walked through the woods and nothing happened").
 
-### 6.3 Интерфейсные тексты
+**Text structure follows function.** News uses an inverted pyramid: the main point → event details → background information → history; the headline states the main point, a date and source are mandatory, and the useful action for the reader comes at the end.
+A universal three-part structure for company text: 1) who we are/what we do/how we help (don't confuse "what you do" with "how you help": "We develop encryption systems" vs. "to protect your data from hackers"); 2) answers to reader questions (question → evidence → nuance → conclusion, tailored by audience: customers/employees/investors); 3) what's next — contacts, next step, splitting the audience by call-to-action.
 
-**Сообщения о статусе — не оценка, а полезная информация.**
-Успех: «Платёж прошёл успешно» ⟶ «Перевели 1200 ₽ в Билайн».
-Известная ошибка — точное действие пользователя: «Неверный номер карты» ⟶ «Проверьте номер карты и срок действия».
-Неизвестная ошибка — суть проблемы + варианты решения. Заголовок сообщает о полезном действии, не «Ошибка»/«Внимание».
+**The Minto Pyramid isn't mandatory** — it's a "life preserver" for tangled thinking, not a reason to pad out a text. A simple thought goes in one line; a story gets told linearly. "Cut. Throw out text by the sentence, by the paragraph, by the page."
 
-**Поле формы — формулируйте пользу от заполнения, а не голое требование.**
-«Пожалуйста, введите адрес эл. почты» ⟶ «Приглашение на вебинар отправим по адресу эл. почты».
-«Необходимо ввести паспортные данные» ⟶ «Курьер вручит посылку лично в руки и проверит паспорт».
-Длинная форма — барьер; разбивайте на короткие этапы с мотивацией на каждом.
+**The natural reading order of a page isn't left-to-right, it's from most important to least important.** The reader first identifies what matters, then decides whether it's interesting, and only then reads left to right; illustrations create the visual hierarchy.
 
-**Одушевление интерфейса — последовательность лица важнее выбора конкретного лица.** Второе лицо («Ваш тариф») — базово верный способ обращения; нейтральный вариант — для общих утверждений; персонализация нужна, когда личное и общее стоят рядом («Ваши заметки / Заметки друзей / Популярные заметки»).
+**Length isn't a problem if the text is well written.** Length isn't the enemy: people read long texts when they're useful and interesting. The fix for a "too long" complaint isn't cutting — it's adding clear examples and analogies that tie the theory to the reader's own life situations.
 
-**Пустой раздел — не заглушка, а польза.** Не «Здесь ничего нет» / «О ужас! Вы ещё ничего не добавили!» — объяснить, зачем раздел нужен, и подтолкнуть заполнить. В идеале пустые разделы не показывают вовсе.
+**In technical documentation, make the parameter the subject, not an abstract "presence of."** Consistent syntax brings order to the explanation.
+"If arguments are present in render-in-id(), photographs will be displayed..." ⟶ "The render-in-id() argument tells the program which element to display the photo against." Always add a usage example right after explaining a parameter.
 
-**Локализация — не дословный перевод.** «Скажите это адекватно по-русски», стилизуя под тон продукта: "Number of people selected exceeds table capacity" ⟶ «К сожалению, это столик на четверых, а вас пятеро».
+**A well-structured text comes out longer than the original — that doesn't contradict the advice to write shorter.** Don't cram details into one sentence — lay events out in chronological order in short phrases; this works better even at greater length. The exception applies only to text written for people — in laws and technical documents, stacking constructions is justified by different genre norms.
 
-**Поддержка не должна писать свои тексты «с нуля» — только собирать ответы из готовых шаблонов.** На новую ситуацию сначала создаётся шаблон в редполитике, потом разрешается его применять. Принцип «редполитика вперёд»: все тексты компании сначала оформляются в шаблонах и только потом идут в коммуникацию с клиентом — нужен постоянный редактор, поддерживающий базу.
+**A long professional text without losing content:** longer than two screens — add a list of conclusions up front, without detail; longer than 7 paragraphs — introduce consistent subheadings (Situation, Problem, Proposal, Budget, Timeline).
 
-### 6.4 Кейсы
+**A text-illustration isn't only a picture.** An illustration is "any element that unpacks or supplements the original thesis": an example, a dialogue, a "before-after" table, a hypothetical scenario — all good for abstract topics that can't be explained with one plain statement. The selection criterion is whether the element unpacks the thesis; a picture unconnected to the idea is just a picture, not an illustration.
 
-**Кейс = контекст → задача → решение → результат** — работает, только если задача сформулирована в достижимых терминах. Нет метрик результата — либо отложить кейс, либо переформулировать задачу в терминах процесса («освежить дизайн», «сократить время процесса»), либо не называть материал кейсом, подать как портфолио без отчёта о результатах.
+**Callout boxes and pull quotes don't annoy an engaged reader, and they don't rescue a disengaged one.** "If people are interested in the article, callouts don't bother them. If people aren't interested in the article, callouts don't help them" — they're a fashion choice, not a required tool; on mobile, it's often best to turn them off.
 
-**Кейсы конфиденциальных дел** (юруслуги и т.п.) — объединять несколько дел в один рассказ с явной оговоркой: «Эта история основана на пяти делах… мы должны изменить многие обстоятельства и объединить несколько дел в один рассказ». Цель кейса — показать компетентность, не пересказать реальность 1-в-1.
+**An article and a book chapter need a different density of subheadings.** An article is fighting for attention — it needs punchy headlines and frequent subdivision, each time re-introducing terms from scratch. A book is "far more relaxed" — dividing into "too many" subsections isn't necessary, since it builds on concepts already introduced. Article: "Double-check your bookkeeper: 5 overlooked accounting mistakes"; book chapter: "Common accounting mistakes."
 
-**Блог/кейсы вместо банальных советов:** определить ЦА → выявить её реальные боли → связать боли с кейсами, показывающими решение → примеры работы, релевантные именно этому клиенту.
+**Volume under a deadline flexes through content, not through quality.** Cut a big topic into a series of focused articles instead of one giant piece — "slice off a small piece of the huge topic, work it well, and publish it separately." Quality, correctness, and useful action never flex.
 
-### 6.5 Инструкции
+**A series published in installments — each part stands on its own.** "The reader doesn't care whether this is part of a series, a standalone article, a fragment of another article, or something else" — don't present an installment as a mere "promise of more to come"; find a sharp, self-contained topic for every installment — not an obvious question ("What's risky about playing at fake casinos") but a specific, useful one ("How players get scammed at fake casinos").
 
-**Два вида: сценарные** (пошагово по задаче пользователя, заодно учат сути) **и описательные** (для неочевидных функций интерфейса).
-«Придумайте пароль (8–12 знаков)» ⟶ «Придумайте пароль (8–12 знаков). По этому паролю вы и ваши гости подключитесь к интернету» — усиление конкретной пользой.
-
-**Пять принципов:** думать об аудитории и ситуации обращения к справке; не писать абстрактно («кнопка в левом углу») — показывать скриншот/фото; добавлять примеры к схемам; держать согласованный синтаксис; приводить примеры из реальной практики.
-
-**Порядок в инструкции — проблема раньше решения.**
-«Нажмите кнопку «Стоп» и подождите две минуты, чтобы открыть дверцу» ⟶ «Чтобы открыть дверцу машинки во время стирки, нажмите кнопку».
-
-**Официальные отчёты/инструкции (например, о несчастном случае) — по одному действию на предложение, отрицание и главное действие в начало предложения.**
-«Перемещать груз, превышающий предельную грузоподъемность тележки, запрещается» ⟶ «Не перемещайте груз, если его масса превышает грузоподъемность тележки».
-
-### 6.6 Объявления
-
-**Запрещающие объявления — объясняй причину, не голый запрет.**
-«Не парковаться» ⟶ «Выезд пожарной машины. Работает эвакуатор». Без иронии/оправданий; давайте альтернативу («Парковка за углом на ул. Шаумяна»).
-
-**Убирайте признаки истерики** (тройные восклицательные знаки, смайлы) **и маскировку запрета шуткой** — люди игнорируют просьбу, если не верят в серьёзность.
-«Торговым агентам вход воспрещён!!!» ⟶ «Мы не покупаем у торговых агентов».
-«Улыбнитесь, ведётся видеонаблюдение)))» ⟶ «Круглосуточное видеонаблюдение».
-
-**Достоверность важнее тона.** Указать конкретную причину: «Канализация этого исторического здания не предназначена для бумаги» вместо абстрактного запрета.
-
-**Просьба к читателю — с выгодой для него, не в мире создателя.**
-«Установите виджет» ⟶ «Лучшее предложение дня на главной Яндекса» / «Виджет Яндекса на удачу: +100 к ловкости». Надписи-призывы (не предложения в сплошном тексте) — без точки на конце.
-
-### 6.7 Письма и переписка
-
-**Пунктуация делового письма:** начинается с полноценного предложения с точкой/восклицательным знаком («Коллеги!», «Здравствуйте.») — запятая после обращения («Здравствуйте,») недопустима, это калька с английского. Автоматический шаблон подписи («С уважением») — без знака препинания.
-
-**Автоответ на почту** нужен только на время отпуска/недоступности. Убирайте извинения и «воду» — дайте конкретику: когда читаются письма, что считать срочным, куда звонить.
-
-**Обращение к аудитории по природе канала.** Небольшая группа — по именам («Ольга, Иван, Игорь, здравствуйте!»); большая группа — «коллеги» остаётся меньшим злом, чем «друзья» (фамильярно) или «товарищи» (архаично); для чисто информационных рассылок приветствие можно опустить, а обсуждение перенести в чат.
-
-**Лёгкая тональность в переписке — замените шаблонные фразы конкретной заботой.**
-«Буду рад ответить на ваши вопросы» ⟶ «Если появятся вопросы по установке, пишите, буду рад помочь».
-«Всего наилучшего!» ⟶ «Удачной разработки!»
-
-**Постскриптум:** «P. S. Не пытайтесь с нами связаться» — без двоеточия, с заглавной буквы после «P. S.».
-
-### 6.8 Соцсети
-
-**«Друзья» — штамп, не делает пост личнее.** Для эмоционального отклика нужно сильное содержание (жалобы, критика, разоблачение мифов, польза) — «когда содержание сильное, форма уходит на второй план». Если текст адресован конкретной группе — называйте её прямо («Дизайнеры!»).
-
-**Личное сообщение с деловым предложением — персонализировать и не давить развёрнутым питчем без запроса.** «Вашим контактом поделился Иван Петров из компании «Омега»» вместо холодного захода; условная форма вместо навязывания: «Я не знаю, насколько такая программа может быть полезна вам, но если у вас есть подобные задачи, готов рассказать подробнее».
-
-**Просьба пройти опрос — четыре элемента:** контекст (ценность ответа очевидна — «вчера у вас был мастер, можете ответить на вопросы о его работе?»), персональность (почему спрашивают именно этого человека), понятный результат («Ваши ответы повлияют на итоговый состав и стоимость новой услуги»), бонусы — вторично. «Когда контекст вдохновляет, формулировки становятся вторичны».
-
-**Формула контента 40/30/25/5 — ориентир, не догма.** Единственный критерий: «100% ваших публикаций были интересны читателю».
-
-**Полезный контент в соцсетях работает только при «контракте» с аудиторией.** Если люди пришли развлекаться — инструкции размещайте там, где их ищут (сайты, форумы, YouTube), не подсовывайте прагматичные советы в развлекательной ленте. «Не стоит ожидать хорошего отклика на полезный контент в соцсетях, если люди туда пришли развлекаться».
-
-**Каждый канал должен иметь:** полезное действие, постоянную потребность (не разовую), понятное позиционирование с первого взгляда, публикации по обещанному контракту. «Если пообещали отраслевые новости, в канале должны быть отраслевые новости», а не скидки и интервью основателя.
-
-**Обращение на «ты»/«вы» в соцсетях** — единообразно по всему каналу; переход на «ты» только при личном обращении и уверенности в положительной реакции аудитории.
-
-### 6.9 Коммерческие предложения и продающие письма
-
-**Не пишите КП как рекламную листовку** с риторическими вопросами и заигрыванием — выберите одно сильное позиционирование-заголовок, которому подчинён весь текст («Если наружка нужна вчера»). Покажите портфолио конкретикой (реальные проекты со сроком и ценой), уберите пёстрые выделения и неформальный тон («приходите на чай»). «Нельзя быть сразу всем для всех».
-
-**Письмо не должно быть «пальбой из всех пушек во всех направлениях».** Минимализм: что предлагаете, ключевые показатели аудитории, примеры работ, кто уже сотрудничал. Общие фразы заменяйте конкретикой: «мы лучше знаем» ⟶ «Месячная аудитория сайта — 1 миллион человек… 10 000 кликов и 1000 контактов». Концовка — чёткий призыв к действию.
-
-**Заголовок КП обращается к миру клиента, не к компании.** Избегайте фамильярного «ты» и торгашеского тона («Узнай, как в три раза сократить расходы») — предпочитайте нейтральный факт («Как сократить расходы на стройматериалы в три раза»).
-
-**Каждое абстрактное утверждение в тексте для инвесторов/B2B проверяйте на конкретность.**
-«Налаженные связи с поставщиками» ⟶ кто поставщики? «Мы уже добились впечатляющего успеха» ⟶ чего конкретно?
-«Исключительно гибкие условия оплаты» ⟶ «в рассрочку при заказе от 10 миллионов рублей».
-Если структурированный лист данных полезнее текста (для профессиональной аудитории агентств/изданий) — не пишите текст, дайте формат: что, миссия, аудитория, тираж, темы, контакты. «Сэкономьте их время и позвольте им самостоятельно понять, какой прекрасный продукт вы предлагаете».
-
-**Просьба о материальной поддержке — четыре принципа:** прямо (начинать с сути просьбы, не заходя издалека — «Как поддержать сервис», не «Какой у вас замечательный сервис»); в мире клиента (польза для читателя, не нужды автора — «мы хотим, чтобы сервис оставался бесплатным», не «нам нужны деньги на хостинг»); конкретно (точная сумма и срок: «Если каждый пользователь пожертвует 40 рублей до конца недели…»); уважительно (без заискивания, с позитивным социальным доказательством: «Каждый третий уже помогает» вместо «Двое из троих не платили»).
-
-### 6.10 Отзывы и рекомендации
-
-**Хороший отзыв получают, переставая просить написать отзыв.** Расспрашивайте: что понравилось/не понравилось, кому подходит сотрудничество, естественным тоном (даже с просторечиями). Полезный отзыв = конкретный проект + честная оценка (плюсы и минусы) + для кого подходит.
-Неэффективный отзыв («Иван — отличный копирайтер») непроверяем; эффективный содержит ситуацию: «Нам нужно было срочно запускать рассылку. Иван обещал разобраться за неделю, но потребовалось две. Зато после этого…» — даже негативная деталь работает на информативность.
-
-**В готовых отзывах чистите только орфографию и речевые ошибки — смысл не трогайте**, иначе теряется подлинность; направляйте к содержательности заранее конкретными вопросами при сборе, а не на этапе правки.
-
-**Ответ на отзыв — по типу.** Критический адекватный — признать проблему без оправданий; неадекватный — предложить альтернативу; нейтральный — не отвечать шаблоном; положительный — персональная благодарность за конкретное, не штамп. Продавать через ответ на отзыв уместно, только когда продажа органична содержанию.
-
-**Хорошая рекомендация не восхваляет, а помогает понять, подойдёт ли человек для задачи**: конкретные достижения вместо абстрактных качеств, баланс сильных и слабых сторон, поведение в нестандартных ситуациях, личная подпись с контактом.
-
-### 6.11 Поздравления и благодарности
-
-**Хорошее поздравление адресно и конкретно — не массовая рассылка банальностей.** Хвалить нужно адресата, не автора: «Я открыл „Главреда“ и получил звание» ⟶ «Ты защитил диссертацию и сдал на права. Это круто». Желать конкретного: «Желаю профессиональных успехов» ⟶ «Желаю скорее сдать долгострой и начать что-то новое». Избегать пошлятины («перезвон бокалов», «запах мандарин») и штампов («зимняя сказка», «полная чаша»).
-
-**Благодарность работает сильнее пожелания.** «Спасибо вам за успешные клиенты. С вашей помощью они теперь наши постоянные партнёры» — лучше, чем общее пожелание счастья. Похвалу вредно шаблонизировать: «Спасибо всем! Вы крутые!» ⟶ «Лена, в статье всё круто, мелочи исправил. Кайфую от того, как ты заставляешь людей всё рассказывать» — конкретно, персонально, о деле.
-
-**Формальное поздравление — лицемерие.** Если не знаете конкретный вклад человека — лучше не писать поздравление вовсе, чем писать шаблонное. Поздравлять только тех, «с кем у вас были контакты в прошлом году или с кем вы хотите общаться в будущем». Не подменять поздравление скидкой; если дарите подарок — не требовать покупки взамен.
-
-**В сложной/кризисной ситуации — благодарность вместо пожелания, без иронии.**
-«Спасибо, что не убились головой о стену в этом году» (плохо, иронично) ⟶ «Спасибо за помощь в решении критической проблемы года» (хорошо). Избегать пожеланий здоровья/счастья («шум»), намёков на чужие уязвимости, рассуждений о геополитике.
-
-### 6.12 Миссия и ценности компании
-
-**Общих правил для миссии нет — всё зависит от адресата.** Различайте миссию для сотрудников (руководство к решениям), для клиентов (часть рекламы, отвечает на боли) и для руководителя (личный ориентир).
-Плохо (абстракция, безжизненна): «Справедливость восторжествовала». Хорошо (конкретно, применимо к решениям): «Мы работаем, чтобы у каждого ребёнка была семья».
-
-**Формула «Абстракция + пример + антипример».**
-«Безопасные транспортные средства» ⟶ «Нам важна безопасность: мы хотим, чтобы ребёнок не смог развить опасную скорость. Поэтому на всех самокатах по умолчанию ограничение 18 км/ч».
-Три типичные ошибки текста миссии: неясна целевая аудитория, абстрактность без конкретики, попытка втиснуть все мысли в одно предложение.
-
-**Не спорьте о терминах «польза» vs «боль»** — переформулируйте конкретно под аудиторию миссии (клиенты/сотрудники/акционеры). «Это не волшебные слова, которые автоматически привлекают клиентов. Определитесь с целью, аудиторией и механикой» — тогда очевидно, что писать.
-
-**Убедительность коммерческого/учебного текста строится на демонстрации, не на морализаторстве.** Не воспитывайте клиента или читателя моральными доводами — покажите на практике, как круто можно сделать иначе, с фактами и результатом; выбор всё равно остаётся за адресатом, который рискует своими деньгами или временем.
-
-### 6.13 Пресс-релизы и новости
-
-**Пресс-релиз государственной/формальной организации можно и нужно писать человеческим языком.** «В этом суть пиара: доносить информацию о своём клиенте так, чтобы люди его полюбили». Замените казённые формулировки на обращение к конкретному человеку с контактным номером.
-
-**Новости — перевёрнутая пирамида**, срочность зависит от близости темы к жизни читателя («близкие к телу» — госзакупки, таможня — публиковать как можно скорее); большинство новостей с отложенным действием спешки не требует. Публикуя с задержкой после крупных изданий — обязательно добавляйте ценность (мнение эксперта, практические рекомендации, шаблоны документов).
-
-**Пресс-релиз творческого события (музыка) — три компонента:** формальные параметры конкретно («фанк 70-х», не «зажигательный фанк»), регалии (город, резидентство — «модно и почётно посещать»), эмоциональный посыл (история или концепция; нет её — «просто не пиши»). Обязательны фотографии, ссылки на аудио/видео, контакты менеджера.
-
-### 6.14 Резюме и самопрезентация для вакансий
-
-**«В лучшем резюме нет ничего от резюме».** Офисные штампы, архивы, PDF отпугивают; вместо формального документа — простое письмо с честным рассказом о себе и прямыми ссылками на портфолио.
-
-**Известных клиентов в резюме — называть без нагнетания важности.** «Я делал сайты для „Пепсико“, „Марса“, „Газпрома“» — попытки «накачать» значимость неизвестных компаний выглядят как поиск одобрения. Вместо масштаба описывайте приобретённый навык и пользу для будущего работодателя: «Я согласовывал бюджеты на пяти уровнях иерархии».
-
-**Видео-самопрезентация:** визуализируйте слушателя, составьте план (пункты, не сценарий целиком), не бойтесь перезаписывать. Схема содержания: «Я умею… потому что… вот пример… а ещё был случай». Несвязанное с должностью — опустить.
-
-### 6.15 Устная речь, подкасты, видео
-
-**Устный текст требует избыточности и маркеров структуры**, которых не нужно на письме («слушать и обрабатывать одновременно» — в отличие от письменного, где читатель может вернуться взглядом). Инфостиль (сухая структура без воды) уместен там, где есть прагматическая задача (видеоинструкция); в развлекательном видео неуместен.
-
-**Выпуск подкаста — либо одна большая история, либо набор историй с персонажем, действием, преградами, конкретными обстоятельствами.** Табу — зачитывать в подкасте текст, изначально написанный для восприятия с экрана.
-
-**Скрипты для устной речи (IVR, дикторский текст, титры):** правила инфостиля действуют жёстче на слух. Убирайте второстепенные детали («Вы позвонили в интернет-магазин мягких игрушек «Мягкий мир»» ⟶ «Вы позвонили в «Мягкий мир»»); цифры — прописью, аббревиатуры — транскрибируйте, сокращения раскрывайте полностью; сохраняйте структурные вводные слова («во-первых», «например») — на слух они заменяют визуальное деление, которого больше нет.
-
-**Убирайте повторы, возникающие при рассуждении вслух**, — монтируйте, оставляя только сформированную мысль; убирайте слова-паразиты («эммм», «а»), причмокивания, вдохи. Сочиняйте устный текст, проговаривая его, а не читая с листа.
-
-### 6.16 Объяснение цифр и статистики читателю
-
-**Упрощайте цифры для восприятия на слух/бегло.** Заменяйте точные числа понятными отношениями: «треть», «половина», «каждый пятый», делите большое число на образное.
-«Из шестидесяти шести случаев пропажи телефонов уголовные дела возбуждены по двадцати четырем, раскрыто тринадцать» ⟶ «За неделю в полицию поступило 66 заявлений — почти 10 в день. Меньше половины станут делами… На каждые четыре пропажи три телефона не вернутся владельцам».
-
-**Устаревшие данные — не скрывайте задержку публикации, объясняйте источник и метод сбора, показывайте тренд.** «Последний отчёт статбюро вышел в январе 2018 года, он охватывает данные за 2016 год» — честная датировка убедительнее фальшивой актуальности.
-
-### 6.17 Описания товара и продукта
-
-**Описание непростого/специфического товара — нюансы важнее историй.** «Гладкий синтаксис» с событиями нужен текстам про людей и происшествия; описание вещи (квартиры, оборудования) — «натюрморт», который насыщают конкретными практическими деталями, не сюжетом: подъезд вровень с землёй для коляски, металлические двери, кабели интернет-провайдеров.
-
-**Прежде чем делать описание необычным, сделайте его хорошим.** Определить аудиторию, сценарий использования («Осциллограф начального уровня для радиолюбителей»), указать конкурентные преимущества (сроки, гарантия, доставка). «Покупателям не нужен осциллограф сам по себе. Им нужно исследовать ток» — решать реальную проблему; креатив добавлять только после качества.
-
-**Однообразные описания похожих товаров — не маскировать синонимами, а сделать структуру явной.** Фасон, материалы, с чем носить, плюсы, минусы (честное предупреждение = забота), интересный факт — относитесь к перечню «не как к сплошному тексту, а как к справочнику». Структура освобождает силы для смысла: думать не «как сказать по-новому», а как доказать удобство.
-
-### 6.18 Снятие страхов и возражений
-
-**Задача текста для новичка в незнакомой/пугающей услуге — снять конкретные опасения прямым ответом, не общими уверениями.**
-Тату-студия: «Мы делаем татуировки в условиях полной стерильности… Пользуемся только стерильными одноразовыми иглами» — прямой ответ на конкретный страх, не «мы профессионалы».
-Свадебная фотография (не отдаёт исходники): «Читателю наплевать на ваш труд. Он чего-то боится — надо ему помочь, а не учить его жизни» — уточните объём («За вечер я делаю 1500–2000 снимков… обрабатываю и отдаю 200–250») и предложите компромисс вместо жёсткого отказа.
-
-**Продукт для массовой аудитории — обещайте хорошую жизнь, а не пугайте проблемой** (см. «закошмаривание» в §7); для нишевой апробированной аудитории, уже осознавшей проблему, прямое называние боли работает.
-
-### 6.19 Советы и инструкции без нравоучительного тона
-
-**Пять инструментов вместо лекции с табуретки:** примеры (уменьшить долю теории, дать много разных примеров), история (герой — проблема — неудачные методы — решение), юмор (нарушение ожиданий), визуализация вместо текста, вызов (вопрос с неочевидным, но приятным ответом).
-
-**Избегайте чёрно-белого деления на «хороших» и «плохих» — оно звучит поучающе.**
-«Хорошие родители знают, что ребёнку нужны ограничения» ⟶ «Часто успешные родители создают ребёнку жизнь без фрустраций. Но это приводит к тому, что ребёнок не учится…» — показ последствий вместо приговора.
-
-**Три приёма для совета, который не звучит поучающе:** истории (ситуация → действие → результат, читатель ассоциирует себя с персонажем), конструкция «если… то…» (последствия вместо приказа), личный опыт (говорить как себе, не читателю).
-
-### 6.20 Плакаты и объявления по контексту места
-
-**Хороший плакат отвечает на 4 вопроса о контексте:** где висит, кто вешает и почему, что делают люди в этот момент, что от них хотят. Поликлиника (очередь, скучно) — подробный интересный плакат, «чем заняться» надолго. Супермаркет (спешка) — крупный шрифт, простая иллюстрация, рифмы, юмор. Офис (пара минут) — суперинформативный плакат «для нескольких подходов».
-
-### 6.21 Тексты об имиджевых и деликатных темах
-
-**Имиджевые товары (духи, алкоголь) сообщаются невербально, не описанием свойств.** Показывайте желаемый образ жизни визуально (сцена, атмосфера) — прямые словесные заявления о «шлейфе аромата» работают хуже.
-
-**Текстовое интервью со штампованными ответами героя скучно читать — независимо от качества расшифровки.** Если герой говорит абстракциями, решение зависит от договорённостей: предложить редактуру с согласованием либо задать дополнительные уточняющие вопросы, чтобы добавить конкретики в прямую речь. «Сложно представить сценарий, в котором нам нужен водный абстрактный текст».
-
-**Мат — редакционное решение, не вопрос морали.** В публичных материалах не используется — несовместим с инфостилем, который «основывается на фактах»; во внутренней работе — по решению команды. «Чтобы мат звучал мощно и увесисто, его используют редко. Пересечённая матом местность выглядит жалко и комично, а не устрашающе».
-
-**Показ национальности/групповой принадлежности — избегать обобщений, даже хвалебных.** «Все нашей национальности — хорошие строители» ложно при любом знаке. Решение — сфотографировать конкретных людей, подписать имена, квалификацию и стаж: акцент на профессионализме человека, не на происхождении.
+**Resolve ambiguity with context, not punctuation.** "We buy first-edition Dostoevsky, published in his lifetime" is ambiguous on its own, but not once preceded by the heading "Antique book buyer." "Context is enough" — further clarification is redundant once context has already resolved the ambiguity.
 
 ---
 
-## 7. Правда и этика
+## 5. Headlines and subheadings
 
-**Три тональности текста: честность, фальшь, игра.** Восприятие субъективно, но есть универсальные приёмы, работающие на большинство. Фальшь — рассинхрон между заявленным намерением текста и его реальной целью; одна и та же фраза («Я жду», «Спасибо за продуктивную встречу») звучит по-разному в зависимости от воображаемого голоса, который читатель ей приписывает.
+**"Not in the headline — not in the article."** A headline grows out of the material, it isn't invented separately; it must describe the content accurately and completely. The secret to grabbing attention isn't a formula — it's "a useful article plus an honest headline" together: no technique works without real value in the text.
+"Polyethylene Daydreams" (cryptic) ⟶ "Electronics and Soldering for Beginners" (descriptive).
+For navigational/search headlines, phrase them as the question the reader would ask — don't sacrifice clarity for wordplay.
 
-**Благодарность авансом — манипуляция.** «Спасибо за понимание» ничем не подкреплено — заменить конкретной информацией: «Лифт временно не работает. Спасибо за понимание» ⟶ «Ремонт лифта до 1 июня. Работает лифт в северном крыле. Старший инженер: +7 903 123-45-67». Правило взаимного обмена работает только при реальной ценности предложения.
+**A headline must be informative and truthful at the same time.** Clickbait tanks trust in the outlet as a whole; people are more interesting than abstractions.
+"Accountants Are Shocked By Your Independence" (tabloid) ⟶ "How to Switch From the Simplified Tax System to the General One" (to the point).
+For professional trade publications, tabloid headlines are actively harmful — reputation is built on trust, not on clickability.
 
-**Восклицательный знак — оружие неопытных авторов.** Эмоция должна идти из содержания, не пунктуации. «Учитель крутил романы с ученицами!!!» ⟶ «Учитель крутил романы с ученицами». Восклицательный знак в скобках — манипуляция: «Новый смартфон в 3 (!) раза быстрее» ⟶ «Новый смартфон в 3 раза быстрее».
+**Two types of headlines:** noun-phrase headlines ("On the Dollar Exchange Rate" — answer "what's this about") and full-sentence headlines ("The Dollar Bounced 0.3 Cents" — answer "what does it say"); news uses full-sentence headlines, analysis more often uses noun phrases. Subheadings at the same level must match in type and together form one coherent story — if they don't, the problem is the article's structure, not the headlines. Avoid limp words like "introduction, conclusion, summary, takeaway."
 
-**Повелительное наклонение в слоганах — избегать.** «Человек уверен в решении, которое принимает самостоятельно, и отвергает решения, которые навязывают другие люди».
-«Ощутите настоящий вкус Испании!» ⟶ «Испанский хамон, маринованные осьминожки и каталонское пиво».
-«Оформите билеты у нас!» ⟶ «Билеты 1705 авиакомпаний».
+**A participial phrase in a headline is a structural problem, not a punctuation one.** "Movies Opening This Week" ⟶ "New Movies in Theaters" / "This Week's Premieres." A colon at the end of a headline is unnecessary if the page's context already makes things clear.
 
-**«Травление лески» — факты вместо восклицательных знаков в продающем тексте.** Избыток эмоций выдаёт слабость аргументов: «У копирайтера сплошные восклицательные знаки — признак неуверенности в собственной убедительности». Дайте читателю факты о составе, сроках, противопоказаниях и позвольте принять взвешенное решение — вкус нужно дать попробовать, а не описывать словами.
+**Not every part of a text needs a subheading.** After the lede there's always at least one paragraph of introduction — it never gets its own heading; a conclusion can be set off visually but without a heading; an article is free to skip section divisions altogether. There's exactly one thing you can't do: open the text with no introduction, straight into the first substantive section.
 
-**Продающий текст в инфостиле сильнее манипулятивного.** «Продающий текст» в классическом смысле давит на болевые точки, вводит в заблуждение, создаёт искусственный дефицит — работает только на недалёких людей и подрывает долгосрочное доверие. Лучшая версия: направлен в мир читателя и на пользу, доказывает фактами, наглядно иллюстрирует сложное, даёт информацию для взвешенного решения, предостерегает от лишней покупки. Убрав манипулятивный тон и добавив пользы, конверсия чаще растёт, а не падает.
+**A headline should land on something the reader already believes**, if you want to reach an audience inside its own information bubble — don't argue with the reader directly, let them arrive at the conclusion themselves. Three criteria of useful action operate simultaneously: pragmatics (benefit), social standing (status), emotion. Publish where your target audience already spends time.
 
-**«Закошмаривание» в рекламе — плохая стратегия.** Указывать читателю на его проблему без согласия — нарушение границ («Нет, у меня всё в порядке, и это не ваше дело»); работает только для тех, кто уже осознал проблему и преодолел стыд — таких мало. Альтернатива — обещать хорошую жизнь, а не пугать проблемой.
+**B2B headlines must answer a need, not just inform.**
+"Reporting Module" ⟶ "How to Generate a Quarterly Report" / "I Run Two Companies On One Computer. How Do I Keep the Books Straight?"
 
-**Доверие возникает, когда читатель видит, что у автора нет мотива обманывать.** Плохо: «Это поистине чудодейственное средство! Купите прямо сейчас! Только сейчас действует ограниченное предложение!». Стройте доверие через конкретику: как услуга решит проблему, почему, настоящие отзывы, честно — кому услуга не подойдёт. Манипуляции работают один раз — раскрытый обман портит репутацию.
+**A headline that's meaningless out of context only works if it's extremely provocative** ("His Example Teaches Others a Lesson" ⟶ "What to Learn From Swedish Parents"); usually, choose clarity over mystery.
 
-**Пишите только о продуктах, в которые верите.** Профессионально написанный текст хорошо продаёт и вредный продукт → люди теряют деньги → вам будет стыдно за портфолио. Репутация дороже временного заработка.
+**Five techniques for shortening headlines under a length limit:** cut pronouns; use short words, drop intensifiers; cut prepositions/conjunctions; remove semantic redundancy ("Five Life Situations Where..." ⟶ "Five Situations Where..."); merge the category label and the headline syntactically. A headline's job is to draw the reader in, not to list every detail.
 
-**В кризисной коммуникации — сперва решение проблемы клиента, потом объяснение причин.** «Клиентам наплевать, почему именно вы переезжаете» — раньше объяснения дайте личное уведомление, компенсацию, гарантии. Не берите на себя чужую роль обвинителя, если не знаете всех деталей внутреннего конфликта. «Когда что-то не так — не нужно делать вид, что всё нормально»; доверие строится на честности, не на сокрытии проблем.
+**A rhetorical question in a lede isn't a problem with the technique — it's a problem with empty content.** "Don't have a bike yet?" ⟶ "Pick the wrong bike and you can end up with a hernia, fractures, sprains, even infertility." Open with a useful thought, not decoration around emptiness.
 
-**Когда правду нельзя разглашать по закону — три шага:** 1) сказать что можно, сославшись на закон; 2) объяснить, почему нельзя сказать больше; 3) проявить заботу — предложить альтернативные пути решения проблемы.
+**Playful/creative headlines and subheadings work only under five conditions simultaneously:** the audience expects entertainment; the author trusts their own taste ("the reader will get the irony"); there's no competition for the click; open-rate metrics aren't critical; the audience is already loyal to the outlet. Without all five, choose precision over wordplay.
 
-**Нативная реклама обязана быть явно и однозначно помечена в начале:** «Статья оплачена компанией…», «Рекламный материал». Выдавать нативку за редакционный материал — читатель почувствует, что его обманули.
-
-**Не выдумывайте факты без пометки.** На черновике можно использовать заполнители, но каждый факт нужно проверить и подкрепить реальным источником перед публикацией; если данных нет от заказчика — придумать самому и явно показать клиенту с оговоркой о вымышленных фактах, предложив уточнить/убрать.
-
-**Спам не спасает естественный тон.** «Вы говорите, когда вас не просили. Вы не дожидаетесь моего согласия начать диалог» — письмо должно сначала просить право на разговор. Персонализация делает письмо личным, но даже безупречно оформленный спам остаётся неэтичным.
-
-**Ответственность редактора vs автора.** Редактор не меняет смысл сам — указывает автору на проблему и просит доработать («Поясните, о каком обществе идёт речь») вместо самостоятельной правки смысла. Писать «честно, точно, без брехни, огульных обобщений и передёргивания фактов» — работа автора.
-
-**Придуманные клиентом титулы — не оспаривать морально, а привязывать к пользе читателя или отказываться от проекта.** «Мы входим в топ‑5 компаний отрасли: у нас самый большой ассортимент и лучшие условия для оптовых закупщиков» — титул подкреплён конкретной выгодой покупателя. Если связь с пользой клиента найти нельзя — «сдавайте этот проект и делайте следующий», не переписывайте фальшь в красивые слова.
-
-**Повышение цены — сообщать без перекладывания вины на внешние обстоятельства.** Фраза про «ситуацию в стране, доллар и всё такое» переносит обиду клиента на исполнителя вместо нейтральных факторов. Схема: упредить заранее (за месяц), зафиксировать цену для лояльных клиентов, напомнить многократно, повысить без оправданий и извинений, помочь опоздавшим скидкой на предоплату.
-
-**Публичная критика чужой работы — этична при отсутствии личных отношений и содержательности.** При наличии отношений (коллега, работодатель) критикуйте лично — человеку легче исправиться и сохранить лицо. Качество критики решает: обывательская («не нравится») бесполезна, без понимания задачи — самоутверждение, с пониманием проблемы и предложенным решением — ценна. «Всем не угодишь — и не нужно».
-
-**Публикация под псевдонимом — три риска.** Текст не работает на ваше имя; аноним позволяет себе больше (плюс и минус); читатель может не доверять анонимному автору. Использовать только при необходимости (например, труднопроизносимое имя для иноязычной аудитории), не по умолчанию.
-
-**Заимствование чужого материала — граница проходит по атрибуции.** Можно: цитировать с указанием автора, цитировать в полемических/критических/пародийных целях, писать своё, вдохновившись чужой работой. Нельзя: копировать-вставлять без кавычек, перефразировать и выдавать за своё, использовать чужие иллюстрации «для красоты» без связи с темой.
-
-**Использование чужих узнаваемых образов (кадры, персонажи, мемы) в рекламе без лицензии — юридический и репутационный риск**, а не только вопрос вкуса; чем активнее правообладатель отстаивает права, тем выше цена ошибки.
-
-**Не описывайте клиентов/аудиторию как неудачников, даже продавая решение их проблемы.** «Вы называете своих клиентов недотёпами и безвольными неудачниками» — вините обстоятельства, не человека; для услуг, требующих доверия (коучинг, консалтинг), ведите ступенчато: бесплатные материалы → платные продукты → персональная работа, не требуйте доверия «с одного объявления».
-
-**Приём «расскажу завтра» без пользы сегодня — не работает на большинство читателей.** Годится только для аудитории, готовой долго ждать; для большинства «людям некогда» — они ищут решение проблемы прямо сейчас и уходят к конкурентам, если не получают пользу немедленно.
-
-**Охват через провокационные вопросы — не то же самое, что репутация.** Вопрос, отвечая на который люди «почувствуют себя умными, хорошими, признанными», может быть эффективен для роста, но «будьте осторожны, выбирая стратегии продвижения» — рост охвата ценой доверия к контенту не окупается.
+**A headline for a motivated reader working through an important decision doesn't need "teeth" — it needs precision.** "The Ideal Family Car, In Stock Now" beats "Choosing a Family Car" when the reader has already come looking for a specific decision, not to be lured in.
 
 ---
 
-## 8. Метод редактуры
+## 6. Genres
 
-**Хороший текст — результат безжалостной редактуры, не таланта с первого раза.** «Хороший текст написать трудно в любом случае» — лёгкость и мгновенная готовность текста к публикации — признак проблемы, не мастерства. Разделяйте процесс: сначала пишите как думается, без правил; затем отдельным этапом редактура — структура, логика, стоп-слова, клише, порядок слов, абзацы, заголовки. Редактура закономерно занимает в разы больше времени, чем написание. Минимум 5 редакций перед публикацией.
+### 6.1 Text about yourself
 
-**Порядок правки — снизу вверх, от контента к форме:**
-1. Аудитория / цель / задача — без этого нельзя браться за текст.
-2. Содержание — лишние слова, оценки, штампы, канцелярит, заумь.
-3. Синтаксис — подлежащее/сказуемое, залог, однородные члены, парцелляция.
-4. Абзац — структура, длина, порядок.
-5. Целое — интересен ли текст, верна ли тональность, нужен ли он вообще.
-Если текст скучен по содержанию, форма (сокращение) не спасёт — нужно рассказать то, чего читатель не знал.
+**People aren't interested in you — they're interested in solving their own problems.** Method: identify the audience → list its needs → write how you solve them, instead of listing your credentials.
+Not "20 years of experience, degrees" ⟶ but "I'm a realtor: I help people buy apartments... Clients come to me to find housing within budget and negotiate with sellers."
 
-**Практические приёмы вычитки:** редактировать через несколько часов после написания на свежую голову; читать вслух, редактировать места запинок; дробить сложноподчинённые предложения на короткие; чередовать длинные и короткие предложения для ритма; читать пословно с конца, чтобы ловить опечатки (слова воспринимаются не в потоке).
+**The length of a self-presentation depends on the audience, not on an industry standard.** For an exclusive practice (referral-only clients) — a minimum of self-description, "like a business card"; for the middle segment — education, relevant experience, contacts; for full-scale sales — close every objection (what you do, what result to expect, client requirements, risks and guarantees, price, success stories). Mass-market copywriting techniques "look ridiculous" in premium/expert niches.
 
-**«Расскажи другу» — приём для тяжёлого синтаксиса.** Наговорить текст разговорным языком, затем отредактировать, убрав лишние разговорные элементы.
+**Writer's block in a text about yourself equals a lack of information, not a creative crisis.** Don't "show off" — put yourself in the reader's shoes; a self-presentation rarely needs originality, it needs clarity and honesty. The block is cured by gathering more knowledge about the material, not by hunting for a style.
 
-**Критерий готовности текста — не число правок, а полезное действие.** Текст готов, «как только он начинает исполнять своё полезное действие» — не ищите оптимальное число циклов редактуры, найдите «главное блюдо» статьи.
+**Let the work speak for itself.**
+"I'm a designer of products, websites, and apps... I deliver projects on time because I know a secret" ⟶ "I design websites, apps, transit maps... I ship projects on time."
+A verb at the start of a sentence isn't a flaw — it makes the text energetic and strips out manipulative flourishes.
 
-**Что резать первым (порядок приоритета при сокращении):** штампы и клише → оценочные прилагательные без подтверждения → стоп-слова каждой категории (усилители, обобщения, местоимения, модальность, отглагольные) → страдательный залог без нужды в состоянии → лишние вводные и придаточные → однородные члены-синонимы → повторяющиеся мысли между абзацами. Не резать: термины, конкретные цифры и факты, честные признания ограничений, единственно верный субъект действия.
+**Structure for a full self-presentation:** name/specialty/useful action → area of work → scenarios for reaching out, backed with evidence → the answer to the client's unspoken question → anti-scenarios (when you won't be able to help) → mission (optional) → contacts.
 
-**Работа с клиентом, отвергающим правку.** Не спорьте о стиле — переводите разговор на последствия для читателя: «Если мы напишем так, последствия для читателя будут такими». Не произносите слово «стиль» вслед за клиентом. Алгоритм обсуждения замечания: «Что вы имеете в виду?» → «На что ещё это может повлиять в тексте?» → «Как вам такой вариант?» — предлагать альтернативы, не требовать согласия. Показывайте правку поэтапно и на практике, а не объясняйте теорию.
+**"I" belongs when identifying the real person behind a brand** ("This is So-and-so, the manager, writing..."), but if the reader expects an official response from an organization — "you were charged...", not "I charged you."
 
-**Юрист/эксперт-рецензент — союзник, не противник.** Вместо сопротивления правкам — «я хочу их обсудить, чтобы в будущем не было этих ошибок»; спросите «Почему вы оставили это замечание? Что опасно со старой формулировкой?». Ищите формулировку, одновременно корректную и убедительную, вместо готового варианта рецензента; сохраняйте право отказаться отправлять текст, который считаете плохим.
+### 6.2 Newsletters
 
-**Получить обещанный материал от занятого источника — свяжите просьбу с его интересами, не с вашим дедлайном.** Комбинация: задача + сроки с обоснованием + авторитет + альтернатива + право на отказ. «Если во вторник я не начну работу, не успею до конца недели» — конкретный дедлайн убедительнее общей просьбы.
+**A newsletter requires a deliberate opt-in and keeping the promise made at signup.** People subscribe with a clear understanding of what awaits them; a thousand loyal subscribers beat ten thousand who never open the email; a newsletter is part of systematic marketing, not a standalone trick.
 
-**Отказывайтесь придумывать фактуру за недоступный источник.** Если посредник просит выдумать цитаты/истории вместо доступа к реальному источнику — «я не смогу помочь вам с этим текстом, если не смогу общаться с руководителем напрямую». Придуманная фактура противоречит качеству работы; честный отказ лучше невыполнимой задачи.
+**The subject line — brief and specific.** It answers "What's this about?" or "What's inside?"
+"Collaboration" ⟶ "Joint Project With Forbes Magazine"; "Report" ⟶ "September Report"; "Question" ⟶ "Question About Punctuation."
+Putting the recipient's name in the subject line isn't necessary, even with proven open-rate gains: it reeks of desperation ("you're not a helper or an advisor, you're a salesman in a greasy old suit"). What matters is the value of the content, not personalizing the subject line.
 
-**Обсуждение замечания — на встрече, не в переписке.** «Из переписки вы не сможете понять истинный смысл слов клиента» — сложные, спорные или эмоционально нагруженные правки обсуждайте голосом/видео; переписка годится для фиксации уже согласованного.
+**Transactional/system emails — no greeting, no fake personalization.** "Database aurora was created on February 24, 2013. Address and port: ..." — straight to the point. Digests — a plain "Hi!" with no placeholder name, if there's no data to personalize with.
 
-**Редполитика — должностная инструкция автора, растёт из реальных случаев.** «Если пришлось дважды исправить одну и ту же ошибку у двух авторов, третий автор должен узнать об этой ошибке из редполитики» — не из абстрактной теории. Переводит спор из плоскости «нравится — не нравится» в «правильно — неправильно», масштабирует работу редактора.
+### 6.3 Interface copy
 
-**Найти беспристрастность в собственном тексте:** лучший вариант — редактор-напарник со свежим взглядом; без него — прогнать через инструмент проверки, чтобы увидеть текст со стороны. Навык вычитки нарабатывается практикой на чужих текстах разных авторов и тем.
+**Status messages — useful information, not a value judgment.**
+Success: "Payment completed successfully" ⟶ "Sent $45 to Jane Doe."
+A known error — the exact action the user should take: "Invalid card number" ⟶ "Check your card number and expiration date."
+An unknown error — the gist of the problem plus options for resolving it. The heading states the useful action, not "Error"/"Warning."
 
-**Фактчекинг: лучше опубликовать и быстро исправить, чем долго не публиковать в погоне за идеалом.**
+**A form field — state the benefit of filling it in, not a bare requirement.**
+"Please enter your email address" ⟶ "We'll send the webinar invite to your email."
+"Passport details are required" ⟶ "The courier will hand the package to you in person and check your ID."
+A long form is a barrier; break it into short steps, each with its own motivation.
 
-**Мастерство — вопрос объёма практики, а не одного прочтения книги.** Чтение — лишь начало; развивать нужно смежные дисциплины (визуальное повествование, психология, вёрстка, журналистика) и общий кругозор — он ценнее узкой техники.
+**Personifying the interface — consistency of grammatical person matters more than which person you pick.** Second person ("Your plan") is the basically correct default; the neutral/impersonal form suits general statements; personalization is needed when the personal and the general sit side by side ("Your notes / Friends' notes / Popular notes").
 
-**Критерий готовности — не число правок, а полезное действие; но согласование этапов работы экономит на порядок больше времени, чем импровизация.** «Договориться заранее стоит два часа, а не договориться — двести часов». Спрашивайте клиента прямо, на каких этапах он хочет участвовать (задача → план → черновик → готовый продукт), и фиксируйте это письменно до начала.
+**An empty state isn't a placeholder — it's a chance to be useful.** Not "There's nothing here" / "Oh no! You haven't added anything yet!" — explain what the section is for, and nudge the user to fill it in. Ideally, empty sections aren't shown at all.
 
-**Комментарии vs прямая правка чужого текста — два разных режима, выбирайте заранее, не смешивайте.** Обучение (комментарии + доработка автором самим) — когда цель вырастить автора; полировка (прямая правка по договорённости) — когда цель результат. Смешение режимов без объявления — источник конфликта с автором/клиентом.
+**Localization isn't word-for-word translation.** Make it read naturally in the target language, matching the product's tone: a literal, system-generated rendering like "Number of people selected exceeds table capacity" ⟶ natural, on-brand phrasing: "Sorry, this table seats four, and there are five of you."
 
-**Работа с недовольным клиентом — 5 шагов, не защита своей правоты.** 1) восстановить контекст («будет так, как вы скажете, но мне нужно сначала кое-что прояснить»); 2) уточнить, что имеется в виду; 3) понять картину мира и цель клиента; 4) оценить, достигает ли его решение его же цели; 5) если «картины мира не совпали» — это не спор, задача не переубедить, а понять. Работает и на редакторские правки: «Что вы имеете в виду?» → «На что ещё это повлияет?» → «Как вам такой вариант?»
+**Support agents shouldn't write their own texts from scratch — only assemble replies from ready-made templates.** For a new situation, a template gets created in the editorial policy first, and only then is it authorized for use. The "editorial policy first" principle: every company text gets built into a template before it ever reaches a client — this requires a standing editor who maintains the template library.
 
-**A/B-сравнение убедительнее спора о вкусе.** Вместо «в тексте канцеляризмы» — покажите официальный и менее формальный вариант с измеримыми данными (дочитываемость, конверсия, отзывы читателей): «вот что говорят наши читатели» вместо личного мнения редактора. Роль редактора — «быть источником правды», не отстаивать свой вкус; иногда канцелярит объективно уместнее для конкретной аудитории — проверяйте, а не постулируйте.
+### 6.4 Case studies
 
-**Каждый этап производства текста должен иметь одного явного ответственного.** Идея, сбор материала, текст, редактура, оформление, выпуск — если в тексте проблемы с запятыми, вопрос к корректору; если не проверен факт — к автору. Разграничивайте назначенного контролёра качества и коллегу, просто заметившего ошибку (его правки — необязательные подсказки, не обязательные к принятию).
+**Case study = context → task → solution → result** — this only works if the task is framed in achievable terms. No result metrics? Either shelve the case study, or reframe the task in process terms ("refresh the design," "shorten the process time"), or don't call the material a case study at all — present it as a portfolio piece with no results report.
 
-**Нейросети — надёжны для структурирования и смены тона, ненадёжны для фактов.** Хорошо для: суммаризации, рерайта, сравнительных таблиц/чеклистов (перепроверять), объяснения сложного простым языком. Плохо для: фактов и цитат — «нейронка иногда брешет на голубом глазу», выдавая убедительную неправду. Критически важные тексты — доверять человеку, не модели.
+**Case studies of confidential matters** (legal services, etc.) — merge several cases into one narrative with an explicit disclaimer: "This story is based on five cases... we had to alter many of the circumstances and merge several cases into one narrative." A case study's purpose is to demonstrate competence, not to reproduce reality one-to-one.
 
-**«Достаточно хорошо» — навык, отдельный от перфекционизма.** Идеальное исполнение учитывает только собственные представления о качестве; достаточно хорошее — учитывает потребности клиента, сроки, коммерческую целесообразность. Перфекционизм на уровне абзаца уходит сам собой при большом объёме работы («десять текстов в день») — до этого момента разумно сознательно ограничивать время на оттачивание одного фрагмента.
+**Blog posts/case studies instead of generic advice:** define the target audience → identify its real pain points → connect those pains to case studies that show the solution → work samples relevant specifically to this client.
 
-**Трёхуровневая переработка проблемного текста: тема → редактура → стратегия.** Сначала упростить формулировку цели письма/текста («Подтвердите, что хотите получить льготу на ИИС» вместо «при желании реализовать возможность получения льготы необходимо подать запрос»); затем убрать канцелярит из тела текста; затем проверить стратегию целиком — ясная цель, персональное обращение, явная кнопка действия.
+### 6.5 Instructions
 
-**Разбор запутанной задачи с клиентом — 5 шагов, не силовое переубеждение:** 1) уточнить суть просьбы на примерах; 2) выяснить причину открытыми вопросами («Почему это вам важно?»); 3) показать последствия предложенного клиентом решения; 4) предложить альтернативу; 5) передать выбор клиенту («Я рекомендую это, но решать вам»). Работает и для правок текста, и для правок макета/структуры.
+**Two kinds: scenario-based** (step-by-step through the user's task, teaching the underlying logic along the way) **and descriptive** (for non-obvious interface functions).
+"Create a password (8-12 characters)" ⟶ "Create a password (8-12 characters). You and your guests will use it to connect to the Wi-Fi" — reinforced with a concrete benefit.
+
+**Five principles:** think about the audience and the situation in which they'd consult the help doc; don't write abstractly ("the button in the left corner") — show a screenshot/photo; add examples to diagrams; keep syntax consistent; draw examples from real practice.
+
+**Order within an instruction — state the problem before the solution.**
+"Press the 'Stop' button and wait two minutes to open the door" ⟶ "To open the washer door mid-cycle, press the button."
+
+**Official reports/instructions (e.g., an incident report) — one action per sentence, with the negation and the main action placed at the start of the sentence.**
+"Moving a load exceeding the cart's maximum weight capacity is prohibited" ⟶ "Do not move a load if its weight exceeds the cart's capacity."
+
+### 6.6 Notices
+
+**Prohibition notices — explain the reason, don't just issue a bare ban.**
+"No parking" ⟶ "Fire engine exit. Vehicles will be towed." No irony, no excuses; offer an alternative ("Parking around the corner on Elm Street").
+
+**Strip out signs of hysteria** (triple exclamation points, emoji) **and disguising a ban as a joke** — people ignore a request if they don't believe it's serious.
+"Salespeople, NO ENTRY!!!" ⟶ "We don't buy from door-to-door salespeople."
+"Smile, you're on camera :)))" ⟶ "24-hour video surveillance."
+
+**Credibility matters more than tone.** State the specific reason: "This historic building's plumbing wasn't built to handle paper" instead of an abstract prohibition.
+
+**A request to the reader — framed around their benefit, not the creator's world.**
+"Install the widget" ⟶ "Today's best deal, right on your homepage" / "The Luck Widget: +100 to agility." Call-to-action labels (as opposed to sentences within running text) — no period at the end.
+
+### 6.7 Letters and correspondence
+
+**Business-letter punctuation** [Russian-text rule]: opens with a complete sentence ending in a period or exclamation point («Коллеги!», «Здравствуйте.») — a comma after the greeting («Здравствуйте,») is not allowed in Russian; that comma is a calque from English. An automatic signature block («С уважением») takes no punctuation mark.
+
+**An email autoresponder** is only needed while you're on vacation or unavailable. Strip out apologies and filler — give specifics: when emails will be read, what counts as urgent, who to call instead.
+
+**Address the audience according to the nature of the channel.** A small group — by name ("Olga, Ivan, Igor, hello!"); a large group — "team" remains the lesser evil compared to "friends" (too familiar) or "comrades" (archaic); for purely informational mailings, the greeting can be dropped and discussion moved to chat.
+
+**A light tone in correspondence — replace stock phrases with concrete care.**
+"I'd be glad to answer your questions" ⟶ "If you run into questions during setup, write in — happy to help."
+"All the best!" ⟶ "Happy building!"
+
+**A postscript:** "P.S. Don't try to reach us" — no colon, capital letter right after "P.S."
+
+### 6.8 Social media
+
+**"Friends" is a cliché — it doesn't make a post more personal.** An emotional response requires strong content (complaints, criticism, myth-busting, useful information) — "when the content is strong, the form fades into the background." If a post targets a specific group, name it directly ("Designers!").
+
+**A DM with a business pitch — personalize it, and don't push a full unsolicited pitch.** "Your contact was shared by John Smith at Acme Corp" instead of a cold open; a conditional framing instead of a hard sell: "I don't know how useful this program would be for you, but if you have similar needs, I'm happy to go into more detail."
+
+**A survey request — four elements:** context (the value of answering is obvious — "a technician visited you yesterday, can you answer a few questions about their work?"), personal relevance (why this particular person is being asked), a clear outcome ("Your answers will shape the final lineup and pricing of our new service"), incentives — secondary. "When the context is compelling, the exact wording becomes secondary."
+
+**The 40/30/25/5 content formula is a guideline, not dogma.** The only real criterion: "100% of your posts were interesting to the reader."
+
+**Useful content on social media only works within a "contract" with the audience.** If people came to be entertained, put your how-to content where people actually look for it (websites, forums, YouTube) — don't slip practical advice into an entertainment feed. "Don't expect a good response to useful content on social media if people came there to be entertained."
+
+**Every channel needs:** a useful action, a recurring need (not a one-off), positioning that's clear at first glance, and posts that honor the promised contract. "If you promised industry news, the channel needs to deliver industry news" — not discounts and interviews with the founder.
+
+**Formal vs. casual address on social media** — stay consistent across the whole channel; drop into a casual, first-name tone only for a personal reply, and only when you're confident the audience will take it well.
+
+### 6.9 Business proposals and sales letters
+
+**Don't write a business proposal like a flyer** full of rhetorical questions and flirtation — pick one strong positioning headline that the whole text serves ("If you needed that billboard yesterday"). Show your portfolio with specifics (real projects with timelines and prices), strip out garish highlighting and an overly casual tone ("stop by for tea"). "You can't be everything to everyone at once."
+
+**A pitch letter shouldn't be "firing every cannon in every direction."** Minimalism: what you're offering, key audience numbers, work samples, who's already partnered with you. Replace generic phrases with specifics: "we know better" ⟶ "Monthly site traffic: 1 million people... 10,000 clicks and 1,000 contacts generated." End with a clear call to action.
+
+**A proposal's headline addresses the client's world, not the company's.** Avoid an overly familiar tone and salesy hype ("Find out how to cut costs 3x!") — prefer a neutral statement of fact ("How to Cut Building-Material Costs Threefold").
+
+**Test every abstract claim in an investor/B2B text for specificity.**
+"Established supplier relationships" ⟶ which suppliers? "We've already achieved impressive success" ⟶ what, specifically?
+"Exceptionally flexible payment terms" ⟶ "installments available on orders over $2 million."
+If a structured data sheet serves a professional audience (agencies, publishers) better than prose, don't write prose — give them the format: what it is, mission, audience, print run, topics, contacts. "Save them time and let them see for themselves what a great product you're offering."
+
+**A request for financial support — four principles:** directness (open with the substance of the ask, don't approach it sideways — "How to support the service," not "What a wonderful service you have"); the reader's world (frame the benefit for the reader, not the author's need — "we want the service to stay free," not "we need money for hosting"); specificity (an exact amount and deadline: "If every user donates $2 by the end of the week..."); respect (no groveling, with positive social proof: "One in three already chips in" instead of "Two out of three don't pay").
+
+### 6.10 Reviews and recommendations
+
+**You get a good review by no longer asking someone to "write a review."** Ask instead: what did you like/dislike, who is this collaboration a good fit for, in a natural tone (slang included). A useful review = a specific project + an honest assessment (pros and cons) + who it's a good fit for.
+An ineffective review ("John is a great copywriter") is unverifiable; an effective one includes a situation: "We needed to launch a newsletter urgently. John promised to sort it out in a week, but it took two. Still, after that..." — even a negative detail adds to the informativeness.
+
+**When editing a submitted review, clean up only spelling and grammar — don't touch the substance**, or it loses its authenticity; steer toward substantive content earlier, with specific questions at the collection stage, not by rewriting afterward.
+
+**Responding to a review — by type.** A fair critical review — acknowledge the problem without excuses; an unfair one — offer an alternative; a neutral one — don't answer with a template; a positive one — thank them personally for something specific, not with a stock phrase. Selling through a review reply is only appropriate when the sales pitch feels organic to the content.
+
+**A good recommendation doesn't sing praises — it helps the reader judge whether this person fits the role**: concrete achievements instead of abstract traits, a balance of strengths and weaknesses, how they behave in non-standard situations, a personal signature with contact info.
+
+### 6.11 Congratulations and thanks
+
+**A good congratulation is addressed and specific — not a mass mailing of platitudes.** Praise the recipient, not yourself: "I opened up Glavred and got promoted" ⟶ "You defended your dissertation and passed your driving test. That's awesome." Wish for something specific: "I wish you professional success" ⟶ "I hope you finally wrap up that endless project and start something new." Avoid kitsch ("the clink of glasses," "the scent of tangerines") and clichés ("a winter wonderland," "a full house").
+
+**Gratitude hits harder than a well-wish.** "Thank you for our successful clients. With your help, they're now our regular partners" — better than a generic wish for happiness. Turning praise into a template is harmful: "Thanks, everyone! You're awesome!" ⟶ "Sarah, the article is great, I fixed a few small things. I love how you get people to open up and tell their whole story" — specific, personal, about the actual work.
+
+**A formal, obligatory congratulation is hypocrisy.** If you don't know the person's specific contribution, it's better to skip the congratulation entirely than to send a template one. Only congratulate people "you had actual contact with in the past year, or want to stay in touch with going forward." Don't substitute a discount for a congratulation; if you're giving a gift, don't demand a purchase in return.
+
+**In a difficult or crisis situation — gratitude instead of a well-wish, without irony.**
+"Thanks for not banging your head against the wall this year" (bad, ironic) ⟶ "Thank you for your help solving this year's critical problem" (good). Avoid wishes for health/happiness ("noise"), hints at other people's vulnerabilities, or commentary on geopolitics.
+
+### 6.12 Company mission and values
+
+**There are no general rules for a mission statement — it all depends on the audience.** Distinguish a mission for employees (a guide for decisions), for customers (part of the marketing, answers their pain points), and for the founder (a personal compass).
+Bad (abstract, lifeless): "Justice has prevailed." Good (concrete, actionable in decisions): "We work so that every child has a family."
+
+**The formula "abstraction + example + counter-example."**
+"Safe vehicles" ⟶ "Safety matters to us: we want to make sure a child can't reach a dangerous speed. That's why every scooter ships with an 11 mph speed limiter by default."
+Three typical mistakes in a mission statement: an unclear target audience, abstraction with no specifics, trying to cram every idea into one sentence.
+
+**Don't argue over the terms "benefit" vs. "pain point"** — rephrase them concretely for the mission's actual audience (customers/employees/shareholders). "These aren't magic words that automatically attract customers. Nail down the goal, the audience, and the mechanics" — and then it becomes obvious what to write.
+
+**A commercial or educational text persuades through demonstration, not moralizing.** Don't lecture the client or reader with moral arguments — show in practice how much better it can be done, backed by facts and results; the choice still belongs to the reader, who's the one risking their own money or time.
+
+### 6.13 Press releases and news
+
+**A press release from a government or formal organization can and should be written in human language.** "That's the whole point of PR: to convey information about your client in a way that makes people like them." Replace bureaucratic phrasing with an address to a specific person, with a contact number.
+
+**News uses an inverted pyramid**; urgency depends on how close the topic sits to the reader's own life (matters that hit close to home — government procurement, customs regulations — publish as fast as possible); most news with delayed real-world impact doesn't require rushing. If you're publishing after the major outlets already have, be sure to add value (expert commentary, practical recommendations, document templates).
+
+**A press release for a creative event (music) — three components:** concrete formal parameters ("70s funk," not "electrifying funk"), credentials (city, residency — "fashionable and prestigious to attend"), emotional payload (a story or a concept; if there isn't one, "just don't write it"). Photos, links to audio/video, and the manager's contact info are mandatory.
+
+### 6.14 Resumes and job self-presentations
+
+**"The best resume doesn't look like a resume at all."** Office-speak clichés, file archives, PDFs — all off-putting; instead of a formal document, write a plain letter with an honest account of yourself and direct links to your portfolio.
+
+**Name well-known clients in a resume without inflating their importance.** "I built websites for Pepsi, Mars, and ExxonMobil" — trying to "pump up" the significance of lesser-known companies reads as fishing for approval. Instead of scale, describe the skill you gained and its value to a future employer: "I negotiated budget approval across five layers of hierarchy."
+
+**Video self-presentation:** picture your listener, prepare an outline (bullet points, not a full script), don't be afraid to re-record. Content template: "I can do X... because... here's an example... and here's a specific instance." Cut anything unrelated to the role.
+
+### 6.15 Spoken language, podcasts, video
+
+**Spoken text needs redundancy and structural markers** that written text doesn't (listening and processing happen simultaneously — unlike written text, where the reader's eye can go back). Info-style (dry structure, no filler) belongs where there's a practical task (a video tutorial); it doesn't belong in entertainment video.
+
+**A podcast episode is either one big story, or a set of stories with a character, action, obstacles, and concrete circumstances.** Taboo: reading aloud, in a podcast, a text originally written to be read off a screen.
+
+**Scripts for spoken delivery (IVR, voiceover copy, captions):** info-style rules apply even more strictly by ear. Cut secondary detail ("You've reached the Cuddly World online plush toy store" ⟶ "You've reached Cuddly World"); spell numbers out as words, transcribe abbreviations phonetically, expand acronyms in full; keep structural transition words ("first," "for example") — by ear, they stand in for the visual division that no longer exists.
+
+**Cut the repetitions that appear when someone thinks out loud** — edit them down to just the finished thought; remove filler words ("um," "uh"), lip smacks, audible breaths. Compose spoken text by saying it out loud, not by reading off a page.
+
+### 6.16 Explaining numbers and statistics to the reader
+
+**Simplify numbers for listening/skimming.** Replace exact figures with understandable ratios: "a third," "half," "one in five"; break a big number down into something evocative.
+"Out of sixty-six reported phone thefts, criminal cases were opened for twenty-four, and thirteen were solved" ⟶ "The police received 66 reports this week — almost 10 a day. Less than half will become actual cases... For every four phones stolen, three never make it back to their owners."
+
+**Stale data — don't hide the publication lag; explain the source and collection method, show the trend.** "The bureau's latest report came out in January 2018 and covers 2016 data" — honest dating is more convincing than fake currency.
+
+### 6.17 Product and merchandise descriptions
+
+**Describing a complex/specialized product — nuance matters more than narrative.** "Smooth, event-driven syntax" belongs in texts about people and incidents; describing an object (an apartment, equipment) is a "still life," enriched with concrete practical detail rather than plot: a ground-level entrance for strollers, steel doors, which internet providers run cable there.
+
+**Before making a description unusual, make it good.** Identify the audience, the use-case scenario ("An entry-level oscilloscope for hobby electronics"), state the competitive advantages (turnaround, warranty, shipping). "Customers don't need an oscilloscope for its own sake. They need to examine a current" — solve the real problem; add creativity only after quality is in place.
+
+**Repetitive descriptions of similar products — don't mask the sameness with synonyms, make the structure explicit instead.** Cut, materials, what to pair it with, pros, cons (an honest warning equals care (забота)), an interesting fact — treat the list "not as running prose, but as a reference sheet." Structure frees up energy for substance: stop asking "how do I phrase this differently" and start asking how to prove it's practical.
+
+### 6.18 Addressing fears and objections
+
+**The job of a text for a newcomer facing an unfamiliar/intimidating service is to address specific fears with a direct answer, not general reassurance.**
+Tattoo studio: "We work under fully sterile conditions... We only use sterile, single-use needles" — a direct answer to a specific fear, not "we're professionals."
+Wedding photography (not handing over raw files): "The reader doesn't care about your effort. They're afraid of something specific — help them, don't lecture them on life" — specify the volume ("I take 1,500-2,000 shots per evening... I edit and deliver 200-250") and offer a compromise instead of a flat refusal.
+
+**A product for a mass audience — promise a good life, don't scare people with the problem** (see "fear-mongering" in §7); for a proven niche audience that has already recognized the problem, naming the pain point directly works.
+
+### 6.19 Advice and instructions without a preachy tone
+
+**Five tools instead of a lecture from a soapbox:** examples (shrink the share of theory, provide many different examples), story (hero — problem — failed attempts — solution), humor (violating expectations), visualization instead of text, a challenge (a question with a non-obvious but pleasant answer).
+
+**Avoid a black-and-white split into "good" and "bad" people — it sounds preachy.**
+"Good parents know a child needs boundaries" ⟶ "Successful parents often build their child a life free of frustration. But this leads to the child never learning..." — showing consequences instead of passing judgment.
+
+**Three techniques for advice that doesn't sound preachy:** stories (situation → action → result, the reader identifies with the character), an "if... then..." construction (consequences instead of a command), personal experience (talk as if to yourself, not to the reader).
+
+### 6.20 Posters and notices by physical context
+
+**A good poster answers 4 questions about its context:** where it hangs, who put it up and why, what people are doing at that moment, what's wanted from them. A clinic waiting room (a line, boredom) — a detailed, engaging poster, "something to do" for a long stretch. A supermarket (people in a hurry) — large type, a simple illustration, rhymes, humor. An office (a couple of minutes) — a highly informative poster "meant to be read across several passes."
+
+### 6.21 Image-driven and sensitive topics
+
+**Image-driven products (perfume, alcohol) communicate nonverbally, not through a list of properties.** Show the desired lifestyle visually (a scene, an atmosphere) — direct verbal claims about a "trail of fragrance" work worse.
+
+**A text interview full of the subject's canned answers is boring to read, no matter how good the transcription is.** If the subject speaks in abstractions, the fix depends on your agreement with them: propose an edited version for their approval, or ask additional follow-up questions to bring specifics into the direct quotes. "It's hard to imagine a scenario where we actually need watery, abstract text."
+
+**Profanity is an editorial decision, not a moral one.** It's not used in public-facing materials — incompatible with info-style, which "is grounded in facts"; in internal work, it's the team's call. "For swearing to land with real force, it has to be rare. Terrain riddled with profanity looks pathetic and comic, not intimidating."
+
+**Depicting nationality/group identity — avoid generalizations, even flattering ones.** "Everyone of our nationality is a great builder" is false regardless of its sign, positive or negative. The fix: photograph specific people, caption their names, qualifications, and years of experience — the emphasis falls on the person's professionalism, not their origin.
 
 ---
 
-## Диагностический чек-лист (15 проверок, по приоритету)
+## 7. Truth and ethics
 
-1. **Полезное действие сформулировано и лежит в мире читателя**, не в мире автора/продукта — иначе всё остальное бессмысленно.
-2. **Честность**: нет фальши, нет манипуляции (восклицательные знаки, авансовая благодарность, повелительное наклонение, искусственный дефицит), нет выдуманных авторитетов/данных.
-3. **Оценочные прилагательные и усилители заменены фактами**, цифрами, примерами — читатель делает вывод сам.
-4. **Штампы, канцелярит, заумь найдены и раскрыты конкретикой** — либо убраны совсем.
-5. **Стоп-слова каждой категории проверены как сигнал, не удалены механически**: несут ли они здесь полезную информацию?
-6. **Подлежащее и сказуемое — сильные, страдательный залог оправдан только для описания состояния**, не действия.
-7. **Однородные члены не «бисерятся»** (нет нагромождения синонимов); при нужде — раскрыты по отдельности или сгруппированы в перечень.
-8. **Нет парцелляции** — точки стоят только между законченными мыслями.
-9. **Абзац начинается с главной мысли, 3–4 предложения, одна идея**; списки и абзацы не смешаны бездумно.
-10. **Заголовок точно и честно описывает содержание** — «нет в заголовке — нет в статье», без кликбейта.
-11. **Структура соответствует функции текста** (новость/инструкция/о компании/интерфейс) — не универсальный шаблон.
-12. **Числа и факты объяснены и сравнены с опытом читателя**, а не брошены голыми.
-13. **Введение и заключение выполняют функцию** (или отсутствуют по праву) — заключение работает само по себе.
-14. **Текст прочитан вслух** — места запинок, длинных придаточных, неудобного синтаксиса найдены и переписаны.
-15. **Жанровые нормы канала соблюдены** (интерфейс/письмо/соцсети/инструкция) — тон, обращение, длина и структура соответствуют контракту с читателем этого формата.
+**Three tones a text can take: honesty, falseness, play.** Perception is subjective, but there are universal techniques that work for most people. Falseness is a mismatch between a text's stated intent and its real goal; the same phrase ("I'm waiting," "Thanks for the productive meeting") sounds different depending on the imagined voice the reader assigns to it.
+
+**Thanking someone in advance is manipulation.** "Thank you for your understanding" isn't backed by anything — replace it with concrete information: "The elevator is temporarily out of service. Thank you for your understanding" ⟶ "Elevator repairs through June 1st. The north-wing elevator is running. Chief engineer: 555-123-4567." The rule of reciprocity only works when the offer has real value.
+
+**The exclamation point is a weapon of inexperienced writers.** Emotion should come from the content, not the punctuation. "The teacher was having affairs with students!!!" ⟶ "The teacher was having affairs with students." An exclamation point in parentheses is manipulation: "The new smartphone is 3 (!) times faster" ⟶ "The new smartphone is 3 times faster."
+
+**Avoid the imperative mood in slogans.** "A person trusts a decision they make themselves, and rejects decisions that other people force on them."
+"Experience the true taste of Spain!" ⟶ "Spanish jamón, marinated baby octopus, and Catalan beer."
+"Book your tickets with us!" ⟶ "Tickets from 1,705 airlines."
+
+**"Playing out the line" — facts instead of exclamation points in sales copy.** A surplus of emotion betrays weak arguments: "A copywriter drowning in exclamation points is a sign they don't trust their own persuasiveness." Give the reader facts about ingredients, timelines, contraindications, and let them make a considered decision — let them taste the flavor instead of describing it in words.
+
+**Sales copy in info-style beats manipulative sales copy.** "Sales copy" in the classical sense presses on pain points, misleads, and manufactures artificial scarcity — it only works on unsophisticated people and erodes long-term trust. The better version: aimed at the reader's world and their benefit, proves its case with facts, illustrates complexity clearly, gives the information needed for a considered decision, and warns against an unnecessary purchase. Once you strip out the manipulative tone and add real value, conversion tends to rise, not fall.
+
+**"Fear-mongering" in advertising is a bad strategy.** Pointing out the reader's problem without their consent is a boundary violation ("No, I'm fine, and it's none of your business"); it only works on people who've already recognized the problem and gotten past the shame of it — and there aren't many of those. The alternative: promise a good life instead of scaring people with the problem.
+
+**Trust arises when the reader sees the author has no motive to deceive.** Bad: "This is a truly miraculous remedy! Buy right now! This limited offer ends today only!" Build trust through specifics: how the service will solve the problem, why, genuine reviews, and an honest account of who the service isn't right for. Manipulation only works once — a discovered deception wrecks your reputation.
+
+**Only write about products you believe in.** A professionally written text will sell a harmful product just as well as a good one → people lose money → you end up ashamed of your own portfolio. Reputation is worth more than a one-time paycheck.
+
+**In crisis communication — solve the client's problem first, explain the reasons second.** "Clients don't care why exactly you're relocating" — before any explanation, give them personal notice, compensation, guarantees. Don't take on someone else's role as accuser if you don't know all the details of an internal conflict. "When something's wrong, don't pretend everything's fine"; trust is built on honesty, not on concealing problems.
+
+**When the truth can't legally be disclosed — three steps:** 1) say what you can, citing the law; 2) explain why you can't say more; 3) show care — offer alternative ways to solve the problem.
+
+**Native advertising must be clearly and unambiguously labeled at the start:** "This article is sponsored by...", "Promotional material." Passing off native advertising as editorial content — the reader will feel deceived.
+
+**Don't invent facts without flagging them.** In a draft, placeholders are fine, but every fact must be checked and backed by a real source before publication; if the client hasn't supplied data, make something up yourself and show it to the client explicitly flagged as invented, asking them to confirm or remove it.
+
+**A natural tone doesn't redeem spam.** "You're speaking when nobody asked you to. You're not waiting for my consent to start a conversation" — a message should first earn the right to talk at all. Personalization makes an email feel personal, but even flawlessly crafted spam remains unethical.
+
+**Editor's responsibility vs. author's responsibility.** An editor doesn't change the meaning themselves — they point the problem out to the author and ask them to fix it ("Clarify which organization you mean here") instead of rewriting the meaning unilaterally. Writing "honestly, precisely, without BS, sweeping generalizations, or twisting the facts" is the author's job.
+
+**A title the client made up for themselves — don't fight it on moral grounds; either tie it to the reader's benefit, or walk away from the project.** "We're a top-5 company in the industry: we carry the largest selection and offer the best terms for wholesale buyers" — the title is backed by a concrete customer benefit. If you can't find a connection to the customer's benefit, "turn in this project and move on to the next one" — don't dress up falseness in pretty words.
+
+**Announcing a price increase — without shifting the blame onto external circumstances.** A line about "the situation in the country, the exchange rate, all that" redirects the client's resentment onto neutral factors instead of the business itself. The scheme: give advance notice (a month out), lock in the old price for loyal customers, remind them repeatedly, raise the price without excuses or apologies, and help latecomers with a prepayment discount.
+
+**Publicly criticizing someone else's work is ethical when there's no personal relationship at stake, and when the criticism has substance.** Where a relationship exists (a colleague, an employer), criticize privately — it's easier for the person to fix things and save face. The quality of the criticism is what decides: a lay opinion ("I don't like it") is useless; criticism without understanding the brief is just self-assertion; criticism with an understanding of the problem and a proposed solution has value. "You can't please everyone — and you don't need to."
+
+**Publishing under a pseudonym — three risks.** The text doesn't build your own name; an anonymous author allows themselves more license (both a plus and a minus); the reader may not trust an anonymous author. Use it only when necessary (e.g., a name that's hard to pronounce for a foreign-language audience), never by default.
+
+**Borrowing someone else's material — the line runs through attribution.** Allowed: quoting with credit to the author, quoting for polemical/critical/parody purposes, writing your own piece inspired by someone else's work. Not allowed: copy-pasting without quotation marks, paraphrasing and passing it off as your own, using someone else's illustrations "for decoration" with no connection to the topic.
+
+**Using someone else's recognizable imagery (film stills, characters, memes) in advertising without a license is a legal and reputational risk**, not just a matter of taste; the more aggressively the rights holder defends their rights, the higher the cost of a mistake.
+
+**Don't describe your customers/audience as losers, even while selling the solution to their problem.** "You're calling your customers hapless, spineless failures" — blame circumstances, not the person; for trust-dependent services (coaching, consulting), build up in stages: free materials → paid products → personal work, don't demand trust "off a single ad."
+
+**The "I'll tell you tomorrow" move, with no payoff today, doesn't work for most readers.** It only suits an audience willing to wait a long time; for most people, "there's no time" — they're looking for a solution to their problem right now and will go to a competitor if they don't get value immediately.
+
+**Reach through provocative questions isn't the same thing as reputation.** A question that makes people "feel smart, good, and validated" when they answer it can be effective for growth, but "be careful which promotion strategies you choose" — growing your reach at the cost of trust in your content doesn't pay off.
+
+---
+
+## 8. The editing method
+
+**A good text is the result of ruthless editing, not first-draft talent.** "Writing a good text is hard no matter what" — a text that comes easily and looks publication-ready instantly is a sign of a problem, not mastery. Split the process: first write however it comes to mind, with no rules; then, as a separate stage, edit — structure, logic, stop-words, clichés, word order, paragraphs, headlines. Editing legitimately takes several times longer than writing. A minimum of 5 editing passes before publication.
+
+**The order of edits — bottom-up, from content to form:**
+1. Audience / goal / assignment — you can't touch a text without this.
+2. Content — excess words, value judgments, clichés, bureaucratese, needless jargon.
+3. Syntax — subject/predicate, voice, coordinated elements, parcelling.
+4. Paragraph — structure, length, order.
+5. The whole — is the text interesting, is the tone right, is it needed at all.
+If a text is boring in substance, form (trimming) won't save it — you need to tell the reader something they didn't know.
+
+**Practical proofreading techniques:** edit a few hours after writing, with a fresh head; read aloud, and fix wherever you stumble; break complex subordinate sentences into short ones; alternate long and short sentences for rhythm; read word-by-word backward from the end to catch typos (words register outside the normal flow).
+
+**"Tell a friend" — a technique for heavy syntax.** Narrate the text in conversational language, then edit it, cutting the excess conversational filler.
+
+**The criterion for a text being ready isn't a count of edits — it's the useful action.** A text is ready "as soon as it starts delivering its useful action" — don't hunt for the optimal number of editing cycles, find the article's "main course."
+
+**What to cut first (priority order when trimming):** clichés → unsupported evaluative adjectives → stop-words in each category (intensifiers, generalizations, pronouns, modality, verbal-noun constructions) → passive voice not needed for describing a state → excess introductory phrases and subordinate clauses → synonym-strings among coordinated elements → repeated ideas across paragraphs. Don't cut: terms, specific numbers and facts, honest admissions of limitations, the one true agent of an action.
+
+**Working with a client who rejects your edit.** Don't argue about style — redirect the conversation to consequences for the reader: "If we write it this way, here's what it will mean for the reader." Don't echo the word "style" back at the client. An algorithm for discussing a note: "What do you mean by that?" → "What else might this affect in the text?" → "How about this version?" — offer alternatives, don't demand agreement. Show your edit step by step, in practice, rather than explaining the theory behind it.
+
+**A lawyer or expert reviewer is an ally, not an opponent.** Instead of resisting their edits — "I want to discuss them, so these mistakes don't happen again in the future"; ask, "Why did you leave this comment? What's risky about the old wording?" Look for phrasing that's both correct and persuasive, rather than just taking the reviewer's suggested version as-is; keep the right to refuse to send out a text you consider bad.
+
+**Getting promised material out of a busy source — tie the request to their interests, not your deadline.** The combination: the task + a deadline with a justification + authority + an alternative + the right to refuse. "If I don't start work on Tuesday, I won't make it by the end of the week" — a specific deadline is more convincing than a generic request.
+
+**Refuse to make up material for a source you can't reach.** If an intermediary asks you to invent quotes/stories instead of granting access to the real source — "I won't be able to help with this piece unless I can talk to the director directly." Invented material undermines the quality of the work; an honest refusal beats an impossible assignment.
+
+**Discuss a note in a meeting, not in writing.** "You can't grasp the true meaning behind a client's words from written correspondence alone" — discuss complex, contentious, or emotionally loaded edits by voice or video; written correspondence is fine for recording what's already been agreed.
+
+**Editorial policy is an author's job description — it grows out of real cases.** "If you've had to fix the same mistake twice, in two different authors' work, the third author should learn about that mistake from the editorial policy" — not from abstract theory. It shifts the argument from "I like it / I don't like it" to "correct / incorrect," and scales an editor's work.
+
+**Finding impartiality toward your own text:** the best option is a fellow editor with a fresh set of eyes; failing that, run it through a checking tool to see the text from the outside. The skill of proofreading is built through practice on other people's texts, across different authors and topics.
+
+**Fact-checking: better to publish and fix quickly than to delay publication for a long time chasing perfection.**
+
+**Mastery is a matter of practice volume, not reading one book.** Reading is only the beginning; you need to develop adjacent disciplines (visual storytelling, psychology, layout, journalism) and general breadth of knowledge — it's worth more than narrow technique.
+
+**The readiness criterion isn't a count of edits, it's the useful action — but agreeing on the stages of work up front saves an order of magnitude more time than improvising.** "Agreeing in advance costs two hours; not agreeing costs two hundred." Ask the client directly which stages they want to be involved in (assignment → outline → draft → finished product), and put it in writing before you start.
+
+**Comments vs. direct edits on someone else's text — two different modes; choose in advance, don't mix them.** Coaching (comments + the author revises it themselves) — when the goal is to grow the author. Polishing (direct edits, by prior agreement) — when the goal is the result. Mixing modes without announcing it is a source of conflict with the author/client.
+
+**Working with an unhappy client — 5 steps, not a defense of your own rightness.** 1) restore context ("it'll be however you say, but I need to clarify something first"); 2) find out exactly what they mean; 3) understand the client's worldview and goal; 4) assess whether their proposed solution actually achieves their own goal; 5) if your "worldviews don't match" — this isn't an argument, the task is to understand, not to win them over. This also works for editorial notes: "What do you mean by that?" → "What else will this affect?" → "How about this version?"
+
+**An A/B comparison beats an argument about taste.** Instead of "the text is full of bureaucratese," show a formal version and a less formal one alongside measurable data (completion rate, conversion, reader feedback): "here's what our readers actually say" instead of the editor's personal opinion. An editor's role is "to be a source of truth," not to defend their own taste; sometimes bureaucratese is objectively the better fit for a specific audience — test it, don't just assert it.
+
+**Every stage of producing a text needs one clearly designated owner.** Idea, gathering material, writing, editing, layout, publication — if there's a comma problem, that's on the proofreader; if a fact wasn't checked, that's on the author. Draw a line between a designated quality gatekeeper and a colleague who merely spotted a mistake (their edits are optional suggestions, not mandatory to accept).
+
+**Neural networks are reliable for structuring and shifting tone, unreliable for facts.** Good for: summarizing, rewriting, comparison tables/checklists (double-check them), explaining something complex in plain language. Bad for: facts and quotes — "a model will sometimes lie to your face without blinking," producing convincing falsehoods. For critically important texts, trust a human, not the model.
+
+**"Good enough" is a skill, separate from perfectionism.** Flawless execution only accounts for your own idea of quality; good enough accounts for the client's needs, the deadline, and commercial sense. Paragraph-level perfectionism cures itself once your workload gets large enough ("ten texts a day") — until that point, it's wise to deliberately cap how much time you spend polishing a single fragment.
+
+**Three-level rework of a problem text: goal → edit → strategy.** First simplify the statement of the letter/text's goal ("Confirm that you want the tax credit" instead of "Should you wish to exercise the option of obtaining the benefit, a request must be submitted"); then strip the bureaucratese out of the body text; then check the strategy as a whole — a clear goal, a personal address, an explicit action button.
+
+**Untangling a confusing brief with a client — 5 steps, not a forceful argument:** 1) clarify the substance of the request using examples; 2) find out the reason with open questions ("Why does this matter to you?"); 3) show the consequences of the client's proposed solution; 4) offer an alternative; 5) hand the choice back to the client ("I recommend this, but it's your call"). This works for text edits as well as layout/structure edits.
+
+---
+
+## Diagnostic checklist (15 checks, in priority order)
+
+1. **The useful action is stated and sits in the reader's world**, not the author's/product's world — otherwise nothing else matters.
+2. **Honesty**: no falseness, no manipulation (exclamation points, advance thanks, the imperative mood, artificial scarcity), no invented authorities/data.
+3. **Evaluative adjectives and intensifiers are replaced with facts**, numbers, examples — the reader draws the conclusion themselves.
+4. **Clichés, bureaucratese, and needless jargon are found and unpacked with specifics** — or removed entirely.
+5. **Every stop-word category has been checked as a signal, not deleted mechanically**: does it carry useful information here?
+6. **The subject and predicate are strong; the passive voice is justified only for describing a state**, not an action.
+7. **Coordinated elements aren't bead-strung** (no pile-up of synonyms); where needed, they're unpacked individually or grouped into a list.
+8. **No parcelling** — periods appear only between complete thoughts.
+9. **The paragraph opens with the main idea, runs 3-4 sentences, holds one idea**; lists and paragraphs aren't mixed thoughtlessly.
+10. **The headline accurately and honestly describes the content** — "not in the headline, not in the article," no clickbait.
+11. **The structure matches the text's function** (news/instructions/about-the-company/interface) — not a one-size-fits-all template.
+12. **Numbers and facts are explained and compared to the reader's own experience**, not tossed in bare.
+13. **The introduction and conclusion each earn their place** (or are rightfully absent) — the conclusion works on its own.
+14. **The text has been read aloud** — spots that stumble, long subordinate clauses, awkward syntax have been found and rewritten.
+15. **The channel's genre norms are respected** (interface/letter/social media/instructions) — tone, mode of address, length, and structure match this format's contract with the reader.

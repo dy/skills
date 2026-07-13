@@ -1,485 +1,485 @@
-# Вёрстка и композиция: доктрина Артёма Горбунова (bureau.ru, «Типографика и вёрстка»)
+# Layout and composition: Artyom Gorbunov's doctrine (bureau.ru, "Typography and Layout")
 
-Дедуплицированный референс для оценки любой полосы, экрана, плаката, таблицы. Термины — канонические (жаргон бюро), с англ. глоссом при первом употреблении. Источник: 4 «канон»-дайджеста (якорные объекты, inner/outer, модульность, примитивы, вкус, видео-эра) + 18 sweep-дайджестов всех советов bureau.ru — из повторов оставлена одна сильнейшая формулировка.
-
----
-
-## 1. Основные законы
-
-**«Модульная вёрстка — это деление прямоугольников».** Полоса режется на аккуратные, невзаимопроникающие прямоугольные модули, выровненные по ширине/высоте, вместе составляющие полный прямоугольник страницы; пустое место — тоже модуль, а не остаток. Родословная: японские татами → швейцарская модульная сетка XX века → веб. Отличие веба от бумаги: содержимое непредсказуемой длины, поэтому модули должны гнуться, а не жёстко фиксироваться в ячейках.
-
-**«Главное изобретение человека — не колесо, а прямоугольник».** Книги, сайты, архитектура — всё сводится к прямоугольникам, делящимся на прямоугольники. Модульность — не стиль, а операционная система вёрстки.
-
-### Правило внутреннего и внешнего (rule of inner ≤ outer)
-
-**«Внутреннее ≤ внешнее»** — чтобы объект читался как единое целое, расстояния внутри него должны быть меньше расстояний, отделяющих его от соседей. Работает на любом масштабе: штрихи < буквы < слова < строки < абзацы < модули < полоса. Примеры провала: межбуквенный интервал ≈ межсловному — слова слипаются (лечится увеличением трекинга слов или уменьшением межбуквенного); интерлиньяж ≈ межбуквенному — текст читается «шахматкой» (лечится увеличением интерлиньяжа).
-
-**Важен контраст, не конкретная пропорция.** Нет универсального числового соотношения — регулируйте выразительность увеличением/уменьшением контраста внутреннее/внешнее вместо запоминания частных цифр.
-
-**Правило каскадируется по уровню блока.** Заголовок+подзаголовок — тоже блок: если подзаголовок «влез в интерлиньяж» заголовка, это тот же грех на уровень выше. Классическая ошибка «туннельного зрения» — чинить межстрочный интервал внутри блока, забыв, что весь блок целиком тоже нуждается в internal<external по отношению к окружению.
-
-**Правило внутреннего/внешнего может конфликтовать с правилом якорных объектов — и это нормально.** Проксимити работает через близость (близкое читается связанным, далёкое — нет), но закрытый прямоугольник (рамка, заливка) объединяет содержимое независимо от внутренних интервалов. Когда дизайнеры Google навели модульную сетку на простом списке навигации, технической ошибки нет, но решение «выглядит слишком вычурно» (overwrought) — такая обработка годится для таблиц данных, не для меню. Правила — независимые силы, конфликтующие иногда без «неправильного» ответа.
-
-### Якорные объекты (anchor objects) + анти-воздух
-
-**Якорный объект** — самый заметный элемент модуля (иллюстрация, крупный заголовок, факт-объект, логотип, пиктограмма). Правило: якорный объект тяготеет к углу прямоугольника или к его *визуальному* центру (визуальный центр выше геометрического — компенсация «гравитации»). Альтернатива — прижать объект к одной *стороне* прямоугольника для спокойного, устойчивого ощущения.
-
-**Иерархия силы притяжения:** иллюстрация > крупный заголовок > логотип/знак/число > текст (самый нейтральный).
-
-**Анти-воздух обязателен.** С противоположной стороны от якорного объекта нужен контрастный пустой (или менее плотный) участок, иначе объект не читается как заякоренный — конструкция «теряется» без опоры. Ошибка новичка — забыть про анти-воздух.
-
-### Гравитационная метафора близости
-
-**Воспринимаемая связь между элементами пропорциональна визуальной массе (кегль, жирность, цвет, плашка) и обратно пропорциональна расстоянию.** Управляйте ощущением связи/разделения обоими параметрами сразу, не только отступом — увеличение массы элемента сближает его с соседями так же, как физическое уменьшение дистанции.
-
-### Единство прямоугольников
-
-**Условие модульности: прямоугольники не пересекаются, не заходят друг на друга.** Растягивание бокового блока до низа макета — решение по контексту (плотная иллюстрация против лёгкого текста), а не жёсткое правило.
-
-**Слабая конструкция — когда верхний ряд образует чёткую ось, а нижние «пытаются играть с ней в прямоугольник», но не дотягивают.** Проверяйте: сбалансированы ли высоты левой/правой (верхней/нижней) частей так, чтобы получился настоящий прямоугольник, а не приблизительный. «Бритва Оккама-Ильяхова» — сливайте повторяющиеся подстрочники в одну фразу («Вы выбрали 2 номера, общая стоимость — 10 000 руб.») вместо трёх раздельных строк, разваливающих прямоугольник.
-
-### Точка, линия, прямоугольник — примитивы вёрстки
-
-**«Точка, линия и прямоугольник — примитивы вёрстки, которые составляют геометрию любой страницы».**
-- **Точка** (в т.ч. круг) — «эгоистичная» фигура с единственным фокальным центром, использовать умеренно: буквы, числа, логотипы, пиктограммы, кадрированные фото. «Круг не любит конкуренции» — самая агрессивная форма, мгновенно перетягивает внимание; заменяйте круги на другие формы, когда нужно снизить визуальную агрессию и переключить внимание на содержание (например, лица вместо рамок).
-- **Линия** — строка текста: «удобный, читабельный, лаконичный, спокойный элемент», лучше заякорена к верхнему/нижнему краю модуля, чем растянута на всю ширину; хороша для меню.
-- **Прямоугольник** — универсальная, «самая технологичная» форма: делит пространство без потерь, единица модульной сетки. Успех модульной вёрстки = найденное наилучшее прямоугольное расположение, и точка.
-
-### Теория близости (proximity)
-
-**Проектируйте страницу по теории близости: определите 1–3 самых крупных смысловых блока («плотных космических тела»), вокруг которых выстраиваются второстепенные.** Разделяй информацию не рамками/линейками, а расстоянием — например, в двуязычном меню убирайте вертикальные линейки-разделители между колонками, используйте теорию близости вместо линий.
-
-### Выход из прямоугольника
-
-**Информация мира объёмна/многомерна — иногда типографика должна выйти из плоского прямоугольника, чтобы честно её представить.** Прецеденты: немецкая карта XIX века, где названия морей/рек следовали очертаниям берегов вместо сетки; рукописи Ньютона, где нотация выходила за прямоугольные границы, чтобы выразить связи; современные случаи — экспериментальная типографика Сэма Уинстона, шапка The Guardian, играющая с рамкой, подписи Food Daily, огибающие контуры еды (картографическая традиция). Правило: современная типографика по умолчанию модульна — выход из прямоугольника заслуживается только тогда, когда этого реально требует форма/размерность содержания, а не как украшение.
-
-### Синтаксическая роль элемента предшествует форме
-
-**«Каждому элементу интерфейса соответствует свой синтаксис, свой „член предложения"» — полоса читается как текст: неверный синтаксис элемента = ошибка дизайна.** Функциональный приём нельзя применять декоративно: если пунктирное подчёркивание в системе означает «действие без перезагрузки страницы» («недоссылка», «дыдыдышка»), оно не может параллельно использоваться просто для украшения — иначе система обозначений лжёт. То же с цветом: «синее должно быть кликабельно, а кликабельное — синим» — не путайте визуальный язык, закреплённый за одной функцией, использованием его для другой.
+A deduplicated reference for assessing any page, screen, poster, or table. Terms are canonical (studio jargon); key Russian originals appear once in parentheses at first definition. Source: 4 "canon" digests (anchor objects, inner/outer, modularity, primitives, taste, the video era) + 18 sweep-digests of all of bureau.ru's advice columns — where a point repeated, only the single strongest formulation was kept.
 
 ---
 
-## 2. Модульная вёрстка и сетки
+## 1. Basic laws
 
-**Определение:** модульная вёрстка = деление прямоугольников (см. §1). Каждый раздел может быть хорошо скомпонован (модульно, заякорено, ритмично) без общей сетки на всю публикацию — но страницы, построенные на единой заданной сетке, «как правило, выглядят более цельной» на масштабе целого сайта/издания. Сетка также несёт элементы фирменного стиля (факт-объекты, полуколоночные врезки) последовательно и работает шаблонирующей системой, ускоряющей продакшн. Дисциплина сетки и выразительность конкретного раздела не противоречат друг другу.
+**"Modular layout (модульная вёрстка) is the division of rectangles."** A page is cut into neat, non-overlapping rectangular modules, aligned by width/height, that together make up the full rectangle of the page; empty space is a module too, not a leftover. Its lineage: Japanese tatami mats → the 20th-century Swiss modular grid → the web. What's different on the web: content has unpredictable length, so modules must flex instead of being rigidly fixed into cells.
 
-### Ритм колонок: не повторять на соседних этажах
+**"Man's greatest invention is not the wheel but the rectangle."** Books, websites, architecture — it all comes down to rectangles dividing into rectangles. Modularity isn't a style; it's the operating system of layout.
 
-**Главный принцип: «не повторять ритм на соседних этажах».** Однородный ритм одинаковых колонок читатель воспринимает как сигнал «это один тип контента» — он будет пытаться сопоставить несвязанные блоки по этому признаку. Комбинируя несколько колоночных сеток в одном блоке, ломайте ритм между соседними «этажами», чтобы сигнализировать смену типа контента/уровня иерархии. Формулы нет — решайте по смыслу (форма, близость, размер), не по грид-арифметике. Не делайте колонки одинаковой высоты/ширины намеренно — читатель ориентируется по форме текста, близости и размеру элементов, а не по невидимой сетке.
+### The inner-and-outer rule (правило внутреннего и внешнего)
 
-**Автоматизация вёрстки должна кодировать это редакторское суждение, а не игнорировать его.** «Большинство информационных сайтов выглядят как интерфейс к безликой базе данных» — боритесь с этим, зашивая в алгоритм вёрстки группировку по значимости и чередование ритма (соседние карточки не должны сидеть на одной сетке), заимствуя дисциплину ручной печатной вёрстки.
+**"Inner ≤ outer"** — for an object to read as a single whole, the distances inside it must be smaller than the distances separating it from its neighbors. This holds at every scale: strokes < letters < words < lines < paragraphs < modules < page. Examples of failure: letter-spacing ≈ word-spacing — words clump together (fixed by widening word spacing or tightening letter spacing); line-height ≈ letter-spacing — text reads as a "checkerboard" (fixed by increasing line-height).
 
-### Когда ломать сетку
+**What matters is contrast, not a specific ratio.** There's no universal numeric proportion — dial expressiveness up or down by adjusting the inner/outer contrast rather than memorizing particular figures.
 
-**Дыхание колонки — ≥5% ширины окна.** Основная текстовая колонка нуждается в «дыхании» от следующей колонки: правило большого пальца — оставляйте не менее 5% ширины окна свободными справа от основной колонки, даже внутри строгой сетки (пример — собственная 4-колоночная сетка bureau.ru).
+**The rule cascades up a block's level.** A headline plus a subheading is also a block: if the subheading crowds into the headline's line-height, that's the same sin one level up. The classic "tunnel vision" mistake is fixing the line spacing inside a block while forgetting that the block as a whole also needs inner < outer relative to its surroundings.
 
-**«Смысловая группировка важнее соблюдения невидимых линий».** Ломайте сетку всегда, когда этого требует смысл — это не нарушение правила, а применение более приоритетного правила.
+**The inner-and-outer rule can conflict with the anchor-object rule — and that's normal.** Proximity works through closeness (what's near reads as connected, what's far doesn't), but a closed rectangle (a frame, a fill) unites its contents regardless of internal spacing. When Google's designers imposed a modular grid on a simple navigation list, there was no technical error, but the solution "looks too overwrought" — that treatment suits data tables, not menus. The rules are independent forces that sometimes conflict with no "wrong" answer.
 
-**«Мы часто нарушаем сетку, если этого требует смысл».** Число-ширина исторической сетки («12-колонная, 960px») не имеет значения самого по себе в адаптивном вебе; выход элемента за пределы контента создаёт риск лишнего скролла на мобильных — вместо нарушения сетки переформулируйте задачу приёмами: «наклейка», «уголок», «язычок», узкая строка-врезка, разворачивание по клику.
+### Anchor objects (якорные объекты) + anti-air (анти-воздух)
 
-**Регулярная сетка провоцирует забыть об иерархии.** «Из-за регулярной сетки легко забыть, что на странице есть главные и второстепенные элементы» — метод: сначала размещайте главный контент по центру, затем стройте вспомогательные элементы вокруг него. Настоящий кайф вёрстки — не в выравнивании по сетке, а в правильном членении и соподчинении материала; это и есть основной навык, не грид-механика.
+**An anchor object** is a module's most conspicuous element (an illustration, a large headline, a fact-object, a logo, a pictogram). The rule: an anchor object gravitates to a corner of the rectangle or to its *visual* center (the visual center sits higher than the geometric one — compensating for "gravity"). An alternative is to pin the object to one *side* of the rectangle for a calm, stable feel.
 
-**Не разрывайте цельный смысловой блок разрывом колонки** — например, расписание одного дня не должно попадать на границу колонок в двухколоночной вёрстке программы. Смешение размеров/стилей заголовков, которые выглядят похоже, создаёт путаницу — устанавливайте чёткую иерархию, чтобы расписание «вычленялось глазом» с первого взгляда.
+**Hierarchy of pulling power:** illustration > large headline > logo/mark/number > text (the most neutral).
 
-### Поля, отступы и напряжение пропорций
+**Anti-air is mandatory.** On the side opposite the anchor object there needs to be a contrasting empty (or less dense) area, or the object won't read as anchored — the construction "loses its footing" with no support. A beginner's mistake is forgetting the anti-air.
 
-**«Одинаковые вертикальные и горизонтальные поля — признак слабой, любительской, невнимательной вёрстки».** Нижнее поле делайте больше верхнего, компенсируя визуальный «вес» содержания. В модульной сетке: «расстояния вокруг горизонтальной границы модулей не могут быть равны» (например, отступы над/под линейкой или плашкой не совпадают).
+### The gravitational metaphor of proximity
 
-**Квадратные поля — не преступление** (пример: резиновая логотип-коробка Mindbox, где форма коробки диктовала квадратные поля), но правило по умолчанию иное: большинство форматов выигрывает от проporциональной *напряжённости* полей, а не от пассивной симметрии — «любой формат выигрывает от напряжения пропорций полей». Предпочитайте прямоугольные (асимметричные горизонталь/вертикаль) поля квадратным — «напряжение пропорций полей» читается лучше, чем нейтральность квадрата.
+**The perceived connection between elements is proportional to visual mass (size, weight, color, a colored fill) and inversely proportional to distance.** Control the sense of connection or separation with both parameters at once, not just spacing — increasing an element's mass draws it toward its neighbors just as surely as physically shrinking the distance does.
 
-**Асимметричные поля — книжная традиция.** Для журнальной/книжной полосы: щедрое нижнее поле; для журнала конкретно — «внешние поля поменьше, внутреннему оставить запас» (под переплёт/связывание). Дополнительно: снимайте абзацный отступ сразу после разрыва колонки, балансируйте текст на 1–2 колонки, контрастируйте аннотацию и основной текст типографически, настраивайте переносы ради чистого флага.
+### Unity of rectangles
 
-**Выравнивание текста к модулю — по вкусу.** Позиция базовой линии текста относительно модуля сетки лежит «где-то между строчной и прописной высотой — по вкусу», фиксированного правила нет, это эстетическое решение.
+**The condition for modularity: rectangles don't intersect, don't encroach on one another.** Stretching a side block down to the bottom of the layout is a decision made in context (a dense illustration against light text), not a rigid rule.
 
-### Центрирование и модульное мышление как эскалация сложности
+**A weak construction is one where the top row forms a clean axis while the rows below "try to play at being a rectangle" with it but fall short.** Check whether the heights of the left/right (or top/bottom) parts are balanced enough to form a genuine rectangle, not an approximate one. The "Occam-Ilyahov razor": merge repeating captions into a single phrase ("You selected 2 rooms, total cost — 10,000 rubles") instead of three separate lines that break the rectangle apart.
 
-**«Ваша страница — полоса с собственными полями».** Логотип центрируйте на полосе (а не на окне браузера); разваливающийся модуль объединяйте нарастающей сложностью решения: плашка/линейка → выровненные колонки → «коллекция швейцарских модулей». Не перескакивайте сразу к самому сложному приёму — эскалируйте только при необходимости.
+### Point, line, rectangle — the primitives of layout
 
-### Зачем вообще нужна сетка
+**"Point, line, and rectangle are the primitives of layout that make up the geometry of any page."**
+- **Point** (including the circle) — a "selfish" shape with a single focal center; use it sparingly: letters, numbers, logos, pictograms, cropped photos. "A circle doesn't like competition" — it's the most aggressive shape, instantly pulling attention; swap circles for other shapes when you need to lower visual aggression and redirect attention to the content itself (faces instead of frames, for instance).
+- **Line** — a line of text: "a convenient, readable, laconic, calm element," better anchored to the top or bottom edge of a module than stretched across the full width; works well for menus.
+- **Rectangle** — the universal, "most technological" shape: it divides space with no waste, the unit of the modular grid. Success in modular layout equals finding the best rectangular arrangement, full stop.
 
-Сетка — инструмент унификации на масштабе публикации/сайта, не догма отдельной страницы. Она даёт: (1) визуальную цельность через разделы; (2) последовательный носитель для фирменных элементов; (3) скорость продакшна как шаблонирующая система. Внутри неё разделы всё равно могут выразительно варьироваться.
+### Proximity theory
 
-**Историческая точка отсчёта — 12-колонная сетка, 960px**, но грид-механика — не главный навык. «У нас нет стандартной сетки для всех проектов… часто нарушаем сетку, если этого требует смысл» — число колонок и ширина в пикселях сами по себе ничего не решают; решает членение и соподчинение материала (см. выше).
+**Design the page by proximity theory: identify 1–3 of the largest blocks of meaning ("dense celestial bodies") around which the secondary ones are arranged.** Separate information by distance rather than by frames or rules — for example, in a bilingual menu, remove the vertical dividing rules between columns and use proximity theory instead of lines.
 
-**Делите контент по колонкам по совокупному размеру, а не по количеству элементов.** Равное число карточек/статей в двух колонках при разном суммарном объёме материала визуально «худосочит» одну колонку относительно другой — считайте площадь содержимого, не штуки.
+### Breaking out of the rectangle
 
-**Плотность модулей соответствует жанру формата.** Модули информационных сайтов обычно плотно упакованы (минимум воздуха на единицу смысла); миниформаты (виджеты, карточки для мобильных сводок), наоборот, нуждаются в избытке воздуха относительно объёма содержимого — не переносите плотность одного жанра в другой механически.
+**The world's information is volumetric and multidimensional — sometimes typography must step outside the flat rectangle to represent it honestly.** Precedents: a 19th-century German map where the names of seas and rivers followed the shape of the coastline instead of a grid; Newton's manuscripts, where notation spilled past rectangular borders to express connections; contemporary cases — Sam Winston's experimental typography, The Guardian's masthead playing with its own frame, Food Daily's captions wrapping around the food's outline (a cartographic tradition). The rule: modern typography is modular by default — stepping outside the rectangle is earned only when the shape or dimensionality of the content genuinely demands it, not as decoration.
 
-### Единство прямоугольников на масштабе таблицы/формы
+### An element's syntactic role precedes its form
 
-**Форма — тоже модульная конструкция.** Длинную форму не обязательно дробить на шаги — лучше сгруппировать поля в крупные логические блоки («Тур», «Туристы», «Оплата»), избегая «квадратно-гнездовой укладки» разрозненных полей; подписи выравнивайте в одну сторону, убирайте самоочевидные подписи на кнопках. Каждая логическая группа — свой прямоугольник-модуль с внутренним < внешним расстоянием по отношению к соседним группам.
-
----
-
-## 3. Шесть базовых элементов
-
-**«Задачи вёрстки сводятся к размещению этих элементов».** Всё остальное — их композиция: заголовок (headline, называет страницу/блок), текст (body, основное сообщение), иллюстрация (image), элемент управления (control — поле ввода/кнопка), гиперссылка (цветной подчёркнутый переход), подпись (caption к иллюстрации или элементу управления). Элементы могут сливать функции (меньше сущностей), но визуально смешиваться не должны никогда.
-
-**Кардинальный грех — «вёрстка с комками» (layout with lumps, как недоваренная манная каша).** Элементы хаотично перемешаны вместо аккуратного разделения. Проверка: способен ли ревьюер безошибочно отличить один базовый элемент от другого на полосе.
-
-### Заголовок
-
-**Тройная функция:** привлекает внимание, ориентирует по смыслу, организует полосу — не просто краткое резюме.
-
-**Форма по умолчанию:** крупный, единообразный регистр (обычно строчные с прописной в начале), **без точки в конце**. «Точки не ставятся в конце названий, заголовков, подписей к иллюстрациям, табличных надписей» — проверка: назывное предложение (нет сказуемого); вопросительный/восклицательный знак сохраняется.
-
-**Синтаксическая целостность обязательна.** Смешение стилей внутри одного заголовка «выдаёт любительскую вёрстку». Переносите строку только в логичных местах, никогда не оставляя одинокий предлог/союз на новой строке.
-
-**Заголовок должен «накрывать» свой текстовый модуль**, визуально отделяя его от соседей. Крайне нежелательно разрывать заголовок и начало текста — второстепенные элементы (ссылки, теги) уходят в конец блока. Слишком много переносов строк — «выглядит сложно и уродливо»: чините компаундным заголовком, другим кеглем или редакторским сокращением.
-
-**Иерархия подзаголовков (текстовая статья):** 2-й уровень — увеличенный кегль + отступ в размере двух строк; 3-й уровень — полужирное начертание без отступа; **«заголовки четвёртого уровня запрещены в любом уважающем себя издании»**.
-
-**Для первой (главной) иллюстрации страницы заголовок над ней не критичен** — по факту это заголовок всей страницы, а не отдельного модуля.
-
-### Текст
-
-**Ширина колонки — 60–70% ширины окна с ограничением max-width.** Длинные строки требуют увеличенного интерлиньяжа.
-
-**Форма текста определяет порядок чтения.** Единая колонка — взгляд движется вертикально без препятствий; разрыв колонки иллюстрацией прерывает чтение, глаз «ищет продолжение». В многоколоночной вёрстке критично, чтобы все колонки выравнивались по верху — несогласованное выравнивание модулей рождает нежелательные псевдомодули.
-
-**Списки требуют обобщающего текста или заголовка** — список без введения повисает без контекста.
-
-**Блочная конструкция текста должна сохранять прямоугольную форму «во всех мутациях».** При дроблении подзаголовками/колонками — уменьшайте размеры, кегль и повышайте дробность элементов сверху вниз.
-
-### Иллюстрация
-
-**«Иллюстрация привлекает внимание быстрее заголовка»** — обязана быть узнаваемой, избегайте «бессмысленных неопознаваемых пейзажей».
-
-**«Обрезай фотографию, пока она не закричит» (crop until it screams)** — убирайте лишнее, не ампутируя целые фигуры; края — чёткие, не «облака, сходящие на нет».
-
-**Горизонтальные иллюстрации естественны, вертикальные — динамичнее.** При масштабировании не искажайте пропорции.
-
-**Канонический вертикальный порядок: иллюстрация → заголовок → текст → ссылки** — соответствует естественному порядку чтения. Иллюстрация слева создаёт эффект «подмышки» (armpit), отделяющий заголовок от текста — иллюстрация справа предпочтительнее. **«Ничто не выглядит так уродливо и нечитаемо, как обтекание иллюстрации текстом справа».** Чисто вертикальный стек по построению не имеет проблемы «подмышки»; если фото стоит сверху-слева, разрыв толкает левый край текста правее левого края заголовка, «нарушая естественный порядок чтения» — переносите фото вправо.
-
-**Дефолтный порядок «картинка → заголовок → текст» нарушать только осознанно** (исключения: заголовок уровня главной страницы, лента с картинками без текста, свободные текстовые страницы) — иначе взгляд «прыгает вверх-вниз», ломая поток чтения.
-
-### Элемент управления
-
-**Ранг наравне с заголовками и текстом.** Три класса форм:
-- **точечные** (иконки, чекбоксы) — компактны, сильный центр, но плохо работают в группах («плохой командный игрок»);
-- **линейные** (кнопки, поля ввода, слайдеры) — хорошо читаются в ряд, тянутся по горизонтали, плохо смотрятся растянутыми по вертикали;
-- **прямоугольные** (текстовые области, графики, карты) — большая площадь, сами становятся якорными объектами страницы.
-
-**Минимальный отступ между элементами управления — примерно два пробела**; размер должен соответствовать окружающим элементам; сортируйте и выравнивайте, иначе полоса читается как захламление.
-
-**Внутренние поля кнопки асимметричны: боковые больше вертикальных** — «так нужно всегда делать при дизайне кнопок»; симметричный отступ во все стороны визуально сжимает текст кнопки и читается как недоработка.
-
-**Форма элемента управления обязана намекать на его функцию, а не просто визуально выделяться.** Круглый элемент, который на деле является таймпикером, вводит в заблуждение: «проблема этого элемента не в круглой форме, а в том, что его форма не даёт подсказки, что это» — форма должна сигнализировать поддерживаемое взаимодействие, а не только служить украшением/акцентом.
-
-**Подписи к полям — слева предпочтительнее, чем сверху.** «Подписи слева от полей предпочтительнее — не смешаны означающее и означаемое», взгляд скользит вниз по столбцу подписей, не прыгая между строк. Подписи сверху — компромисс только при явной нехватке ширины (мобильные/узкие формы).
-
-### Гиперссылка
-
-**Базовый элемент вёрстки, оценивается по трём осям:** узнаваемость (синий + подчёркивание — легче всего заметить), удобство нажатия (текст достаточной длины, отступ от соседних ссылок, смена цвета при наведении), информативность (текст ссылки должен называть, что за ней скрывается).
-
-**Подчёркивайте всю фразу, включая предлоги/союзы** — «выделение склоняется»: соседние знаки препинания (запятая, кавычки, скобки) принимают цвет/оформление ссылки, иначе взгляд спотыкается о «разрыв предложения».
-
-**Никогда не давайте одиночной ссылке переноситься на новую строку** — сокращайте длинные заголовки. Группируйте ссылки (меню, списки) с минимальным зазором в **~два пробела**.
-
-**«Выделение склоняется» и на знаки препинания.** Если следом за цветной ссылкой идёт запятая/кавычка/скобка, красьте её в цвет ссылки — иначе глаз спотыкается о «разрыв предложения» на границе. Уточнение: если ссылка сама уже заключена в кавычки и заканчивается запятой, запятую красьте в цвет обычного текста, но не подчёркивайте — иначе подчёркивание съедет на пунктуацию, которая ссылке не принадлежит.
-
-### Подпись
-
-**Подпись — «мостик» к основному тексту.** Сопровождает иллюстрации, элементы управления, даже гиперссылки. Пропускайте подпись, если изображение самоочевидно или уже стоит рядом с заголовком/описанием.
-
-**Изображения:** подпись снизу или сбоку. **Поля ввода:** подпись слева или сверху — видна до того, как пользователь начнёт действовать.
-
-**Выносные линии (leader lines) — ≤20% чёрного**, не пересекаются друг с другом, минимально перекрывают изображение, достаточно длинны для чистого чтения. Убирайте выноску вовсе там, где объект уже локально отделён и подпись рядом с ним самодостаточна — оставляйте выноски только для действительно неоднозначных случаев привязки.
-
-**Оформление:** кегль/начертание подписи меньше или легче основного текста; **без точки в конце**; двоеточие после подписи к полю — опционально.
+**"Every interface element has its own syntax, its own 'part of speech' — a page is read like a text: an element's wrong syntax is a design error."** A functional device can't be applied decoratively: if a dotted underline means "an action without a page reload" within the system (bureau slang for this: a "quasi-link," a "whatchamacallit-link"), it can't simultaneously be used just for decoration — otherwise the notation system lies. The same goes for color: "blue should be clickable, and clickable should be blue" — don't confuse a visual language tied to one function with using it for another.
 
 ---
 
-## 4. Иерархия и композиция
+## 2. Modular layout and grids
 
-### Доминирующие и вспомогательные иллюстрации
+**Definition:** modular layout = the division of rectangles (see §1). Any given section can be well composed (modular, anchored, rhythmic) with no overarching grid for the whole publication — but pages built on a single shared grid "generally look more unified" at the scale of an entire site or publication. A grid also carries brand elements (fact-objects, half-column call-outs) consistently and works as a templating system that speeds up production. Grid discipline and the expressiveness of a particular section don't contradict each other.
 
-**Стройте явную иерархию между главной и вспомогательной иллюстрацией.** Ряд одинаковых изображений над текстом — спокойно, но скучно и съедает всю ширину окна. Лучший паттерн: вспомогательное изображение стоит рядом с текстом, доминирующее — перекрывает/накладывается сверху, давая мгновенную иерархию. Вспомогательное фото может сидеть в «подмышке» заголовка, но не должно вклиниваться между заголовком и телом текста.
+### Column rhythm: don't repeat it on adjacent "floors"
 
-**Три базовых компоновки:** ряд изображений над текстом; одно сверху + одно сбоку; вспомогательное в «подмышке» заголовка (не отрывая заголовок от начала текста).
+**The main principle: "don't repeat the rhythm on adjacent floors."** A reader perceives a uniform rhythm of identical columns as a signal that "this is one type of content" — they'll try to match unrelated blocks by that cue. When combining several column grids within one block, break the rhythm between neighboring "floors" to signal a change in content type or hierarchy level. There's no formula — decide by meaning (shape, proximity, size), not grid arithmetic. Don't make columns the same height or width on purpose — the reader orients by the shape of the text, by proximity, and by element size, not by an invisible grid.
 
-**Доминирующая иллюстрация однозначно говорит: «Здесь начало осмотра».** Второстепенная фотография никогда не должна конкурировать по размеру с главной.
+**Layout automation should encode this editorial judgment, not ignore it.** "Most information sites look like an interface to a faceless database" — fight this by baking grouping-by-significance and rhythm alternation into the layout algorithm (neighboring cards shouldn't sit on the same grid), borrowing the discipline of hand-set print layout.
 
-### Первые экраны / обложки: четыре архетипа
+### When to break the grid
 
-Главная страница = «лицо, обложка, фирменный стиль» сайта. Четыре структуры:
-- **лента** (feed) — обратнохронологический поток, новости/соцсети;
-- **плитка** (tile) — плотные однородные прямоугольники, выровненные по высоте для порядка чтения (при плавающей высоте, как в Pinterest, направление чтения ломается);
-- **фоторама** (photo-carousel) — одна доминирующая полноэкранная фотография, навигация обязана нести информативные подписи/превью;
-- **рубрикатор** (directory) — аккуратные ячейки разделов по принципу «бутерброда» (устойчив к изменению контента), даёт дизайнеру максимальный контроль над приоритетом контента.
+**A column needs ≥5% breathing room relative to the window width.** The main text column needs "breathing room" from the next column: a rule of thumb is to leave at least 5% of the window's width free to the right of the main column, even inside a strict grid (example: bureau.ru's own 4-column grid).
 
-### Принцип трёх точек и композиция на фоне изображения
+**"Grouping by meaning outranks obeying invisible lines."** Break the grid whenever meaning calls for it — that's not a violation of the rule, it's the application of a higher-priority rule.
 
-**Различайте «якоря вёрстки» (модульные — угол/центр прямоугольника) и «композиционные якоря» фотографии, которые ведут себя почти противоположно** — хорошая фотокомпозиция избегает углов и центра. Для свободной композиции поверх изображения — **принцип трёх точек**: крупный, средний, мелкий элемент в свободном треугольнике; проверяйте, ощущается ли расстановка тяжёлой или изящной. Пустые углы фотографии — обычно безопасная зона для подписи.
+**"We often break the grid when meaning demands it."** The number and width of a historical grid ("12 columns, 960px") carries no significance on its own in a responsive web; an element spilling past the content's edge risks extra scrolling on mobile — instead of breaking the grid, reframe the task with devices like a "sticker," a "corner fold," a "tab," a narrow inset line, or expand-on-click.
 
-### Порядок чтения как аргумент композиции
+**A regular grid tempts you to forget hierarchy.** "A regular grid makes it easy to forget that a page has primary and secondary elements" — the method: place the primary content in the center first, then build the supporting elements around it. The real pleasure of layout isn't in aligning to a grid but in correctly segmenting and subordinating material; that's the core skill, not grid mechanics.
 
-**«Было — стало»: старое, плохое, некрасивое — левее/выше/раньше нового, хорошего, красивого.** В ценах: сначала зачёркнутая старая цена (создаёт напряжение), затем новая (расслабляет) — работает и офлайн, и онлайн.
+**Don't split a single block of meaning across a column break** — for example, one day's schedule shouldn't fall across a column boundary in a two-column program layout. Mixing sizes or styles of headings that look similar creates confusion — set up a clear hierarchy so the schedule "stands out to the eye" at first glance.
 
-**Оптика важнее геометрии.** Не вписывайте логотипы разных компаний в одинаковые квадраты — разные пропорции создают иллюзию разного размера; приводите логотипы к одному весу «на глаз», ищите общую опорную точку, а не формальное совпадение габаритов.
+### Margins, padding, and proportional tension
 
-### Кейс: посадочная страница как композиция принятия решения
+**"Equal vertical and horizontal margins are a sign of weak, amateur, careless layout."** Make the bottom margin bigger than the top one to compensate for the visual "weight" of the content. Within a modular grid: "the distances around a module's horizontal border can't be equal" (for instance, the padding above and below a rule or a colored fill shouldn't match).
 
-**Массивная цветная плашка часто становится слепой зоной** — крупный однородный цветной блок читатель научился игнорировать (баннерная слепота), даже если в нём ключевая информация. Страница, ведущая к выбору тарифа/товара, должна *заканчиваться* выбором, а не начинаться с него — сначала контекст и подтверждение ценности (отзывы, польза), затем варианты. Порядок цен — по возрастанию: «покупатель должен физически ощущать, что отступает и дешевеет», спускаясь по списку сверху вниз. Средний вариант в ряду вариантов полезно маркировать как рекомендованный («хит») — люди тяготеют к выбору золотой середины, композиционно поддержите этот паттерн, а не боритесь с ним.
+**Square margins aren't a crime** (example: Mindbox's flexible logo box, where the box's shape dictated square margins), but the default rule runs the other way: most formats benefit from proportional *tension* in their margins rather than passive symmetry — "any format benefits from tension in its margin proportions." Prefer rectangular (asymmetric horizontal/vertical) margins over square ones — "tension in margin proportions" reads better than the neutrality of a square.
 
-### Модуль как единица прямоугольника, критерий целого
+**Asymmetric margins are a book tradition.** For a magazine or book page: a generous bottom margin; for a magazine specifically — "smaller outer margins, leave a reserve on the inner one" (for the binding/gutter). Additionally: drop the paragraph indent right after a column break, balance text across 1–2 columns, contrast the standfirst and body text typographically, and adjust hyphenation for a clean rag.
 
-Проверка любого композиционного решения: соблюдён ли принцип inner/outer на уровне блока (§1), заякорен ли доминирующий элемент с анти-воздухом (§1), не разваливается ли прямоугольник (§1), не повторяет ли соседний ряд ритм текущего (§2).
+**Aligning text to the module is a matter of taste.** The position of the text's baseline relative to the grid module sits "somewhere between x-height and cap-height — by taste"; there's no fixed rule here, it's an aesthetic decision.
 
-### Вёрстка плакатов, схем, афиш
+### Centering and modular thinking as an escalation of complexity
 
-**Тест на контраст — чёрно-белым.** Проверяйте цветовую пару текст/фон переводом в градации серого: если пара «пропадает» в ч/б (классика — жёлтое на жёлтом), контраст объективно недостаточен для афиши/плаката, а не только «на вкус».
+**"Your page is a spread with its own margins."** Center the logo on the page (not on the browser window); when a module is falling apart, fix it with escalating complexity: a colored fill/rule → aligned columns → "a collection of Swiss modules." Don't jump straight to the most complex device — escalate only when necessary.
 
-**Не заковывайте главный визуальный элемент в двойную рамку**, подавляющую его — например, портрет артиста на афише не должен тонуть в декоративной обводке. Устанавливайте чёткую иерархию размеров среди заголовков: недифференцированный текст одного кегля читается как «общее уныние» (отсутствие структуры).
+### Why you need a grid at all
 
-**Плотные информационные плакаты/схемы (родословные, диаграммы, транспортные схемы) выравнивайте плотно, «как на схемах метро»**, без разрядки и мелких деталей, съедаемых при печати/уменьшении. Для протяжённых хронологий предпочитайте горизонтальную раскладку вертикальной. Плотный референс-плакат «ничего не даёт неподготовленному зрителю» — сопровождайте его онбордингом (ключевые фигуры, встроенное объяснение), если аудитория не эксперты.
+A grid is a tool for unifying at the scale of a publication or site, not dogma for a single page. It provides: (1) visual unity across sections; (2) a consistent carrier for brand elements; (3) production speed as a templating system. Within it, sections can still vary expressively.
 
-**Вес графических элементов схемы — минимально достаточный.** Слишком толстые линии и слишком жирный шрифт делают схему «тяжелее и неопрятнее», а не выразительнее; экономьте графический вес так же, как экономите слова в тексте — каждый лишний грамм черноты соревнуется с данными за внимание.
+**The historical reference point is the 12-column, 960px grid**, but grid mechanics isn't the main skill. "We don't have a standard grid for every project… we often break the grid when meaning demands it" — the number of columns and the pixel width don't decide anything on their own; what decides is the segmentation and subordination of material (see above).
 
-**Многослойная информация («бутерброд») требует различимых слоёв.** Если смежные информационные слои визуально похожи и слабо разделены — например, разные типы данных на билете, напечатанном одним и тем же шрифтом без иерархии, — читатель не может их разъединить взглядом; разделяйте слои кеглем, начертанием или явными линейками, но не теряйте при унификации формата критичные данные.
+**Divide content into columns by cumulative size, not by element count.** An equal number of cards or articles in two columns with a different total volume of material makes one column visually "scrawnier" than the other — count the area of the content, not the number of pieces.
 
-**Связи между объектами схемы показывайте логикой взаимного расположения, а не только цветом/стрелками-легендой** — пространственное расположение запоминается проще условного кода: если объект А физически стоит рядом с объектом Б по смыслу их связи, отдельная легенда часто не нужна вовсе.
+**Module density matches the format's genre.** Modules on information-dense sites are usually packed tight (minimum air per unit of meaning); mini-formats (widgets, cards for mobile summaries), conversely, need a surplus of air relative to their content volume — don't carry one genre's density into another mechanically.
 
-**Разная толщина линий — инструмент разделения изображения на информационные слои,** не только эстетика: отделяйте основной контур объекта от вспомогательной/размерной графики толщиной штриха, а не исключительно цветом или подписью — это тот же «коэффициент полезных чернил» Тафти, применённый к чертежу, а не только к диаграмме.
+### Unity of rectangles at the scale of a table or form
 
-**В плотных многоколоночных табло (программа передач, расписание) КАПС — первый враг читаемости.** Выравнивайте время по общему знаку (двоеточию) для визуальной вертикали; заменяйте цветовое кодирование категорий иконками там, где палитра из многих цветов на многих колонках создаёт «нестерпимую пёструю рябь».
-
-**При смене формата с горизонтального на вертикальный переносите знак логотипа наверх, а не оставляйте слева** — так порядок считывания/идентификации сохраняется в новых пропорциях; механическое сохранение исходной раскладки на несовместимом формате ломает порядок чтения.
-
-**Ряд однотипных пиктограмм/модулей должен быть согласован по стилю и толщине штриха.** Несогласованный ряд «разномастных прямоугольников», которые «прыгают и ничего друг о друге не знают», читается как небрежность, даже если каждый элемент по отдельности неплох, — согласование ряда важнее полировки отдельной иконки.
-
-**Диаграмма с разнонаправленным значением (плюс/минус, рост/падение) — используйте нулевую линию,** знак вправо/влево (или вверх/вниз) от неё, а не единый поток в одну сторону с последующим объяснением в подписи.
+**A form is also a modular construction.** A long form doesn't have to be broken into steps — it's better to group fields into large logical blocks ("Trip," "Travelers," "Payment"), avoiding a "checkerboard stacking" of scattered fields; align labels to one side, and drop self-evident labels on buttons. Each logical group is its own rectangular module, with inner < outer spacing relative to the neighboring groups.
 
 ---
 
-## 5. Типографика
+## 3. Six basic elements
 
-### Заголовки — см. §3 (полная трактовка там)
+**"Layout tasks come down to placing these elements."** Everything else is their composition: headline (names the page or block), body text (the main message), illustration (image), control (an input field or button), hyperlink (a colored, underlined jump), caption (for an illustration or a control). Elements may merge functions (fewer entities), but they must never blend visually.
 
-### Списки
+**The cardinal sin is "layout with lumps" (вёрстка с комками)** — like undercooked semolina porridge, where elements are jumbled together instead of being neatly separated. The test: can a reviewer tell one basic element from another on the page without hesitation?
 
-**Правило внутреннего/внешнего управляет списками:** межпунктовый интервал существует, но заметно меньше межабзацного — тогда список читается как единый подчинённый «абзац».
+### Headline
 
-**Вводная строка списка прижимается к первому пункту без дополнительного отступа** — это стандартная швейцарская/европейская конвенция (пример: документация Apple), а не ошибка, как иногда полагают русские дизайнеры. Список — «неделимая сущность, одно предложение и один абзац»: не добавляйте лишний отступ перед первым пунктом, он должен читаться частью структуры вводного абзаца, а не отдельным блоком.
+**A triple function:** it grabs attention, orients the reader by meaning, and organizes the page — it's not just a brief summary.
 
-### Абзацы
+**Default form:** large, uniform case (usually lowercase with an initial capital), **no period at the end.** "No periods at the end of titles, headlines, captions, or table labels" — the test: is it a nominal sentence (no predicate)? A question mark or exclamation point is kept.
 
-**На экране пустая строка между абзацами (слепая строка) предпочтительнее отступа (красной строки).** Экран читать тяжелее бумаги, поэтому дополнительное разбиение облегчает восприятие глазом. При переносе колонки — снимайте абзацный отступ сразу после разрыва (первая строка новой колонки набирается без отступа).
+**Syntactic consistency is mandatory.** Mixing styles within a single headline "gives away amateur layout." Break lines only at logical points, never leaving a lone preposition or conjunction at the start of a new line.
 
-### Интерлиньяж
+**A headline must "cover" its text module**, visually separating it from its neighbors. It's highly undesirable to split a headline apart from the start of the text; secondary elements (links, tags) should move to the end of the block. Too many line breaks "looks complicated and ugly" — fix it with a compound headline, a different size, or an editorial cut.
 
-**Интерлиньяж — функция кегля, длины строки и формата, и никогда — числа строк.** «Никогда не менять интерлиньяж в пределах одного типа текста», кроме случаев осознанного стилистического приёма. Чем длиннее строка по числу слов, тем больше должен быть интерлиньяж.
+**Subheading hierarchy (in a text article):** level 2 — a larger size plus a two-line indent; level 3 — bold weight with no indent; **"fourth-level headings are forbidden in any self-respecting publication."**
 
-**Алгоритм вёрстки блока: длина строки → интерлиньяж → расстояние до заголовка → левое поле → верхнее поле → повторить.** «Квадрат в углу — признак слабой, любительской, невнимательной вёрстки», если выбран неосознанно (а не как приём).
+**For a page's first (main) illustration, a headline above it isn't critical** — in effect, it functions as the headline for the whole page, not for a separate module.
 
-**Кернинг цифр в заголовках** — цифры в большинстве шрифтов моноширинные (заточены под таблицы), поэтому в заголовках межцифровые просветы «скачут»; ручной кернинг оправдан только в спецпроектах (логотипы с датами), в обычном наборе — трата времени.
+### Body text
 
-### Флаг / рваный край (ragged edge)
+**Column width: 60–70% of the window's width, with a max-width cap.** Long lines require increased line-height.
 
-**Настраивайте переносы ради «спокойной волнистой границы» флага.** В журнальной/книжной колонке — правильные переносы дают чистый рваный край без «дыр» и «лестниц».
+**The shape of the text determines the reading order.** A single column: the eye moves down with no obstruction; a column broken by an illustration interrupts reading, and the eye "hunts for the continuation." In multi-column layouts, it's critical that all columns align at the top — inconsistent module alignment breeds unwanted pseudo-modules.
 
-**Смешение выключки по левому краю и по центру допустимо**, если результат выглядит аккуратно вместе — не категорический запрет, критерий чисто визуальный.
+**Lists need a summarizing lead-in or a heading** — a list with no introduction hangs with no context.
 
-### Вёрстка в круг
+**A block of text must keep its rectangular shape "through all its mutations."** When broken up by subheadings or columns — shrink the sizes and the type size, and increase the granularity of elements from top to bottom.
 
-**Три уровня сложности:**
-1. текст, вписанный в круглый/треугольный силуэт — «неимоверно сложно»;
-2. заполнение точного круглого объекта — дорогая точность, «нужно понять, стоит ли овчинка выделки»;
-3. текст внутри круглой рамки — работают обычные правила (флаг, избегание «коридоров» пробела).
+### Illustration
 
-Циферблатный/часовой набор: лишь около 5% из пятисот лет истории часовых циферблатов достигают настоящей красоты — жанр крайне требователен к исполнению.
+**"An illustration grabs attention faster than a headline"** — it must be recognizable; avoid "meaningless, unidentifiable landscapes."
 
-### Кегль и сочетание шрифтов
+**"Crop until it screams"** — cut away everything extraneous with no amputating of whole figures; edges should be crisp, not "clouds fading into nothing."
 
-**Проверяйте пару шрифтов заголовка/текста по двум осям: контраст** (простой/сложный, яркий/нейтральный, широкий/узкий, жирный/тонкий) **и общие черты** (пропорции, насыщенность, настроение). Стилистически далёкие, но культурно родственные пары могут работать (Helvetica + Gilroy) — оценивайте обе оси относительно реальной вёрстки, а не шрифты изолированно.
+**Horizontal illustrations feel natural; vertical ones feel more dynamic.** Don't distort proportions when scaling.
 
-**Учитывайте характерные пропорции шрифта** (высокие-узкие / низкие-широкие буквы) при выборе формата, полей, длины строки, интерлиньяжа — несовпадение пропорций даже при визуальном сходстве блоков создаёт впечатление «неправильно подобранной кириллицы». Контраст пропорций — законный приём, не обязательно ошибка.
+**Canonical vertical order: illustration → headline → text → links** — this matches the natural reading order. An illustration on the left creates an "armpit" effect that separates the headline from the text — an illustration on the right is preferable. **"Nothing looks as ugly and unreadable as text wrapping around an illustration on the right."** A purely vertical stack has no "armpit" problem by construction; if the photo sits top-left, the break pushes the text's left edge further right than the headline's left edge, "breaking the natural reading order" — move the photo to the right instead.
 
-**Не сжимайте буквы вордмарка ради фиксированного контейнера.** Принудительное сжатие ширины/интервалов букв, чтобы втиснуть логотип в заданные габариты, убивает ощущение качества/премиальности, ради которого редизайн затевался — проверяйте, что ширина букв и межбуквенные интервалы переживают принудительный контейнер без искажения; если не переживают, меняйте контейнер, а не буквы.
+**Break the default "image → headline → text" order only deliberately** (exceptions: a homepage-level headline, a feed of images with no text, free-form text pages) — otherwise the eye "jumps up and down," breaking the flow of reading.
 
-### Текст с логотипом и синтаксическая роль элемента
+### Control
 
-**«Каждому элементу интерфейса/полосы соответствует свой синтаксис, свой „член предложения"».** Функциональный приём (например, пунктирное подчёркивание = «срабатывает без перезагрузки страницы») нельзя использовать декоративно — семантика приёма обязана совпадать с реальным поведением.
+**Ranked equal to headlines and body text.** Three classes of form:
+- **point-shaped** (icons, checkboxes) — compact, with a strong center, but a poor team player in groups;
+- **linear** (buttons, input fields, sliders) — read well in a row, stretch horizontally, look bad stretched vertically;
+- **rectangular** (text areas, charts, maps) — large in area, and become anchor objects of the page in their own right.
 
-**Определяйте синтаксическую роль элемента раньше его размера.** Если логотип — сам сообщение, ему позволено доминировать; иначе логотип обычно самый маленький элемент, задвинут в угол (модель — товарные страницы Apple, «приведено к общему знаменателю»). Избыточный трекинг делает вордмарк слишком лёгким, чтобы заякорить текст под ним, — уплотняйте.
+**The minimum gap between controls is roughly two spaces**; size should match the surrounding elements; sort and align them, or the page reads as clutter.
 
-### Эстетика для русского дизайнера
+**A button's internal padding is asymmetric: sides bigger than top/bottom** — "this should always be done when designing buttons"; equal padding on every side visually squeezes the button's text and reads as unfinished work.
 
-**Два ориентира, «две ноги» бюро:** традиции Возрождения (антиква, гармоничные пропорции — для интеллектуального контента) и европейский модернизм/швейцарская типографика (флаговый набор, контраст кеглей, модульная сетка — универсальный язык деловой информации). Дизайнер должен коллекционировать наблюдения, предметы, явления и форматы из истории искусства и архитектуры как источник решений. Фирменный ДНК бюро — «уважение к материалу» (respect for the material, ориентир Тафти), стоящее «вне моды».
+**A control's shape must hint at its function, not just stand out visually.** A round element that's actually a time picker is misleading: "the problem with this element isn't its round shape, it's that its shape gives no clue what it is" — shape should signal the interaction it supports, not merely serve as decoration or emphasis.
 
-### Пунктуация и мелкие типографские детали
+**Field labels: left is preferable to above.** "Labels to the left of fields are preferable — the signifier and the signified aren't mixed together"; the eye glides down a column of labels with no jumping between lines. Labels above a field are a compromise only when width is genuinely scarce (mobile or narrow forms).
 
-**Знак умножения — «×» с отбивкой в полпробела с обеих сторон** (200 × 300); «x» и «*» — «знак умножения для бедных», клавиатурный суррогат. Когда полупробел технически недоступен — допустим обычный пробел.
+### Hyperlink
 
-**Дробь не должна сдвигать высоту строки** — знаменатель стоит на базовой линии текста. При отсутствии готового символа дроби уменьшайте кегль числителя/знаменателя вручную и поднимайте базовую линию числителя.
+**A basic layout element, judged on three axes:** recognizability (blue plus underline is easiest to spot), ease of tapping (text of sufficient length, spacing from neighboring links, a color change on hover), and informativeness (the link's text should name what's behind it).
 
-**Вложенные кавычки чередуются: «ёлочки» снаружи, „лапки" внутри.** Цитаты без кавычек допустимы только тогда, когда вся страница/блок и так однозначно читается как цитата. Висячая пунктуация (двустороннее подчёркивание кавычек, выступающие за габарит знаки) — акцидентный приём, уместный для «сайтов-музеев» и премиальной вёрстки ощущения «дорогого» вида; для рядовой книжной/сервисной вёрстки — либо едва заметно, либо не применять вовсе: важнее скорость доступа к содержанию, чем эстетическая точность.
+**Underline the whole phrase, including prepositions and conjunctions** — "the styling declines [like a grammatical case]": neighboring punctuation (a comma, quotes, brackets) takes on the link's color and styling, or the eye trips over a "break in the sentence."
 
-**Инициалы отбиваются тонкой шпацией, не обычным пробелом** (В. И. Ленин); без типографских средств — «лучше переотбить, чем недоотбить»: обычный пробел лучше слипания.
+**Never let a single link wrap to a new line** — shorten long headlines instead. Group links (menus, lists) with a minimum gap of **about two spaces**.
 
-**Различайте длинное и среднее тире по языку** (русский/английский используют их по-разному) и тире от дефиса в диапазонах: диапазон чисел — среднее тире, а не дефис (особенно в англоязычном тексте).
+**"The styling declines" onto punctuation too.** If a comma, quote mark, or bracket follows a colored link, color it to match the link — otherwise the eye trips over a "break in the sentence" at the boundary. A refinement: if the link is already wrapped in quotation marks and ends with a comma, color that comma like ordinary text, but don't underline it — otherwise the underline spills onto punctuation that doesn't belong to the link.
 
-**Порядок в копирайте по ГОСТ Р 7.0.1—2003: «© Имя правообладателя, год»** — имя первично, год вторичен, в отличие от американской кальки «© год Имя».
+### Caption
 
-**Никогда не ставьте пунктуацию сразу после самостоятельного веб-адреса/e-mail** — выносите знак на новую строку/конец абзаца, иначе автоматические линкеры и ручное копирование адреса ломаются.
+**A caption is a "bridge" to the main text.** It accompanies illustrations, controls, even hyperlinks. Skip the caption when the image is self-evident or already sits next to a headline or description.
 
-**Переносов в вебе изначально не было** — веб задуман как переливающийся (reflowable) текст, поэтому автоматическая расстановка переносов — не базовая типографская обязанность интерфейса. Мягкий перенос (U+00AD) — узкоспециализированный инструмент, оправданный в узких колонках электронных книг через алгоритм (Hyphenator.js и подобные), а не то, что стоит рассыпа́ть по обычному веб-тексту.
+**Images:** caption below or beside. **Input fields:** caption to the left or above — visible before the user starts to act.
 
-**Капитель уместна в двух случаях:** (1) в аббревиатурах/акронимических написаниях прописными (ТРИЗ, КМ/Ч); (2) стилистически в заголовках/колонтитулах (ГЛАВА 1). В смешанном регистре (КамГЭС, ЮУрГУ) строчные буквы набираются без разрядки со стороны прописной, к которой относятся; латинская капитель в русском тексте читается чужеродно.
+**Leader lines should be ≤20% black**, must not cross one another, should overlap the image as little as possible, and should be long enough to read cleanly. Drop the leader line altogether where the object is already locally set apart and its nearby caption is self-sufficient — reserve leader lines only for genuinely ambiguous cases of attachment.
 
-**Точка не ставится после названий/заголовков/подписей** (назывное предложение, нет сказуемого), но не отменяется у обычных сокращений слова («Моб.», «руб.») — единицы СИ (м, кг, с) пишутся без точки, усечения типа млрд/млн/пн/грн — тоже без точки.
-
-**Жирным — только то, что действительно жирное по смыслу; курсив выделяйте не только наклоном, но и антиквенным рисунком буквы** — не подменяйте типографические средства выделения имитацией (псевдожирный/псевдокурсив системного шрифта).
-
-**Вертикальный текст направляйте снизу вверх** (так меньше наклон головы при чтении) и по возможности избегайте вовсе — он всегда менее удобен для чтения, чем горизонтальный; исключение — устоявшаяся конвенция, которая после однократного знакомства работает как иконка, а не как текст для построчного чтения.
-
-**Нумерация оглавления справа от заголовков — многовековая типографическая традиция**, задающая порядок чтения «заголовок → номер»; смещение номеров влево эту последовательность нарушает — если делаете иначе осознанно, размещайте номера под заголовками, а не слева от них.
+**Styling:** the caption's size/weight is smaller or lighter than the body text; **no period at the end**; a colon after a field's caption is optional.
 
 ---
 
-## 6. Таблицы и данные
+## 4. Hierarchy and composition
 
-### Идеальная таблица (ТРИЗ)
+### Dominant and supporting illustrations
 
-**«Идеальная таблица — та, которой вообще нет»**, а её функция выполняется иначе. Прежде чем проектировать таблицу, выясните её реальную функцию (выбор / эксплуатация / ремонт) — для сценария выбора показывайте только отличительные параметры, а не всю номенклатуру.
+**Build an explicit hierarchy between the main illustration and the supporting one.** A row of identical images above the text is calm but dull, and it eats the window's entire width. The best pattern: the supporting image sits next to the text, while the dominant one overlaps or sits on top, giving instant hierarchy. A supporting photo can sit in the headline's "armpit," but it must not wedge itself between the headline and the start of the body text.
 
-### Группировка: колонки ближе, строки дальше
+**Three basic layouts:** a row of images above the text; one image on top plus one at the side; a supporting image in the headline's "armpit" (with no detaching the headline from the start of the text).
 
-**«Поставьте колонки ближе друг к другу, а строки — дальше»** — так глазу проще удержать горизонталь строки. Сокращайте число линий сетки, «обрезая концы» пересечений, вместо сплошной решётки. Убирайте толстые вертикальные разделители — заменяйте подложками/заливкой для акцента вместо равнодушной чересполосицы.
+**A dominant illustration says unambiguously: "the tour starts here."** A secondary photo should never compete in size with the main one.
 
-### Вынести за скобку (factor out repeats)
+### Homepages and landing screens: four archetypes
 
-**Повторяющиеся данные (единица измерения, название серии/группы, неизменная часть номенклатуры) выносите в заголовок таблицы или группы, а не дублируйте в каждой строке.** Пример: одинаковая аббревиатура/единица в каждой строке → один раз в шапку. «Вынести за скобку» — так человечество изобрело таблицы: замените повтор «рублей-рублей-рублей, год-год-год» табличной сеткой; менее радикальный вариант — символ валюты в каждой ячейке вместо слова.
+A homepage is a site's "face, cover, and brand identity." Four structures:
+- **Feed** — a reverse-chronological stream, for news or social media;
+- **Tile** — dense, uniform rectangles aligned in height for reading order (with floating height, as on Pinterest, the reading direction breaks down);
+- **Photo-carousel** — one dominant, full-screen photo; the navigation must carry informative captions or previews;
+- **Directory** — neat cells of sections on a "sandwich" principle (resilient to content changes), giving the designer maximum control over content priority.
 
-**«Пустота — идеальный разделитель»** внутри строки чисел — предпочтительнее символа-костыля («|»); убирайте незначащие нули для снижения визуального шума (1.500 → 1.5).
+### The three-point principle and composition against a photographic background
 
-### Числа и выравнивание
+**Distinguish "layout anchors" (modular ones — a rectangle's corner/center) from a photograph's "compositional anchors," which behave almost the opposite way** — good photo composition avoids corners and the center. For free-form composition over an image, use the **three-point principle**: a large, a medium, and a small element in a loose triangle; check whether the arrangement feels heavy or graceful. Empty corners of a photo are usually a safe zone for a caption.
 
-**Числа выравнивайте по разрядам (по правому краю).** В таблицах **всегда используйте пробелы** для группировки тысяч, чтобы разряды выравнивались независимо от размерности значения (в бегущем тексте 4-значные числа можно набирать без пробела). Точного CSS-способа выровнять по десятичному разделителю нет — готовьте выравнивание на сервере/скриптом при необходимости.
+### Reading order as a compositional argument
 
-**Шахматный порядок цифр на плотной шкале** («в шахматном порядке», чётные значения выше, нечётные ниже общей линии) разрешает противоречие «крупные цифры vs нет места без наложения» — но не злоупотребляйте приёмом: он разрывает линейное восприятие последовательности, применяйте только когда шкала реально не помещается без него.
+**"Was → became": the old, bad, ugly sits to the left, above, or earlier than the new, good, beautiful.** In pricing: the old price struck through first (creates tension), then the new one (releases it) — this works both offline and online.
 
-**Текст в таблице выравнивайте влево и по верху ячейки** — тогда решётка линий часто становится не нужна вовсе: выравнивание само создаёт достаточную структуру без графических разделителей.
+**Optics matter more than geometry.** Don't force different companies' logos into identical squares — different proportions create the illusion of different sizes; bring logos to the same weight "by eye," find a shared reference point rather than a formal match in dimensions.
 
-### Сетка ради сетки — не всегда добро
+### Case: a landing page as a decision-making composition
 
-**Модульная сетка, разрушающая логику данных, — зло.** Группируйте таблицу по смысловым осям (например: компания / показатель / значение), чтобы читатель мог «искать информацию в нужных углах», вместо механической упаковки в равные ячейки.
+**A massive colored block often becomes a blind spot** — readers have learned to ignore a large, uniform colored block (banner blindness), even when it holds key information. A page that leads to choosing a plan or product should *end* in the choice, not open with it — context and value confirmation first (testimonials, benefits), then the options. Order prices ascending: "the buyer should physically feel that they're stepping back and paying less" as they move down the list. It helps to flag the middle option in a row of options as recommended (a "best value" badge) — people gravitate toward the golden mean, so support that pattern compositionally instead of fighting it.
 
-**Для пространственных данных карта — лучший инструмент визуализации, чем таблица**, если данные позволяют её построить.
+### The module as the unit of the rectangle, the test of the whole
 
-### Динамическое сильнее статичного
+The test for any compositional decision: is the inner/outer rule honored at the block level (§1)? Is the dominant element anchored with anti-air (§1)? Is the rectangle holding together (§1)? Does the neighboring row avoid repeating the current row's rhythm (§2)?
 
-**Статическая чересполосица (alternating rows) уступает динамической подсветке строки под курсором** или полоскам переменной высоты, выделяющим смысловые группы — принцип ТРИЗ «статичное → динамическое, неуправляемое → управляемое».
+### Posters, diagrams, and playbills
 
-### Заголовок таблицы = связный текст
+**Test contrast in black-and-white.** Check a text/background color pair by converting it to grayscale: if the pair "disappears" in black-and-white (the classic case: yellow on yellow), the contrast is objectively insufficient for a poster or playbill, not just "a matter of taste."
 
-**Заголовок и строки таблицы должны образовывать связный текст и точно описывать содержимое** — расхождение между названием и реальными данными недопустимо. Форма заголовков колонок — единообразная капитализация (не смешивайте регистры произвольно).
+**Don't lock the main visual element inside a double frame** that smothers it — a portrait of a performer on a poster, for instance, shouldn't drown in a decorative border. Establish a clear hierarchy of sizes among headlines: undifferentiated text at a single size reads as "general gloom" (an absence of structure).
 
-### Адаптивная вёрстка табличных данных
+**Align dense informational posters and diagrams (family trees, charts, transit maps) tightly, "like a metro map,"** with no extra spacing and no fine detail that gets eaten up when printed or shrunk. For long timelines, prefer a horizontal layout over a vertical one. A dense reference poster "gives an unprepared viewer nothing" — pair it with onboarding (key figures, a built-in explanation) if the audience isn't made of experts.
 
-**Для узких экранов сворачивайте 2D-таблицу в линейный формат:** каждая строка становится блоком, бывший первый столбец (боковик/заголовок строки) — заголовком этого блока (без собственной колонки), остальные ячейки рендерятся как пары «параметр — значение». **Критичный второй шаг: «проверить по смыслу и довести до ума»** — не отгружайте сырое механическое преобразование. Пример: «Год: 1959» превращается в «В 1959 году»; голым числам возвращают знак % для читаемости. Таблица — компактный 2D-формат; узкий экран вынуждает линейный вывод, но линеаризация обязана быть отредактирована по смыслу, а не сброшена механически.
+**The visual weight of a diagram's graphic elements should be the minimum sufficient.** Lines that are too thick and type that's too bold make a diagram "heavier and messier," not more expressive — economize graphic weight the way you economize words in text; every extra gram of blackness competes with the data for attention.
 
-### Иерархия данных в таблице
+**Multi-layered information (a "sandwich") needs distinguishable layers.** If adjacent information layers look visually similar and are weakly separated — for example, different types of data on a ticket set in the same typeface with no hierarchy — the reader can't pull them apart with a glance; separate layers by size, weight, or explicit rules, but don't lose critical data while unifying the format.
 
-**«В таблице действуют горизонтальная и вертикальная иерархия данных»** — вытягивайте повторяющиеся элементы вверх по иерархии: строка → боковик → заголовок группы → заголовок таблицы (аналогично для единиц измерения по колонке). Но дублирование иногда полезно само по себе (например, повторяющийся знак % в каждой ячейке ускоряет сканирование) — не применяйте правило механически, решайте по реальной потребности в читаемости.
+**Show the relationships between a diagram's objects through the logic of their relative placement, not only through color or an arrow-and-legend scheme** — spatial placement is remembered more easily than a coded convention: if object A physically sits next to object B because of the meaning of their relationship, a separate legend is often unnecessary altogether.
 
-### Документная вёрстка (справочники, инструкции)
+**Varying line weight is a tool for splitting an image into informational layers,** not just aesthetics: separate an object's primary outline from supporting or dimension-line graphics by stroke weight, not solely by color or a label — it's the same Tufte "data-ink ratio" idea, applied to a technical drawing rather than only to a chart.
 
-**Оглавление — спереди, алфавитный указатель — сзади, оба у края страницы для быстрого доступа.** Словарь указателя должен совпадать с тем, как реальный читатель будет искать («на языке читателя»), а не с внутренними терминами автора. Важность сигнализируйте прежде всего положением и размером, оформление — в последнюю очередь; подписывайте только то, что реально нуждается в подписи.
+**In dense multi-column boards (a TV schedule, a timetable), ALL CAPS is readability's first enemy.** Align times on a shared marker (the colon) to create a visual vertical; replace color-coding of categories with icons wherever a palette of many colors across many columns creates "unbearable, mottled noise."
 
-### Респект к материалу — линия Тафти
+**When switching a format from horizontal to vertical, move the logo mark to the top rather than leaving it on the left** — this keeps the reading and identification order intact under the new proportions; mechanically preserving the original layout on an incompatible format breaks the reading order.
 
-Фирменный ДНК бюро — «уважение к материалу» (respect for the material), напрямую ссылающееся на Эдварда Тафти: числа вместо абстрактных кодировок (толщина линии, цвет без подписи), честный показ реальных данных, минимум графического мусора («графмусор» / chartjunk), максимум «коэффициента полезных чернил» (data-ink ratio). Сравнивайте только сопоставимые единицы измерения на одной шкале; не смешивайте типы визуализации одних данных (столбики + псевдокривая) — создаёт ложное впечатление роста.
+**A row of same-type pictograms or modules must be consistent in style and stroke weight.** An inconsistent row of "mismatched rectangles" that "jump around, knowing nothing of each other" reads as sloppiness, even if each element is fine on its own — consistency across the row matters more than polishing a single icon.
 
-### Не дублируй легенду, если таблица сама — легенда
-
-**Если таблица уже выполняет функцию легенды к прибору/процессу (например, таблица режимов стирки), не добавляйте внутри неё ещё одну легенду** (сноски-символы, повторную расшифровку) — это двойное кодирование одного и того же. Сворачивайте сложную классификацию до конечного числа реальных сценариев использования, не перекладывайте экспертную категоризацию на читателя.
-
-**Сортируйте строки таблицы по смысловому/оптическому признаку, а не по алфавиту**, когда алфавит не совпадает с тем, как читатель ищет строку (плотность, форма, функциональная близость). Приём «зеркально отразить таблицу» (поменять местами то, что было строками и колонками) иногда резко улучшает читаемость — не бойтесь нестандартной трансформации, если данные позволяют сравнение в другой ориентации.
-
-**Ключ сортировки — вперёд, но только там, где список реально ищут по этому ключу.** Рейтинг не требует инверсии (ключ — номер места); алфавитный указатель/картотека требует «фамилия впереди»; карточка отображения сохраняет естественный порядок («имя впереди»). Не выносите ключ в начало по привычке — выносите его туда, только если список действительно листают/ищут по этому полю.
-
-**Отсутствие изменения не требует специального обозначения.** Не рисуйте стрелку/иконку там, где значение не изменилось со времени последнего замера — визуальный акцент должен маркировать реальное событие, не заполнять ячейку по инерции симметрии.
-
-**Разряды больших чисел отбивайте пробелом начиная с пятизначных (10 000).** Отбивка группирует цифры по три разряда и не нужна для чисел короче — не отбивайте четырёхзначные числа в обычном тексте, это ложная сложность.
-
-**Заголовки колонок — единая капитализация, разделительные линии не должны спорить со смысловой группировкой.** «Лучший дизайн позволяет показывать не только понятнее, но и больше» — не жертвуйте полезной плотностью данных ради лишнего воздуха, если задача этого не требует; экономьте место сокращением текста, а не сжатием сетки.
+**For a diagram with values that go in opposite directions (plus/minus, growth/decline), use a zero line,** with a sign to the right or left (or up or down) of it, rather than a single one-directional flow explained afterward in a caption.
 
 ---
 
-## 7. Вкус и насмотренность
+## 5. Typography
 
-**Калибровка вкуса — двухшаговый метод.** (1) Насмотренность — собирать широко, но этого недостаточно самого по себе. (2) Калибровка — показывать работу тому, кто лучше, и слышать, что хорошо и почему («как робокоп», перекалибровка через внешнюю обратную связь).
+### Headlines — see §3 (full treatment there)
 
-**Копирование мастеров с линейкой — не стыд, а метод.** Возьмите любимую работу и измерьте всё линейкой: интервалы, трекинг, высоту строчных; поля/сетки хороших вёрсток часто следуют пропорциям самого шрифта. Не бойтесь копировать мастеров — это раскрывает скрытую механику решения. Тренировочное упражнение для навыка: копируйте эталонный дизайн (например, Тафти) до мельчайших деталей — кегль, толщину линий, выравнивание, — чтобы освоить плотность информации и типографику на практике, не в теории.
+### Lists
 
-**Референсы ищутся «везде».** Настоящий интерес заставляет замечать хорошую вёрстку постоянно. Практика: покупать книги, фотографировать/сканировать развороты в папки, снимать журнальные развороты. Случайный мудборд — «банальная история»; настоящая охота за референсами активна, навязчива, архивна.
+**The inner/outer rule governs lists:** the gap between items exists, but is noticeably smaller than the gap between paragraphs — that's what makes a list read as a single, subordinate "paragraph."
 
-**Польза теории — распознавание паттернов, не рецепт.** Теория цвета даёт «карту» — где живёт цвет и в какую сторону его двигать; книги по типографике объясняют построение сетки, но не то, чем её заполнять. За годы каталогизации швейцарских вёрсток ~90% из них сводятся к **3–5 повторяющимся шаблонам («лекала»)** — распознавайте их вместо изобретения с нуля каждый раз.
+**A list's lead-in line sits flush against the first item, with no extra indent** — this is a standard Swiss/European convention (example: Apple's documentation), not a mistake, as some Russian designers sometimes assume. A list is "an indivisible entity, one sentence and one paragraph": don't add extra space before the first item — it should read as part of the lead-in paragraph's structure, not as a separate block.
 
-**Критика правила 60-30-10.** Это не серьёзное правило: неизмеримо, ломается на граничных случаях. Планка хорошо сформулированного дизайн-правила — «правило внутреннего и внешнего» и «правило якорных объектов»: структурные, объясняющие концепции, объединяющие десятки разрозненных наблюдений, а не числовые пропорции, взятые с потолка.
+### Paragraphs
 
-**Свод «лекал» — не бесконечный список частных случаев, а короткий справочный чек-лист.** Книга «Типографика и вёрстка» держит справочную таблицу композиционных шаблонов, в шутку прозванную «таблицей Менделеева» вёрстки — ~90% реальных швейцарских макетов, накопленных за годы каталогизации, сводятся к 3–5 повторяющимся структурам. Насмотренность без такой систематизации остаётся коллекцией примеров, а не рабочим инструментом.
+**Onscreen, a blank line between paragraphs (a blind line) is preferable to a first-line indent.** A screen is harder to read than paper, so extra segmentation eases the eye's work. Across a column break: drop the paragraph indent right after the break (the new column's first line sets flush, with no indent).
 
-**Метафора для иконок работает только через уже знакомое.** Метафора успешна, когда сопоставляет незнакомый элемент интерфейса с чем-то, уже известным пользователю из реальной жизни (корзинка/тележка = покупки). Абстрактные исходные понятия («центр знаний») не имеют реального прообраза — никакая иконка не спасёт. Иконки без подписи почти никогда не оправданы; их основная функция — якорь узнавания (форма-память) и цель для тапа. Правило для близких по смыслу иконок: «чем более похожи понятия, тем более разными должны быть иконки» — различайте, а не зеркальте.
+### Line-height
 
-**Стилизация — навык, требующий тренировки, а не порок.** Готовый стиль/фильтр (например, ГОСТ-шрифты, трафаретные буквы) — легитимная эстетика, если исполнена мастерски (пример: намеренный трафаретный стиль Уэса Андерсона: «это тоже надо уметь повторить»); бюрократическая форма — не препятствие красоте, небрежное исполнение — препятствие.
+**Line-height is a function of type size, line length, and format — never of the number of lines.** "Never change the line-height within one type of text," except as a deliberate stylistic device. The longer a line is by word count, the greater the line-height should be.
+
+**The algorithm for setting a block: line length → line-height → distance to the headline → left margin → top margin → repeat.** "A square in the corner is a sign of weak, amateur, careless layout" if chosen unconsciously rather than as a deliberate device.
+
+**Kerning digits in headlines** — in most typefaces, digits are monospaced (built for tables), so in headlines the gaps between digits "jump around"; manual kerning is justified only in special projects (a logo with a date) — in ordinary setting, it's a waste of time.
+
+### Rag / ragged edge
+
+**Adjust hyphenation for a "calm, wavy" rag.** In a magazine or book column, correct hyphenation gives a clean ragged edge with no "holes" or "staircases."
+
+**Mixing left-aligned and centered setting is acceptable** if the result looks tidy together — it's not a categorical ban; the test is purely visual.
+
+### Setting text in a circle
+
+**Three levels of difficulty:**
+1. text fitted into a circular or triangular silhouette — "immensely difficult";
+2. filling an exact circular object — expensive precision, "you need to decide whether it's worth the trouble";
+3. text inside a circular frame — ordinary rules apply (the rag, avoiding "rivers" of whitespace).
+
+Watch-face and clock-face setting: out of five hundred years of clock-face history, only about 5% achieve genuine beauty — the genre is extremely demanding to execute.
+
+### Type size and pairing typefaces
+
+**Judge a headline/body typeface pairing on two axes: contrast** (simple/complex, bold/neutral, wide/narrow, heavy/light) **and shared traits** (proportions, weight, mood). Pairs that are stylistically distant but culturally related can work (Helvetica + Gilroy) — judge both axes against the actual layout, not the typefaces in isolation.
+
+**Account for a typeface's characteristic proportions** (tall-narrow vs. short-wide letterforms) when choosing the format, margins, line length, and line-height — a mismatch in proportions, even with visually similar blocks, creates the impression of "wrongly matched Cyrillic." Contrasting proportions is a legitimate device, not necessarily a mistake.
+
+**Don't compress a wordmark's letters to fit a fixed container.** Forcibly squeezing letter width or spacing to cram a logo into given dimensions kills the sense of quality and premiumness the redesign was meant to achieve — check that the letters' width and spacing survive the forced container with no distortion; if they don't survive it, change the container, not the letters.
+
+### Text with a logo, and an element's syntactic role
+
+**"Every interface or page element has its own syntax, its own 'part of speech.'"** A functional device (for example, a dotted underline meaning "fires with no page reload") can't be used decoratively — the device's semantics must match its actual behavior.
+
+**Determine an element's syntactic role before its size.** If the logo *is* the message, it's allowed to dominate; otherwise the logo is usually the smallest element, tucked into a corner (the model: Apple's product pages, "brought to a common denominator"). Excessive tracking makes a wordmark too light to anchor the text beneath it — tighten it up.
+
+### Aesthetics for a Russian-speaking designer
+
+**Two reference points, the studio's "two legs":** the Renaissance tradition (old-style serifs, harmonious proportions — for intellectual content) and European modernism/Swiss typography (ragged-left setting, contrast of sizes, the modular grid — the universal language of business information). A designer should collect observations, objects, phenomena, and formats from the history of art and architecture as a source of solutions. The studio's brand DNA is "respect for the material" (a nod to Tufte), which stands "outside of fashion."
+
+### Punctuation and small typographic details
+
+**The multiplication sign is "×", set off by a half-space on each side** (200 × 300); "x" and "\*" are "the poor man's multiplication sign," keyboard substitutes. When a true half-space isn't technically available, an ordinary space is acceptable.
+
+**A fraction shouldn't shift the line's height** — the denominator sits on the text's baseline. If no ready-made fraction glyph exists, shrink the numerator and denominator manually and raise the numerator's baseline.
+
+**Nested quotation marks alternate: guillemets (« ») on the outside, low-high quotes („ ") on the inside.** Quotations with no quote marks at all are acceptable only when the whole page or block already reads unambiguously as a quotation. Hanging punctuation (two-sided hanging of quote marks, characters that project past the margin) is a display device, suited to "museum sites" and premium layout aiming for an expensive feel; for ordinary book or service layout, either apply it barely noticeably or skip it entirely — fast access to the content matters more than aesthetic precision.
+
+**Initials are set off by a thin space, not an ordinary one** (V. I. Lenin); with no typographic thin space available, "better to over-space than under-space" — an ordinary space beats letters running together.
+
+**Distinguish the em dash from the en dash by language** (Russian and English use them differently), and a dash from a hyphen in ranges: a range of numbers takes an en dash, not a hyphen (especially in English-language text).
+
+**Copyright-line order per GOST R 7.0.1—2003: "© Rightsholder's name, year"** — the name comes first and the year second, unlike the American convention of "© year Name."
+
+**Never place punctuation directly after a standalone web address or email** — push the mark to a new line or the end of the paragraph, or automatic linkers and manual copying of the address will break.
+
+**The web originally had no hyphenation at all** — the web was conceived as reflowable text, so automatic hyphenation isn't a baseline typographic duty of an interface. The soft hyphen (U+00AD) is a narrow, specialized tool, justified in the narrow columns of e-books via an algorithm (Hyphenator.js and similar), not something to sprinkle through ordinary web text.
+
+**Small caps are appropriate in two cases:** (1) in abbreviations and acronyms set in capitals (TRIZ, KM/H); (2) stylistically in headings and running heads (CHAPTER 1). In a mixed-case abbreviation (KamGES, YuUrGU), the lowercase letters are set with no extra tracking relative to the capital they belong to; Latin-style small caps set into Cyrillic text read as foreign.
+
+**No period after titles, headlines, or captions** (a nominal sentence has no predicate), but the period isn't dropped from ordinary word abbreviations ("Mob.", "rub.") — SI units (m, kg, s) are written with no period, and truncations like bn/mn, Mon, UAH also take no period.
+
+**Bold only what's genuinely bold in meaning; mark italics not just by slant but by the old-style shape of the letterform** — don't substitute typographic emphasis with an imitation (a system font's faux-bold or faux-italic).
+
+**Set vertical text running bottom-to-top** (it requires less head tilt to read) and avoid it altogether where possible — it's always less comfortable to read than horizontal text; the exception is an established convention that, once learned, works like an icon rather than as text meant to be read line by line.
+
+**Numbering a table of contents to the right of the headings is a centuries-old typographic tradition,** setting the reading order as "headline → number"; shifting the numbers to the left breaks that sequence — if you do it differently on purpose, place the numbers under the headings, not to their left.
 
 ---
 
-## 8. Метод и процесс дизайнера
+## 6. Tables and data
 
-**Наведение порядка — фрейм задачи, не геометрическая головоломка.** При выравнивании меню по сетке: «в самом начале лучше забыть о направляющих. Прямо взять и убрать» — сначала проектируйте свободно от руки. Затем: либо задайте колонкам равную ширину, чтобы ритм компенсировал неровную высоту текста, либо выравнивайте по высоте блока вместо ширины колонки (более «бумажная», чем «экранная» привычка). Только после этого используйте направляющие «как чертёжную линейку», чтобы точно построить уже придуманное решение.
+### The ideal table (TRIZ)
 
-**Дизайн — это не внешний вид.** Не спорьте с клиентом об определениях — «объяснять, как наше мнение устраивает мир, глупо и бесполезно». Показывайте через портфолио, рабочие материалы и то, *какие вопросы вы задаёте*: если вопрос про внешний вид — клиент решает, что вы декорируете; вопрос про товары/услуги/задачи — клиент чувствует, что вы копаете глубже. Метод важнее лекции — вопросы сами учат клиента, что такое дизайн.
+**"The ideal table is one that doesn't exist at all,"** with its function fulfilled some other way. Before designing a table, work out its real function (choosing / operating / repairing) — for a choice scenario, show only the distinguishing parameters, not the full catalog.
 
-**Работа с материалом — путь к качеству продукта.** «Чем лучше дизайнер понимает материал, из которого лепит, тем качественнее, надёжнее и лучше получится его продукт» — но умеряйте это «разумной специализацией»: изучайте ограничения своей среды (CSS, среду разработки), не становясь её штатным реализатором; макеты, сразу собранные в коде, неэффективны на этапе поиска решения.
+### Grouping: columns closer, rows farther apart
 
-**Тест генерализации любого «правила».** «Любой правильный ответ должен быть правильным во всех ситуациях» — прежде чем принять эвристику («никогда не используй линии», «всегда центрируй заголовок») как правило, проверьте её на контрпримере; если находится легитимная ситуация, где эвристика ломается, это не правило, а частный приём с условием применения.
+**"Put the columns closer together and the rows farther apart"** — that makes it easier for the eye to hold onto a row's horizontal line. Cut the number of grid lines by "trimming the ends" of intersections, instead of a solid grid. Remove heavy vertical dividers — replace them with background fills for emphasis instead of an indifferent striping.
 
-**Когда линии/рамки легитимны.** Линия/разделитель — не сама по себе ошибка, а «инструмент вёрстки», часть Lego-набора вёрстки: разделитель становится законным, когда структурное изменение (например, вынос дат в свою колонку) реально требует его — иначе предпочитайте пробел вместо линии. «Линейка — это просто конструкция, которая встречается и имеет право на жизнь» — доктрина учит принципам связи, а не запретам на конкретные приёмы.
+### Factor out repeats
 
-**Иллюстрация не обязана прерывать чтение статьи — реклама обязана не прерывать.** Реальный принцип (глава «Форма текста и порядок чтения»): «читатель может подумать, что статья закончилась, если текст прерван рекламой, а не иллюстрацией». Иллюстрации служат редакционной цели и не провоцируют ложное ощущение «статья кончилась»; реклама — провоцирует. Финальное решение (прерывать ли текст иллюстрацией) остаётся за дизайнером.
+**Repeated data (a unit of measure, a series or group name, an unchanging part of an item number) belongs in the table's or group's header, not duplicated in every row.** Example: the same abbreviation or unit in every row → move it once into the header. Factoring out repeats is how humanity invented tables in the first place — replace a repeat of "dollars-dollars-dollars, year-year-year" with a table grid; a less radical version is a currency symbol in each cell instead of the word.
 
-**Минимизация конструкции — второй универсальный закон.** «Системы развиваются в сторону минимизации физических средств, воплощающих их полезное действие» — упрощайте без потери полезного действия. Три приёма: **УВЛ** (убрать всё лишнее — балласт без потери функции); **«вынести за скобку»** (общий элемент вместо повторов, см. §6); **«перенести функцию»** (одна деталь берёт на себя функцию другой, устраняя дублирование).
+**"Emptiness is the ideal separator"** within a row of numbers — preferable to a crutch character like "|"; strip insignificant zeros to cut visual noise (1.500 → 1.5).
 
-**Композиция как эскалация сложности, не выбор одного приёма.** Разваливающийся модуль (см. §2) чинится по нарастающей: сначала простейшее решение (плашка/линейка), затем более структурное (выровненные колонки), и только при реальной необходимости — полная «коллекция швейцарских модулей». Не начинайте с самого сложного инструмента.
+### Numbers and alignment
 
-**Компромисс — самое слабое решение задачи.** Компромисс «по определению ухудшает положение обеих сторон или оба конфликтующих параметра» — это ослабление, а не разрешение противоречия (например, «немного уменьшить кегль и немного сжать поля» вместо выбора приоритета). Лучше зафиксировать приоритеты явно (метод ФФФ — фикс срок/бюджет, флекс функциональность/содержание), чем понемногу ухудшить все параметры разом.
+**Align numbers by place value (to the right).** In tables, **always use spaces** to group thousands, so that place values line up regardless of a value's magnitude (in running text, 4-digit numbers can be set with no space). There's no exact CSS way to align on the decimal separator — prepare that alignment server-side or with a script when needed.
 
-**Частые провалы студенческих/тестовых работ по вёрстке** (проверяйте на себе прежде, чем сдавать макет): единственное действительно важное правило похоронено среди второстепенных деталей — вынесите его на первый план; отсутствует та единственная схема/диаграмма, без которой правила неприменимы на практике; оставлены мёртвые белые зоны или они, наоборот, забиты бессмысленными фактоидами для симметрии; фоновое фото под текстом визуально спорит с содержанием вместо того, чтобы его поддерживать; композиция «текст слева, примечания справа» применена рефлекторно, как шаблон по умолчанию, а не как осознанный выбор под конкретную задачу.
+**Staggering digits on a dense scale** ("in a checkerboard," even values raised above the baseline, odd ones below it) resolves the contradiction of "large digits vs. no room with no overlap" — but don't overuse the device: it breaks the linear perception of a sequence, so apply it only when the scale genuinely can't fit without it.
 
-**Должен ли дизайнер изучать вёрстку и код — да, но со специализацией.** Понимание среды повышает качество продукта, но не заменяет роль дизайнера ролью реализатора; изучайте азы вёрстки прежде интерфейсов — начинайте с базовой молекулы: абзаца с заголовком, приятным соотношением полей и межстрочного просвета, затем наводите порядок в числах и добавляйте смысловое выделение.
+**Align text in a table to the left and to the top of the cell** — that often makes a grid of lines unnecessary altogether: alignment alone creates enough structure with no graphic dividers.
 
-**Дизайн — система, а не обёртка.** Ключевой методологический поворот бюро: «как бы хорошо дизайнер ни сделал… внешнюю обёртку, форму, интерфейс — это не гарантирует успеха продукта… нужно проектировать систему в целом». Ревьюер обязан оценивать, работает ли система, стоящая за макетом, а не только качество кожи/скина поверх неё — красивая вёрстка на неработающей структуре не решает задачи.
+### A grid for the grid's own sake isn't always a virtue
 
-**Литмус-тест «дизайн vs самовыражение»:** «самовыразиться — искусство, решить задачу — дизайн». Перед защитой любого композиционного решения спросите: чью задачу оно решает — читателя/пользователя, или это авторский жест ради собственного удовольствия? Оба уместны в разных жанрах, но путать их в клиентской работе — ошибка позиционирования.
+**A modular grid that breaks the logic of the data is a vice.** Group a table along axes of meaning (say: company / metric / value) so the reader can "search in the right corners," rather than packing it mechanically into equal cells.
 
-**Трёхступенчатая схема решения вёрсточной/композиционной задачи (метод ТРИЗ, адаптированный бюро):**
-1. **Анализ** — сформулируйте полезное действие макета и вредный фактор (что мешает его достичь), разложите иерархию системы/подсистем и доступные ресурсы (уже готовые элементы, свободное место, существующий контраст).
-2. **Модель решения** — одной фразой: «полезное действие и явно сформулированный способ его достижения» (например: «заголовок читается первым → увеличить кегль и дать отдельный модуль сверху»).
-3. **Решение** — воплотите модель в деталях, затем критически протестируйте результат тем же взглядом новичка, каким его увидит первый читатель.
+**For spatial data, a map is a better visualization tool than a table**, if the data allows one to be built.
 
-«Если дизайнер проанализирует задачу, определит вред и полезное действие, найти существующее решение по конкретным критериям гораздо проще, чем перебирать весь опыт человечества» — точная формулировка задачи выигрывает у перебора референсов вслепую.
+### Dynamic beats static
 
-**Четыре повторяющихся провала в разборе вёрсточной задачи** (проверяйте себя на каждый): (1) принять поверхностную формулировку задачи за корень проблемы, не докопавшись до истинной причины; (2) стереотипное мышление — функциональная фиксация («так всегда делают»), «мышление ресурсом» (добавить больше воздуха/цвета вместо переосмысления структуры), эффект выжившего (копировать только успешные референсы, не видя их контекст); (3) недооценка нестандартного решения — изобретательный ответ часто *выглядит* рискованнее привычного компромисса и отвергается именно за это; (4) ни один метод (включая сам ТРИЗ) не универсален — стройте повторяемый процесс постановки и оценки задачи, не полагайтесь на одну технику как на волшебную палочку.
+**Static striping (alternating rows) loses to dynamic highlighting of the row under the cursor,** or to bands of variable height that mark off groups of meaning — the TRIZ principle of "static → dynamic, unmanaged → managed."
+
+### A table's header equals coherent text
+
+**A table's header and its rows must form coherent text and describe the contents precisely** — a mismatch between the name and the actual data is unacceptable. Column headers should share one capitalization style (don't mix cases arbitrarily).
+
+### Responsive layout for tabular data
+
+**On narrow screens, collapse a 2D table into a linear format:** each row becomes a block, the former first column (the row header) becomes that block's heading (with no column of its own), and the remaining cells render as "parameter — value" pairs. **The critical second step: "check it against meaning and polish it"** — don't ship the raw mechanical conversion. Example: "Year: 1959" turns into "In 1959"; bare numbers get their "%" sign back for readability. A table is a compact 2D format; a narrow screen forces a linear output, but the linearization must be edited for meaning, not just dumped out mechanically.
+
+### Hierarchy of data within a table
+
+**"A table has both horizontal and vertical data hierarchy"** — pull repeating elements up the hierarchy: row → row header → group header → table header (and likewise for units of measure by column). But duplication is sometimes useful in its own right (a repeating "%" sign in every cell, say, speeds up scanning) — don't apply the rule mechanically; decide by the real need for readability.
+
+### Document layout (reference works, manuals)
+
+**Table of contents at the front, alphabetical index at the back, both flush to the page's edge for quick access.** The index's vocabulary should match how a real reader will actually search ("in the reader's language"), not the author's internal terminology. Signal importance first through position and size — styling comes last; label only what genuinely needs a label.
+
+### Respect for the material — the Tufte line
+
+The studio's brand DNA is "respect for the material," a direct nod to Edward Tufte: numbers instead of abstract codes (line weight, color with no label), an honest display of real data, minimal chartjunk, and a maximum data-ink ratio. Compare only commensurable units of measure on a single scale; don't mix visualization types for the same data (bars plus a pseudo-curve) — that creates a false impression of growth.
+
+### Don't duplicate the legend if the table is itself the legend
+
+**If a table already functions as the legend for a device or process (a washing-machine cycle table, say), don't add a second legend inside it** (footnote symbols, a repeated key) — that's double-coding the same thing. Collapse a complex classification down to the finite number of real usage scenarios; don't offload expert categorization onto the reader.
+
+**Sort a table's rows by a semantic or optical criterion, not alphabetically**, when the alphabet doesn't match how the reader actually searches for a row (density, shape, functional proximity). The device of "mirroring the table" (swapping what were rows and columns) can sharply improve readability — don't be afraid of an unconventional transformation if the data allows comparison in the other orientation.
+
+**Put the sort key first, but only where the list is actually searched by that key.** A ranking needs no inversion (the key is the rank number); an alphabetical index or card file needs "surname first"; a display card keeps the natural order ("first name first"). Don't move the key to the front out of habit — move it there only if the list is genuinely browsed or searched by that field.
+
+**An unchanged value needs no special marker.** Don't draw an arrow or icon where a value hasn't changed since the last reading — a visual accent should flag a real event, not fill a cell out of a reflex for symmetry.
+
+**Space off the digit groups of large numbers starting at five digits (10 000).** The spacing groups digits in threes and isn't needed below that — don't space four-digit numbers in ordinary running text; that's false complexity.
+
+**Column headers: one shared capitalization; dividing lines shouldn't fight the grouping of meaning.** "The best design lets you show not just more clearly, but also more" — don't sacrifice useful data density for extra air the task doesn't call for; save space by trimming text, not by squeezing the grid.
 
 ---
 
-## Диагностический чек-лист (15 проверок, по приоритету)
+## 7. Taste and visual literacy
 
-1. **Внутреннее < внешнее на каждом уровне?** От буквы до модуля — везде ли внутренние расстояния заметно меньше внешних? Если нет — это первая и самая частая причина «мутной», нецельной вёрстки.
-2. **Есть ли якорный объект в каждом ключевом прямоугольнике, и есть ли у него анти-воздух?** Проверьте угол/визуальный центр и контрастную пустоту с противоположной стороны.
-3. **Прямоугольники не пересекаются и не разваливаются?** Проверьте баланс высот левой/правой (верхней/нижней) частей составного блока — получился ли реальный прямоугольник.
-4. **Повторяет ли соседний «этаж» ритм текущего?** Если да — читатель ошибочно свяжет несвязанные по смыслу блоки; сломайте ритм намеренно.
-5. **Есть ли дыхание ≥5% у основной колонки?** Касается ли текст соседнего модуля вплотную — это тревожный признак.
-6. **Разные ли поля по сторонам (не квадратные, не симметричные)?** Одинаковые поля со всех сторон — признак любительской вёрстки; проверьте, работает ли «напряжение пропорций».
-7. **Совпадает ли синтаксическая роль элемента с его визуальным весом?** Не выглядит ли второстепенный элемент (логотип, служебная ссылка) крупнее/заметнее содержания.
-8. **Соблюдён ли канонический порядок чтения (иллюстрация → заголовок → текст → ссылки)?** Если нарушен — это осознанное исключение или случайная ошибка?
-9. **Нет ли «комков» — смешения базовых элементов без визуального разделения?** Пройдитесь по всем шести (заголовок/текст/иллюстрация/контрол/ссылка/подпись) — каждый ли безошибочно узнаётся.
-10. **Доминирующая иллюстрация не конкурирует со вспомогательной по размеру?** Есть ли однозначный сигнал «здесь начало осмотра».
-11. **Списки и абзацы не переотступлены?** Вводная строка списка прижата к первому пункту; список — часть абзаца, не отдельный блок с лишним воздухом.
-12. **Интерлиньяж — функция кегля/длины строки/формата, а не числа строк?** Меняется ли он произвольно в пределах одного типа текста без причины.
-13. **Таблица группирует данные по смысловым осям, а не по механической сетке?** Колонки ближе, строки дальше; повторы вынесены в заголовок/группу.
-14. **Оправдана ли каждая линия/рамка структурным изменением?** Если линию можно заменить пробелом без потери смысла — уберите линию.
-15. **Есть ли референс/прецедент, с которым можно сверить решение по линейке?** Если решение кажется случайным — можно ли назвать 3–5 «лекал», к одному из которых оно тяготеет.
+**Calibrating taste is a two-step method.** (1) Visual exposure — gather broadly, but that alone isn't enough. (2) Calibration — show the work to someone better and hear what's good and why ("like RoboCop," recalibration through outside feedback).
+
+**Copying masters with a ruler isn't shameful — it's a method.** Take a work you love and measure everything with a ruler: spacing, tracking, x-height; the margins and grids of good layouts often follow the proportions of the typeface itself. Don't be afraid to copy masters — it exposes the hidden mechanics of a solution. A training exercise for the skill: copy a reference design (Tufte, say) down to the smallest detail — size, line weight, alignment — to master information density and typography in practice, not in theory.
+
+**References are hunted "everywhere."** Genuine interest makes you notice good layout constantly. In practice: buy books, photograph or scan spreads into folders, shoot magazine spreads. A random moodboard is "a banal story"; real reference-hunting is active, obsessive, archival.
+
+**The value of theory is pattern recognition, not a recipe.** Color theory gives you a "map" — where a color lives and which direction to move it; typography books explain how to build a grid, but not what to fill it with. Over years of cataloguing Swiss layouts, roughly 90% of them boil down to **3–5 recurring templates (лекала)** — recognize these instead of inventing from scratch every time.
+
+**A critique of the 60-30-10 rule.** It's not a serious rule: it's unmeasurable, and it breaks down at the edge cases. The bar for a well-formed design rule is the inner-and-outer rule and the anchor-object rule — structural, concept-explaining rules that unify dozens of scattered observations, not numeric ratios pulled out of thin air.
+
+**The body of "templates" isn't an endless list of special cases — it's a short reference checklist.** The book "Typography and Layout" keeps a reference table of compositional templates, jokingly nicknamed layout's own "periodic table" — roughly 90% of real Swiss layouts, accumulated over years of cataloguing, boil down to 3–5 recurring structures. Visual exposure with no this kind of systematization stays a collection of examples, not a working tool.
+
+**A metaphor for icons only works through something already familiar.** A metaphor succeeds when it maps an unfamiliar interface element onto something the user already knows from real life (a basket or cart = shopping). Abstract source concepts ("knowledge hub") have no real-world referent — no icon can save them. Icons with no label are almost never justified; their main function is a recognition anchor (shape-memory) and a target to tap. The rule for icons close in meaning: "the more similar the concepts, the more different the icons should be" — differentiate rather than mirror.
+
+**Stylization is a skill that takes practice, not a vice.** A ready-made style or filter (GOST-style lettering, stencil type, for example) is a legitimate aesthetic if executed with mastery (example: Wes Anderson's deliberate stencil style — "that, too, takes skill to pull off"); a bureaucratic form is no obstacle to beauty — careless execution is the obstacle.
+
+---
+
+## 8. The designer's method and process
+
+**Bringing order is a framing of the task, not a geometry puzzle.** When aligning a menu to a grid: "at the very start, it's better to forget about the guides. Just take them away" — design freehand first. Then either: give the columns equal width so rhythm compensates for uneven text height, or align by block height instead of column width (a habit closer to print than to screen). Only after that, use guides "like a drafting ruler," to precisely construct a solution you've already worked out.
+
+**Design is not appearance.** Don't argue with a client about definitions — "explaining how our opinion suits the world is dumb and pointless." Show it through your portfolio, your working materials, and *the questions you ask*: if the question is about appearance, the client concludes you're decorating; a question about their products, services, or tasks makes the client feel you're digging deeper. Method beats lecturing — the questions themselves teach the client what design is.
+
+**Working with the material is the path to product quality.** "The better a designer understands the material they're shaping, the higher the quality, reliability, and craft of the resulting product" — but temper this with "reasonable specialization": study the constraints of your medium (CSS, the development environment) with no becoming its full-time builder; mockups assembled directly in code are inefficient at the solution-finding stage.
+
+**The generalization test for any "rule."** "Any correct answer must be correct in every situation" — before accepting a heuristic ("never use lines," "always center the headline") as a rule, test it against a counterexample; if you find a legitimate situation where the heuristic breaks, it's not a rule, it's a special-case device with conditions attached.
+
+**When lines and frames are legitimate.** A line or divider isn't inherently a mistake — it's "a layout tool," part of layout's Lego set: a divider becomes legitimate when a structural change (moving dates into their own column, say) genuinely requires it — otherwise prefer space over a line. "A rule is just a construction that occurs and has a right to exist" — the doctrine teaches principles of connection, not bans on specific devices.
+
+**An illustration need not interrupt an article's reading — an ad must not.** The real principle (from the chapter "The shape of text and reading order"): "the reader may think the article has ended if the text is interrupted by an ad, but not by an illustration." Illustrations serve an editorial purpose and don't trigger a false sense that "the article is over"; ads do. The final call — whether to break up the text with an illustration — stays with the designer.
+
+**Minimizing the construction is the second universal law.** "Systems evolve toward minimizing the physical means embodying their useful function" — simplify with no losing the useful function. Three devices: **strip everything unnecessary** (remove ballast with no loss of function); **"factor out"** (a shared element instead of repeats, see §6); **"transfer the function"** (one detail takes on another's function, eliminating duplication).
+
+**Composition as an escalation of complexity, not a single chosen device.** A falling-apart module (see §2) is fixed by escalating: first the simplest solution (a fill or a rule), then something more structural (aligned columns), and only when truly necessary, a full "collection of Swiss modules." Don't start with the most complex tool.
+
+**A compromise is the weakest possible solution to a problem.** A compromise "by definition worsens the position of both sides, or both conflicting parameters" — it's a weakening, not a resolution of the contradiction (for example, "shrink the type size a bit and squeeze the margins a bit" instead of picking a priority). Better to fix priorities explicitly (the FFF method — fix the deadline/budget, flex the functionality/content) than to degrade every parameter a little at a time.
+
+**Frequent failures in student and test layout work** (check yourself against these before turning in a layout): the single genuinely important rule is buried among secondary details — bring it to the front; the one diagram or scheme without which the rules can't be applied in practice is missing; dead white zones are left in, or, conversely, they're stuffed with meaningless factoids just for symmetry; a background photo under the text visually argues with the content instead of supporting it; the "text on the left, notes on the right" composition is applied reflexively, as a default template, rather than as a deliberate choice suited to the specific task.
+
+**Should a designer study layout and code? Yes, but with specialization.** Understanding the medium raises the product's quality, but it doesn't replace the designer's role with the builder's; learn the basics of layout before interfaces — start with the basic molecule: a paragraph with a headline, a pleasing ratio of margins to line-height, then bring order to the numbers and add meaningful emphasis.
+
+**Design is a system, not a wrapper.** The studio's key methodological pivot: "however well a designer makes… the outer wrapper, the shape, the interface — that doesn't guarantee the product's success… you need to design the system as a whole." A reviewer must judge whether the system behind the layout works, not just the quality of the skin over it — a beautiful layout over a broken structure doesn't solve the task.
+
+**The litmus test, "design vs. self-expression":** "expressing yourself is art; solving a problem is design." Before defending any compositional decision, ask: whose problem does it solve — the reader's or user's, or is it an author's gesture for their own pleasure? Both are legitimate in different genres, but confusing them in client work is a positioning mistake.
+
+**A three-stage scheme for solving a layout or compositional problem (the TRIZ method, adapted by the studio):**
+1. **Analysis** — state the layout's useful function and the harmful factor (what's blocking it), lay out the hierarchy of the system and subsystems, and the resources available (elements already in hand, free space, existing contrast).
+2. **Model of the solution** — in one sentence: "the useful function and an explicitly stated way to achieve it" (for example: "the headline should be read first → increase its size and give it its own module up top").
+3. **Solution** — build the model out in detail, then critically test the result with the same fresh eyes a first-time reader would bring.
+
+"If a designer analyzes the problem and identifies the harm and the useful function, finding an existing solution by specific criteria is far easier than sifting through all of humanity's experience" — a precisely stated problem beats blindly sifting through references.
+
+**Four recurring failures in analyzing a layout problem** (check yourself against each): (1) mistaking a surface-level statement of the problem for its root cause, with no digging to the real one; (2) stereotyped thinking — functional fixedness ("that's how it's always done"), "resource thinking" (adding more air or color instead of rethinking the structure), survivorship bias (copying only successful references with no seeing their context); (3) underrating an unconventional solution — an inventive answer often *looks* riskier than a familiar compromise and gets rejected for exactly that reason; (4) no method (including TRIZ itself) is universal — build a repeatable process for framing and evaluating the problem; don't rely on any single technique as a magic wand.
+
+---
+
+## Diagnostic checklist (15 checks, by priority)
+
+1. **Is inner < outer at every level?** From the letter up to the module — are the internal distances noticeably smaller than the external ones everywhere? If not, that's the first and most common cause of "muddy," non-unified layout.
+2. **Is there an anchor object in every key rectangle, and does it have anti-air?** Check the corner/visual center and the contrasting emptiness on the opposite side.
+3. **Do the rectangles avoid intersecting or falling apart?** Check the balance of heights between the left/right (or top/bottom) parts of a composite block — does it form a genuine rectangle?
+4. **Does the neighboring "floor" repeat the current one's rhythm?** If so, the reader will mistakenly link unrelated blocks; break the rhythm on purpose.
+5. **Does the main column have ≥5% breathing room?** Is the text touching the neighboring module directly — that's a warning sign.
+6. **Are the margins different on each side (not square, not symmetric)?** Equal margins on every side are a sign of amateur layout; check whether "tension in the proportions" is at work.
+7. **Does an element's syntactic role match its visual weight?** Does a secondary element (a logo, a utility link) look bigger or more prominent than the content?
+8. **Is the canonical reading order honored (illustration → headline → text → links)?** If it's broken, is that a deliberate exception or an accidental mistake?
+9. **Are there no "lumps" — basic elements blended with no visual separation?** Go through all six (headline, text, illustration, control, link, caption) — is each one instantly recognizable?
+10. **Does the dominant illustration avoid competing in size with the supporting one?** Is there an unambiguous signal of "the tour starts here"?
+11. **Are lists and paragraphs free of extra indenting?** Is a list's lead-in line flush with the first item; does the list read as part of the paragraph, not a separate block with extra air?
+12. **Is line-height a function of type size, line length, and format, rather than of the number of lines?** Does it change arbitrarily within one type of text with no reason?
+13. **Does the table group data along axes of meaning, rather than a mechanical grid?** Columns closer, rows farther apart; repeats factored out into a header or group.
+14. **Is every line or frame justified by a structural change?** If a line could be replaced by a space with no loss of meaning, remove the line.
+15. **Is there a reference or precedent you can check the decision against with a ruler?** If the decision feels arbitrary, can you name 3–5 "templates" it gravitates toward?

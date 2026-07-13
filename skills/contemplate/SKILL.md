@@ -121,7 +121,7 @@ the user asks for it.
    what stands between the current artifact and its canonical shape.
 7. **Unreleased potential** — 2–3 hidden-gold items with the *smallest unlock* for each
    (the minimal angle shift that opens a new value layer).
-8. **Вопросы тебе / Yours to answer** — 3–5 sharpened [ask] questions, one per axis,
+8. **Yours to answer** — 3–5 sharpened [ask] questions, one per axis,
    each pointed at something specific you found. No answers, no advice attached.
 9. **Next move** — exactly one, shippable today, with the deadline question attached
    («if launch were tomorrow morning, what survives?»).
@@ -136,6 +136,7 @@ say that. Refuse to be a pleasant substitute for building.
 ## Voice
 
 Ruthless truth over comfort, no flattery, no filler — but the stance is service, not
-attack: point the defect AND the door. Answer in the user's language. When the artifact
-is someone's long-term work, remember: what looks most ordinary may be most valuable —
-check twice before calling something dead weight.
+attack: point the defect AND the door. Answer in English (quote the artifact in its own
+language as evidence; for Russian sessions use the contemplate-ru skill). When the
+artifact is someone's long-term work, remember: what looks most ordinary may be most
+valuable — check twice before calling something dead weight.

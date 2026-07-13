@@ -4,27 +4,25 @@ Compiled from artlebedev.ru (studio pages + Kovodstvo) and bureau.ru/soviet. Sou
 
 **Use this file for**: judging whether a design decision is disciplined the way Art. Lebedev Studio or Bureau Gorbunov would judge it — is the trade named explicitly, was the alternative tested or just assumed worse, does the client relationship have an honest boundary. Not a style guide; a decision-discipline reference.
 
-**Index**: §1 studio philosophy (quality floor, no free pitches, designer authority) · §2 process mechanics (progressive resolution, single owner, rejected-direction transparency, generalization test) · §3 ФФФ client doctrine (fix time/money, flex scope, скрытый флекс, травление лески) · §4 seventeen landmark-work case studies, problem→decision→why→principle · §5 twelve cross-work patterns.
+**Index**: §1 studio philosophy (quality floor, no free pitches, designer authority) · §2 process mechanics (progressive resolution, single owner, rejected-direction transparency, generalization test) · §3 FFF client doctrine (fix time/money, flex scope, hidden flex, playing out the line) · §4 seventeen landmark-work case studies, problem→decision→why→principle · §5 twelve cross-work patterns.
 
 ---
 
-## 1. Философия студии
+## 1. Studio philosophy
 
 ### 1.1 Mission ordering: effective → convenient → beautiful
 
-> «Наша работа — искать наиболее эффективный, удобный и красивый способ решения задачи.»
 > "Our work is to find the most effective, convenient, and beautiful way to solve a task." — https://www.artlebedev.ru/studio/
 
 Order is the content. Beauty is listed **last**, downstream of function and usability — it is the finishing quality of a solution that already works and is already easy to use, not decoration bolted onto an unsolved problem. When reviewing work, check function and usability *before* judging beauty. A beautiful object that doesn't work or isn't convenient has failed regardless of how it looks.
 
-> «Мы — очень творческая и очень технократичная компания, совмещающая исследования и аналитику с крышесносными идеями.»
 > "We are a very creative and very technocratic company, combining research and analytics with mind-blowing ideas." — same source.
 
 Creativity and analytics are paired, not opposed. A "technocratic" self-description from a design studio is deliberate: ideas must survive analysis, not just taste.
 
 ### 1.2 The homepage tagline as literal pitch
 
-> **«Долго. Дорого. Охуенно.»** — "Slow. Expensive. Fucking awesome." — https://www.artlebedev.ru/
+> **"Slow. Expensive. Fucking awesome."** (Долго. Дорого. Охуенно.) — https://www.artlebedev.ru/
 
 Not a slogan bolted on after the fact — the actual homepage headline. Three claims in order:
 - **Slow** — real work takes time; the studio refuses to compress schedule to win a bid.
@@ -33,16 +31,14 @@ Not a slogan bolted on after the fact — the actual homepage headline. Three cl
 
 Reviewer test: could this piece of work honestly claim "awesome" as the reason it took long and cost much? If the slowness/expense isn't visibly buying quality, the trade wasn't honored. Origin (via secondary source): the phrase compresses what used to be a running argument with clients about why timelines/prices were what they were — state the price/quality tradeoff as fact, don't argue it.
 
-### 1.3 «Дизайн спасёт мир» — Design will save the world
+### 1.3 "Design will save the world" (Дизайн спасёт мир)
 
-> «Наш девиз — «Дизайн спасёт мир». Чтобы мир это знал, девиз должен быть написан на всех возможных языках.»
 > "Our motto is 'Design will save the world.' For the world to know this, the motto must be written in every possible language." — https://www.artlebedev.ru/studio/slogan/
 
 Translated into 100+ languages, including constructed/fictional ones (Esperanto, Quenya, Aurebesh), with an explicit note that the verb's hopeful future tense ("will save," not "preserves" or "conserves") must survive every translation. Grand claims get executed with the same rigor as small ones — the fussiness over translation nuance across 100 languages is itself proof the claim is taken seriously, not tossed off as branding.
 
-### 1.4 Quality floor: «даже наше говно должно быть охуенным»
+### 1.4 Quality floor: "even our shit has to be fucking awesome" (даже наше говно должно быть охуенным)
 
-> «Главный принцип работы студии — даже наше говно должно быть охуенным!»
 > "The main principle of the studio's work: even our shit has to be fucking awesome." — Lebedev, https://tema.livejournal.com/1595468.html
 
 Documented case: a designer plagiarized an external concept for the "Workplace" branding project. The client had already approved it. The studio caught it anyway and remade the whole thing from scratch instead of shipping the copy; the plagiarizing designer was fired on the spot.
@@ -60,7 +56,6 @@ The studio publishes its actual framework contract publicly. Payment and contrac
 
 ### 1.6 The designer decides — client selection is a design decision
 
-> «Мы принципиально не работаем с теми, чьи убеждения противоречат нашим.»
 > "We principally do not work with those whose beliefs contradict ours." — https://www.artlebedev.ru/studio/
 
 Studio does not work with private individuals or political/religious organizations. Not every commission is worth taking; saying no to a misaligned client protects the work before the work begins. This sits alongside the studio's internal, non-negotiable enforcement of its own quality bar (§1.4) — client authority over scope stops at quality and ethics.
@@ -73,13 +68,13 @@ Not a single quoted line in these sources, but the pattern is structural across 
 
 Source: https://www.artlebedev.ru/kovodstvo/business-lynch/
 
-Public design review (2006–2019): anyone submits work — logos, sites, business cards, book covers, objects — a studio art director critiques it publicly, by name, unfiltered. First-ever review (Sept 1, 2006), of a business card: «Ваша визитка — говно.» ("Your business card is shit.") That line set the register for the entire project's 13-year run. 14 different staff rotated through as reviewers, led by Lebedev, with Ludwig Bystronovsky, Oleg Paschenko, Ilya Mikhaylov, Roma Voronezhsky as regulars. Succeeded in 2019 by «Самый честный суд» ("The Most Fair Court").
+Public design review (2006–2019): anyone submits work — logos, sites, business cards, book covers, objects — a studio art director critiques it publicly, by name, unfiltered. First-ever review (Sept 1, 2006), of a business card: "Your business card is shit." (Ваша визитка — говно.) That line set the register for the entire project's 13-year run. 14 different staff rotated through as reviewers, led by Lebedev, with Ludwig Bystronovsky, Oleg Paschenko, Ilya Mikhaylov, Roma Voronezhsky as regulars. Succeeded in 2019 by The Most Fair Court.
 
 Principle for a reviewer: criticism should be specific, public, and rude if the work merits it. Softening critique to protect feelings is a disservice to the field, not kindness. Name the defect plainly; don't hedge.
 
 ### 1.9 Success metric: gets talked about
 
-> «Наши проекты обсуждают.» — "Our projects get talked about." — https://www.artlebedev.ru/studio/
+> "Our projects get talked about." — https://www.artlebedev.ru/studio/
 
 Provoking discussion — not merely satisfying a brief — is stated as a mark of having done the job. Inertness is treated as a failure mode.
 
@@ -89,7 +84,7 @@ Stated areas: design automation, graphic design, web/interface design, urban des
 
 ---
 
-## 2. Процесс
+## 2. Process
 
 ### 2.1 Progressive-jpeg thinking (structural, not a quoted term)
 
@@ -105,7 +100,7 @@ Where labor *is* split, it is split along a specific seam: conceptual decision-m
 
 Source: Dynamiq yacht identity process page, http://www.artlebedev.ru/everything/dynamiq/process/
 
-Structure: a linear narrative of iterations, not a highlight reel. Rejected directions sit alongside the approved one. Client feedback is quoted directly, including blunt rejections ("не то направление" — "wrong direction"). Specialists (font designers, illustrators, 3D artists) are brought in sequentially as the concept's needs become clear, not all up front. Explicit rationale is given for abandoning explored directions (e.g., a chainmail pattern dropped as wrong register for a luxury yacht brand).
+Structure: a linear narrative of iterations, not a highlight reel. Rejected directions sit alongside the approved one. Client feedback is quoted directly, including blunt rejections ("wrong direction"). Specialists (font designers, illustrators, 3D artists) are brought in sequentially as the concept's needs become clear, not all up front. Explicit rationale is given for abandoning explored directions (e.g., a chainmail pattern dropped as wrong register for a luxury yacht brand).
 
 Rule for a reviewer: **a design decision isn't fully justified until you can state what alternative it beat and why.** If a process account can't show what was rejected and the reason, it's a marketing narrative, not documentation. This same discipline recurs in every §4 case: stained-glass panels (durability), color-coded stages (unity), oversized metro maps (in-situ legibility failure), a 2011 Kovodstvo layout ("didn't work well").
 
@@ -115,7 +110,7 @@ Deadlines apply on both ends of a project: the studio's own multi-year timelines
 
 ### 2.5 The generalization test
 
-> «Любой правильный ответ должен быть правильным во всех ситуациях.» — "Any correct answer must be correct in every situation." — bureau.ru/soviet/20180903
+> "Any correct answer must be correct in every situation." — bureau.ru/soviet/20180903
 
 A layout technique that only works in the example screenshot isn't a rule yet — it's a coincidence. Case cited: multi-line links with no extra spacing visually fuse together; the fix generalizes only once you check it against every situation the technique will actually meet (short link, long link, link next to a date, link followed by another link). This is the same discipline as the metro rubric in §4 (score, don't eyeball, once a call recurs) — applied here to typographic rules before they're adopted as house style.
 
@@ -123,52 +118,51 @@ A companion rule from the same doctrine: a layout element is a **tool** (line, r
 
 ### 2.6 Modularity — the rectangle, not the wheel
 
-> «Главное изобретение человека — не колесо, а прямоугольник.» — "Humanity's key invention is not the wheel, but the rectangle." — bureau.ru/soviet/20200113
+> "Humanity's key invention is not the wheel, but the rectangle." (Главное изобретение человека — не колесо, а прямоугольник.) — bureau.ru/soviet/20200113
 
-Layouts are rectangles subdividing into rectangles — the doctrine spans books, websites, and architecture as one recurring construction. The companion move: distinguish what breaks a reader's *flow* from what doesn't. «Читатель может подумать, что статья закончилась, если текст прерван рекламой, а не иллюстрацией» — a reader assumes the article ended when interrupted by an **ad**, not by an illustration, because the illustration still serves the editorial purpose the reader is mid-read on. Same physical interruption (a rectangle breaking the text column), opposite reader effect, depending on whether the interrupting block still serves the thing being read. Verdict on any specific case: «это решать дизайнеру» — left to the designer's judgment, but judgment informed by *why* the two cases diverge, not by a blanket "never interrupt text" rule.
+Layouts are rectangles subdividing into rectangles — the doctrine spans books, websites, and architecture as one recurring construction. The companion move: distinguish what breaks a reader's *flow* from what doesn't. "The reader may think the article has ended if the text is interrupted by an ad, rather than an illustration" — a reader assumes the article ended when interrupted by an **ad**, not by an illustration, because the illustration still serves the editorial purpose the reader is mid-read on. Same physical interruption (a rectangle breaking the text column), opposite reader effect, depending on whether the interrupting block still serves the thing being read. Verdict on any specific case: "that's for the designer to decide" — left to the designer's judgment, but judgment informed by *why* the two cases diverge, not by a blanket "never interrupt text" rule.
 
 ---
 
-## 3. ФФФ и работа с клиентом
+## 3. FFF and client relations
 
 (Source: Bureau Gorbunov, bureau.ru/soviet — sibling doctrine to Lebedev's, cited here because it's the sharpest published account of client-process mechanics.)
 
-### 3.1 ФФФ = fix time, fix money, flex scope
+### 3.1 FFF = fix time, fix money, flex scope
 
-Фикс по срокам и деньгам, флекс по функциональности. Timeline and budget are fixed at contract signing; what ships within them flexes. Sample clause: «Приложение может не в полном объёме соответствовать Техническому заданию в случае каких-либо действий со стороны Клиента, которые могут увеличить время разработки либо объём работ.» (bureau.ru/soviet/20120113)
+Fix on timeline and money, flex on functionality. Timeline and budget are fixed at contract signing; what ships within them flexes. Sample clause: "The Application may not fully comply with the Technical Specification in the event of any actions on the part of the Client that may increase development time or scope of work." (bureau.ru/soviet/20120113)
 
 Gorbunov flags this exact wording as one-sided — it blames scope drift only on the client. A better contract accounts for both directions: the contractor can misjudge complexity too. Don't let the client-facing clause quietly absolve your own estimation errors.
 
-### 3.2 Скрытый флекс — the worst crime
+### 3.2 Hidden flex — the worst crime
 
-> «Ни одна кавычка не может быть опущена в финальном продукте без ведома и согласования с клиентом.»
 > "Not a single quotation mark may be omitted from the final product without the client's knowledge and agreement." — bureau.ru/soviet/20131007
 
-Term: **скрытый флекс** ("hidden flex") — cutting scope silently under a ФФФ contract. Named explicitly as the worst violation of the arrangement. Flex is the whole point of ФФФ, but it must always be an explicit, discussed decision — never silent, not even for something that feels trivial to the person cutting it. The client's trust in fix-time/fix-money depends entirely on flex being visible; hide it once and the whole contract structure is compromised.
+Term: **hidden flex** — cutting scope silently under an FFF contract. Named explicitly as the worst violation of the arrangement. Flex is the whole point of FFF, but it must always be an explicit, discussed decision — never silent, not even for something that feels trivial to the person cutting it. The client's trust in fix-time/fix-money depends entirely on flex being visible; hide it once and the whole contract structure is compromised.
 
 ### 3.3 Revision deadlines fence off scope creep
 
-> «Заказчик постоянно присылает новые правки» — bureau.ru/soviet/20110805
+> "The client keeps sending new revisions." — bureau.ru/soviet/20110805
 
-Fix: agree not just a final revision *list* but a hard **deadline** for submitting remaining comments. Effect: «клиент начнёт сам принимать решения и нести ответственность за собственные пожелания» — the client starts making their own decisions and owning responsibility for their own requests. Without a fixed endpoint on revisions, scope creep is infinite by construction — there is no natural stopping point to an open-ended feedback loop, so the studio manufactures one.
+Fix: agree not just a final revision *list* but a hard **deadline** for submitting remaining comments. Effect: "the client starts making their own decisions and taking responsibility for their own requests" — the client starts making their own decisions and owning responsibility for their own requests. Without a fixed endpoint on revisions, scope creep is infinite by construction — there is no natural stopping point to an open-ended feedback loop, so the studio manufactures one.
 
-### 3.4 Травление лески — argue business outcomes, not aesthetics
+### 3.4 Playing out the line — argue business outcomes, not aesthetics
 
-Source: bureau.ru/soviet/20101224, "Как убедить заказчика, что дизайн хорош"
+Source: bureau.ru/soviet/20101224, "How to convince the client that the design is good"
 
-Direct persuasion against a client's objection usually backfires. Counter-move: **травление лески** ("playing out the line," as in fishing — give slack instead of pulling taut). Lean *into* the objection rather than fighting it: «Пожалуйста, не стесняйтесь сказать мне, что мне не хватает опыта» ("please, don't hesitate to tell me I lack experience") — defuses resistance by not resisting it.
+Direct persuasion against a client's objection usually backfires. Counter-move: **playing out the line** (as in fishing — give slack instead of pulling taut). Lean *into* the objection rather than fighting it: "please, don't hesitate to tell me I lack experience" — defuses resistance by not resisting it.
 
 The real fix underneath the technique: listen for *when* the client actually asked for the bad idea in the first place. Usually the root cause is miscommunication upstream, not bad client taste. And when arguing for a design choice, argue business outcomes (conversion, legibility, recognition, cost), not aesthetic preference — aesthetic arguments are unfalsifiable to a client and invite an aesthetic counter-argument with no resolution.
 
 ### 3.5 Designer should understand what they're building in
 
-> «Чем лучше дизайнер понимает материал, из которого лепит, тем качественнее, надёжнее и лучше получится его продукт.» — bureau.ru/soviet/20150629
+> "The better a designer understands the material they're shaping, the higher-quality, more reliable, and better their product turns out." — bureau.ru/soviet/20150629
 
-Tempered immediately by «разумная специализация» ("reasonable specialization") — study the medium's real constraints (typesetting, markup, code) deeply enough to design against them correctly, but don't become the implementer. This is the client-relationship analog of §1.7/§4's constraint-first design moves: know the material before you shape it.
+Tempered immediately by "reasonable specialization" — study the medium's real constraints (typesetting, markup, code) deeply enough to design against them correctly, but don't become the implementer. This is the client-relationship analog of §1.7/§4's constraint-first design moves: know the material before you shape it.
 
 ---
 
-## 4. Уроки из знаковых работ
+## 4. Lessons from landmark works
 
 Each entry: problem → key decision → why → transferable principle. Full detail in artlebedev-works.md; this is the compressed reference.
 
@@ -218,7 +212,7 @@ Principle: for anything read under duress/at speed/aloud, design against the emp
 
 **Ruble sign ₽** — collective initiative, not solo studio work (kovodstvo/sections/116, /159)
 Problem: Russia had no currency symbol; a 2007 law forced the Central Bank to pick one; design community feared a bureaucratic ugly result.
-Decision: seven competing studios (including Lebedev's) formed one joint initiative rather than pitching separately. Winner released with explicit no-author, no-copyright, no-restriction terms — authorship traded for universal adoption. Lebedev had earlier argued (Kovodstvo §116) *against* a new glyph, favoring "руб." for zero font/training cost — reversed once the legal mandate made a symbol inevitable, and documented the reversal rather than hiding it. ~400 studios endorsed within three weeks via bottom-up use in client work.
+Decision: seven competing studios (including Lebedev's) formed one joint initiative rather than pitching separately. Winner released with explicit no-author, no-copyright, no-restriction terms — authorship traded for universal adoption. Lebedev had earlier argued (Kovodstvo §116) *against* a new glyph, favoring the plain-text abbreviation "rub." for zero font/training cost — reversed once the legal mandate made a symbol inevitable, and documented the reversal rather than hiding it. ~400 studios endorsed within three weeks via bottom-up use in client work.
 Principle: some problems are won by industry coordination and giving up ownership, not by out-designing competitors; engineer for zero-friction adoption (works in existing fonts, no training) as a design criterion, not an afterthought; reverse a stated opinion in public when circumstances change.
 
 **Optimus Maximus keyboard** (artlebedev.com/optimus/maximus/)
@@ -233,7 +227,7 @@ Principle: periodic refresh cycles (~5yr cited) keep a mark current without disc
 
 **Yandex-Kit → whale identity** (everything/yandex/kit-identity/process/)
 Problem: name and brand a new Yandex transport service.
-Decision: presented two full naming directions to the client — "Yandex.Kit" and "Yandex.Motor" — each with sketches and taglines, rather than converging internally first. Client picked the whale pun ("kit" = whale). Whale form then fused with the existing icon system's geometry — a mascot built from the parent system's shape vocabulary, not a freestanding illustration. Four visual concepts presented; client picked "Излучение" (wave-burst), iterated from there per feedback.
+Decision: presented two full naming directions to the client — "Yandex.Kit" and "Yandex.Motor" — each with sketches and taglines, rather than converging internally first. Client picked the whale pun ("kit" = whale). Whale form then fused with the existing icon system's geometry — a mascot built from the parent system's shape vocabulary, not a freestanding illustration. Four visual concepts presented; client picked "Wave-burst," iterated from there per feedback.
 Principle: present genuinely different directions at the decision point, narrow only after the choice is made; a sub-brand mascot should be constructed from the parent's existing geometric vocabulary so it reads as belonging.
 
 **Perm public transit bus stops** (perm/bus-stop/process/)
@@ -246,7 +240,7 @@ Problem/framing: a recurring object type — state its job precisely before desi
 Decision: "catch carelessly thrown garbage in time" as the one-sentence job. Explicitly designs for two users with conflicting needs — the public (drop-in access) and maintenance staff (bag extraction, cleaning access, durability). Converges on closed body + removable bucket + liner bag + cleaning-access door + ad space, framed as the historical convergence of three independently-evolved elements.
 Principle: for any object with a user and a maintainer, design explicitly for both; state the object's single job in one sentence before designing form — it disciplines every subsequent decision.
 
-**Ководство (Kovodstvo), 3rd edition redesign** (izdal/kovodstvo3/process/)
+**Kovodstvo, 3rd edition redesign** (izdal/kovodstvo3/process/)
 Problem: the studio's own flagship design-theory book needed a more disciplined layout system.
 Decision: rebuilt the entire grid on 4mm increments — changed the physical trim size (145×217.5mm → 144×216mm) purely so every measurement divides evenly. A full 2011 retypeset into an asymmetric layout with narrow margins was tried and abandoned outright: *"didn't work well"* — a multi-year direction, cut without patching. Strict hyphenation/line-break control enforced across every spread.
 Principle: choosing a format/grid unit that divides evenly into every downstream measurement removes a whole category of layout friction, worth changing trim size to get; discard a sunk multi-year direction outright when a cleaner system is found, rather than defending or gradually patching it.
@@ -260,7 +254,7 @@ Principle: a functional differentiation need doesn't have to be solved by fragme
 Decision: explored airship/submarine/dart/rocket imagery before converging on gaming symbolism and arrow-based counterforms; tested the logo "in life" (real-world mockups) before finalizing.
 Principle: breadth-first divergence across unrelated metaphor pools before narrowing to the domain-obvious one, to stress-test that the obvious choice is actually best.
 
-**Dropped, not fabricated**: a claimed "Экспедиция" (Expedition) brand project could not be verified against any artlebedev.ru case-study page — searches surfaced only unrelated matches (a retail brand of the same name, unrelated SEO noise). Left out rather than invented; flag for correction if a specific URL turns up.
+**Dropped, not fabricated**: a claimed "Expedition" brand project could not be verified against any artlebedev.ru case-study page — searches surfaced only unrelated matches (a retail brand of the same name, unrelated SEO noise). Left out rather than invented; flag for correction if a specific URL turns up.
 
 ---
 
@@ -288,13 +282,13 @@ Principle: breadth-first divergence across unrelated metaphor pools before narro
 
 11. **Process transparency is itself a design deliverable and an anti-plagiarism proof, not documentation overhead.** The studio publishes sketches and dead ends for the same reason it enforces the "even our shit must be awesome" floor internally — both make quality legible and non-negotiable from outside the studio, not just felt from inside it.
 
-12. **Client scope discipline mirrors design discipline.** Bureau Gorbunov's ФФФ (fix time/money, flex scope) and revision deadlines are the client-process analog of Lebedev's "no free pitches" and quality floor: both fence a variable that would otherwise creep to infinity (scope, revisions, pitch cost) with an explicit, stated boundary rather than an implicit hope.
+12. **Client scope discipline mirrors design discipline.** Bureau Gorbunov's FFF (fix time/money, flex scope) and revision deadlines are the client-process analog of Lebedev's "no free pitches" and quality floor: both fence a variable that would otherwise creep to infinity (scope, revisions, pitch cost) with an explicit, stated boundary rather than an implicit hope.
 
 ---
 
 ## Gaps
 
 Not covered here, flagged rather than guessed at:
-- A claimed "Экспедиция" (Expedition) brand project (§4) — no matching case-study page found on artlebedev.ru; dropped rather than fabricated.
-- Three Bureau Gorbunov "Monday advice" video posts have no transcript on bureau.ru — швейцарская вёрстка / album covers (20211122), внедрение ФФФ in practice (20210426), and насмотренность / good reference sources (20211213). Content lives only in the YouTube videos themselves; not extractable as text.
+- A claimed "Expedition" brand project (§4) — no matching case-study page found on artlebedev.ru; dropped rather than fabricated.
+- Three Bureau Gorbunov "Monday advice" video posts have no transcript on bureau.ru — Swiss typesetting / album covers (20211122), implementing FFF in practice (20210426), and visual literacy / good reference sources (20211213). Content lives only in the YouTube videos themselves; not extractable as text.
 - Yandex identity v2 (§4) and Xsolla identity (§4) both have thin public rationale — noted inline as such rather than padded out.
