@@ -32,6 +32,7 @@ A pipeline: diagnose → headline/test → prove → offer → position → bran
 - **Seth Godin** — strategy and reframing, near-zero execution mechanics (lowest actionability in the set, by his own design). His one post-1998 operating venture (Squidoo) failed.
 - **Ries & Trout / Positioning** — foundational *vocabulary*; the "22 Immutable Laws" were empirically refuted (Ehrenberg-Bass) and predicted the iPhone would fail. Treat as hypotheses, not laws.
 - **Gary Vaynerchuk** — the attention/distribution meta-framework (*Day Trading Attention*) is usable; discount the operator mythology (VeeFriends 200k+ supply dump after a $90M raise; self-reported Wine Library revenue).
+- **Renvoisé & Morin / Neuromarketing, The Persuasion Code** — the message-packaging checklist (six stimuli, four steps, building blocks) is a usable pre-send discipline that independently converges with Hopkins/PAS/Heath; discount the neuroscience wrapper (triune "reptilian brain" is discredited anatomy — their own 2018 "primal brain"/System-1 reframe concedes it) and note the books partly market their NeuroMap™ consultancy. Craft: yes. Brain-science authority: no.
 
 ## What to discount everywhere
 

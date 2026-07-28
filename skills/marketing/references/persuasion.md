@@ -35,6 +35,58 @@ These are cross-cutting levers, not standalone tactics — layer them into offer
 
 ---
 
+### Neuromarketing / NeuroMap — Patrick Renvoisé & Christophe Morin, Neuromarketing (2002/2007) / The Persuasion Code (2018)
+
+*A message-construction methodology built on one claim: the fast, automatic "primal brain" (their term; ≈ Kahneman's System 1) triggers the decision, and the rational brain justifies it afterward — so package every message to pass the primal brain's narrow filters, or the best offer never reaches the actual decider.*
+
+**When:** Packaging a finished message — pitch, deck, landing page, demo, VSL — after the diagnosis/offer/positioning work is done. Cialdini gives you *which* trigger to pull; this gives you *how to encode and sequence* the whole message. Use it as a pre-send checklist and a structure for live presentations.
+
+⚠️ **Science status, read first:** the "old brain / reptilian brain" framing rests on MacLean's triune-brain model, which modern neuroanatomy treats as a myth in its literal form (no independent reptilian decision module; brain regions are densely integrated). The authors' 2018 rebrand to "primal brain" + System 1/System 2 framing is the defensible core. Treat the anatomy as metaphor; the *craft* levers stand on their own — they converge with independently verified canon (Hopkins' specificity, PAS, Heath's SUCCESs: concrete, emotional, story, credible, simple).
+
+**The six stimuli** — the primal brain's filters; run every message against all six (2018 relabels in parentheses):
+
+| Stimulus | Filter | Apply it |
+|---|---|---|
+| **Self-centered** *(Personal)* | Only "what does this mean for *me*" gets through; sender-info is noise | Never open with "we/our company." Every claim rephrasable as something that happens *to the customer* |
+| **Contrast** *(Contrastable)* | Without a before/after anchor, the default under ambiguity is *don't act* | Structure as explicit contrast: without X → [pain]; with X → [relief]. Differentiate against the status quo, not in a vacuum |
+| **Tangible** | Abstractions require slow decoding; concrete input processes instantly | "Saves you 3 hours a week," not "synergistic value creation." Concrete nouns, exact numbers |
+| **Beginning & end** *(Memorable)* | Attention peaks at the open and close (primacy/recency); the middle is a trough | Strongest claim in the opening seconds; close by repeating it. Never bury the ask mid-message |
+| **Visual** | Visual cues process before language does | Show the pain state vs. relief state as an image, not a paragraph |
+| **Emotion** *(Emotional)* | Emotional charge cements memory and triggers action; flat description doesn't | Reconnect them to the felt pain (story, vivid stakes) before offering relief |
+
+**The four steps** (their whole method in sequence):
+
+1. **Diagnose the Pain** — structured intake like a doctor's: source (root cause, not symptom), intensity (low-intensity pain doesn't buy), consequences if unresolved, and — non-negotiable — the prospect **acknowledges the diagnosis out loud** before you proceed. Pain comes in three types: financial, strategic, personal.
+2. **Differentiate your Claims** — max **three** claims, each tied to a diagnosed pain, each passing **TOP**: **T**herapeutic (solves a real diagnosed pain), **O**riginal (a claim a competitor could equally make is free advertising for them), **P**rovable. Validate with real customers, don't assert.
+3. **Demonstrate the Gain** — the primal brain is skeptical; prove gain in the same three types (financial/strategic/personal) using the proof hierarchy, strongest first: **customer case > live demo > data > vision**. Never lead with vision when you have a case.
+4. **Deliver to the Old Brain** — package via the six building blocks below. Their point: this step gates everything; a logically airtight, well-proven message that isn't effortless to process still converts zero.
+
+**The six message building blocks** (each exploits one stimulus):
+
+| Block | What it is |
+|---|---|
+| **Grabber** (opens) | Seize the attention peak. Five types: **mini-drama** (a day in their life with the pain, then the same day with your solution), **wordplay**, **rhetorical question**, **prop** (a physical object standing for the value), **story** |
+| **Claims ×3** | The three TOP claims, short and memorable, **repeated** throughout — repetition compensates for the primal brain's short, non-verbal attention |
+| **Big Picture** | One visual carrying the value prop — ideally a contrasted pain-state/relief-state image pair — registered before any text is parsed |
+| **Proofs of Gain** | The evidence hierarchy (case > demo > data > vision) across financial/strategic/personal gain |
+| **Handling Objections** | Most late objections are disguised fear, not logic — resolve the emotion (restate, step into their side, give proof) instead of piling on more data |
+| **Close** | Repeat the claims one final time, then two open questions: *"What do you think?"* and *"Where do we go from here?"* — surfaces residual objections without an adversarial hard ask |
+
+**The seven impact boosters** (delivery layer, on top of content): word it with **"you"**; **be credible** (passion and integrity read as trust signals independent of content); **apply contrast** everywhere options could look interchangeable; **trigger emotion**; **vary the channel** (visual/auditory/kinesthetic — note: VAK learning-styles theory is itself weakly evidenced; use as variety heuristic only); **tell stories** (narrative is processed like lived experience); **less is more** (cut anything without direct customer value).
+
+**Watch out:**
+
+- **The neuroscience wrapper oversells.** Don't repeat "the reptilian brain decides" as fact in your own marketing-science claims; the tactical checklist works, the anatomy story doesn't.
+- **Skipping pain acknowledgment** — claims anchored to a pain the prospect never confirmed land as generic assertions.
+- **More than three claims** — dilutes all of them.
+- **Leading with vision** when a customer case exists inverts the proof hierarchy and reads as hype.
+- **Mini-drama grabbers** require real understanding of the prospect's day; a generic reenactment reads as theater.
+- This is a *packaging* method — it cannot rescue an undiagnosed market, a weak offer, or absent positioning (steps 1–4 of the SKILL.md procedure come first).
+
+> Maps to the canon: steps 1–3 ≈ Pain-Agitate-Solve made granular; the six stimuli overlap heavily with Heath's SUCCESs and Hopkins' specificity — independent convergence that the craft layer is sound. The authors run a consultancy (SalesBrain/NeuroMap™) and the books partly market it; weight the checklist, not the brand. See EXPERTS.md for the credibility entry.
+
+---
+
 ## Ethics (non-negotiable)
 
 Persuasion principles amplify trust — or destroy it. Use **real** scarcity, **real** social proof, **real** authority. Manufactured proof or faked independence is the line between a durable brand and an FTC consent order (Joe Sugarman, 1989). The honest application compounds across a career; the dishonest one is a one-time withdrawal against a reputation you don't get back. If a principle only "works" by misleading the prospect, it isn't working — it's borrowing against the future.
