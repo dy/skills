@@ -142,9 +142,11 @@ information", "up to my last update".
 
 ### 20. Em/en dash overuse
 **Watch:** `—`, `–`, ` -- `. Budget: 0 in short copy, ≤2 in a long piece. The dash-as-
-dramatic-aside ("the catalog — honestly priced —") is a tell even once.
-**Fix:** comma, period, or restructure. **Not** parentheses — the swap preserves the
-aside habit.
+dramatic-aside ("the catalog, honestly priced,") is a tell even once.
+**House rule (hard):** never emit an em-dash (`—`); it is a primary AI tell. When a dash
+is genuinely warranted, use an en-dash (`–`) instead. This holds even inside the ≤2 budget.
+**Fix:** comma, period, or restructure. **Not** parentheses (the swap preserves the aside
+habit).
 **Exempt:** a user writing sample that uses them; ranges (pp. 3–9); house style.
 
 ### 21. Bold overuse

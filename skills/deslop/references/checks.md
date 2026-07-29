@@ -56,7 +56,8 @@ on machine text.
 
 | Signal | Threshold |
 | --- | --- |
-| Em/en dash budget | 0 in short copy (< ~150 words), ≤2 in a long piece |
+| Em-dash (—) | never: banned house-wide; use an en-dash (–) if a dash is warranted |
+| En-dash budget | 0 in short copy (< ~150 words), ≤2 in a long piece |
 | Sentence-length monotony | 3+ consecutive sentences within ±4 words of each other |
 | Burstiness floor | no sentence under 8 or over 30 words in 500 words of prose |
 | Hedge density | >8 hedges per 1000 words in declarative writing |

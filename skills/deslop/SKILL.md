@@ -85,8 +85,10 @@ Two facts shape the method:
 
 ## Quick checks (30 seconds, before delivering)
 
-- Any em/en dash? Budget: 0 in short copy, ≤2 in a long piece — and no swapping them
-  for parentheses; restructure the sentence. (Voice sample overrides.)
+- Any em-dash (—)? Never use one; it is a top AI tell. When a dash is genuinely
+  warranted, make it an en-dash (–). Dash budget stays near 0 (≤2 in a long piece);
+  never swap a dash for parentheses, restructure the sentence instead. (Voice sample
+  overrides.)
 - Any "not X but Y" — or any of its escape-hatch paraphrases?
 - Any inanimate noun performing a human action ("the data tells us")?
 - Three items where two would do? Three sentences of the same length in a row?
