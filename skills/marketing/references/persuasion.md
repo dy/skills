@@ -35,6 +35,30 @@ These are cross-cutting levers, not standalone tactics — layer them into offer
 
 ---
 
+### Engineering Consent — Edward Bernays, Crystallizing Public Opinion (1923) / Propaganda (1928) / "The Engineering of Consent" (1947)
+
+*The public doesn't weigh claims individually — it takes cues from the leaders and authorities it already trusts. So don't persuade the crowd; persuade the crowd's trusted sources first, and let the endorsement flow downhill.*
+
+**When:** Upstream of copy — deciding *who should say it* and *what event makes it news* before deciding what to say. Launches, PR, category creation, entering markets where the seller's own voice carries no trust.
+
+**The four mechanisms:**
+
+1. **Third-party authority** *(the load-bearing one)*. People delegate judgment to group leaders — physicians, scientists, institutions, editors, respected practitioners. "If you can influence the leaders, either with or without their conscious cooperation, you automatically influence the group which they sway" (*Propaganda*). Order of operations: map which authorities your prospect already defers to → earn genuine endorsement there → only then address the crowd. Archetype: the Beech-Nut bacon campaign — no bacon ads; a physician's survey of ~4,500 doctors endorsing a hearty breakfast, reported as news. The seller's voice never appeared; the trusted one did. Modern forms: the analyst report, the standards body, the benchmark maintainer, the respected practitioner's independent writeup.
+2. **Address the group, not the individual.** People decide as members of overlapping groups whose approval they need; a message that moves the group identity beats one aimed at solitary reason. (The lab-verified fragments of this are Cialdini's Social Proof and Unity, above.)
+3. **Sell the symbol, not the object.** Attach the product to an identity or cause the buyer already wants: cigarettes staged as "torches of freedom" in the 1929 Easter parade; Ivory soap sold to children as sculpting material; don't sell pianos — popularize the *music room* until the piano is its natural furniture. The purchase is the visible tip of an invisible desire; find the desire.
+4. **Create circumstances; don't argue.** Stage an overt, newsworthy act that makes the conclusion arise from the world rather than from the seller — the event *is* the argument. Ancestor of the launch stunt, the commissioned study, the record-setting public demo. (Boorstin later named the degenerate form: the pseudo-event.)
+
+**Watch out:**
+
+- **Undisclosed fronts are now illegal and fatal.** Bernays' "independent" institutes and surveys were often quietly client-funded; today that is astroturfing (FTC disclosure rules). Being caught converts all borrowed authority into permanent distrust. The modern application is *earned, disclosed* endorsement — put the real thing in real experts' hands and let them speak freely.
+- **His victories are self-reported.** Bernays was his own best client; the standard independent account (Larry Tye, *The Father of Spin*, 1998) confirms the campaigns happened but deflates the credit and numbers. Use the mechanisms; discount the legend.
+- **The machinery has no ethics built in.** The same playbook sold tobacco to women (he later regretted it) and ran United Fruit's PR around the 1954 Guatemala coup; Goebbels reportedly kept his books (per Bernays' own memoir). The Ethics section below governs: authority real, endorsement freely given, interest disclosed.
+- **Authority doesn't transfer across domains** (see Cialdini's Authority row) — a celebrity is not a physician.
+
+> Maps to the canon: Cialdini's Authority / Social Proof / Unity are the individually lab-verified fragments; Berger's STEPPS explains why the story spreads *after* the event. Bernays' distinct, still-underused contribution is **sequence** — engineer the trusted-third-party layer *before* addressing the market. Most marketers shout at the crowd and skip its leaders. Both 1920s books are public domain — read them as primary sources on mechanism, adversarially on ethics.
+
+---
+
 ### Neuromarketing / NeuroMap — Patrick Renvoisé & Christophe Morin, Neuromarketing (2002/2007) / The Persuasion Code (2018)
 
 *A message-construction methodology built on one claim: the fast, automatic "primal brain" (their term; ≈ Kahneman's System 1) triggers the decision, and the rational brain justifies it afterward — so package every message to pass the primal brain's narrow filters, or the best offer never reaches the actual decider.*
