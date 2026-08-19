@@ -35,8 +35,8 @@ grep -Ein "\b(delve|tapestry|testament|paradigm shift|leverag(e|ing)|synergy|myr
 # Throat-clearing, filler, hedging
 grep -Ein "here's the thing|it's worth noting|at the end of the day|in today's|let me be clear|it turns out|in order to|due to the fact" $F
 
-# Dashes (em, en, double-hyphen as dash)
-grep -En "—|–| -- " $F
+# Decorative middle dots and dashes (em, en, double-hyphen as dash)
+grep -En "·|—|–| -- " $F
 
 # Bold mid-prose (outside headings) and label-bullets
 grep -En "^[^#].*\*\*[^*]+\*\*" $F
@@ -56,6 +56,7 @@ on machine text.
 
 | Signal | Threshold |
 | --- | --- |
+| Middle-dot separator (`·`) | never outside mathematics or an established house style |
 | Em-dash (—) | never: banned house-wide; use an en-dash (–) if a dash is warranted |
 | En-dash budget | 0 in short copy (< ~150 words), ≤2 in a long piece |
 | Sentence-length monotony | 3+ consecutive sentences within ±4 words of each other |

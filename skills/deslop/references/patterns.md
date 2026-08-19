@@ -140,14 +140,17 @@ information", "up to my last update".
 
 ## Format and style
 
-### 20. Em/en dash overuse
-**Watch:** `—`, `–`, ` -- `. Budget: 0 in short copy, ≤2 in a long piece. The dash-as-
-dramatic-aside ("the catalog, honestly priced,") is a tell even once.
-**House rule (hard):** never emit an em-dash (`—`); it is a primary AI tell. When a dash
-is genuinely warranted, use an en-dash (`–`) instead. This holds even inside the ≤2 budget.
-**Fix:** comma, period, or restructure. **Not** parentheses (the swap preserves the aside
-habit).
-**Exempt:** a user writing sample that uses them; ranges (pp. 3–9); house style.
+### 20. Decorative separators and dash overuse
+**Watch:** `·` as a separator in navigation, metadata, or inline lists; `—`, `–`, ` -- `
+as prose punctuation. Budget: 0 middle dots and 0 dashes in short copy, ≤2 dashes in a
+long piece. The dash-as-dramatic-aside ("the catalog, honestly priced,") is a tell even once.
+**House rule (hard):** never emit a middle-dot separator (`·`) or em-dash (`—`); both are
+primary AI tells. When a dash is genuinely warranted, use an en-dash (`–`) instead. This
+holds even inside the ≤2 dash budget.
+**Fix:** normal punctuation, a new line, or restructure. **Not** parentheses (the swap
+preserves the aside habit).
+**Exempt:** mathematical use of `·`; a user writing sample that uses them; ranges
+(pp. 3–9); established house style.
 
 ### 21. Bold overuse
 **Watch:** mid-sentence bold on phrases, bold as emphasis rhythm, bold on every list
