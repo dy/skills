@@ -47,7 +47,9 @@ Modes: edit (default) · detect (names patterns, quotes lines — refuses "AI li
 
 ## marketing
 
-High-converting marketing from the verified direct-response canon — offers, copy, positioning, persuasion, distribution. Grounded in evidence-verified masters (Schwartz, Caples, Hopkins, Ogilvy, Hormozi, Dunford, Berger, Cialdini), each framework audited for credibility — no guru hype.
+High-converting marketing from the verified direct-response canon — offers, copy, positioning, persuasion, content strategy, distribution. Grounded in evidence-verified masters (Schwartz, Caples, Hopkins, Ogilvy, Hormozi, Dunford, Berger, Cialdini, Bernays), each framework audited for credibility — no guru hype.
+
+Two things it does that most marketing advice doesn't. It decides **what a page should say** before how to say it — a repertoire of content blocks chosen by the objection each one retires (who this is NOT for, the cost of inaction, "why pay if I can do it myself", the ladder from attribute to value), fed by customer-verbatim harvesting and a systematic angle engine instead of a blank page. And it **grades its own advice**: every common tactic carries a verdict traced to primary sources, so specificity, two-sided messaging, benign-envy comparison and comparative ads are marked supported, while fake countdown timers, the odd-number headline rule, the "give 2 of 3 and they persuade themselves" move, and "video lifts conversion 80%" are marked folklore, legally risky, or fabricated — each with the trace back to where the number was invented.
 
 ## License
 

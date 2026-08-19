@@ -7,8 +7,12 @@ description: >-
   and distribution. Use when the user wants to write or critique sales copy,
   create/sharpen/name/price an offer, position or differentiate a product, write
   a headline/hook/CTA, plan a launch or content strategy, improve conversion, or
-  name a marketing framework. Grounded in evidence-verified masters (Schwartz,
-  Caples, Hopkins, Ogilvy, Hormozi, Dunford, Berger, Cialdini) — not guru hype.
+  name a marketing framework. Also use to decide what a landing page should
+  *say* — which sections it needs, how to generate content angles, and moves like
+  "who this is NOT for", the cost of inaction, or answering "why pay if I can do
+  it myself". Grounded in evidence-verified masters (Schwartz, Caples, Hopkins,
+  Ogilvy, Hormozi, Dunford, Berger, Cialdini, Bernays) with every tactic graded
+  by the strength of its actual evidence — not guru hype.
 ---
 
 # Marketing
