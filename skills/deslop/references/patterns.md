@@ -149,7 +149,9 @@ primary AI tells. When a dash is genuinely warranted, use an en-dash (`–`) ins
 holds even inside the ≤2 dash budget.
 **Fix:** normal punctuation, a new line, or restructure. **Not** parentheses (the swap
 preserves the aside habit).
-**Exempt:** mathematical use of `·`; a user writing sample that uses them; ranges
+**Exempt:** working documents — reference files, specs, agent/skill instructions, routing
+tables, navigation furniture — where the character is structural rather than rhetorical
+(SKILL.md → Scope); mathematical use of `·`; a user writing sample that uses them; ranges
 (pp. 3–9); established house style.
 
 ### 21. Bold overuse

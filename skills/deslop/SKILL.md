@@ -27,6 +27,22 @@ Two facts shape the method:
    mechanical long/short sentence alternation are their own recognizable genre. Voice
    is protected before anything is subtracted.
 
+## Scope
+
+This skill governs **delivered prose** — text a reader consumes *as writing*: copy, posts,
+essays, emails, marketing, narrative documentation, anything whose job is to be read.
+
+It does not govern **working documents** — reference files, specs, agent and skill
+instructions, changelogs, schemas, routing tables, navigation furniture. There a character
+is doing structural work, not rhetorical work: a `·` separating two links in a table is not
+an aside, and a dash setting off a column label is not a dramatic pause. Applying the
+typographic rules there produces churn without a reader who benefits.
+
+The test: *is this read as writing, or read to find something?* Only the first is in scope.
+Everything below — the dash budget and middle-dot ban especially, since they are about a
+reader's ear for machine prose — assumes the first. This skill's own reference files are
+out of scope by that rule, and are written accordingly.
+
 ## Modes
 
 | Mode | Trigger | What happens |
@@ -85,11 +101,11 @@ Two facts shape the method:
 
 ## Quick checks (30 seconds, before delivering)
 
-- Any middle-dot separator (`·`) or em-dash (—)? Never use either; both are top AI
-  tells. Use normal punctuation or layout for lists and navigation. When a dash is
-  genuinely warranted, make it an en-dash (–). Dash budget stays near 0 (≤2 in a long
-  piece); never swap a dash for parentheses, restructure the sentence instead. (Voice
-  sample overrides.)
+- Any middle-dot separator (`·`) or em-dash (—)? In delivered prose, never use either;
+  both are top AI tells. Use normal punctuation or layout for lists and navigation. When
+  a dash is genuinely warranted, make it an en-dash (–). Dash budget stays near 0 (≤2 in
+  a long piece); never swap a dash for parentheses, restructure the sentence instead.
+  (Voice sample overrides. Working documents are out of scope — see Scope.)
 - Any "not X but Y" — or any of its escape-hatch paraphrases?
 - Any inanimate noun performing a human action ("the data tells us")?
 - Three items where two would do? Three sentences of the same length in a row?

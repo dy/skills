@@ -54,10 +54,14 @@ grep -Ein "hope this helps|would you like|let me know if|great question|you're a
 Flags, not verdicts — human writing occasionally trips one; tripping several converges
 on machine text.
 
+Thresholds apply to **delivered prose**. Working documents (reference files, specs, agent
+instructions, tables) are out of scope — see SKILL.md → Scope. Run these on the draft a
+reader will read, not on the scaffolding around it.
+
 | Signal | Threshold |
 | --- | --- |
 | Middle-dot separator (`·`) | never outside mathematics or an established house style |
-| Em-dash (—) | never: banned house-wide; use an en-dash (–) if a dash is warranted |
+| Em-dash (—) | never in delivered prose; use an en-dash (–) if a dash is warranted |
 | En-dash budget | 0 in short copy (< ~150 words), ≤2 in a long piece |
 | Sentence-length monotony | 3+ consecutive sentences within ±4 words of each other |
 | Burstiness floor | no sentence under 8 or over 30 words in 500 words of prose |
