@@ -6,7 +6,9 @@ Agent skills by [@dy](https://github.com/dy). Work with any agent supported by t
 npx skills add dy/skills --skill artbureau
 npx skills add dy/skills --skill contemplate
 npx skills add dy/skills --skill deslop
+npx skills add dy/skills --skill fundraising
 npx skills add dy/skills --skill marketing
+npx skills add dy/skills --skill public-relations
 ```
 
 English skills answer in English; `artbureau-ru` and `contemplate-ru` are full-Russian variants (отвечают по-русски).
@@ -50,6 +52,18 @@ Modes: edit (default) · detect (names patterns, quotes lines — refuses "AI li
 High-converting marketing from the verified direct-response canon — offers, copy, positioning, persuasion, content strategy, distribution. Grounded in evidence-verified masters (Schwartz, Caples, Hopkins, Ogilvy, Hormozi, Dunford, Berger, Cialdini, Bernays), each framework audited for credibility — no guru hype.
 
 Two things it does that most marketing advice doesn't. It decides **what a page should say** before how to say it — a repertoire of content blocks chosen by the objection each one retires (who this is NOT for, the cost of inaction, "why pay if I can do it myself", the ladder from attribute to value), fed by customer-verbatim harvesting and a systematic angle engine instead of a blank page. And it **grades its own advice**: every common tactic carries a verdict traced to primary sources, so specificity, two-sided messaging, benign-envy comparison and comparative ads are marked supported, while fake countdown timers, the odd-number headline rule, the "give 2 of 3 and they persuade themselves" move, and "video lifts conversion 80%" are marked folklore, legally risky, or fabricated — each with the trace back to where the number was invented.
+
+## fundraising
+
+Raise money — from investors or from donors — by building the conditions where capital wants to come to you, then running the ask as a disciplined process. Covers both branches, which share a spine and almost nothing else: startup/venture, and nonprofit/philanthropy.
+
+The governing finding is Panas's: donors who gave a million dollars or more already believed before anyone asked. **The ask converts belief; it does not create it.** So the ideal raise has no pitch, and the work is upstream. The best-evidenced lever in the whole field says the same thing structurally — List & Lucking-Reiley's field experiment on a real capital campaign found that announcing a larger share of the goal already committed raised both participation and total dollars *more than linearly*, which is the quiet phase and the lead investor as one mechanism, independently evidenced in each branch. Field experiments outrank folklore throughout: a matching gift works but a bigger match ratio buys nothing (Karlan & List), overhead aversion is fixed by having a lead donor underwrite overhead rather than by cutting it (Gneezy et al., *Science*), peer anchors work but only aspirational-and-reachable ones on the undecided middle (Shang & Croson; Frey & Meier), and the identifiable-victim principle behind "show one face, not statistics" failed to replicate. Roughly four out of five first-time donors never give again, so retention outranks acquisition almost always. Manufactured inevitability — fake oversubscription, an uncommitted "lead", undocumented impact — is fraud, and the mechanisms only work because the signals are costly and true.
+
+## public-relations
+
+Earn third-party credibility, and protect reputation when it is under attack. Advertising is you talking about yourself; PR is arranging for someone else to, which is why every shortcut that fakes the third party destroys what it was trying to produce.
+
+Built to the gap: organizational **crisis communications** had no agent skill at all — what exists under that name is the inverse, newsroom protocols for covering someone else's crisis. The spine is Ma & Zhan's meta-analysis: what you are blamed for correlates with reputation at r = −.54, what you say about it at r = .23. **Conduct outranks messaging roughly two to one**, which is the least flattering and most useful finding in the field. Apology, sympathy and compensation test as statistically indistinguishable (Coombs & Holladay), so the meeting-consuming "do we apologize" fight is a false dilemma; disclosing before you're discovered measurably beats being caught; and crises are diagnosed by attributed responsibility (Coombs' SCCT) before any strategy is chosen. Also covers how coverage actually happens — the Cardiff churnalism data, what journalist surveys say they want (under 200 words, before noon, beat-relevant), exclusive versus embargo, newsjacking and its failure mode — plus honest measurement, since AVE is formally discredited. The exposé canon is included as the reason the ethics line exists, not as a playbook. For tactical B2B journalist pitching, it points at `coreyhaines31/marketingskills` rather than rebuilding it.
 
 ## License
 
