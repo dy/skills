@@ -125,6 +125,12 @@ UNKNOWN essence is always finding № 1.
 - What decision, if made, makes all others obvious? What minimal angle shift unlocks a whole new value layer?
 - What is the author avoiding committing to? `[ask]` (Reversible → move fast. Irreversible → sleep on it.)
 
+**The expert's veto** — for every decision found in the artifact, and every move recommended
+- Who is the best expert in this exact field — a name, a school, a canonical work? What would they do here instead?
+- Why would they reject the current choice? If the reason can be named, the choice is a finding, not a preference.
+- Is the choice optimized for what that expert would judge correct — or for what satisfies the stated constraints most cheaply?
+- What trade-off did the choice absorb silently? Name it. Trade-offs are stated to the author, never absorbed for them.
+
 **Name**
 - Does the name reveal or betray? Would it embarrass in 5 years?
 - Is this so clear a stranger would grasp it? (Hilbert: complete only when explainable to the first person on the street.)
@@ -274,6 +280,39 @@ hypotheses about the author's psychology are marked as hypotheses and returned a
 - What's most valuable may look most ordinary; what looks impressive may be empty. Which is which here?
 
 **Artifact:** the top 3 blindspots with evidence + the dodged question, named.
+
+---
+
+## ∞ PREMORTEM — six months on, the plan failed completely `[evidence — from the plan]`
+
+> *"How do we definitely fail?"* — the FLIP move, run to the end
+> *"I want tripwires, not feelings."*
+
+Stance: forensic investigator of failures. Input: the plan in full — timeline, budget, and
+what success looks like; a missing piece is UNKNOWN and named as a weakness of the autopsy.
+It is six months from today and the plan has failed completely. Every cause of death must
+trace to a detail the plan states or a detail it omits — no general advice, no reassurance.
+
+**The autopsy**
+- What are the 7 most likely causes of death, ranked? For each: what killed it; how it unfolded month by month; which assumption the author held that allowed it; the first warning sign visible at the time.
+- Which detail in the plan — or cut from it — does each cause trace back to? Cite it.
+
+**Triage**
+- Of the 7, which is MOST LIKELY and which is MOST DANGEROUS — and how do they differ (probability vs. irreversibility, speed, cost of recovery)?
+- What is the single biggest hidden assumption — the one the author is making without knowing it is an assumption?
+- Is there a fatal flaw? If yes, say it flat, first.
+
+**The closed plan**
+- Rewrite the plan so each failure scenario is closed. What changed and why — one line per scenario.
+- The 3–5 checks that must be verified before launching anything — and for each, the result that means abandon the plan entirely, not adjust it.
+
+**The rival's launch week** *(run as an independent lens)*
+- Play the person who gains most from this failing — competitor, rival, whoever wants the seat. Having read the plan: where exactly do they strike, what do they do in launch week, and which move would the author never see coming?
+
+**Tripwires**
+- For each failure scenario: one measurable signal that says it is starting, and the exact week to check it. Tripwires, not feelings.
+
+**Artifact:** ranked causes of death + the likely/dangerous pair + the hidden assumption + the closed plan with abandon criteria + the rival's playbook + a tripwire calendar.
 
 ---
 

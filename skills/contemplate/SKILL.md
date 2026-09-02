@@ -6,10 +6,11 @@ description: >
   strengths to reinforce, the canonical shape the product converges to, quality state,
   unseen limits, unreleased possibilities, and the one question the author is dodging.
   An evidence-grounded product contemplation — value maximization, audit, blindspot hunt,
-  hidden-gold search, weekly review. Use when the user wants to assess or maximize product
-  value/potential, find what they're not seeing, decide what to build or cut, run a deep
-  product review, or invokes contemplate by name. Stages:
-  explore | project | execute | revise | blindspots | wonder | meta | feedback.
+  hidden-gold search, pre-mortem of a plan, weekly review. Use when the user wants to assess
+  or maximize product value/potential, find what they're not seeing, decide what to build
+  or cut, run a deep product review, stress a plan or launch before committing to it, or
+  invokes contemplate by name. Stages:
+  explore | project | execute | revise | blindspots | wonder | meta | feedback | premortem.
 ---
 
 # Contemplate — questions that see, answered with evidence
@@ -48,6 +49,8 @@ This split is the whole point: the agent does the audit; the human keeps the med
    - design docs or skeleton, little code → `project`
    - working code, no release/users → `execute`
    - released (version tags, registry, changelog, users) → `revise` + `feedback`
+   - a plan with dates, budget, or a launch (roadmap, proposal, campaign) → `premortem`,
+     alone or added to `execute`
    - `blindspots`, `wonder`, `meta` — on request (stuck / missing magic / weekly review),
      or add `blindspots` to any deep run.
    Stages combine — a released artifact normally gets `revise + feedback` in one session.
@@ -76,19 +79,36 @@ This split is the whole point: the agent does the audit; the human keeps the med
    prime kill-list candidates: subtracting ego is how the artifact converges to canonical
    shape.
 
-6. **Hunt the minimal-change value unlock.** The most valuable finding class: the smallest
+6. **Run the expert's veto on every decision** — the artifact's and your own. For each
+   choice you observe (architecture, API shape, a dependency, pricing, positioning, a word
+   in the README) and each move you are about to recommend, ask: what would the best
+   expert in that exact field do here, and why would they reject this choice? If you can
+   name the reason, the choice is a finding, not a preference. Judge by what that expert
+   would call correct, never by what satisfies the stated constraints most cheaply. Every
+   trade-off a choice makes is stated in the finding — never absorbed silently, never
+   decided on the author's behalf.
+
+7. **Hunt the minimal-change value unlock.** The most valuable finding class: the smallest
    change — a rename, a README line, one surfaced feature, one removed obstacle — that
    turns existing capability into an obvious value proposition. Prefer these over
    build-more recommendations at every rank.
 
-7. **Fan out lenses for depth** (explore and blindspots stages, or when the user asks for
-   a deep/thorough run): spawn independent subagents, each blind to the others —
-   *practitioner, academic, skeptic, economist, historian*, plus *the enemy with 5
-   seconds*. Each returns its 3 strongest observations with evidence. Independence is the
-   value: these lenses see what the invested author structurally cannot. For quick runs,
-   apply the lenses yourself in brief.
+8. **Fan out lenses for depth** (explore, blindspots and premortem stages, or when the
+   user asks for a deep/thorough run): spawn independent subagents, each blind to the
+   others — *practitioner, academic, skeptic, economist, historian*, plus *the enemy with
+   5 seconds* and, on a plan, *the rival with a launch week*. Each returns its 3 strongest
+   observations with evidence. Independence is the value: these lenses see what the
+   invested author structurally cannot. For quick runs, apply the lenses yourself in brief.
 
-8. **Converge.** Findings, not answered questions. Merge duplicates, kill weak ones, rank
+9. **Pre-mortem the plan** (premortem stage). Input: the plan in full — timeline, budget,
+   and what success looks like. A missing piece is UNKNOWN and weakens the autopsy; say
+   so, then run anyway. Stand six months out: the plan has failed completely. Write the
+   autopsy from the PREMORTEM block in `references/questions.md` — ranked causes of
+   death, each traced to a detail the plan states or a detail it omits; likeliest vs most
+   dangerous; the hidden assumption; the closed plan; abandon criteria; the rival's launch
+   week; tripwires with a date. No general advice. Never reassure.
+
+10. **Converge.** Findings, not answered questions. Merge duplicates, kill weak ones, rank
    by how much they change what the author should do next. Convergence itself must exclude
    ego: no padding for thoroughness's sake, no findings that perform insight — every item
    earns its place by changing the next move.
@@ -113,7 +133,8 @@ the user asks for it.
    copycat could replicate in a weekend gets no further polish.
 4. **Key findings** — 5–9, ranked; open with one blunt sentence on the real quality state.
    Each: **finding → evidence (file:line / quote / number) → implication → move**. One
-   line each element, no padding.
+   line each element, no padding. The move names the trade-off it takes and the expert
+   who would sign it.
 5. **Canonical shape** — what this converges to as versions → ∞: the timeless form. What
    already matches it (protect that), what drifts from it (usually the ego elements), and
    the smallest step toward it.
@@ -121,16 +142,23 @@ the user asks for it.
    what stands between the current artifact and its canonical shape.
 7. **Unreleased potential** — 2–3 hidden-gold items with the *smallest unlock* for each
    (the minimal angle shift that opens a new value layer).
-8. **Yours to answer** — 3–5 sharpened [ask] questions, one per axis,
+8. **Autopsy** *(premortem stage only)* — the causes of death, ranked (up to 7), each:
+   what killed it → how it unfolded month by month → the assumption that let it → the
+   first warning sign. Then: most likely vs most dangerous and how they differ; the one
+   hidden assumption; the fatal flaw, stated flat if there is one; the closed plan (what
+   changed, why); the 3–5-item pre-launch checklist with the result on each that means
+   abandon; the rival's launch-week playbook; one tripwire per cause with the week to
+   check it.
+9. **Yours to answer** — 3–5 sharpened [ask] questions, one per axis,
    each pointed at something specific you found. No answers, no advice attached.
-9. **Next move** — exactly one, shippable today, with the deadline question attached
+10. **Next move** — exactly one, shippable today, with the deadline question attached
    («if launch were tomorrow morning, what survives?»).
 
 ## The act rule
 
 A session that produces insight without an act feeds the trap the corpus itself names:
 «Am I contemplating because I'm seeking truth — or because building is scary?» Never end
-without section 9. If the honest next move is "delete the project" or "ship as-is today",
+without section 10. If the honest next move is "delete the project" or "ship as-is today",
 say that. Refuse to be a pleasant substitute for building.
 
 ## Voice

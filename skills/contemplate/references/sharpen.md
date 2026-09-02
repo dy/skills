@@ -13,9 +13,11 @@ pain — the precise moment it hurts»); out: pattern, category («What's the fe
 **2. FLIP** — opposite («How do we succeed?» → «How do we definitely fail?»); remove
 («What's valuable?» → «If we deleted half — which half lives?»).
 
-**3. SHIFT** — time («Is this good?» → «Will this embarrass in 6 months?»); perspective
-(«What's the UX?» → «What would my harshest critic see in 5 seconds?»); constraint
-(«What should we build?» → «What would we ship with one day?»).
+**3. SHIFT** — time («Is this good?» → «Will this embarrass in 6 months?»; «Will this
+work?» → «It's six months later and it failed — what killed it?»); perspective («What's the
+UX?» → «What would my harshest critic see in 5 seconds?»; «Is this choice right?» → «What
+would the best expert in this field do instead — and why would they reject mine?»);
+constraint («What should we build?» → «What would we ship with one day?»).
 
 **4. GROUND** — abstract to concrete: names, numbers, moments («What's the goal?» →
 «What does victory taste like? What ONE number defines it?»; «Who's the user?» → «One
