@@ -31,6 +31,66 @@ subtracting ego from the artifact is how it converges to canonical shape.
 
 ---
 
+## ∞ TRUST – would they believe it? `[hybrid – artifact: evidence; author: ask]`
+
+> *"Satyam, truthfulness, means that facts should be presented as they are, for the benefit of others. Facts should not be misrepresented."* – Prabhupada (BG 10.4–5, purport)
+> *"Trust is a function of two things: character and competence."* – Stephen M. R. Covey
+
+Covey's four cores of credibility, held two ways. **The artifact** – does it deserve the trust
+it asks for? Answered from evidence. **The author** – honesty, motive, commitments kept to
+themselves: [ask], sharpened from what the artifact shows (a claim it doesn't keep, a feature
+left half-done, credit not given). Character (integrity, intent) is the root; competence
+(capabilities, results) the fruit: a gap in a root core makes every fruit suspect.
+
+**Integrity – is it congruent?**
+- Does every claim (README, landing, changelog, pitch, letter) match what the artifact does now? Quote the gap.
+- Technically true but leaving a false impression – benchmarks without conditions, "supports X" meaning "once worked with X", screenshots of an unreleased state?
+- Are people and alternatives represented fairly – competitors, prior art, upstream authors, contributors credited?
+- What does it stand for – which principle does it refuse to break even when a user asks?
+- Is it open to being wrong – issues answered, criticism engaged, corrections published?
+
+**Intent – whose agenda?**
+- Whose interest does each default serve – the user's or the author's (telemetry, lock-in, upsell, dark patterns, data kept)?
+- Is the intent declared – the why behind the what, the business model, what it will never do?
+- Does the user get more than they give? Where does the artifact take more than it returns?
+
+**Capabilities – is it relevant?**
+- Is it current – dependencies, runtime, standards, the field's best practice today?
+- Does it lead with its strength – is the thing it does best the thing it shows first?
+- Is it getting better – are feedback loops (issues, tests, benchmarks) acted on?
+
+**Results – what's the track record?**
+- Finished vs started – TODOs, half features, stale branches, unanswered issues, broken examples?
+- Past, current, anticipated: shipped releases, recent activity, a roadmap the commit history supports?
+- Is the track record stated in facts – numbers, users, dates – neither hidden nor inflated?
+- Results or activity – do the commits move the outcome, or churn?
+
+**The 13 behaviors – which counterfeit is running?** `[hybrid]`
+Behavior / counterfeit (Covey, *The Speed of Trust*): talk straight / spin; demonstrate respect /
+respect only for the useful; create transparency / seeming over being; right wrongs / cover-up;
+show loyalty / credit to the face, blame behind the back; deliver results / busywork; get better /
+learning without producing; confront reality / side issues; clarify expectations / guessing;
+practice accountability / blame; listen first / loading the reply; keep commitments / vague
+promises; extend trust / withheld or blind trust.
+- Which counterfeit does the artifact show? Cite it. Which behavior repairs it?
+
+**The author** `[ask]` – sharpen each against what the artifact showed
+- Where did I shade the truth – a white lie, a spin, a person or situation misrepresented? What did it buy, what did it cost?
+- Does what I say match what I think, and what I do match what I say I value?
+- What do I stand for here – would I still stand if the room disagreed?
+- Where do I believe someone's gain is my loss? Am I judging myself by intent and others by behavior?
+- What are my proven strengths – does most of my effort go there?
+- What did I promise (to users, to myself) and quietly drop? What did I start and not finish?
+
+**Broken trust** `[ask]`
+- If I broke it: own it without excuse, declare intent, listen first, signal the new behavior, keep commitments. Which step am I skipping?
+- If they broke it: what's my part? Can I separate the person from the behavior? What exact behavior would help?
+
+**Artifact:** the weakest core with evidence + the counterfeit found + the one behavior that
+repairs it + one commitment, stated so it can be checked, with a date.
+
+---
+
 ## 1. EXPLORE — what problem wants solving? `[evidence]`
 
 > *"Make something people want."* — Y Combinator

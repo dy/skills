@@ -6,11 +6,13 @@ description: >
   strengths to reinforce, the canonical shape the product converges to, quality state,
   unseen limits, unreleased possibilities, and the one question the author is dodging.
   An evidence-grounded product contemplation — value maximization, audit, blindspot hunt,
-  hidden-gold search, pre-mortem of a plan, weekly review. Use when the user wants to assess
+  hidden-gold search, trust audit (claims vs delivery, whose interest it serves, track
+  record), pre-mortem of a plan, weekly review. Use when the user wants to assess
   or maximize product value/potential, find what they're not seeing, decide what to build
-  or cut, run a deep product review, stress a plan or launch before committing to it, or
-  invokes contemplate by name. Stages:
-  explore | project | execute | revise | blindspots | wonder | meta | feedback | premortem.
+  or cut, run a deep product review, stress a plan or launch before committing to it,
+  check whether a product, a claim, or its author deserves trust, or invokes contemplate
+  by name. Stages:
+  explore | project | execute | revise | blindspots | wonder | meta | feedback | premortem | trust.
 ---
 
 # Contemplate — questions that see, answered with evidence
@@ -51,6 +53,9 @@ This split is the whole point: the agent does the audit; the human keeps the med
    - released (version tags, registry, changelog, users) → `revise` + `feedback`
    - a plan with dates, budget, or a launch (roadmap, proposal, campaign) → `premortem`,
      alone or added to `execute`
+   - claims made to others (pitch, letter, landing page, release notes), a broken
+     promise, or a request about credibility → `trust`; add it to `revise + feedback`
+     when the artifact makes public claims
    - `blindspots`, `wonder`, `meta` — on request (stuck / missing magic / weekly review),
      or add `blindspots` to any deep run.
    Stages combine — a released artifact normally gets `revise + feedback` in one session.
@@ -149,22 +154,30 @@ the user asks for it.
    changed, why); the 3–5-item pre-launch checklist with the result on each that means
    abandon; the rival's launch-week playbook; one tripwire per cause with the week to
    check it.
-9. **Yours to answer** — 3–5 sharpened [ask] questions, one per axis,
+9. **Credibility** *(trust stage only)* – the four cores held against evidence, one line
+   each: integrity (claim vs delivery, quoted), intent (whose interest the defaults
+   serve), capabilities (current, leading with its strength), results (finished vs
+   started). Then the weakest core, the counterfeit behavior running, the one behavior
+   that repairs it, and one commitment stated so it can be checked, with a date.
+10. **Yours to answer** — 3–5 sharpened [ask] questions, one per axis,
    each pointed at something specific you found. No answers, no advice attached.
-10. **Next move** — exactly one, shippable today, with the deadline question attached
+11. **Next move** — exactly one, shippable today, with the deadline question attached
    («if launch were tomorrow morning, what survives?»).
 
 ## The act rule
 
 A session that produces insight without an act feeds the trap the corpus itself names:
 «Am I contemplating because I'm seeking truth — or because building is scary?» Never end
-without section 10. If the honest next move is "delete the project" or "ship as-is today",
+without section 11. If the honest next move is "delete the project" or "ship as-is today",
 say that. Refuse to be a pleasant substitute for building.
 
 ## Voice
 
 Ruthless truth over comfort, no flattery, no filler — but the stance is service, not
-attack: point the defect AND the door. Answer in English (quote the artifact in its own
-language as evidence; for Russian sessions use the contemplate-ru skill). When the
+attack: point the defect AND the door. The session itself must pass the trust stage: no
+spin in findings, no verdict softened into falsehood, every claim traceable, what you did
+not read stated, a wrong finding corrected the moment you see it. Answer in English (quote
+the artifact in its own language as evidence; for Russian sessions use the contemplate-ru
+skill). When the
 artifact is someone's long-term work, remember: what looks most ordinary may be most
 valuable — check twice before calling something dead weight.
