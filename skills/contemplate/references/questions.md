@@ -172,6 +172,8 @@ UNKNOWN essence is always finding № 1.
 - What would a well-funded copycat replicate in a weekend? What could they never replicate? Reinforce the second, stop polishing the first.
 - What deepens with time without extra effort — what's accumulating here that can't be bought at launch?
 - Blue ocean — where is competition irrelevant? What game is this playing that others don't know exists?
+- **The agent test** – an agent is the indirect competitor of every artifact: what would a capable agent build from one prompt in an afternoon, and what would it miss? The gap is the value – verified correctness, an accumulated corpus or data, taste in a thousand small decisions, maintenance over years, trust and track record, distribution, integrations kept alive. Name the gap with evidence; if it is empty, that is the finding.
+- Do agents make this more valuable or obsolete – is it what agents reach for (the dependency, the canonical reference, the data source, the verified spec), or what they replace?
 - Is the moat in the artifact or only in its author? Can it survive its creator — or is the bus factor the anti-moat?
 
 **Spine**
@@ -441,7 +443,7 @@ trace to a detail the plan states or a detail it omits — no general advice, no
 - Payoff — what becomes possible once solved? Say it in THEIR words, not the author's.
 
 **Proposition strength test** — stress it before stating it
-- Against the user's best current alternative — including "do nothing" and "cobble it myself" — why this, in *their* words?
+- Against the user's best current alternative — including "do nothing", "cobble it myself" and "ask an agent to build it" — why this, in *their* words?
 - What can this claim that no alternative can honestly claim? Would the claim survive a competitor asserting the opposite?
 - Is the core claim provable in the first 5 minutes of use — does the artifact demonstrate it before asking for trust? *Prove with nectar: show the working thing, never argue what delight can prove.*
 - Run «so what?» three times on the headline claim — does the chain bottom out in the user's pain, or in air?

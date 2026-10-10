@@ -101,7 +101,9 @@ This split is the whole point: the agent does the audit; the human keeps the med
 8. **Fan out lenses for depth** (explore, blindspots and premortem stages, or when the
    user asks for a deep/thorough run): spawn independent subagents, each blind to the
    others — *practitioner, academic, skeptic, economist, historian*, plus *the enemy with
-   5 seconds* and, on a plan, *the rival with a launch week*. Each returns its 3 strongest
+   5 seconds*, *the agent with one prompt* (what a capable coding agent would build from
+   a one-paragraph request in an afternoon, and what it would miss) and, on a plan, *the
+   rival with a launch week*. Each returns its 3 strongest
    observations with evidence. Independence is the value: these lenses see what the
    invested author structurally cannot. For quick runs, apply the lenses yourself in brief.
 
@@ -130,12 +132,15 @@ the user asks for it.
    *user's* words, each element grounded in evidence or marked UNKNOWN. Stress-test it
    (why-this vs the best alternative; the claim no alternative can honestly make; provable
    in the first 5 minutes?) and state the **onliness statement** («the only ___ that ___»)
-   if it can be completed honestly. End with the **minimal change that would make the
-   proposition obvious** (rename, one README line, one surfaced feature).
+   if it can be completed honestly. State the **agent gap**: what the user gets here that
+   a capable agent would not produce from one prompt in an afternoon, named with evidence;
+   an agent is the indirect competitor of every artifact, and an empty gap is a top finding.
+   End with the **minimal change that would make the proposition obvious** (rename, one
+   README line, one surfaced feature).
 3. **Reinforce** — 2–4 proven strengths, each with evidence, the **moat class it feeds**
    (taste, corpus, trust, data, network, integrations — or none), and the move that
    *compounds* it. Doubling down on what works outranks fixing what doesn't; what a
-   copycat could replicate in a weekend gets no further polish.
+   copycat or an agent could replicate in a weekend gets no further polish.
 4. **Key findings** — 5–9, ranked; open with one blunt sentence on the real quality state.
    Each: **finding → evidence (file:line / quote / number) → implication → move**. One
    line each element, no padding. The move names the trade-off it takes and the expert
