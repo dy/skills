@@ -6,12 +6,13 @@ Agent skills by [@dy](https://github.com/dy). Work with any agent supported by t
 npx skills add dy/skills --skill artbureau
 npx skills add dy/skills --skill contemplate
 npx skills add dy/skills --skill deslop
+npx skills add dy/skills --skill eloquence
 npx skills add dy/skills --skill fundraising
 npx skills add dy/skills --skill marketing
 npx skills add dy/skills --skill public-relations
 ```
 
-English skills answer in English; `artbureau-ru` and `contemplate-ru` are full-Russian variants (отвечают по-русски).
+English skills answer in English; `artbureau-ru`, `contemplate-ru` and `eloquence-ru` are full-Russian variants (отвечают по-русски).
 
 ## artbureau
 
@@ -24,6 +25,7 @@ Distilled from the complete published doctrine, ~3000 pages read in full:
 - **Илья Бирман** — all 698 советы on interface ([bureau.ru/soviet/ilyabirman](https://bureau.ru/soviet/ilyabirman/))
 - **Артём Горбунов** — all 1225 советы on layout, typography, taste ([bureau.ru/soviet/ag](https://bureau.ru/soviet/ag/))
 - **Сергей Колпаков и Паша Чикин** — all 235 советы on photography and icons ([bureau.ru/soviet/kolpakov-chikin](https://bureau.ru/soviet/kolpakov-chikin/))
+- **Максим Ильяхов, «Ясно, понятно»** (2021) — what the book adds past the советы: context repair, metaphor and plot risk, slogans, repetition, clarity as manipulation
 
 Reviews land as verdict → defects (each with its fix) → what works → redo. Severity order: meaning > honesty > structure > convention > spacing > typography > polish. Russian variant: `artbureau-ru`.
 
@@ -37,7 +39,7 @@ The split that makes it work: **[evidence]** questions are answered from the art
 
 ## deslop
 
-Remove AI slop from prose and code — the merged canon of the field's most effective deslop/humanizer skills ([blader/humanizer](https://github.com/blader/humanizer), [stop-slop](https://github.com/hardikpandya/stop-slop), [fuck-slop](https://github.com/juliusbrussee/skills), [no-ai-slop](https://github.com/petergyang/no-ai-slop), [humanize-writing](https://github.com/jpeggdev/humanize-writing), [Rossmann's rules](https://github.com/realrossmanngroup/no_ai_slop_writing_rules), [story-deslop](https://github.com/worldwonderer/oh-story-claudecode), [cursor/deslop](https://github.com/cursor/plugins) and others), deduplicated into ~45 patterns and reworked around the ideas the field gets right but rarely combines:
+Remove AI slop from prose and code — the merged canon of the field's most effective deslop/humanizer skills ([blader/humanizer](https://github.com/blader/humanizer), [stop-slop](https://github.com/hardikpandya/stop-slop), [fuck-slop](https://github.com/juliusbrussee/skills), [no-ai-slop](https://github.com/petergyang/no-ai-slop), [humanize-writing](https://github.com/jpeggdev/humanize-writing), [Rossmann's rules](https://github.com/realrossmanngroup/no_ai_slop_writing_rules), [story-deslop](https://github.com/worldwonderer/oh-story-claudecode), [cursor/deslop](https://github.com/cursor/plugins) and others), deduplicated into ~50 patterns and reworked around the ideas the field gets right but rarely combines:
 
 - **You cannot see your own slop** — verification is a mechanical regex/threshold re-scan loop (≤3 passes), never the model grading its own output; escape-hatch paraphrases ("the real X is Y" for "not X but Y") count as new findings.
 - **Voice first** — 3–5 voice signals captured and protected before anything is subtracted; a writing sample overrides every default.
@@ -46,6 +48,14 @@ Remove AI slop from prose and code — the merged canon of the field's most effe
 - **Every rule carries its exemption** — stacked tells consolidate into one finding; overcorrection (fake typos, forced slang, scrubbed-beige prose) is treated as slop too.
 
 Modes: edit (default) · detect (names patterns, quotes lines — refuses "AI likelihood" scores) · code (diff-scoped: comments a human wouldn't write, defensive bloat, `any`-casts, placeholder names). Eight-register guide (reddit ≠ docs ≠ LinkedIn). All doctrine belongs to its authors — this is a transformative merge with attribution.
+
+## eloquence
+
+Make writing resonant and memorable: manifestos, taglines, speeches, mission lines, the emotional peak of a piece. Grounded in the masters who moved masses (Lincoln, Churchill, King, the King James Bible, the Bhagavad Gita, Dickinson, Orwell, the rare immortal ad lines), with a craft library of devices, each named as medicine for a specific failure of force, and their failure modes.
+
+Underneath sits the clarity rung, distilled from Maxim Ilyakhov's [«Ясно, понятно»](https://alpinabook.ru/catalog/book-yasno-ponyatno/) (2021): context decides whether a line lands or becomes a joke against you; the reader reads about themselves, so a mission they can't see themselves in is word-shuffling; the reader must see a film (abstraction + example + anti-example, person + does + this way); a metaphor must not carry an argument unaudited (a broker is not a waiter); plot is glued by empathy and is always a simplification; rhythm can beat precision in a slogan, and a coined name makes a thing exist; a line becomes immortal by repetition across years, not by one perfect delivery. And the warning the book opens and closes on: clarity is not truth, the same tools sell a pyramid, which is why truth sits first in the skill's hierarchy. Russian variant: `eloquence-ru`, with Russian prosody and Russian masters.
+
+The book belongs to its author; this is a distillation with citations, not a retelling. Buy it: the examples are the method.
 
 ## marketing
 
