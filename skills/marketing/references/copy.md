@@ -328,6 +328,57 @@ QUALIFIED OFFER:
 
 ---
 
+### Clarity Before Persuasion – Maxim Ilyakhov, *Ясно, понятно* (2021)
+*A claim the reader cannot picture does not persuade, and a claim in the wrong context is never read. Fix the context, write in the reader's world, then make every fact something they can see themselves using.*
+
+**Evidence grade:** practitioner doctrine. Ilyakhov edited *Пиши, сокращай*, built the Tinkoff Journal's editorial system and edits the Kod journal; the book reports his cases and in-house numbers, not controlled tests, and he flags several claims as his own hypotheses. Use it as an editing procedure that converges with Schwartz (enter their conversation) and Hopkins (specifics), not as measured law.
+
+**When:** Copy that is correct and still not read or not understood; any page for a skeptical or unaware reader; cold emails; B2B copy written from inside the company.
+
+**Components:**
+
+- **Context first** – The same claim converts from a friend's post and dies on a banner. Context is who speaks, the relationship, the place, the day, the reader's state. If the reader already suspects you, say it before they do ("You're probably thinking I'm paid to sell you this vacuum. I do earn a commission. But…"). A cold email is bad context by construction; the fix is not a cleverer line but making it warm: who you are, where you met, why this concerns *them* ("you said you'd re-equip the studio this spring"). And sometimes text is not the lever: a company that owes its suppliers needs the director on the phone, not a better letter.
+
+- **The useful action and its three gates** – A reader gives attention for a pragmatic, social or emotional payoff. A pragmatic topic works only when the reader (1) knows the problem exists, (2) considers it important, (3) is ready to solve it now or soon. If gate 1 fails, name the problem by something the reader can see in themselves: someone who would never search "melanoma" stops at "Fair skin and moles? It can be a sign of cancer" or "Men over 30: how to detect melanoma early" (doctors would draw the risk group differently; the reader reacts to himself). Converges with Schwartz's awareness levels.
+
+- **Their words, their world** – "Federal capital repair program: 2021 changes" is correct and unread; the reader thinks "how Muscovites can pay less for building repairs." People who need help with self-pressure search "burnout." Never claim knowledge of the reader's business you lack ("your competitors never sleep" to a tiny niche where everyone shares studios; a script telling cartridge resellers what they earn). Ban "inform, highlight, showcase" as a goal: a text cannot have the task of informing.
+
+- **Reflect in the headline, change minds inside** – The headline mirrors what the reader already believes and wants; persuasion happens after they chose to read. "How to squeeze the most money out of your company" pulls readers who fear "negotiation"; inside, show them that honest negotiation is the way. Provocative challenge headlines ("You'll never lose weight because you're weak") get attention, a comment that you're an idiot, and a remembered grudge.
+
+- **Specificity ladder in the headline** – Add, one at a time, until the context says stop: the result ("to 40°C"), the method ("with passive cooling"), the effort ("yourself, in half an hour"), the audience ("for sole proprietors on the simplified tax"), the place ("Krasnodar"), the format marker ("step-by-step guide", "checklist"). Every step makes it more clickable and more tabloid; stop where your reader would start to think you're a clown. Experts and expensive offers want calm.
+
+- **Facts as scenarios** – A spec becomes a moment in the reader's life: "quieter than a running fridge" → "run it all night; put it in the nursery." Large numbers get a comparator the reader can hold; for comprehension of scale, round ("every third customer"). This is in tension with Hopkins's odd-number credibility: keep the exact figure where it reports a test result, round where the reader must grasp a magnitude.
+
+- **Say what passes a logic check; show what must be felt** (his hypothesis) – Written emotional promises ("you'll shine at any party") trigger the reader's objections ("how do you know?"). Put verifiable deliverables in words (two recorded tracks, alumni chat access, a showcase invitation) and let photographs carry the feeling, without staging a lie.
+
+- **The reader is always OK** – Excuse their past choice by circumstance ("on a birthday, refusing cake is rude"), side with them against the pressure, never against them. Good outcomes in "you", bad ones in "they".
+
+**Templates:**
+
+```
+UNPACK THE BAGGAGE:
+"You're probably thinking [their suspicion about you]. [Plain admission of what's true.] But [the fact that matters to them]."
+
+WARM COLD EMAIL:
+[Name], I'm [name] from [company]. We met at [place]; [what they told you or what you know they need].
+If [their situation] is still current, [specific offer with a number]. Details attached.
+
+HEADLINE LADDER (stop when the context says stop):
+How to [result] → How to [result] to [measure] → ... with [method] → ... [yourself / in N minutes] → [Audience]: ...
+
+FACT → SCENARIO:
+[Spec] – [what that lets the reader do, in a scene from their day].
+```
+
+**Watch out:**
+- The same tools sell a pyramid; clarity is not proof. Ilyakhov ends the book on clarity used for manipulation (a broker's charts that always end higher than they start), and so should your check before publishing
+- Manufacturing social proof for shares ("why smart parents don't let kids…") is, in his word, parasitic: it works and exploits the reader's anxiety
+- War vocabulary (enemy, traitor, destroy; dignity, honor, Motherland) signals agitation, not argument
+- Templates carry their original context: the Instagram single-mother redemption arc applied to enterprise software reads as absurd
+- Over-"yellowing" a headline wins clicks and loses the 100 people a high-ticket offer actually needs
+
+---
+
 ## 4. Structures (proven copy skeletons)
 
 For Cialdini's principles (Reciprocity, Social Proof, Authority, Scarcity, etc.) that layer into any of these structures, see [persuasion.md](persuasion.md). For matching offer enhancers — guarantees, bonuses, scarcity mechanisms — see [offers.md](offers.md).

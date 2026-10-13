@@ -45,6 +45,11 @@ don't produce long flowing sentences for a blunt writer.
 - Term-definition bullets in documentation.
 - A question opener in genuine dialogue with the reader.
 - Unsourced claims alone — humans assert without citing too.
+- Negation by itself. "Don't" and "not" are not tells; the question is what picture the
+  line leaves. "Keep out, it kills" works because it leaves "went in, got killed"
+  (Ilyakhov). Only the manufactured reversal ("not X but Y") is a pattern.
+- Long passages made of examples and anti-examples. Length that carries a picture is not
+  padding.
 - Title Case under a house style; curly quotes in typeset prose.
 - Anything written before December 2022.
 

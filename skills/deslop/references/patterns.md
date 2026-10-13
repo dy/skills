@@ -247,3 +247,53 @@ stand unanswered.
 we must tend — in other words, delete unused code").
 **Fix:** keep whichever half carries the meaning (usually the plain half); delete the
 other.
+
+## Clarity (after Ilyakhov, «Ясно, понятно»)
+
+Model prose fails the reader by being abstract, not only by being ornamental. These fire
+where the reader is supposed to *understand* something; a summary or conclusion after the
+picture has been drawn is exempt.
+
+### 38. Abstraction without a picture
+**Watch:** a paragraph of claims with no acting person, named object, number or scene;
+an abstract or inanimate subject plus a state verb ("consistency is a key driver of
+growth", "the platform serves as a foundation for collaboration"); chains of verbal nouns
+(-tion, -ment, -ance). Ilyakhov's test: could the reader *see* it? "The degree of a
+consultant's attentiveness is the determining factor of sales growth" shows nothing.
+**Fix:** person + does + this way, using an actor and an act the source contains ("the
+more carefully a consultant answers, the more often customers come back"). If the source
+gives no example, leave `[ADD: example?]`. Never invent one.
+**Exempt:** specialist readers who already hold the picture; a generalization that follows
+an example; deliberate summary.
+
+### 39. Class nouns standing in for things
+**Watch:** solutions, offerings, opportunities, measures, initiatives, resources, various,
+a range of, a variety of.
+**Fix:** name the things from the source ("a Kremlin tour, dinner, a boat ride", not
+"various events"). Missing → `[ADD: which?]`.
+**Exempt:** a genuine category in a definition or a legal text.
+
+### 40. Author's-world framing
+**Watch:** openings and purposes centered on the author: "we're excited to announce",
+"we've rebuilt our website", "our journey", "this post aims to highlight / showcase /
+inform"; year-end copy that counts the author's activity (lines of code, cups of coffee).
+"A text cannot have the task of informing" (Ilyakhov).
+**Fix:** lead with what changes for the reader, using the source's facts; move the
+author's news to the end or cut it.
+**Exempt:** genuine personal writing where the author is the subject the reader came for.
+
+### 41. Unanchored and over-precise numbers
+**Watch:** a large number with no comparison or use-scenario nearby ("we launched 20 new
+courses", "5.8 trillion"); decimals and odd percentages in lay prose ("34.2% of users").
+**Fix:** a comparison or scenario the source supports; round to a spoken mark ("every
+third user", "half an hour"). Never invent the comparator.
+**Exempt:** accounting, specs, research, specialist readers who check figures.
+
+### 42. Talking down to the reader
+**Watch:** negative second person ("you failed to…", "if you lack the willpower…"),
+labels for people (lazy, clueless, amateurs), in-group openers ("good writers know…",
+"most people get this wrong", "there's a type of founder who…"), scolding vocatives.
+**Fix:** side with the reader; explain the error by circumstance, not stupidity. All
+else equal, give good outcomes to "you" and bad ones to "they".
+**Exempt:** a voice built on harshness that the author chose and the audience came for
+(an opinion column); direct feedback someone asked for.

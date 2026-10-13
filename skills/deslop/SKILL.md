@@ -60,7 +60,9 @@ out of scope by that rule, and are written accordingly.
    skill, including the dash budget. See [references/voice.md](references/voice.md).
 2. **Delete first, rewrite second.** Most slop guards nothing — cut it. Rewrite only
    what carries meaning. Cap total deletion at ~25% of the piece; past that you are
-   gutting content, not removing slop.
+   gutting content, not removing slop. Examples, anti-examples and the chain of
+   explanation are never slop, however long: "removing the examples is like putting
+   three cutlets on a guest's plate and taking two back" (Ilyakhov). Short is not clear.
 3. **Rewrite by meaning, never by paraphrasing the pattern.** Ask what the sentence
    is *for*, then say that plainly. A paraphrase that preserves the move ("the real X
    is Y" for "not X but Y") is a new finding, not a fix — the banned escape hatches
@@ -112,6 +114,8 @@ out of scope by that rule, and are written accordingly.
 - Any sentence that sounds like a pull-quote? Delete it.
 - Opener that clears its throat ("Here's the thing")? Ending that recaps or reassures?
 - Any bold mid-prose, emoji in headings, `**Label:** restatement` bullets?
+- Any paragraph the reader can't *see* (no actor, object, number, scene) where they are
+  meant to understand something? Any number with nothing to compare it to?
 - Any fact, number, or name the source doesn't contain?
 - Would the author actually say this sentence out loud?
 
@@ -151,4 +155,6 @@ Hermes, jpeggdev, softaworks, and humanizer-zh forks),
 [worldwonderer/oh-story-claudecode story-deslop](https://github.com/worldwonderer/oh-story-claudecode),
 [cursor/plugins deslop](https://github.com/cursor/plugins), and
 [brianlovin/agent-config deslop](https://github.com/brianlovin/agent-config).
+The clarity patterns (38–42) and the never-cut-examples rule come from Maxim Ilyakhov,
+*Ясно, понятно* (Alpina Publisher, 2021).
 All doctrine belongs to its authors; this is a transformative merge with attribution.

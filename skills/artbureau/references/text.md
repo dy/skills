@@ -679,6 +679,21 @@ If a text is boring in substance, form (trimming) won't save it — you need to 
 
 ---
 
+## 9. Beyond the advice archive: «Ясно, понятно» (2021)
+
+Ilyakhov's second book (Alpina Publisher, 2021) goes past cutting. What it adds to the advice above:
+
+- **Context decides before the text does.** Who speaks, the relationship, the place, the day, the reader's state. The same weight-loss claim is ignored on a banner and converts from a classmate's post. A fine phrase in a broken context becomes infamous ("Вы держитесь здесь! … хорошего настроения" to unpaid pensioners). Repair it by unpacking the baggage (выложить багаж): say plainly what the reader already thinks of you ("You're probably thinking: what can this young man teach us? And you're right"), then work. Sometimes the fix is not text at all: a debtor calls the suppliers instead of polishing a letter.
+- **The school distortion.** At school the teacher reads every essay to the end and grades spelling; in life nobody must open the text, the reader skims, and comes for meaning. Hours spent choosing between two mission phrasings are wasted; solve the reader's task in the first paragraph, mission at the end.
+- **Reflect, don't lecture.** The headline mirrors what the reader already believes and wants; minds are changed inside. To shift a worldview: find the generalization they defend, show where it holds and where other conditions apply, then show the path. The virus of rightness: arguments about who is right attract the most attention and change the fewest minds.
+- **The language of war** (enemy, traitor, destroy; dignity, honor, Motherland) signals that rational discussion has ended and agitation has begun.
+- **Metaphors must not be the foundation of a text.** The reader imports properties you didn't mean (a broker is not a waiter: the fee isn't a tip, the "kitchen" may not fill the order); the author gets trapped in his own image (stop-words as fat, until someone notes fat makes the steak). Safe when close to reality or serving one narrow goal.
+- **Plot is glued by empathy**, and every plot is a simplification, a fiction, sometimes a lie: the same facts make several stories. Use it for people, not for quantum mechanics.
+- **Slogans and coined terms.** Rhythm can beat precision ("Искусство свободно" stuck; "творчество свободно" wouldn't); better no slogan than a limp one. A named phenomenon starts to exist (инфостиль, стоп-слова); the same mechanism inflates nonsense.
+- **Repeat across time.** Under 1% of subscribers see a post in its first hour (his estimate); say the same thing for years, from different sides, with different examples.
+- **Say what passes a logic check; show what must be felt** (his stated hypothesis): written emotional promises trigger objections; put verifiable facts in words and feeling in images.
+- **Clarity is not truth.** "Ясность и очевидность – это не признак правды. Это результат того, что поработали профессионалы." The same tools sell a pyramid.
+
 ## Diagnostic checklist (15 checks, in priority order)
 
 1. **The useful action is stated and sits in the reader's world**, not the author's/product's world — otherwise nothing else matters.

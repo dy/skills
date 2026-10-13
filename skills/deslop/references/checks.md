@@ -47,6 +47,12 @@ grep -En "^#{1,6} .*[\x{1F300}-\x{1FAFF}\x{2600}-\x{27BF}]" $F   # (PCRE: grep -
 
 # Chatbot leakage
 grep -Ein "hope this helps|would you like|let me know if|great question|you're absolutely right|certainly!" $F
+
+# Clarity (patterns 38–42): state verbs on abstract subjects, class nouns, author's world, talking down
+grep -Ein "\b(serves as|acts as|is a key (driver|factor)|plays a (key|crucial|vital) role)\b" $F
+grep -Ein "\b(solutions|offerings|opportunities|initiatives|a (wide )?range of|a variety of|various)\b" $F
+grep -Ein "we('re| are) (excited|thrilled|proud) to|this (post|article) (aims|will) (to )?(highlight|showcase|inform)|our journey" $F
+grep -Ein "\b(good|great|real) (writers|founders|designers|engineers) (know|don't)|most people (get|don't)|if you lack\b" $F
 ```
 
 ## Statistical thresholds

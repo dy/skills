@@ -24,6 +24,7 @@ A pipeline: diagnose → headline/test → prove → offer → position → bran
 - **Russell Brunson** — *DotCom/Expert/Traffic Secrets* — Value Ladder, Hook-Story-Offer, Dream 100 (largely repackaged Kennedy/Abraham — credit the origins).
 - **Gary Halbert** — *The Boron Letters* (free archive) — Starving Crowd, A-pile/B-pile (built it before teaching it; the Coat-of-Arms letter is independently corroborated).
 - **Robert Collier** — *The Robert Collier Letter Book* (1931) — "enter the conversation already in the prospect's mind."
+- **Maxim Ilyakhov** – *Пиши, сокращай* (2016, with Lyudmila Sarycheva), *Ясно, понятно* (2021) – clarity before persuasion: context repair, the reader's world, the three gates of a pragmatic topic, facts as scenarios. Track record is editorial (Tinkoff Journal, Kod journal, Bureau Gorbunov's school), not split-tested; he also sells courses, so weight the method, not the reach claims. Russian-language market.
 - **Joe Sugarman** — *The Adweek Copywriting Handbook* — the Slippery Slide + psychological triggers. Learn the craft, **not** the ethics (documented 1989 FTC consent order for faked editorial independence).
 
 ## Tools, not authorities (use the framework, discount the guru)
